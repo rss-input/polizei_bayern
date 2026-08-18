@@ -21,7 +21,7 @@ import time
 import xml.etree.ElementTree as ET
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from dataclasses import dataclass, field
-from datetime import UTC, datetime
+from datetime import UTC, date, datetime, timedelta
 from email.utils import format_datetime
 from html import escape
 from html.parser import HTMLParser
@@ -178,6 +178,13 @@ CITY_AREA_RE = re.compile(
     r"\b(?:im|in dem) Stadtgebiet(?: von)?\s+"
     r"([A-ZÄÖÜ][A-Za-zÄÖÜäöüß-]+(?:\s+[A-ZÄÖÜ][A-Za-zÄÖÜäöüß-]+)?)\b"
 )
+DETAIL_LOCATION_RE = re.compile(
+    r"\b(?:im Bereich der|in einer Wohnung in der|in der|an der|am|beim|vor dem)\s+"
+    r"((?:[A-ZÄÖÜ][A-Za-zÄÖÜäöüß-]+\s+){0,3}"
+    r"(?:Straße|Strasse|Platz|Weg|Allee|Markt|Bahnhof|"
+    r"[A-ZÄÖÜ][A-Za-zÄÖÜäöüß-]+(?:straße|strasse|platz|weg|allee|markt|bahnhof)))\b",
+    re.IGNORECASE,
+)
 BOILERPLATE_RE = re.compile(
     r"^(?:Erstellt durch:|Medienkontakt:|Herausgeber:|Rückfragen bitte an:)",
     re.IGNORECASE,
@@ -194,7 +201,16 @@ VICTIM_SENTENCE_RE = re.compile(
     r"belästigt|missbraucht|geschlagen|gestochen|zu Boden gestoßen|"
     r"zur Herausgabe .{0,50} aufgefordert)\b|"
     r"\b(?:bedrängt|missbraucht|belästigt|angegriffen|beraubt|bedroht|"
-    r"verletzt)\s+worden\b",
+    r"verletzt)\s+worden\b|"
+    r"\b(?:eine[nr]?|einen weiteren|weitere)\s+\d{1,3}-jährig\w*.{0,180}"
+    r"\b(?:missbraucht|bedrängt|belästigt|angegriffen|beraubt|bedroht)\b|"
+    r"\b(?:schlug|trat|stach|besprühte|sprühte|berührte)\b.{0,180}"
+    r"\b(?:\d{1,3}-Jährig\w*|Mann|Frau|Person|Opfer|Geschädigt\w*)\b|"
+    r"\b\d{1,3}-Jährig\w*.{0,180}\b(?:unsittlich berührte|zu Boden stürzte|"
+    r"nicht mehr ansprechbar|in ein Krankenhaus)\b|"
+    r"\b\d{1,3}-jährig\w*.{0,160}\bbislang unbekannten Täter\b|"
+    r"\bExhibitionist\w*.{0,120}\beiner Frau\b|"
+    r"\b(?:ging|lief)\b.{0,100}\bauf (?:den|die|einen?)\s+Polizeibeamt\w*\b",
     re.IGNORECASE,
 )
 SUSPECT_SENTENCE_RE = re.compile(
@@ -204,20 +220,48 @@ SUSPECT_SENTENCE_RE = re.compile(
 )
 AGE_SENTENCE_RE = re.compile(r"\b\d{1,3}-jährig\w*\b", re.IGNORECASE)
 ACTOR_PHRASE_RE = re.compile(
-    r"\bvon (?:einem|einer) \d{1,3}-jährig\w*\s+[A-ZÄÖÜ][a-zäöüß-]+\b"
+    r"\bvon (?:einem|einer) \d{1,3}-jährig\w*\s+[A-ZÄÖÜ][a-zäöüß-]+\b|"
+    r"\b\d{1,3}-Jährig\w*.{0,120}\b(?:welcher|der)\b.{0,160}"
+    r"\b(?:schlug|trat|stach|berührte|bedrohte|beraubte)\b",
+    re.IGNORECASE,
 )
 RESULT_SENTENCE_RE = re.compile(
     r"\b(?:festgenommen|vorläufig festgenommen|Haftbefehl|Untersuchungshaft\w*|"
-    r"auf freien Fuß|flüchtig|Fahndung|sichergestellt|beschlagnahmt|"
+    r"auf freien Fuß|entlassen|Heimreise|(?:Täter|Tatverdächtig\w*)"
+    r"\s+(?:(?:ist|sind|war|blieb(?:en)?)\s+)?flüchtig|flüchtete|"
+    r"Fahndung.{0,80}(?:erfolglos|ohne Erfolg)|"
+    r"sichergestellt|beschlagnahmt|"
     r"überstellt|Justizvollzugsanstalt|Krankenhaus|Fachklinik|"
+    r"Blutentnahme|Weiterfahrt untersagt|Strafverfahren|Strafanzeige|"
     r"Ermittlungen? (?:aufgenommen|eingeleitet)|ermittelt nun)\b",
+    re.IGNORECASE,
+)
+SUSPECT_DESCRIPTION_RE = re.compile(
+    r"\b(?:Personenbeschreibung|beschrieben|Beschreibung des Täters|"
+    r"\d{3}\s*cm|Haare|Bekleidung|Jacke|Hose|Pullover|T-Shirt|Rucksack)\b",
+    re.IGNORECASE,
+)
+SPECIAL_SENTENCE_RE = re.compile(
+    r"\b(?:Schusswaffe|Messer|Tierabwehrspray|Pfefferspray|Teleskopschlagstock|"
+    r"DEIG|Distanzelektroimpulsgerät|Waffe|Drogen angeboten|Drogen bekommen|"
+    r"Betäubungsmittel.{0,100}(?:versteckt|abgegeben)|versteckt|"
+    r"Kilogramm|Gramm|fünfstelligen|sechsstelligen|Beute|Bargeldforderung|"
+    r"zur Herausgabe|sexuell bedrängt|sexuell missbraucht|unsittlich berührt\w*|"
+    r"schlug|trat|stach|wollte sich .{0,40} nicht äußern)\b",
     re.IGNORECASE,
 )
 NATIONALITY_DETAIL_RE = re.compile(
     r"\b(?:Staatsangehörig\w*|deutsch\w*|syrisch\w*|syrer\w*|italienisch\w*|"
     r"kosovar\w*|somali\w*|irak\w*|rumän\w*|griech\w*|senegales\w*|"
     r"liby\w*|schweizer\w*|türk\w*|afghan\w*|ukrain\w*|poln\w*|"
-    r"tschech\w*|österreich\w*)\b",
+    r"tschech\w*|österreich\w*|französ\w*|franzose\w*|slowak\w*|"
+    r"kambodschan\w*|amerikan\w*|brit\w*|niederländ\w*|belg\w*|"
+    r"bulgar\w*|kroat\w*|serb\w*|bosni\w*|ungar\w*|russ\w*|"
+    r"georg\w*|moldau\w*|alban\w*|mazedon\w*|pakistan\w*|"
+    r"indisch\w*|inder\w*|iran\w*|nigerian\w*|alger\w*|marokkan\w*|"
+    r"tunes\w*|eritre\w*|äthiop\w*|gamb\w*|ghana\w*|chines\w*|"
+    r"vietnames\w*|thai\w*|span\w*|portugies\w*|schwed\w*|"
+    r"norweg\w*|dän\w*|finn\w*|irisch\w*)\b",
     re.IGNORECASE,
 )
 MONTH_NUMBERS = {
@@ -234,6 +278,68 @@ MONTH_NUMBERS = {
     "november": 11,
     "dezember": 12,
 }
+WEEKDAY_NUMBERS = {
+    "montag": 0,
+    "dienstag": 1,
+    "mittwoch": 2,
+    "donnerstag": 3,
+    "freitag": 4,
+    "samstag": 5,
+    "sonntag": 6,
+}
+NATIONALITY_LABELS: tuple[tuple[re.Pattern[str], str], ...] = tuple(
+    (re.compile(pattern, re.IGNORECASE), label)
+    for pattern, label in (
+        (r"\bdeutsch\w*\b", "deutsch"),
+        (r"\b(?:syrisch\w*|Syrer\w*)\b", "syrisch"),
+        (r"\bkosovar\w*\b", "kosovarisch"),
+        (r"\bsomali\w*\b", "somalisch"),
+        (r"\birak\w*\b", "irakisch"),
+        (r"\bgriech\w*\b", "griechisch"),
+        (r"\bschweizer\w*\b", "schweizerisch"),
+        (r"\bitalien\w*\b", "italienisch"),
+        (r"\brumän\w*\b", "rumänisch"),
+        (r"\bsenegales\w*\b", "senegalesisch"),
+        (r"\bliby\w*\b", "libysch"),
+        (r"\btürk\w*\b", "türkisch"),
+        (r"\bafghan\w*\b", "afghanisch"),
+        (r"\bukrain\w*\b", "ukrainisch"),
+        (r"\bpoln\w*\b", "polnisch"),
+        (r"\btschech\w*\b", "tschechisch"),
+        (r"\bösterreich\w*\b", "österreichisch"),
+        (r"\b(?:französ\w*|Franzose\w*)\b", "französisch"),
+        (r"\bslowak\w*\b", "slowakisch"),
+        (r"\bkambodschan\w*\b", "kambodschanisch"),
+        (r"\bamerikan\w*\b", "amerikanisch"),
+        (r"\bbrit\w*\b", "britisch"),
+        (r"\bniederländ\w*\b", "niederländisch"),
+        (r"\bbelg\w*\b", "belgisch"),
+        (r"\bbulgar\w*\b", "bulgarisch"),
+        (r"\bkroat\w*\b", "kroatisch"),
+        (r"\bserb\w*\b", "serbisch"),
+        (r"\bbosni\w*\b", "bosnisch"),
+        (r"\bungar\w*\b", "ungarisch"),
+        (r"\bruss\w*\b", "russisch"),
+        (r"\bgeorg\w*\b", "georgisch"),
+        (r"\bmoldau\w*\b", "moldauisch"),
+        (r"\balban\w*\b", "albanisch"),
+        (r"\bmazedon\w*\b", "mazedonisch"),
+        (r"\bpakistan\w*\b", "pakistanisch"),
+        (r"\b(?:indisch\w*|Inder\w*)\b", "indisch"),
+        (r"\biran\w*\b", "iranisch"),
+        (r"\bnigerian\w*\b", "nigerianisch"),
+        (r"\balger\w*\b", "algerisch"),
+        (r"\bmarokkan\w*\b", "marokkanisch"),
+        (r"\btunes\w*\b", "tunesisch"),
+        (r"\beritre\w*\b", "eritreisch"),
+        (r"\bäthiop\w*\b", "äthiopisch"),
+        (r"\bgamb\w*\b", "gambisch"),
+        (r"\bghana\w*\b", "ghanaisch"),
+        (r"\bchines\w*\b", "chinesisch"),
+        (r"\bvietnames\w*\b", "vietnamesisch"),
+        (r"\bthai\w*\b", "thailändisch"),
+    )
+)
 
 
 def normalize_space(value: str) -> str:
@@ -368,14 +474,13 @@ class ParsedCase:
 @dataclass(frozen=True)
 class ItemSummary:
     pm: str
-    tatdatum: str | None
-    tatort: str | None
+    tatdatum: str
+    tatort: str
     delikt: str
-    kategorien: str
-    kurzbeschreibung: str
-    opfer: str | None
-    tatverdaechtige: str | None
-    ergebnis: str | None
+    opfer: str
+    tatverdaechtige: str
+    ergebnis: str
+    besonderheiten: str
 
 
 def parse_html(value: str) -> Node:
@@ -821,23 +926,82 @@ def _sentences(paragraphs: Sequence[str]) -> list[str]:
     abbreviations = re.compile(r"\b(?:LKR|bzw|ca|Nr|Dr|u\. a|z\. B)\.", re.IGNORECASE)
     for paragraph in paragraphs:
         protected = abbreviations.sub(lambda match: match.group(0).replace(".", "\u2024"), paragraph)
+        protected = re.sub(
+            r"\b(\d{1,2})\.(?=\s+(?:Januar|Februar|März|April|Mai|Juni|"
+            r"Juli|August|September|Oktober|November|Dezember)\b)",
+            lambda match: match.group(1) + "\u2024",
+            protected,
+            flags=re.IGNORECASE,
+        )
         chunks = re.split(r"(?<=[.!?])\s+(?=[A-ZÄÖÜ0-9„])", protected)
         result.extend(normalize_space(chunk.replace("\u2024", ".")) for chunk in chunks if chunk)
     return result
 
 
-def _format_tatdatum(text: str, *, default_year: int) -> str | None:
-    if match := DATE_RANGE_RE.search(text):
-        first_day, last_day, month, year = (int(value) for value in match.groups())
+def _short_date(value: date) -> str:
+    return value.strftime("%d.%m.%y")
+
+
+def _most_recent_weekday(name: str, *, published: date, force_previous: bool = False) -> date:
+    wanted = WEEKDAY_NUMBERS[name.casefold()]
+    days_back = (published.weekday() - wanted) % 7
+    if force_previous and days_back == 0:
+        days_back = 7
+    return published - timedelta(days=days_back)
+
+
+def _format_tatdatum(text: str, *, published: date) -> str | None:
+    ranges = list(DATE_RANGE_RE.finditer(text))
+    occupied = [range_match.span() for range_match in ranges]
+    numeric = [
+        match
+        for match in NUMERIC_DATE_RE.finditer(text)
+        if not any(start <= match.start() and match.end() <= end for start, end in occupied)
+    ]
+    if numeric:
+        day, month, year = (int(value) for value in numeric[0].groups())
+        result = f"{day:02d}.{month:02d}.{year % 100:02d}"
+        if re.search(r"\bzurückliegend\b", text[numeric[0].end():], re.IGNORECASE):
+            result += " und zuvor"
+        return result
+    if ranges:
+        first_day, last_day, month, year = (int(value) for value in ranges[0].groups())
         return f"{first_day:02d}.–{last_day:02d}.{month:02d}.{year % 100:02d}"
-    if match := NUMERIC_DATE_RE.search(text):
-        day, month, year = (int(value) for value in match.groups())
-        return f"{day:02d}.{month:02d}.{year % 100:02d}"
     if match := TEXT_DATE_RE.search(text):
         day = int(match.group(1))
         month = MONTH_NUMBERS[match.group(2).casefold()]
-        year = int(match.group(3)) if match.group(3) else default_year
+        year = int(match.group(3)) if match.group(3) else published.year
         return f"{day:02d}.{month:02d}.{year % 100:02d}"
+
+    night = re.search(
+        r"in der Nacht von (Montag|Dienstag|Mittwoch|Donnerstag|Freitag|Samstag|Sonntag)"
+        r" auf (Montag|Dienstag|Mittwoch|Donnerstag|Freitag|Samstag|Sonntag)",
+        text,
+        re.IGNORECASE,
+    )
+    if night:
+        end = _most_recent_weekday(night.group(2), published=published)
+        start = end - timedelta(days=1)
+        return f"{start:%d}.–{end:%d.%m.%y}"
+
+    weekday = re.search(
+        r"\b(?:(vergangenen|gestrigen)\s+)?"
+        r"(Montag|Dienstag|Mittwoch|Donnerstag|Freitag|Samstag|Sonntag)"
+        r"(?:morgen|vormittag|mittag|nachmittag|abend|nacht)?\b",
+        text,
+        re.IGNORECASE,
+    )
+    if weekday:
+        resolved = _most_recent_weekday(
+            weekday.group(2),
+            published=published,
+            force_previous=bool(weekday.group(1) and weekday.group(1).casefold() == "vergangenen"),
+        )
+        return _short_date(resolved)
+    if re.search(r"\bvorgestern\b", text, re.IGNORECASE):
+        return _short_date(published - timedelta(days=2))
+    if re.search(r"\bgestern\b", text, re.IGNORECASE):
+        return _short_date(published - timedelta(days=1))
     if match := RELATIVE_DATE_RE.search(text):
         return normalize_space(match.group(0))
     return None
@@ -846,21 +1010,48 @@ def _format_tatdatum(text: str, *, default_year: int) -> str | None:
 def _format_location(value: str) -> str:
     value = normalize_space(value).strip(" –—-")
     letters = "".join(character for character in value if character.isalpha())
-    return value.title() if letters and letters == letters.upper() else value
+    value = value.title() if letters and letters == letters.upper() else value
+    replacements = {
+        "Unteren": "Untere",
+        "Oberen": "Obere",
+        "Vorderen": "Vordere",
+        "Hinteren": "Hintere",
+        "Äußeren": "Äußere",
+        "Inneren": "Innere",
+    }
+    for source, target in replacements.items():
+        value = re.sub(
+            rf"\b{source}\b(?=\s+\S*(?:straße|strasse|platz|weg|allee|markt)\b)",
+            target,
+            value,
+            flags=re.IGNORECASE,
+        )
+    return value
 
 
 def _extract_location(paragraphs: Sequence[str]) -> str | None:
+    base: str | None = None
     for paragraph in paragraphs[:3]:
         if match := LOCATION_LEAD_RE.match(paragraph):
-            return _format_location(match.group(1))
-        if match := CITY_AREA_RE.search(paragraph):
-            return _format_location(match.group(1))
-    return None
+            base = _format_location(match.group(1))
+            break
+        if not base and (match := CITY_AREA_RE.search(paragraph)):
+            base = _format_location(match.group(1))
+    detail: str | None = None
+    for paragraph in paragraphs:
+        if match := DETAIL_LOCATION_RE.search(paragraph):
+            detail = _format_location(match.group(1))
+            break
+    if base and detail and normalize_key(detail) not in normalize_key(base):
+        return f"{base}, {detail}"
+    return base or detail
 
 
 def _without_location_lead(value: str) -> str:
     if match := LOCATION_LEAD_RE.match(value):
-        return value[match.end():].lstrip()
+        letters = "".join(character for character in match.group(1) if character.isalpha())
+        if letters and letters == letters.upper():
+            return value[match.end():].lstrip()
     return value
 
 
@@ -877,9 +1068,468 @@ def _join_selected(sentences: Sequence[str], indexes: Sequence[int], *, limit: i
     return _trim_at_word(" ".join(selected), limit)
 
 
+def _extract_delikt(item: dict[str, object], text: str) -> str:
+    title = re.sub(r"^\d{1,6}\s*[.)]\s*", "", str(item["title"])).strip()
+    material = f"{title}\n{text}"
+    rules = (
+        (r"(?:Drogen|Betäubungsmittel).{0,100}\ban\b.{0,80}"
+         r"(?:minderjähr|(?<!\d)(?:[0-9]|1[0-7])-jähr|Jugendliche)|"
+         r"(?:minderjähr|(?<!\d)(?:[0-9]|1[0-7])-jähr|Jugendliche).{0,180}"
+         r"(?:Drogen|Betäubungsmittel).{0,80}\b(?:bekommen|erhalten|angeboten|abgegeben|überlassen)",
+         "Drogenabgabe an Minderjährige"),
+        (r"(?:sexuell bedrängt|sexuell missbraucht).{0,400}(?:Drogen|Betäubungsmittel)|"
+         r"(?:Drogen|Betäubungsmittel).{0,400}(?:sexuell bedrängt|sexuell missbraucht)",
+         "Sexualdelikte sowie Drogenabgabe an Minderjährige"),
+        (r"versuchte[nr]?\s+(?:bewaffnete[nr]?\s+)?Raub|versuchten Raub", "versuchter bewaffneter Raub"),
+        (r"schwere[nr]?\s+Raub", "schwerer Raub"),
+        (r"Raub.{0,120}(?:Schusswaffe|Messer)|(?:Schusswaffe|Messer).{0,120}Raub", "bewaffneter Raub"),
+        (r"Drogenschmuggel|Rauschgift.{0,100}geschmuggelt|Betäubungsmittel.{0,100}geschmuggelt",
+         "Drogenschmuggel und illegale Einfuhr eines Arzneimittels"
+         if re.search(r"illegal eingeführte[sn]? Arzneimittel", material, re.IGNORECASE)
+         else "Drogenschmuggel"),
+        (r"illegal(?:em|er|en)? Handel.{0,80}Betäubungsmittel", "illegaler Handel mit Betäubungsmitteln"),
+        (r"(?:Besitz|aufgefunden|bei sich|stellte[n]? bei .{0,80} fest|fanden? bei)"
+         r".{0,100}(?:Betäubungsmittel|synthetische Drogen)|"
+         r"(?:Betäubungsmittel|synthetische Drogen).{0,100}(?:bei sich|aufgefunden)",
+         "Besitz von Betäubungsmitteln"),
+        (r"(?:Fahrt|Fahren|Fahrer).{0,120}(?:Drogen|Betäubungsmittel|Cannabis|THC)|"
+         r"(?:Drogen|Betäubungsmittel|Cannabis|THC).{0,120}(?:Fahrt|Fahren|Fahrer)",
+         "Fahren unter Betäubungsmitteleinfluss"),
+        (r"tätliche[rsn]? Angriff.{0,80}(?:Polizei|Vollstreckungsbeamte)",
+         "tätlicher Angriff auf Vollstreckungsbeamte"),
+        (r"sexuelle Belästigung|sexuell belästigt|unsittlich berührt", "sexuelle Belästigung"),
+        (r"exhibition", "exhibitionistische Handlung"),
+        (r"gefährliche Körperverletzung", "gefährliche Körperverletzung"),
+        (r"Körperverletzung", "Körperverletzung"),
+        (r"Raub|beraubt", "Raub"),
+    )
+    # Combined sexual/drug conduct is more specific than drug conduct alone.
+    combined = rules[1]
+    if re.search(combined[0], material, re.IGNORECASE | re.DOTALL):
+        return combined[1]
+    for pattern, label in (rules[0], *rules[2:]):
+        if re.search(pattern, material, re.IGNORECASE | re.DOTALL):
+            return label
+    categories = [str(value) for value in item.get("categories", [])]
+    if len(categories) == 1:
+        return categories[0]
+    return title
+
+
+def _result_priority(sentence: str) -> int:
+    if re.search(
+        r"Untersuchungshaft|Haftbefehl|Justizvollzugsanstalt|auf freien Fuß|"
+        r"entlassen|Heimreise|flüchtig|Fahndung",
+        sentence,
+        re.IGNORECASE,
+    ):
+        return 0
+    if re.search(r"Krankenhaus|Fachklinik", sentence, re.IGNORECASE):
+        return 1
+    if re.search(r"sichergestellt|beschlagnahmt|Blutentnahme|Weiterfahrt", sentence, re.IGNORECASE):
+        return 2
+    return 3
+
+
+def _special_priority(sentence: str) -> int:
+    if re.search(
+        r"DEIG|Distanzelektroimpulsgerät|versteckt|Kilogramm|Gramm|"
+        r"sexuell bedrängt|sexuell missbraucht|unsittlich berührt\w*",
+        sentence,
+        re.IGNORECASE,
+    ):
+        return 0
+    if re.search(r"Schusswaffe|Messer|Waffe|Pfefferspray|Tierabwehrspray", sentence, re.IGNORECASE):
+        return 1
+    return 2
+
+
+def _special_kind(sentence: str) -> str:
+    rules = (
+        (r"DEIG|Distanzelektroimpulsgerät", "deig"),
+        (r"sexuell bedrängt|sexuell missbraucht|unsittlich berührt\w*", "sexual"),
+        (r"versteckt|Kilogramm|Gramm|fünfstelligen|sechsstelligen", "menge-versteck"),
+        (r"Drogen angeboten|Drogen bekommen|Betäubungsmittel.{0,100}abgegeben", "drogenabgabe"),
+        (r"Schusswaffe|Messer|Waffe|Pfefferspray|Tierabwehrspray", "waffe"),
+        (r"wollte sich .{0,40} nicht äußern", "keine-angaben"),
+    )
+    for pattern, kind in rules:
+        if re.search(pattern, sentence, re.IGNORECASE):
+            return kind
+    return normalize_key(sentence)[:80]
+
+
+def _select_special_indexes(sentences: Sequence[str]) -> list[int]:
+    candidates = [
+        index
+        for index, sentence in enumerate(sentences)
+        if SPECIAL_SENTENCE_RE.search(sentence)
+    ]
+    candidates.sort(key=lambda index: (_special_priority(sentences[index]), index))
+    selected: list[int] = []
+    kinds: set[str] = set()
+    for index in candidates:
+        kind = _special_kind(sentences[index])
+        if kind in kinds:
+            continue
+        kinds.add(kind)
+        selected.append(index)
+        if len(selected) == 2:
+            break
+    return selected
+
+
+def _field_value(
+    sentences: Sequence[str],
+    indexes: Sequence[int],
+    *,
+    missing: str,
+    limit: int = 380,
+) -> str:
+    return _join_selected(sentences, indexes, limit=limit) or missing
+
+
+def _compact_result(sentences: Sequence[str], indexes: Sequence[int]) -> str:
+    text = " ".join(sentences)
+    parts: list[str] = []
+
+    if re.search(r"\bauf freien Fuß gesetzt\b", text, re.IGNORECASE):
+        parts.append("nach Abschluss der polizeilichen Maßnahmen auf freien Fuß gesetzt")
+    elif re.search(r"\bHeimreise antreten\b", text, re.IGNORECASE):
+        parts.append("nach Abschluss der polizeilichen Maßnahmen Heimreise angetreten")
+    else:
+        was_arrested = bool(re.search(
+            r"\bfestgenommen\b|\bvorläufig festgenommen\b|"
+            r"\b(?:nahm|nahmen)\b.{0,160}\bfest\b|"
+            r"\b(?:bei der|nach erfolgter)\s+Festnahme\b",
+            text,
+            re.IGNORECASE,
+        ))
+        if was_arrested:
+            parts.append("festgenommen")
+        if re.search(r"\bUntersuchungshaftbefehl\w*\b", text, re.IGNORECASE):
+            parts.append("Untersuchungshaftbefehl erlassen")
+        elif re.search(r"\bUntersuchungshaft\b", text, re.IGNORECASE):
+            parts.append("Untersuchungshaft")
+        if re.search(r"\bJustizvollzugsanstalt\b", text, re.IGNORECASE):
+            parts.append("in Justizvollzugsanstalt untergebracht")
+        elif re.search(r"\bHaftanstalt\b", text, re.IGNORECASE):
+            parts.append("in Haftanstalt überstellt")
+        if not was_arrested and re.search(
+            r"(?:Täter|Tatverdächtig\w*)\s+(?:(?:ist|sind|war|blieb(?:en)?)\s+)?flüchtig",
+            text,
+            re.IGNORECASE,
+        ):
+            parts.append("tatverdächtige Person flüchtig")
+        if not was_arrested and re.search(r"\bflüchtete\b", text, re.IGNORECASE):
+            parts.append("tatverdächtige Person flüchtig")
+        if re.search(
+            r"Fahndung.{0,120}(?:erfolglos|ohne Erfolg|nicht zur Festnahme)",
+            text,
+            re.IGNORECASE,
+        ):
+            parts.append("Fahndung ohne Erfolg")
+        if re.search(r"\bentlassen\b", text, re.IGNORECASE):
+            parts.append("nach Abschluss der polizeilichen Maßnahmen entlassen")
+
+    hospital = re.search(r"\bKrankenhaus\b", text, re.IGNORECASE)
+    hospital_ages = (
+        list(
+            re.finditer(
+                r"\b(\d{1,3})-Jährig\w*\b",
+                text[max(0, hospital.start() - 220):hospital.start()],
+                re.IGNORECASE,
+            )
+        )
+        if hospital
+        else []
+    )
+    if hospital_ages:
+        parts.append(
+            f"eine {int(hospital_ages[-1].group(1))}-jährige Person vorübergehend im Krankenhaus behandelt"
+        )
+    elif hospital:
+        parts.append("Krankenhausbehandlung bzw. -unterbringung")
+    if re.search(r"\bFachklinik\b", text, re.IGNORECASE):
+        parts.append("in Fachklinik überstellt")
+    if re.search(r"\bStrafverfahren\b", text, re.IGNORECASE):
+        parts.append("Strafverfahren")
+    if re.search(r"\bBlutentnahme\b", text, re.IGNORECASE):
+        parts.append("Blutentnahme angeordnet")
+    if re.search(r"\bWeiterfahrt\s+untersagt\b", text, re.IGNORECASE):
+        parts.append("Weiterfahrt untersagt")
+
+    unique: list[str] = []
+    for part in parts:
+        if part not in unique:
+            unique.append(part)
+    if unique:
+        return "; ".join(unique)
+    return _field_value(sentences, indexes, missing="nicht mitgeteilt", limit=300)
+
+
+def _nationality_labels(text: str) -> list[str]:
+    labels: list[str] = []
+    for pattern, label in NATIONALITY_LABELS:
+        if pattern.search(text) and label not in labels:
+            labels.append(label)
+    return labels
+
+
+def _person_noun(text: str) -> str | None:
+    nouns = (
+        (r"\bMädchen\b", "Mädchen"),
+        (r"\bJunge[n]?\b", "Junge"),
+        (r"\bJugendlich\w*\b", "jugendliche Person"),
+        (r"\bPolizeibeamt\w*\b|\bBeamte[nr]?\b", "Polizeikraft"),
+        (r"\bKassierer\w*\b", "Kassenkraft"),
+        (r"\bFrau\b", "Frau"),
+        (r"\bMann\b|\bFahrgast\b", "Mann"),
+    )
+    for pattern, label in nouns:
+        if re.search(pattern, text, re.IGNORECASE):
+            return label
+    return None
+
+
+def _looks_like_person_description(sentence: str) -> bool:
+    if re.fullmatch(r"(?:Täter|Personen)beschreibung\s*:?", sentence, re.IGNORECASE):
+        return False
+    indicators = sum(
+        bool(re.search(pattern, sentence, re.IGNORECASE))
+        for pattern in (
+            r"\b\d{3}\s*cm\b",
+            r"\bHaare?\b|\bHaar\b",
+            r"\bbekleidet\b|\btrug\b",
+            r"\bJacke\b|\bHose\b|\bPullover\b|\bT-Shirt\b",
+            r"\bStatur\b|\bFigur\b|\bErscheinungsbild\b",
+            r"\bRucksack\b|\bTasche\b",
+        )
+    )
+    return indicators >= 2 or (
+        bool(re.search(r"\bbeschrieben\b", sentence, re.IGNORECASE))
+        and not sentence.rstrip().endswith(":")
+    )
+
+
+def _role_target_ages(sentence: str, role: str) -> set[int]:
+    if role == "victim":
+        patterns = (
+            r"(?:gegen (?:den )?Kopf|auf (?:den )?Körper|im Gesicht|am Arm)\s+des\s+"
+            r"(\d{1,3})-Jährig\w*",
+            r"sich\s+der\s+(\d{1,3})-Jährig\w*.{0,160}\b(?:näherte|berührte)",
+            r"\b(?:betroffene|aufgegriffene|verletzte)\s+(\d{1,3})-Jährig\w*",
+            r"\b(\d{1,3})-Jährig\w*.{0,140}\b(?:wurde\b.{0,80}\bvon|"
+            r"nicht mehr ansprechbar|zu Boden stürzte|Krankenhaus)",
+        )
+    else:
+        patterns = (
+            r"\bvon (?:einem|einer)\s+(\d{1,3})-Jährig\w*",
+            r"\b(\d{1,3})-Jährig\w*(?:(?!\d{1,3}-Jährig).){0,180}"
+            r"\b(?:flüchtete|festgenommen|"
+            r"steht im Verdacht|Tatverdächtig\w*|Beschuldigt\w*)",
+            r"\bgegen (?:den|die)\s+(\d{1,3})-Jährig\w*",
+            r"\b(\d{1,3})-Jährig\w*.{0,120}\b(?:welcher|der)\b.{0,160}"
+            r"\b(?:schlug|trat|stach|berührte|bedrohte|beraubte)",
+            r"\b(?:der|die)\s+(\d{1,3})-Jährig\w*.{0,140}"
+            r"\b(?:zog\b.{0,50}\bMesser|ging\b.{0,60}\bauf\s+(?:den\s+)?Polizeibeamt)",
+        )
+    values: set[int] = set()
+    for pattern in patterns:
+        values.update(
+            int(match.group(1))
+            for match in re.finditer(pattern, sentence, re.IGNORECASE)
+        )
+    return values
+
+
+def _compact_people(
+    sentences: Sequence[str],
+    indexes: Sequence[int],
+    *,
+    missing: str,
+    role: str,
+) -> str:
+    selected = [sentences[index] for index in indexes]
+    if not selected:
+        return missing
+    text = " ".join(selected)
+    entries: list[str] = []
+    consumed_sentences: set[int] = set()
+    covered_ages: set[int] = set()
+    global_target_ages = set().union(
+        *(_role_target_ages(sentence, role) for sentence in selected)
+    )
+    opposing_target_ages = set().union(
+        *(_role_target_ages(sentence, "suspect" if role == "victim" else "victim") for sentence in selected)
+    )
+
+    for position, sentence in enumerate(selected):
+        if role == "suspect":
+            actor = re.search(
+                r"\bvon (?:einem|einer)\s+(\d{1,3})-jährig\w*\s+"
+                r"([A-ZÄÖÜ][A-Za-zÄÖÜäöüß-]+)",
+                sentence,
+            )
+            if actor:
+                labels = _nationality_labels(actor.group(0))
+                details = [f"{int(actor.group(1))} Jahre", *labels]
+                entries.append(f"1 ({', '.join(details)})")
+                consumed_sentences.add(position)
+                covered_ages.add(int(actor.group(1)))
+                continue
+        group = re.search(
+            r"(?:zwei|2)\s+(\d{1,3})-jährig\w*\s+Tatverdächtig\w*,\s*"
+            r"ein\w*\s+([A-ZÄÖÜ][A-Za-zÄÖÜäöüß-]+)\s+und\s+"
+            r"ein\w*\s+([A-ZÄÖÜ][A-Za-zÄÖÜäöüß-]+)",
+            sentence,
+            re.IGNORECASE,
+        )
+        if group:
+            labels = _nationality_labels(group.group(0))
+            details = " und ".join(labels) if labels else "Staatsangehörigkeiten nicht mitgeteilt"
+            entries.append(f"2 (je {int(group.group(1))} Jahre; {details})")
+            consumed_sentences.add(position)
+            covered_ages.add(int(group.group(1)))
+            continue
+        same_age = re.search(
+            r"(\d{1,3})-Jährig\w*\s+und\s+eine\s+gleichaltrige\s+\w+",
+            sentence,
+            re.IGNORECASE,
+        )
+        if same_age:
+            labels = _nationality_labels(same_age.group(0))
+            details = " und ".join(labels) if labels else "Staatsangehörigkeiten nicht mitgeteilt"
+            entries.append(f"2 (je {int(same_age.group(1))} Jahre; {details})")
+            consumed_sentences.add(position)
+            covered_ages.add(int(same_age.group(1)))
+
+    individual_entries: list[tuple[int, tuple[str, ...], str | None, bool]] = []
+    for position, sentence in enumerate(selected):
+        if position in consumed_sentences:
+            continue
+        target_ages = _role_target_ages(sentence, role)
+        age_matches = list(re.finditer(r"\b(\d{1,3})-jährig\w*\b", sentence, re.IGNORECASE))
+        for age_match in age_matches:
+            age = int(age_match.group(1))
+            if global_target_ages and age not in global_target_ages:
+                continue
+            if not global_target_ages and age in opposing_target_ages:
+                continue
+            if target_ages and age not in target_ages:
+                continue
+            before = sentence[max(0, age_match.start() - 24):age_match.start()]
+            after = sentence[age_match.start():min(len(sentence), age_match.end() + 55)]
+            context = before + after
+            labels = tuple(_nationality_labels(context))
+            if not labels:
+                related_labels: list[str] = []
+                for related_sentence in sentences:
+                    for related_match in re.finditer(
+                        rf"\b{age}-jährig\w*\b",
+                        related_sentence,
+                        re.IGNORECASE,
+                    ):
+                        related_context = related_sentence[
+                            max(0, related_match.start() - 20):
+                            min(len(related_sentence), related_match.end() + 55)
+                        ]
+                        for label in _nationality_labels(related_context):
+                            if label not in related_labels:
+                                related_labels.append(label)
+                labels = tuple(related_labels)
+            noun = None if labels else _person_noun(after)
+            explicitly_additional = bool(
+                re.search(
+                    r"\b(?:weitere[nr]?|zusätzliche[nr]?|auch\s+ein\w*)\b",
+                    before,
+                    re.IGNORECASE,
+                )
+            )
+            if age in covered_ages and not explicitly_additional:
+                continue
+            existing = next(
+                (
+                    idx
+                    for idx, (existing_age, existing_labels, _noun, extra) in enumerate(individual_entries)
+                    if existing_age == age and not extra and not explicitly_additional
+                    and (existing_labels == labels or not existing_labels or not labels)
+                ),
+                None,
+            )
+            if existing is not None:
+                if labels and not individual_entries[existing][1]:
+                    individual_entries[existing] = (age, labels, noun, explicitly_additional)
+                continue
+            individual_entries.append((age, labels, noun, explicitly_additional))
+
+    grouped_plain_ages: dict[int, int] = {}
+    for age, labels, _noun, _extra in individual_entries:
+        if not labels:
+            grouped_plain_ages[age] = grouped_plain_ages.get(age, 0) + 1
+
+    emitted_plain_ages: set[int] = set()
+    for age, labels, noun, _extra in individual_entries:
+        if not labels and grouped_plain_ages.get(age, 0) > 1:
+            if age not in emitted_plain_ages:
+                count = grouped_plain_ages[age]
+                entries.append(
+                    f"{count} (je {age} Jahre; Staatsangehörigkeiten nicht mitgeteilt)"
+                )
+                emitted_plain_ages.add(age)
+            continue
+        details = []
+        if noun:
+            details.append(noun)
+        details.append(f"{age} Jahre")
+        details.extend(labels)
+        entries.append(f"1 ({', '.join(details)})")
+
+    if entries:
+        result = "; ".join(entries)
+        if not _nationality_labels(result) and "Staatsangehörigkeit" not in result:
+            suffix = (
+                "Staatsangehörigkeiten nicht mitgeteilt"
+                if len(entries) > 1 or entries[0].startswith("2 ")
+                else "Staatsangehörigkeit nicht mitgeteilt"
+            )
+            result += f"; {suffix}"
+        return _trim_at_word(result, 360)
+
+    if role == "victim" and re.search(r"\b(?:einer|eine)\s+Frau\b", text, re.IGNORECASE):
+        return "1 (Frau; Staatsangehörigkeit nicht mitgeteilt)"
+    if role == "victim" and re.search(r"\bPolizeibeamt\w*\b|\bBeamte[nr]?\b", text, re.IGNORECASE):
+        return "1 (Polizeikraft; Staatsangehörigkeit nicht mitgeteilt)"
+
+    if role == "suspect":
+        description = next(
+            (
+                sentence
+                for sentence in selected
+                if _looks_like_person_description(sentence)
+            ),
+            None,
+        )
+        if description:
+            return _trim_at_word(
+                f"unbekannte Person ({description}; Staatsangehörigkeit nicht mitgeteilt)",
+                360,
+            )
+
+    unknown = re.search(
+        r"\b(?:unbekannt\w+|nicht identifiziert\w*)\s+(?:Mann|Frau|Person)"
+        r"(?:[^.;]|\.(?!\s+[A-ZÄÖÜ])){0,260}",
+        text,
+        re.IGNORECASE,
+    )
+    if unknown:
+        return _trim_at_word(unknown.group(0), 340)
+    return _field_value(sentences, indexes, missing=missing, limit=320)
+
+
 def summarize_item(item: dict[str, object]) -> ItemSummary:
     paragraphs = _summary_paragraphs(item)
-    sentences = _sentences(paragraphs)
+    sentences = _sentences([_without_location_lead(paragraph) for paragraph in paragraphs])
     searchable = "\n".join(paragraphs)
     published = datetime.fromtimestamp(int(item["published_ts"]), tz=BERLIN_TZ)
     organization = normalize_space(str(item.get("organization", "")))
@@ -913,70 +1563,115 @@ def summarize_item(item: dict[str, object]) -> ItemSummary:
             )
         ):
             suspect_indexes.append(index)
-    suspect_indexes.sort(
-        key=lambda index: (not bool(NATIONALITY_DETAIL_RE.search(sentences[index])), index)
-    )
     result_indexes = [
         index for index, sentence in enumerate(sentences) if RESULT_SENTENCE_RE.search(sentence)
     ]
+    result_indexes.sort(key=lambda index: (_result_priority(sentences[index]), index))
 
-    brief_paragraphs = list(paragraphs)
-    if brief_paragraphs:
-        brief_paragraphs[0] = _without_location_lead(brief_paragraphs[0])
-    brief_sentences = _sentences(brief_paragraphs)[:2]
-    brief = _trim_at_word(" ".join(brief_sentences), 520) if brief_sentences else str(item["title"])
-    categories = ", ".join(str(value) for value in item.get("categories", []))
+    description_indexes = [
+        index
+        for index, sentence in enumerate(sentences)
+        if _looks_like_person_description(sentence)
+    ]
+    for index in description_indexes:
+        if index not in suspect_indexes:
+            suspect_indexes.append(index)
+    suspect_indexes.sort(
+        key=lambda index: (
+            not bool(NATIONALITY_DETAIL_RE.search(sentences[index])),
+            not bool(AGE_SENTENCE_RE.search(sentences[index])),
+            not bool(
+                _looks_like_person_description(sentences[index])
+            ),
+            index,
+        )
+    )
+
+    selected_victim_indexes = victim_indexes[:2]
+    selected_suspect_indexes = suspect_indexes[:2]
+    selected_result_indexes = result_indexes[:2]
+    used_indexes = (
+        set(selected_victim_indexes)
+        | set(selected_suspect_indexes)
+        | set(selected_result_indexes)
+    )
+    special_indexes = _select_special_indexes(sentences)
+    if not special_indexes:
+        special_indexes = [
+            index
+            for index, sentence in enumerate(sentences)
+            if index not in used_indexes
+            and not sentence.rstrip().endswith(":")
+            and not re.fullmatch(
+                r"(?:Täter|Personen)beschreibung\s*:?",
+                sentence,
+                re.IGNORECASE,
+            )
+            and not re.match(r"^Zeugenaufruf\b", sentence, re.IGNORECASE)
+            and not re.search(
+                r"\b(?:Ermittlungen? (?:übernommen|fortgeführt)|Polizei ermittelt)\b",
+                sentence,
+                re.IGNORECASE,
+            )
+        ][:1]
+
+    categories = {str(value) for value in item.get("categories", [])}
+    victim_missing = (
+        "keine individualisierten Geschädigten"
+        if categories == {"Drogendelikt"}
+        else "nicht näher mitgeteilt"
+    )
+    victim_value = _compact_people(
+        sentences,
+        selected_victim_indexes,
+        missing=victim_missing,
+        role="victim",
+    )
+    suspect_value = _compact_people(
+        sentences,
+        selected_suspect_indexes,
+        missing="nicht näher mitgeteilt",
+        role="suspect",
+    )
+
     return ItemSummary(
         pm=pm,
-        tatdatum=_format_tatdatum(searchable, default_year=published.year),
-        tatort=_extract_location(paragraphs),
-        delikt=re.sub(r"^\d{1,6}\s*[.)]\s*", "", str(item["title"])),
-        kategorien=categories,
-        kurzbeschreibung=brief,
-        opfer=_join_selected(sentences, victim_indexes),
-        tatverdaechtige=_join_selected(sentences, suspect_indexes),
-        ergebnis=_join_selected(sentences, result_indexes),
+        tatdatum=_format_tatdatum(searchable, published=published.date()) or "nicht mitgeteilt",
+        tatort=_extract_location(paragraphs) or "nicht näher mitgeteilt",
+        delikt=_extract_delikt(item, searchable),
+        opfer=victim_value,
+        tatverdaechtige=suspect_value,
+        ergebnis=_compact_result(sentences, selected_result_indexes),
+        besonderheiten=_field_value(
+            sentences,
+            special_indexes,
+            missing="keine weiteren Angaben",
+        ),
     )
 
 
 def _rss_short_description(item: dict[str, object]) -> str:
     summary = summarize_item(item)
-    fields = [summary.pm]
-    if summary.tatdatum:
-        fields.append(f"Tatdatum: {summary.tatdatum}")
-    if summary.tatort:
-        fields.append(f"Tatort: {summary.tatort}")
-    fields.extend(
-        [
-            f"Delikt: {summary.delikt}",
-            f"Kurzbeschreibung: {summary.kurzbeschreibung}",
-        ]
-    )
+    fields = [
+        summary.pm,
+        f"Tatdatum {summary.tatdatum}",
+        f"Tatort: {summary.tatort}",
+        f"Delikt: {summary.delikt}",
+        f"Opfer: {summary.opfer}",
+        f"Tatverdächtige: {summary.tatverdaechtige}",
+        f"Ergebnis: {summary.ergebnis}",
+        f"Besonderheiten: {summary.besonderheiten}",
+    ]
     link = escape(str(item["link"]), quote=True)
     compact = escape(" / ".join(fields))
-    return (
-        f"<p>{compact}</p>\n"
-        f'<p><a href="{link}">Originalmeldung der Bayerischen Polizei</a></p>'
-    )
+    return f'<p>{compact} / <a href="{link}">{link}</a></p>'
 
 
 def _rss_long_description(item: dict[str, object]) -> str:
-    summary = summarize_item(item)
-    fields: list[tuple[str, str | None]] = [
-        ("Pressemeldung", summary.pm.removeprefix("PM ")),
-        ("Tatdatum", summary.tatdatum),
-        ("Tatort", summary.tatort),
-        ("Delikt", summary.delikt),
-        ("Kategorien", summary.kategorien),
-        ("Opfer", summary.opfer),
-        ("Tatverdächtige", summary.tatverdaechtige),
-        ("Ergebnis", summary.ergebnis),
-        ("Besonderheiten", summary.kurzbeschreibung),
-    ]
     parts = [
-        f"<p><strong>{escape(label)}:</strong> {escape(value)}</p>"
-        for label, value in fields
-        if value
+        f"<p>{escape(normalize_space(str(paragraph)))}</p>"
+        for paragraph in item.get("body", [])
+        if normalize_space(str(paragraph))
     ]
     link = escape(str(item["link"]), quote=True)
     parts.append(f'<p><a href="{link}">Originalmeldung der Bayerischen Polizei</a></p>')

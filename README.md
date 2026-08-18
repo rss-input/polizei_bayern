@@ -20,16 +20,17 @@ leitet insbesondere nichts aus Namen ab.
 
 Jeder RSS-Eintrag enthält zwei Darstellungen:
 
-- `description`: kompakte Kurzform mit PM-Datum, Polizeipräsidium, Tatdatum,
-  Tatort, Delikt und Kurzbeschreibung
-- `content:encoded`: längere, gegliederte Form mit den zusätzlichen Feldern
-  Opfer, Tatverdächtige, Ergebnis und Besonderheiten, soweit diese Angaben
-  ausdrücklich und zuverlässig aus dem Meldungstext entnommen werden können
+- `description`: die fest formatierte fallbezogene Kurzform
+  `PM / Tatdatum / Tatort / Delikt / Opfer / Tatverdächtige / Ergebnis /
+  Besonderheiten / URL`
+- `content:encoded`: der vollständige von der Polizei veröffentlichte Text des
+  jeweiligen Falls; bei Sammelmeldungen nur der dem RSS-Item zugeordnete Falltext
 
-Der vollständige Pressemitteilungstext wird nicht in den Feed kopiert. Er ist
-über den Link zur Originalmeldung erreichbar. Wenn ein Feld nicht zuverlässig
-automatisch ermittelt werden kann, wird es ausgelassen; insbesondere werden
-keine Staatsangehörigkeiten aus Namen oder anderen Indizien abgeleitet.
+Alle Felder der Kurzform werden ausgegeben. Wenn eine Angabe nicht zuverlässig
+ermittelt werden kann, steht dort ausdrücklich `nicht mitgeteilt`, `nicht näher
+mitgeteilt` oder `keine weiteren Angaben`. Veröffentlichte
+Staatsangehörigkeiten und Täterbeschreibungen werden übernommen;
+Staatsangehörigkeiten werden niemals aus Namen oder anderen Indizien abgeleitet.
 
 ## Funktionsweise
 

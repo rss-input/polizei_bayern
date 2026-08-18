@@ -189,7 +189,7 @@ class FeedTests(unittest.TestCase):
             )
         )
 
-    def test_short_and_long_forms_are_structured_and_not_the_full_release(self):
+    def test_short_form_follows_agreed_fields_and_long_form_is_full_case_text(self):
         item = self.item("urn:test:summary", 1787049960, "summary")
         item.update(
             {
@@ -210,8 +210,8 @@ class FeedTests(unittest.TestCase):
         self.assertEqual(summary.pm, "PM 18.08.2026, PP Oberpfalz")
         self.assertEqual(summary.tatdatum, "16.08.26")
         self.assertEqual(summary.tatort, "Regensburg")
-        self.assertIn("27-jährige Geschädigte", summary.opfer)
-        self.assertIn("drei 16-Jährige", summary.tatverdaechtige)
+        self.assertIn("27 Jahre", summary.opfer)
+        self.assertIn("16 Jahre", summary.tatverdaechtige)
         self.assertIn("freien Fuß", summary.ergebnis)
 
         xml = update_feed.build_rss(
@@ -225,11 +225,78 @@ class FeedTests(unittest.TestCase):
             "./channel/item/{http://purl.org/rss/1.0/modules/content/}encoded", ""
         )
         self.assertIn("PM 18.08.2026, PP Oberpfalz", description)
-        self.assertIn("Tatdatum: 16.08.26", description)
-        self.assertIn("<strong>Opfer:</strong>", long_form)
-        self.assertIn("<strong>Tatverdächtige:</strong>", long_form)
+        expected_labels = [
+            "Tatdatum 16.08.26",
+            "Tatort: Regensburg",
+            "Delikt:",
+            "Opfer:",
+            "Tatverdächtige:",
+            "Ergebnis:",
+            "Besonderheiten:",
+            "https://example.test/release",
+        ]
+        positions = [description.index(label) for label in expected_labels]
+        self.assertEqual(positions, sorted(positions))
+        self.assertNotIn("Kurzbeschreibung:", description)
         self.assertNotIn("redaktionelle Restabsatz", description)
-        self.assertNotIn("redaktionelle Restabsatz", long_form)
+        self.assertIn("redaktionelle Restabsatz", long_form)
+        self.assertNotIn("<strong>Opfer:</strong>", long_form)
+        self.assertIn("Der 27-jährige Geschädigte", long_form)
+
+    def test_relative_weekday_is_resolved_against_publication_date(self):
+        item = self.item("urn:test:relative-date", 1787049960, "relative-date")
+        item.update(
+            {
+                "title": "Drogen im Gepäck",
+                "organization": "Polizeipräsidium Schwaben Süd/West",
+                "categories": ["Drogendelikt"],
+                "body": [
+                    "GÜNZBURG. Kurz nach Mitternacht wurde am Dienstag ein "
+                    "31-jähriger Schweizer am Bahnhof kontrolliert. Hierbei wurden "
+                    "synthetische Drogen aufgefunden und sichergestellt. Nach Abschluss "
+                    "der polizeilichen Maßnahmen konnte der Mann die Heimreise antreten. "
+                    "Ihn erwartet nun ein Strafverfahren wegen des Besitzes von "
+                    "Betäubungsmitteln."
+                ],
+            }
+        )
+        summary = update_feed.summarize_item(item)
+        self.assertEqual(summary.tatdatum, "18.08.26")
+        self.assertEqual(summary.tatort, "Günzburg, Bahnhof")
+        self.assertEqual(summary.delikt, "Besitz von Betäubungsmitteln")
+        self.assertEqual(summary.opfer, "keine individualisierten Geschädigten")
+        self.assertEqual(summary.tatverdaechtige, "1 (31 Jahre, schweizerisch)")
+        self.assertIn("Heimreise", summary.ergebnis)
+        self.assertIn("Strafverfahren", summary.ergebnis)
+
+    def test_known_robbery_case_keeps_all_published_nationalities(self):
+        item = self.item("urn:test:robbery", 1787049960, "robbery")
+        item.update(
+            {
+                "title": "Zwei Tatverdächtige nach Raub mit DEIG festgenommen",
+                "organization": "Polizeipräsidium Oberpfalz",
+                "body": [
+                    "REGENSBURG. Am Sonntag, 16. August, gegen 15:40 Uhr, soll es im "
+                    "Bereich der Landshuter Straße zu einem versuchten Raub gekommen sein. "
+                    "Ein 27-jähriger syrischer Staatsangehöriger wurde von drei Tätern "
+                    "unter Vorhalt einer Schusswaffe zur Herausgabe von Geld aufgefordert.",
+                    "Zwei 16-jährige Tatverdächtige, ein Somalier und ein Iraker, wurden "
+                    "unter Androhung des Einsatzes eines DEIG festgenommen. Im weiteren "
+                    "Verlauf wurde auch ein 16-jähriger Kosovare vorläufig festgenommen.",
+                    "Die drei Tatverdächtigen wurden nach den polizeilichen Maßnahmen "
+                    "wieder auf freien Fuß gesetzt.",
+                ],
+            }
+        )
+        summary = update_feed.summarize_item(item)
+        self.assertEqual(summary.tatort, "Regensburg, Landshuter Straße")
+        self.assertEqual(summary.delikt, "versuchter bewaffneter Raub")
+        self.assertEqual(summary.opfer, "1 (27 Jahre, syrisch)")
+        self.assertIn("somalisch", summary.tatverdaechtige)
+        self.assertIn("irakisch", summary.tatverdaechtige)
+        self.assertIn("kosovarisch", summary.tatverdaechtige)
+        self.assertIn("freien Fuß", summary.ergebnis)
+        self.assertIn("DEIG", summary.besonderheiten)
 
     def test_victim_is_not_mislabeled_when_actor_is_explicit(self):
         item = self.item("urn:test:actor", 1787049960, "actor")
@@ -244,9 +311,9 @@ class FeedTests(unittest.TestCase):
             }
         )
         summary = update_feed.summarize_item(item)
-        self.assertIn("aufgegriffene 15-Jährige", summary.opfer or "")
-        self.assertNotIn("Krankenhaus", summary.tatverdaechtige or "")
-        self.assertIn("21-jährigen Griechen", summary.tatverdaechtige or "")
+        self.assertIn("15 Jahre", summary.opfer)
+        self.assertNotIn("Krankenhaus", summary.tatverdaechtige)
+        self.assertEqual(summary.tatverdaechtige, "1 (21 Jahre, griechisch)")
 
     def test_city_area_is_used_as_published_location(self):
         item = self.item("urn:test:city", 1787049960, "city")
