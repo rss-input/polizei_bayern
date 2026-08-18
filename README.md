@@ -57,6 +57,9 @@ Die Dateien haben folgende Aufgaben:
 - `.github/workflows/pages.yml`: Veröffentlichung als GitHub Pages
 
 Es gibt keine Python-Abhängigkeiten außerhalb der Standardbibliothek.
+Der Feed weist Aggregatoren mit RSS-`ttl` auf ein Aktualisierungsintervall von
+30 Minuten hin; der tatsächliche Abrufzeitpunkt bleibt vom jeweiligen Reader
+oder Synchronisationsdienst abhängig.
 
 ## Einmalige GitHub-Einrichtung
 

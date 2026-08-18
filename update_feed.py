@@ -36,6 +36,7 @@ from zoneinfo import ZoneInfo
 INDEX_URL = "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/index.html"
 BASE_URL = "https://www.polizei.bayern.de"
 DEFAULT_FEED_URL = "https://rss-input.github.io/polizei_bayern/feed.xml"
+FEED_TTL_MINUTES = 30
 USER_AGENT = (
     "polizei-bayern-rss/1.0 "
     "(+https://github.com/rss-input/polizei_bayern; contact via repository)"
@@ -1792,7 +1793,7 @@ def build_rss(items: Sequence[dict[str, object]], *, feed_url: str, built_at: da
     ET.SubElement(channel, "language").text = "de-DE"
     ET.SubElement(channel, "generator").text = "polizei-bayern-rss"
     ET.SubElement(channel, "lastBuildDate").text = format_datetime(built_at.astimezone(UTC))
-    ET.SubElement(channel, "ttl").text = "1440"
+    ET.SubElement(channel, "ttl").text = str(FEED_TTL_MINUTES)
     ET.SubElement(
         channel,
         f"{{{ATOM_NS}}}link",

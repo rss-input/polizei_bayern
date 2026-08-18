@@ -232,6 +232,7 @@ class FeedTests(unittest.TestCase):
         )
         root = ET.fromstring(xml)
         self.assertEqual(root.tag, "rss")
+        self.assertEqual(root.findtext("./channel/ttl"), "30")
         self.assertEqual(
             [node.text for node in root.findall("./channel/item/guid")],
             ["urn:test:1", "urn:test:2"],
