@@ -132,6 +132,46 @@ STATISTICAL_SUMMARY_RE = re.compile(
     r"(?:\bbilanz\b|\banzahl\b|\bim vorjahr\b|\bim jahr 20\d\d\b|\(20\d\d\s*:)",
     re.IGNORECASE,
 )
+CALLCENTER_TERM_RE = re.compile(
+    r"(?:\bcall[\s-]?center(?:[\s-]?(?:betrug|betrüger(?:ei)?))?\b|"
+    r"\bschockanruf(?:e|en|es)?\b|\benkeltrick(?:betrug|betrüger(?:ei)?)?\b|"
+    r"\btelefon(?:betrug|betrüger(?:ei)?)\b)",
+    re.IGNORECASE,
+)
+TELEPHONE_CONTACT_RE = re.compile(
+    r"\b(?:anruf|angerufen|telefon(?:isch|at|ierte|ierten)?|am telefon)\b",
+    re.IGNORECASE,
+)
+IMPERSONATED_AUTHORITY_RE = re.compile(
+    r"\bfalsch(?:e|er|en|em|es)\s+(?:polizei(?:beamte[rsn]?|beamtin)?|"
+    r"kriminalbeamte[rsn]?|staatsanw(?:alt|ältin)|ärzt(?:in|e[rsn]?)|"
+    r"krankenhausmitarbeiter(?:in)?|bankmitarbeiter(?:in)?|amtsträger(?:in)?)\b",
+    re.IGNORECASE,
+)
+SUSPECT_ROLE_RE = re.compile(
+    r"\b(?:tatverdächtig\w*|beschuldigt\w*|geldabholer\w*|abholer\w*|"
+    r"geldkurier\w*|täter\w*)\b",
+    re.IGNORECASE,
+)
+IDENTIFICATION_SUCCESS_RE = re.compile(
+    r"\b(?:identifiziert|festgenommen|gefasst|gestellt|dingfest\s+gemacht|"
+    r"als\s+.{0,60}?tatverdächtig\w*\s+ermittelt|"
+    r"tatverdächtig\w*.{0,60}?\bermittelt|untersuchungshaft|"
+    r"haftbefehl\w*\s+(?:erlassen|vollstreckt))\b",
+    re.IGNORECASE,
+)
+NEGATED_IDENTIFICATION_RE = re.compile(
+    r"\b(?:nicht|keine[rsn]?|ohne)\b.{0,45}\b(?:identifiziert|festgenommen|"
+    r"gefasst|gestellt|dingfest\s+gemacht)\b",
+    re.IGNORECASE,
+)
+GENERIC_SUSPECT_ARREST_RE = re.compile(
+    r"(?:\b(?:nahmen?|nehmen)\b.{0,120}\b(?:\d{1,3}[- ]jährig\w*\s+)?"
+    r"(?:mann|männer|frau|frauen|person(?:en)?)\b.{0,70}\bfest\b|"
+    r"\b(?:\d{1,3}[- ]jährig\w*\s+)?(?:mann|männer|frau|frauen|person(?:en)?)"
+    r"\b.{0,70}\b(?:festgenommen|identifiziert|gefasst)\b)",
+    re.IGNORECASE,
+)
 INCIDENT_TIME_RE = re.compile(
     r"(?:\b(?:montag|dienstag|mittwoch|donnerstag|freitag|samstag|sonntag|"
     r"gestern|vorgestern)\b|\b\d{1,2}\.\d{1,2}\.20\d\d\b|\bgegen\s+\d{1,2}[:.]\d{2}\s+uhr)",
@@ -351,6 +391,52 @@ def normalize_space(value: str) -> str:
 
 def normalize_key(value: str) -> str:
     return re.sub(r"[^a-z0-9äöüß]+", " ", value.casefold()).strip()
+
+
+def is_callcenter_fraud(text: str) -> bool:
+    """Recognize telephone-based impersonation fraud, including common aliases."""
+    compact = normalize_space(text)
+    return bool(
+        CALLCENTER_TERM_RE.search(compact)
+        or (
+            TELEPHONE_CONTACT_RE.search(compact)
+            and IMPERSONATED_AUTHORITY_RE.search(compact)
+        )
+    )
+
+
+def has_identified_callcenter_suspect(text: str) -> bool:
+    """Return true only for a published investigative success tied to a suspect."""
+    compact = normalize_space(text).replace("\n", " ")
+    for arrest in GENERIC_SUSPECT_ARREST_RE.finditer(compact):
+        if re.search(
+            r"\b(?:nicht|keine[rsn]?|ohne)\b.{0,45}\b(?:fest|festgenommen|"
+            r"identifiziert|gefasst)\b",
+            arrest.group(0),
+            re.IGNORECASE,
+        ):
+            continue
+        return True
+    sentences = [
+        sentence.strip()
+        for sentence in re.split(r"(?<=[.!?])\s+(?=[A-ZÄÖÜ0-9„])", compact)
+        if sentence.strip()
+    ]
+    for index, sentence in enumerate(sentences):
+        # Police reports often name the suspect in one sentence and the arrest in the next.
+        window = " ".join(sentences[index : index + 2])
+        if not SUSPECT_ROLE_RE.search(window):
+            continue
+        for success in IDENTIFICATION_SUCCESS_RE.finditer(window):
+            prefix = window[max(0, success.start() - 55) : success.start()]
+            if NEGATED_IDENTIFICATION_RE.search(prefix + success.group(0)):
+                continue
+            return True
+    return False
+
+
+def include_case_text(text: str) -> bool:
+    return not is_callcenter_fraud(text) or has_identified_callcenter_suspect(text)
 
 
 def source_id_from_url(url: str) -> str:
@@ -772,6 +858,8 @@ def _case_from_events(
         )
     ):
         return None
+    if not include_case_text(f"{title}\n{all_text}"):
+        return None
     categories = classify(all_text)
     if not categories:
         return None
@@ -874,9 +962,22 @@ def _json_text(value: object) -> str:
     return json.dumps(value, ensure_ascii=False, indent=2, sort_keys=True) + "\n"
 
 
+def include_stored_item(item: dict[str, object]) -> bool:
+    text = "\n".join(
+        [
+            str(item.get("title", "")),
+            str(item.get("source_title", "")),
+            *(str(paragraph) for paragraph in item.get("body", [])),
+        ]
+    )
+    return include_case_text(text)
+
+
 def deduplicate_and_sort(items: Iterable[dict[str, object]], limit: int) -> list[dict[str, object]]:
     by_guid: dict[str, dict[str, object]] = {}
     for item in items:
+        if not include_stored_item(item):
+            continue
         by_guid[str(item["guid"])] = item
     ordered = sorted(
         by_guid.values(),
@@ -1679,6 +1780,7 @@ def _rss_long_description(item: dict[str, object]) -> str:
 
 
 def build_rss(items: Sequence[dict[str, object]], *, feed_url: str, built_at: datetime) -> str:
+    items = [item for item in items if include_stored_item(item)]
     rss = ET.Element("rss", {"version": "2.0"})
     channel = ET.SubElement(rss, "channel")
     ET.SubElement(channel, "title").text = "Bayerische Polizeimeldungen – ausgewählte Delikte"
@@ -1831,10 +1933,11 @@ def render_existing(*, root: Path, feed_url: str) -> int:
     items = _read_json(items_path, [])
     if not isinstance(items, list):
         raise ValueError("data/items.json hat ein unbekanntes Format")
-    rss_text = build_rss(items, feed_url=feed_url, built_at=datetime.now(UTC))
+    included_items = [item for item in items if include_stored_item(item)]
+    rss_text = build_rss(included_items, feed_url=feed_url, built_at=datetime.now(UTC))
     ET.fromstring(rss_text)
     _write_text_atomic(feed_path, rss_text)
-    return len(items)
+    return len(included_items)
 
 
 def parse_args(argv: Sequence[str] | None = None) -> argparse.Namespace:

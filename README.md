@@ -41,8 +41,12 @@ eingebetteten Sammelmeldungen.
 
 Die Auswahl erfolgt anhand nachvollziehbarer deutscher Deliktsbegriffe. Reine
 Verkehrsunfälle mit nur fahrlässiger Körperverletzung werden nicht als
-Gewaltdelikt gewertet. Jeder passende Fall erhält eine stabile GUID. Zusätzlich
-werden identische Inhalte anhand eines Inhalts-Hashes zusammengeführt.
+Gewaltdelikt gewertet. Callcenterbetrug, Schockanrufe und vergleichbare
+telefonische Amts- oder Autoritätsanmaßungen werden nur aufgenommen, wenn die
+Polizei mindestens einen Tatverdächtigen identifizieren, ermitteln oder
+festnehmen konnte; bloße Täterbeschreibungen reichen dafür nicht aus. Jeder
+passende Fall erhält eine stabile GUID. Zusätzlich werden identische Inhalte
+anhand eines Inhalts-Hashes zusammengeführt.
 
 Die Dateien haben folgende Aufgaben:
 

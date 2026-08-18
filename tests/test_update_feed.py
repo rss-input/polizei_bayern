@@ -144,6 +144,39 @@ class ParserTests(unittest.TestCase):
         self.assertNotIn("Staatsangehörigkeit", body)
         self.assertNotIn("deutsch", body.casefold())
 
+    def test_callcenter_fraud_without_identified_suspect_is_excluded(self):
+        html = page(
+            "Organisierter Callcenterbetrug durch falsche Polizeibeamte",
+            "<p>Bei einem organisierten Callcenterbetrug verletzte ein bislang "
+            "unbekannter Geldabholer die Seniorin.</p>"
+            "<p>Der Täter konnte nicht festgenommen werden. Er wird als etwa "
+            "25 Jahre alt und 180 cm groß beschrieben.</p>",
+        )
+        self.assertEqual(
+            update_feed.parse_relevant_cases(html, fallback_title="Fallback"), []
+        )
+
+    def test_callcenter_fraud_with_identified_suspect_is_kept(self):
+        html = page(
+            "Ermittlungserfolg nach Schockanruf",
+            "<p>Nach einem organisierten Callcenterbetrug ermittelten die Beamten "
+            "einen 24-jährigen Geldabholer als Tatverdächtigen.</p>"
+            "<p>Der Tatverdächtige wurde festgenommen und dem Haftrichter "
+            "vorgeführt.</p>",
+        )
+        cases = update_feed.parse_relevant_cases(html, fallback_title="Fallback")
+        self.assertEqual(len(cases), 1)
+        self.assertEqual(cases[0].categories, ("Organisierte Kriminalität",))
+
+    def test_callcenter_fraud_with_arrested_person_is_kept(self):
+        html = page(
+            "Festnahme nach Callcenter-Betrug",
+            "<p>Nach einem organisierten Callcenter-Betrug nahmen die Beamten "
+            "einen 27-jährigen Mann bei der Geldübergabe fest.</p>",
+        )
+        cases = update_feed.parse_relevant_cases(html, fallback_title="Fallback")
+        self.assertEqual(len(cases), 1)
+
 
 class FeedTests(unittest.TestCase):
     @staticmethod
@@ -169,6 +202,26 @@ class FeedTests(unittest.TestCase):
         ]
         result = update_feed.deduplicate_and_sort(items, 10)
         self.assertEqual([item["guid"] for item in result], ["new", "duplicate-content"])
+
+    def test_stored_callcenter_items_require_an_identified_suspect(self):
+        unknown = self.item("unknown", 300, "unknown")
+        unknown["title"] = "Organisierter Callcenterbetrug"
+        unknown["body"] = [
+            "Ein unbekannter Abholer nahm das Geld entgegen. Der Täter ist flüchtig."
+        ]
+        identified = self.item("identified", 200, "identified")
+        identified["title"] = "Ermittlungserfolg nach Schockanruf"
+        identified["body"] = [
+            "Der 22-jährige Tatverdächtige wurde als Geldabholer identifiziert "
+            "und festgenommen."
+        ]
+        normal = self.item("normal", 100, "normal")
+
+        result = update_feed.deduplicate_and_sort(
+            [unknown, identified, normal], 10
+        )
+
+        self.assertEqual([item["guid"] for item in result], ["identified", "normal"])
 
     def test_rss_is_valid_and_has_stable_guids(self):
         items = [self.item("urn:test:1", 300, "a"), self.item("urn:test:2", 100, "b")]
