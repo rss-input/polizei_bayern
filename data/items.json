@@ -3,10 +3,7 @@
     "body": [
       "NÜRNBERG. (763) Im Zuge der weiterhin intensiv geführten Ermittlungen der „EKO Kajal“ nahm die Polizei in Nürnberg in der vergangenen Woche (10.-14.08.2026) zwei Männer fest, die unabhängig voneinander in Verdacht stehen, Drogen an minderjährige Mädchen abgegeben zu haben. Einem der beiden Männer werden außerdem Sexualstraftaten vorgeworfen. Gegen beide Tatverdächtige hat das Amtsgericht Nürnberg zwischenzeitlich Untersuchungshaftbefehle erlassen.",
       "Zunächst hatte sich in der Nacht zum vergangenen Montag (10.08.2026) eine 15-jährige Jugendliche aus einer Wohnung in der Unteren Kanalstraße bei der Polizei gemeldet, weil sie dort von einem Mann sexuell bedrängt worden sei. Derselbe Mann habe ihr zudem Drogen angeboten. Ermittler der „EKO Kajal“ konnten die 15-Jährige in der besagten Wohnung antreffen. Dort nahmen die Beamten außerdem den Tatverdächtigen fest, bei dem es sich um einen 46-jährigen Syrer handelt.",
-      "Die Ermittler der „EKO Kajal“ gehen außerdem davon aus, dass der Mann zurückliegend eine weitere 15-Jährige im Gegenzug für die Abgabe von Betäubungsmitteln und Geld sexuell missbraucht hat. Auf Antrag der Staatsanwaltschaft erließ ein Ermittlungsrichter einen Untersuchungshaftbefehl gegen den 46-jährigen Tatverdächtigen.",
-      "Unabhängig davon nahmen Ermittler der „EKO Kajal“ am Freitag (14.08.2026) einen weiteren Mann im Stadtgebiet Nürnberg fest. Dieser Festnahme war die Meldung von Passanten vorausgegangen, denen in den Morgenstunden eine erkennbar unter Drogeneinfluss stehende Jugendliche am Leonhardsplatz aufgefallen war. Die ersten Ermittlungen deuten darauf hin, dass die betroffene 15-Jährige und eine gleichaltrige Begleiterin zuvor von einem 21-jährigen Griechen verschiedene Drogen bekommen hatten. Die aufgegriffene 15-Jährige musste infolge der deutlichen Auswirkungen des Drogenkonsums vorübergehend in ein Krankenhaus eingeliefert werden. Die Beamten nahmen den vor Ort anwesenden Tatverdächtigen fest. Gegen den 21-Jährigen stellte die Staatsanwaltschaft ebenfalls einen Haftantrag, den das Amtsgericht Nürnberg mit dem Erlass eines Untersuchungshaftbefehls bestätigte.",
-      "Ungeachtet der beiden jüngsten Festnahmen wird die gemeinsame Ermittlungsarbeit von Polizei und Staatsanwaltschaft im Rahmen der „EKO Kajal“ unvermindert weitergeführt.",
-      "Erstellt durch: Michael Konrad"
+      "Die Ermittler der „EKO Kajal“ gehen außerdem davon aus, dass der Mann zurückliegend eine weitere 15-Jährige im Gegenzug für die Abgabe von Betäubungsmitteln und Geld sexuell missbraucht hat. Auf Antrag der Staatsanwaltschaft erließ ein Ermittlungsrichter einen Untersuchungshaftbefehl gegen den 46-jährigen Tatverdächtigen."
     ],
     "case_key": "d9c09408e3c3e08c",
     "case_ordinal": 0,
@@ -14,7 +11,7 @@
       "Sexualdelikt",
       "Drogendelikt"
     ],
-    "content_hash": "8f7c02ac6b84364f81ece4fac76741e12caf66898c207990187c14946afce4bf",
+    "content_hash": "44eb738255777a2bffdc77085751f1f53f271baa4d12471094fe3d4afc93a14c",
     "guid": "urn:polizei-bayern:107342:d9c09408e3c3e08c",
     "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/107342/index.html",
     "organization": "Polizeipräsidium Mittelfranken",
@@ -22,6 +19,26 @@
     "source_id": "107342",
     "source_title": "Ermittlungen der „EKO Kajal“ - Zwei weitere Tatverdächtige festgenommen",
     "title": "Ermittlungen der „EKO Kajal“ - Zwei weitere Tatverdächtige festgenommen"
+  },
+  {
+    "body": [
+      "Unabhängig davon nahmen Ermittler der „EKO Kajal“ am Freitag (14.08.2026) einen weiteren Mann im Stadtgebiet Nürnberg fest. Dieser Festnahme war die Meldung von Passanten vorausgegangen, denen in den Morgenstunden eine erkennbar unter Drogeneinfluss stehende Jugendliche am Leonhardsplatz aufgefallen war. Die ersten Ermittlungen deuten darauf hin, dass die betroffene 15-Jährige und eine gleichaltrige Begleiterin zuvor von einem 21-jährigen Griechen verschiedene Drogen bekommen hatten. Die aufgegriffene 15-Jährige musste infolge der deutlichen Auswirkungen des Drogenkonsums vorübergehend in ein Krankenhaus eingeliefert werden. Die Beamten nahmen den vor Ort anwesenden Tatverdächtigen fest. Gegen den 21-Jährigen stellte die Staatsanwaltschaft ebenfalls einen Haftantrag, den das Amtsgericht Nürnberg mit dem Erlass eines Untersuchungshaftbefehls bestätigte.",
+      "Ungeachtet der beiden jüngsten Festnahmen wird die gemeinsame Ermittlungsarbeit von Polizei und Staatsanwaltschaft im Rahmen der „EKO Kajal“ unvermindert weitergeführt.",
+      "Erstellt durch: Michael Konrad"
+    ],
+    "case_key": "ca0f531dd4059bd8",
+    "case_ordinal": 1,
+    "categories": [
+      "Drogendelikt"
+    ],
+    "content_hash": "f45cac8be87197aaf258aac7b5e458a9fc468a6d3c247183be7a3bbf42ad039c",
+    "guid": "urn:polizei-bayern:107342:ca0f531dd4059bd8",
+    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/107342/index.html",
+    "organization": "Polizeipräsidium Mittelfranken",
+    "published_ts": 1787052660,
+    "source_id": "107342",
+    "source_title": "Ermittlungen der „EKO Kajal“ - Zwei weitere Tatverdächtige festgenommen",
+    "title": "Unabhängig davon nahmen Ermittler der „EKO Kajal“ am Freitag (14.08.2026) einen weiteren Mann im Stadtgebiet Nürnberg fest."
   },
   {
     "body": [
@@ -918,19 +935,19 @@
       "Zeugenaufruf nach Körperverletzung",
       "GÜNZBURG. In der Nacht zum Samstag kam es auf dem Marktplatz in Günzburg zu einer Körperverletzung. Dabei wurde ein 19-jähriger syrischer Staatsangehöriger von einer bislang unbekannten Person mit der Faust ins Gesicht geschlagen. Eine Fahndung blieb bislang ohne Erfolg. Die Polizei Günzburg hat die Ermittlungen wegen Körperverletzung aufgenommen. Zeugen, die sachdienliche Angaben machen können, werden gebeten, sich unter der Tel. 08221/919-0 bei der Polizei Günzburg zu melden. (PI Günzburg)"
     ],
-    "case_key": "f005474d99d30990",
+    "case_key": "82f09a44073f87e4",
     "case_ordinal": 31,
     "categories": [
       "Gewaltdelikt"
     ],
-    "content_hash": "f005474d99d309903869ae00dd5d310860ee01520c3b897694f47b0eee042e80",
-    "guid": "urn:polizei-bayern:107244:f005474d99d30990",
+    "content_hash": "82f09a44073f87e401b1baa88759e0b4a295444695511cbf2055ee9cf2704210",
+    "guid": "urn:polizei-bayern:107244:82f09a44073f87e4",
     "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/107244/index.html",
     "organization": "Polizeipräsidium Schwaben Süd/West",
     "published_ts": 1786873020,
     "source_id": "107244",
     "source_title": "PP SWS | Pressemeldungen vom 16.08.2026",
-    "title": "GÜNZBURG. In der Nacht zum Samstag kam es auf dem Marktplatz in Günzburg zu einer Körperverletzung. Dabei wurde ein 19-jähriger syrischer Staatsangehöriger von einer bislang unbekannten…"
+    "title": "GÜNZBURG."
   },
   {
     "body": [
@@ -1798,20 +1815,20 @@
       "In diesem Zusammenhang wird um einen Zeugenaufruf gebeten. Zeugen, die gegen 22:45 Uhr des 11.08.2026 etwas Verdächtiges im Bereich der Staustufe beobachten oder hören konnten, werden gebeten, sich bei der Polizeiinspektion Dillingen (09071 / 56 – 0) zu melden.",
       "Der 35-Jährige und der 38-Jährige besitzen die deutsche Staatsangehörigkeit."
     ],
-    "case_key": "93b809acd7ed3dd1",
+    "case_key": "c7c9087d732dee9a",
     "case_ordinal": 12,
     "categories": [
       "Gewaltdelikt",
       "Drogendelikt"
     ],
-    "content_hash": "20cb4e1425720355acc8c624521a907f7b8067518055f137a5a28e4fe44e7e4d",
-    "guid": "urn:polizei-bayern:107076:93b809acd7ed3dd1",
+    "content_hash": "ef5dd89445a65c1f01ce6e9aedbb0c7c0e92637545f9762aef4002cb69273f93",
+    "guid": "urn:polizei-bayern:107076:c7c9087d732dee9a",
     "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/107076/index.html",
     "organization": "Polizeipräsidium Schwaben Nord",
     "published_ts": 1786537440,
     "source_id": "107076",
     "source_title": "Medieninfo Nordschwaben - 12.08.2026",
-    "title": "Schwenningen – In der Nacht des 11.08.2026 wurde der Polizei ein verdächtiges Fahrzeug und Schussgeräusche im Bereich des Wasserkraftwerks bei Schwenningen gemeldet. Die Polizei rückte mit…"
+    "title": "Schwenningen – In der Nacht des 11.08.2026 wurde der Polizei ein verdächtiges Fahrzeug und Schussgeräusche im Bereich des Wasserkraftwerks bei Schwenningen gemeldet."
   },
   {
     "body": [
@@ -3500,20 +3517,20 @@
       "Die Polizei ermittelt gegen die Familie nun u.a. wegen des Verdachts der Gefangenenbefreiung, des tätlichen Angriffs und Widerstands gegen Vollstreckungsbeamte und der gefährlichen Körperverletzung.",
       "Alle Familienangehörige besitzen die deutsche Staatsangehörigkeit."
     ],
-    "case_key": "035b00c2c551ad05",
+    "case_key": "beef33f2be6606a0",
     "case_ordinal": 9,
     "categories": [
       "Gewaltdelikt",
       "Drogendelikt"
     ],
-    "content_hash": "c0711f96577c8d622ed53a574363ad96730f1affe1d28d4f9450fcac2f53455a",
-    "guid": "urn:polizei-bayern:106844:035b00c2c551ad05",
+    "content_hash": "4606d9046c07ee10d84ac64814f85c3c2c3c321f316f5e9fe2015b0ee4b9558d",
+    "guid": "urn:polizei-bayern:106844:beef33f2be6606a0",
     "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/106844/index.html",
     "organization": "Polizeipräsidium Schwaben Nord",
     "published_ts": 1786020660,
     "source_id": "106844",
     "source_title": "Medieninfo Nordschwaben - 06.08.2026",
-    "title": "Untermeitingen– Am Montag (27.07.2026) kam es zu einem Widerstand gegen Polizeibeamte auf einem Spielplatz in der Röthstraße. Ein Polizeibeamter wurde hierbei schwer verletzt."
+    "title": "Untermeitingen– Am Montag (27.07.2026) kam es zu einem Widerstand gegen Polizeibeamte auf einem Spielplatz in der Röthstraße."
   },
   {
     "body": [
@@ -3693,19 +3710,19 @@
       "Auch heute (06.08.2026) führt die Kriminalpolizei Augsburg im Umfeld der Asylunterkunft wieder Suchmaßnahmen zur Auffindung weiterer Beweismittel durch. Hierbei kommen auch Diensthunde zum Einsatz.",
       "Zur Klärung der Hintergründe der Tat und des Tathergangs wurde eine mehrköpfige Ermittlungsgruppe bei der Kriminalpolizei Augsburg gegründet."
     ],
-    "case_key": "a007cd89f1f07cef",
+    "case_key": "1e19afcda4407127",
     "case_ordinal": 0,
     "categories": [
       "Gewaltdelikt"
     ],
-    "content_hash": "888297788f2a67874cb7061e57a36184853e03933d516a22ec5ebd5618884cbd",
-    "guid": "urn:polizei-bayern:106823:a007cd89f1f07cef",
+    "content_hash": "9131dbc88053a1da2a7fc7ad79727538c4e6e6d214d68f4be33056e69d2a69ad",
+    "guid": "urn:polizei-bayern:106823:1e19afcda4407127",
     "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/106823/index.html",
     "organization": "Polizeipräsidium Schwaben Nord",
     "published_ts": 1786003560,
     "source_id": "106823",
     "source_title": "Medieninfo Nordschwaben - 06.08.2026 - Ergänzende Pressemitteilung in Sachen Tötungsdelikt Haunstetten",
-    "title": "In der Pressemeldung Nr. 1219 berichteten wir Folgendes:"
+    "title": "In der Pressemeldung Nr."
   },
   {
     "body": [
@@ -4018,19 +4035,19 @@
       "Der 29-jährige Tatverdächtige wurde am 03.08.2026 im Rahmen der Fahndungsmaßnahmen durch Polizeibeamte des Polizeipräsidiums München in der dortigen Innenstadt vorläufig festgenommen. Gestern Nachmittag wurde er dem Ermittlungsrichter vorgeführt. Dieser erließ Haftbefehl wegen des Verdachts des zweifachen Totschlags und setzte diesen in Vollzug. Der 29-Jährige befindet sich nun in Untersuchungshaft.",
       "Die Ermittlungen der Kriminalpolizei Augsburg dauern weiter an."
     ],
-    "case_key": "a007cd89f1f07cef",
+    "case_key": "1e19afcda4407127",
     "case_ordinal": 0,
     "categories": [
       "Gewaltdelikt"
     ],
-    "content_hash": "83091e0d15915e0f63bec3ed58c3207148e8d67c1821be07fa17f63a06c83884",
-    "guid": "urn:polizei-bayern:106784:a007cd89f1f07cef",
+    "content_hash": "b25db2a0301fa9736e2858df8d232e97305835cb7aae11696ab3f70da5e6f889",
+    "guid": "urn:polizei-bayern:106784:1e19afcda4407127",
     "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/106784/index.html",
     "organization": "Polizeipräsidium Schwaben Nord",
     "published_ts": 1785923760,
     "source_id": "106784",
     "source_title": "Medieninfo Nordschwaben - 05.08.2026",
-    "title": "In der Pressemeldung Nr. 1219 berichteten wir Folgendes:"
+    "title": "In der Pressemeldung Nr."
   },
   {
     "body": [

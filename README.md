@@ -18,6 +18,19 @@ Staatsangehörigkeit und Personenbeschreibungen bleiben im Originaltext des
 jeweiligen Falls erhalten. Das Programm ergänzt keine solchen Angaben und
 leitet insbesondere nichts aus Namen ab.
 
+Jeder RSS-Eintrag enthält zwei Darstellungen:
+
+- `description`: kompakte Kurzform mit PM-Datum, Polizeipräsidium, Tatdatum,
+  Tatort, Delikt und Kurzbeschreibung
+- `content:encoded`: längere, gegliederte Form mit den zusätzlichen Feldern
+  Opfer, Tatverdächtige, Ergebnis und Besonderheiten, soweit diese Angaben
+  ausdrücklich und zuverlässig aus dem Meldungstext entnommen werden können
+
+Der vollständige Pressemitteilungstext wird nicht in den Feed kopiert. Er ist
+über den Link zur Originalmeldung erreichbar. Wenn ein Feld nicht zuverlässig
+automatisch ermittelt werden kann, wird es ausgelassen; insbesondere werden
+keine Staatsangehörigkeiten aus Namen oder anderen Indizien abgeleitet.
+
 ## Funktionsweise
 
 `update_feed.py` lädt die aktuelle Meldungsliste und verarbeitet neue oder mit
@@ -76,6 +89,13 @@ python3 update_feed.py --dry-run --max-sources 10
 
 Für einen vollständigen Neuaufbau aus dem aktuellen Online-Index steht
 `python3 update_feed.py --rebuild-all` zur Verfügung.
+
+Nur die Darstellung des Feeds aus den bereits gespeicherten Fällen lässt sich
+ohne Netzwerkabruf neu erzeugen:
+
+```bash
+python3 update_feed.py --render-only
+```
 
 Optionale Umgebungsvariablen:
 

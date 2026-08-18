@@ -30,6 +30,7 @@ from typing import Iterable, Iterator, Sequence
 from urllib.error import HTTPError, URLError
 from urllib.parse import urljoin
 from urllib.request import Request, urlopen
+from zoneinfo import ZoneInfo
 
 
 INDEX_URL = "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/index.html"
@@ -40,7 +41,10 @@ USER_AGENT = (
     "(+https://github.com/rss-input/polizei_bayern; contact via repository)"
 )
 ATOM_NS = "http://www.w3.org/2005/Atom"
+CONTENT_NS = "http://purl.org/rss/1.0/modules/content/"
+BERLIN_TZ = ZoneInfo("Europe/Berlin")
 ET.register_namespace("atom", ATOM_NS)
+ET.register_namespace("content", CONTENT_NS)
 
 
 COLLECTION_RE = re.compile(
@@ -143,6 +147,92 @@ STATISTICAL_SECTION_TITLES = {
     "gewahrsam und platzverweise",
     "fund und verlust",
     "strassenverkehr",
+}
+
+DATE_RANGE_RE = re.compile(
+    r"\b(\d{1,2})\.\s*[-–]\s*(\d{1,2})\.(\d{1,2})\.(20\d{2})\b"
+)
+NUMERIC_DATE_RE = re.compile(r"\b(\d{1,2})\.(\d{1,2})\.(20\d{2})\b")
+TEXT_DATE_RE = re.compile(
+    r"\b(\d{1,2})\.\s*"
+    r"(Januar|Februar|März|April|Mai|Juni|Juli|August|September|Oktober|"
+    r"November|Dezember)(?:\s+(20\d{2}))?\b",
+    re.IGNORECASE,
+)
+RELATIVE_DATE_RE = re.compile(
+    r"\b(?:in der Nacht (?:von )?"
+    r"(?:Montag|Dienstag|Mittwoch|Donnerstag|Freitag|Samstag|Sonntag)"
+    r"(?: auf (?:Montag|Dienstag|Mittwoch|Donnerstag|Freitag|Samstag|Sonntag))?"
+    r"|am (?:vergangenen |gestrigen )?"
+    r"(?:Montag|Dienstag|Mittwoch|Donnerstag|Freitag|Samstag|Sonntag)"
+    r"(?:morgen|vormittag|mittag|nachmittag|abend|nacht)?"
+    r"|kurz nach Mitternacht)\b",
+    re.IGNORECASE,
+)
+LOCATION_LEAD_RE = re.compile(
+    r"^(.{2,120}?)\.\s+"
+    r"(?=(?:\(\d{1,5}\)\s*)?"
+    r"(?:Am|Bei|In|Im|Kurz|Gegen|Nach|Ein|Eine|Aus|Wie|Der|Die|Das|Zu|Vor|Seit)\b)"
+)
+CITY_AREA_RE = re.compile(
+    r"\b(?:im|in dem) Stadtgebiet(?: von)?\s+"
+    r"([A-ZÄÖÜ][A-Za-zÄÖÜäöüß-]+(?:\s+[A-ZÄÖÜ][A-Za-zÄÖÜäöüß-]+)?)\b"
+)
+BOILERPLATE_RE = re.compile(
+    r"^(?:Erstellt durch:|Medienkontakt:|Herausgeber:|Rückfragen bitte an:)",
+    re.IGNORECASE,
+)
+CASE_TRANSITION_RE = re.compile(
+    r"^(?:Unabhängig davon|In einem weiteren Fall|Ein weiterer Fall|"
+    r"Davon unabhängig|Außerdem nahmen .{0,80} einen weiteren)",
+    re.IGNORECASE,
+)
+VICTIM_SENTENCE_RE = re.compile(
+    r"\b(?:Opfer|Geschädigte[nr]?|Angegriffene[nr]?|Betroffene[nr]?|"
+    r"Aufgegriffene[nr]?)\b|"
+    r"\bwurde[n]?\b.{0,180}\b(?:verletzt|angegriffen|beraubt|bedroht|"
+    r"belästigt|missbraucht|geschlagen|gestochen|zu Boden gestoßen|"
+    r"zur Herausgabe .{0,50} aufgefordert)\b|"
+    r"\b(?:bedrängt|missbraucht|belästigt|angegriffen|beraubt|bedroht|"
+    r"verletzt)\s+worden\b",
+    re.IGNORECASE,
+)
+SUSPECT_SENTENCE_RE = re.compile(
+    r"\b(?:Tatverdächtig\w*|Beschuldigt\w*|Täter\w*)\b|"
+    r"\bsteht im Verdacht\b|\bermittelt\b.{0,80}\bgegen\b",
+    re.IGNORECASE,
+)
+AGE_SENTENCE_RE = re.compile(r"\b\d{1,3}-jährig\w*\b", re.IGNORECASE)
+ACTOR_PHRASE_RE = re.compile(
+    r"\bvon (?:einem|einer) \d{1,3}-jährig\w*\s+[A-ZÄÖÜ][a-zäöüß-]+\b"
+)
+RESULT_SENTENCE_RE = re.compile(
+    r"\b(?:festgenommen|vorläufig festgenommen|Haftbefehl|Untersuchungshaft\w*|"
+    r"auf freien Fuß|flüchtig|Fahndung|sichergestellt|beschlagnahmt|"
+    r"überstellt|Justizvollzugsanstalt|Krankenhaus|Fachklinik|"
+    r"Ermittlungen? (?:aufgenommen|eingeleitet)|ermittelt nun)\b",
+    re.IGNORECASE,
+)
+NATIONALITY_DETAIL_RE = re.compile(
+    r"\b(?:Staatsangehörig\w*|deutsch\w*|syrisch\w*|syrer\w*|italienisch\w*|"
+    r"kosovar\w*|somali\w*|irak\w*|rumän\w*|griech\w*|senegales\w*|"
+    r"liby\w*|schweizer\w*|türk\w*|afghan\w*|ukrain\w*|poln\w*|"
+    r"tschech\w*|österreich\w*)\b",
+    re.IGNORECASE,
+)
+MONTH_NUMBERS = {
+    "januar": 1,
+    "februar": 2,
+    "märz": 3,
+    "april": 4,
+    "mai": 5,
+    "juni": 6,
+    "juli": 7,
+    "august": 8,
+    "september": 9,
+    "oktober": 10,
+    "november": 11,
+    "dezember": 12,
 }
 
 
@@ -273,6 +363,19 @@ class ParsedCase:
     paragraphs: tuple[str, ...]
     categories: tuple[str, ...]
     ordinal: int
+
+
+@dataclass(frozen=True)
+class ItemSummary:
+    pm: str
+    tatdatum: str | None
+    tatort: str | None
+    delikt: str
+    kategorien: str
+    kurzbeschreibung: str
+    opfer: str | None
+    tatverdaechtige: str | None
+    ergebnis: str | None
 
 
 def parse_html(value: str) -> Node:
@@ -468,6 +571,24 @@ def _split_on_headings(events: Sequence[Event]) -> list[list[Event]]:
     return chunks
 
 
+def _split_on_case_transitions(events: Sequence[Event]) -> list[list[Event]]:
+    chunks: list[list[Event]] = []
+    current: list[Event] = []
+    for event in events:
+        if (
+            event.kind == "paragraph"
+            and CASE_TRANSITION_RE.match(event.text)
+            and any(item.kind == "paragraph" and item.text for item in current)
+        ):
+            chunks.append(current)
+            current = [event]
+        else:
+            current.append(event)
+    if any(item.text for item in current):
+        chunks.append(current)
+    return chunks
+
+
 def classify(text: str) -> tuple[str, ...]:
     categories = [
         category
@@ -533,7 +654,9 @@ def _case_from_events(
                 None,
             )
             if first_paragraph is not None:
-                title = first_paragraph.text
+                title = re.split(
+                    r"(?<=[.!?])\s+(?=[A-ZÄÖÜ0-9„])", first_paragraph.text, maxsplit=1
+                )[0]
 
     if (
         collection
@@ -567,10 +690,18 @@ def parse_relevant_cases(html_text: str, *, fallback_title: str) -> list[ParsedC
         combined: list[Event] = []
         for _group, events in all_root_events:
             combined.extend(events)
-        case = _case_from_events(
-            combined, source_title=source_title, ordinal=0, collection=False
-        )
-        return [case] if case else []
+        transition_chunks = _split_on_case_transitions(combined)
+        result: list[ParsedCase] = []
+        for ordinal, chunk in enumerate(transition_chunks):
+            case = _case_from_events(
+                chunk,
+                source_title=source_title,
+                ordinal=ordinal,
+                collection=ordinal > 0,
+            )
+            if case:
+                result.append(case)
+        return result
 
     for _group, events in all_root_events:
         for separator_chunk in _split_on_separators(events):
@@ -664,16 +795,189 @@ def deduplicate_and_sort(items: Iterable[dict[str, object]], limit: int) -> list
     return result
 
 
-def _rss_description(item: dict[str, object]) -> str:
-    categories = ", ".join(str(value) for value in item.get("categories", []))
-    organization = escape(str(item.get("organization", "")))
-    parts = [
-        f"<p><strong>Kategorie:</strong> {escape(categories)}</p>",
-        f"<p><strong>Herausgeber:</strong> {organization}</p>",
+def _trim_at_word(value: str, limit: int) -> str:
+    value = normalize_space(value).replace("\n", " ")
+    if len(value) <= limit:
+        return value
+    cut = value.rfind(" ", 0, limit - 1)
+    return value[: cut if cut > limit // 2 else limit - 1].rstrip(" ,;:-") + "…"
+
+
+def _summary_paragraphs(item: dict[str, object]) -> list[str]:
+    title_key = normalize_key(str(item.get("title", "")))
+    paragraphs: list[str] = []
+    for raw in item.get("body", []):
+        paragraph = normalize_space(str(raw))
+        if not paragraph or BOILERPLATE_RE.match(paragraph):
+            continue
+        if normalize_key(paragraph) == title_key:
+            continue
+        paragraphs.append(paragraph)
+    return paragraphs
+
+
+def _sentences(paragraphs: Sequence[str]) -> list[str]:
+    result: list[str] = []
+    abbreviations = re.compile(r"\b(?:LKR|bzw|ca|Nr|Dr|u\. a|z\. B)\.", re.IGNORECASE)
+    for paragraph in paragraphs:
+        protected = abbreviations.sub(lambda match: match.group(0).replace(".", "\u2024"), paragraph)
+        chunks = re.split(r"(?<=[.!?])\s+(?=[A-ZÄÖÜ0-9„])", protected)
+        result.extend(normalize_space(chunk.replace("\u2024", ".")) for chunk in chunks if chunk)
+    return result
+
+
+def _format_tatdatum(text: str, *, default_year: int) -> str | None:
+    if match := DATE_RANGE_RE.search(text):
+        first_day, last_day, month, year = (int(value) for value in match.groups())
+        return f"{first_day:02d}.–{last_day:02d}.{month:02d}.{year % 100:02d}"
+    if match := NUMERIC_DATE_RE.search(text):
+        day, month, year = (int(value) for value in match.groups())
+        return f"{day:02d}.{month:02d}.{year % 100:02d}"
+    if match := TEXT_DATE_RE.search(text):
+        day = int(match.group(1))
+        month = MONTH_NUMBERS[match.group(2).casefold()]
+        year = int(match.group(3)) if match.group(3) else default_year
+        return f"{day:02d}.{month:02d}.{year % 100:02d}"
+    if match := RELATIVE_DATE_RE.search(text):
+        return normalize_space(match.group(0))
+    return None
+
+
+def _format_location(value: str) -> str:
+    value = normalize_space(value).strip(" –—-")
+    letters = "".join(character for character in value if character.isalpha())
+    return value.title() if letters and letters == letters.upper() else value
+
+
+def _extract_location(paragraphs: Sequence[str]) -> str | None:
+    for paragraph in paragraphs[:3]:
+        if match := LOCATION_LEAD_RE.match(paragraph):
+            return _format_location(match.group(1))
+        if match := CITY_AREA_RE.search(paragraph):
+            return _format_location(match.group(1))
+    return None
+
+
+def _without_location_lead(value: str) -> str:
+    if match := LOCATION_LEAD_RE.match(value):
+        return value[match.end():].lstrip()
+    return value
+
+
+def _join_selected(sentences: Sequence[str], indexes: Sequence[int], *, limit: int = 620) -> str | None:
+    selected: list[str] = []
+    for index in indexes:
+        sentence = sentences[index]
+        if sentence not in selected:
+            selected.append(sentence)
+        if len(selected) == 2:
+            break
+    if not selected:
+        return None
+    return _trim_at_word(" ".join(selected), limit)
+
+
+def summarize_item(item: dict[str, object]) -> ItemSummary:
+    paragraphs = _summary_paragraphs(item)
+    sentences = _sentences(paragraphs)
+    searchable = "\n".join(paragraphs)
+    published = datetime.fromtimestamp(int(item["published_ts"]), tz=BERLIN_TZ)
+    organization = normalize_space(str(item.get("organization", "")))
+    if organization.casefold().startswith("polizeipräsidium "):
+        organization = "PP " + organization[len("Polizeipräsidium "):]
+    pm = f"PM {published:%d.%m.%Y}" + (f", {organization}" if organization else "")
+
+    victim_indexes = [
+        index for index, sentence in enumerate(sentences) if VICTIM_SENTENCE_RE.search(sentence)
     ]
-    for paragraph in item.get("body", []):
-        rendered = escape(str(paragraph)).replace("\n", "<br>")
-        parts.append(f"<p>{rendered}</p>")
+    suspect_indexes: list[int] = []
+    for index, sentence in enumerate(sentences):
+        explicit_suspect = bool(SUSPECT_SENTENCE_RE.search(sentence))
+        actor_phrase = bool(ACTOR_PHRASE_RE.search(sentence))
+        weak_age_match = (
+            bool(AGE_SENTENCE_RE.search(sentence))
+            and index not in victim_indexes
+            and bool(
+                NATIONALITY_DETAIL_RE.search(sentence)
+                or RESULT_SENTENCE_RE.search(sentence)
+                or re.search(r"\b(?:kontrolliert|steht im Verdacht)\b", sentence, re.IGNORECASE)
+            )
+        )
+        if (explicit_suspect or actor_phrase or weak_age_match) and not (
+            index in victim_indexes
+            and not actor_phrase
+            and not re.search(
+                r"\b(?:Tatverdächtig\w*|Beschuldigt\w*|steht im Verdacht)\b",
+                sentence,
+                re.IGNORECASE,
+            )
+        ):
+            suspect_indexes.append(index)
+    suspect_indexes.sort(
+        key=lambda index: (not bool(NATIONALITY_DETAIL_RE.search(sentences[index])), index)
+    )
+    result_indexes = [
+        index for index, sentence in enumerate(sentences) if RESULT_SENTENCE_RE.search(sentence)
+    ]
+
+    brief_paragraphs = list(paragraphs)
+    if brief_paragraphs:
+        brief_paragraphs[0] = _without_location_lead(brief_paragraphs[0])
+    brief_sentences = _sentences(brief_paragraphs)[:2]
+    brief = _trim_at_word(" ".join(brief_sentences), 520) if brief_sentences else str(item["title"])
+    categories = ", ".join(str(value) for value in item.get("categories", []))
+    return ItemSummary(
+        pm=pm,
+        tatdatum=_format_tatdatum(searchable, default_year=published.year),
+        tatort=_extract_location(paragraphs),
+        delikt=re.sub(r"^\d{1,6}\s*[.)]\s*", "", str(item["title"])),
+        kategorien=categories,
+        kurzbeschreibung=brief,
+        opfer=_join_selected(sentences, victim_indexes),
+        tatverdaechtige=_join_selected(sentences, suspect_indexes),
+        ergebnis=_join_selected(sentences, result_indexes),
+    )
+
+
+def _rss_short_description(item: dict[str, object]) -> str:
+    summary = summarize_item(item)
+    fields = [summary.pm]
+    if summary.tatdatum:
+        fields.append(f"Tatdatum: {summary.tatdatum}")
+    if summary.tatort:
+        fields.append(f"Tatort: {summary.tatort}")
+    fields.extend(
+        [
+            f"Delikt: {summary.delikt}",
+            f"Kurzbeschreibung: {summary.kurzbeschreibung}",
+        ]
+    )
+    link = escape(str(item["link"]), quote=True)
+    compact = escape(" / ".join(fields))
+    return (
+        f"<p>{compact}</p>\n"
+        f'<p><a href="{link}">Originalmeldung der Bayerischen Polizei</a></p>'
+    )
+
+
+def _rss_long_description(item: dict[str, object]) -> str:
+    summary = summarize_item(item)
+    fields: list[tuple[str, str | None]] = [
+        ("Pressemeldung", summary.pm.removeprefix("PM ")),
+        ("Tatdatum", summary.tatdatum),
+        ("Tatort", summary.tatort),
+        ("Delikt", summary.delikt),
+        ("Kategorien", summary.kategorien),
+        ("Opfer", summary.opfer),
+        ("Tatverdächtige", summary.tatverdaechtige),
+        ("Ergebnis", summary.ergebnis),
+        ("Besonderheiten", summary.kurzbeschreibung),
+    ]
+    parts = [
+        f"<p><strong>{escape(label)}:</strong> {escape(value)}</p>"
+        for label, value in fields
+        if value
+    ]
     link = escape(str(item["link"]), quote=True)
     parts.append(f'<p><a href="{link}">Originalmeldung der Bayerischen Polizei</a></p>')
     return "\n".join(parts)
@@ -713,7 +1017,8 @@ def build_rss(items: Sequence[dict[str, object]], *, feed_url: str, built_at: da
         )
         for category in stored.get("categories", []):
             ET.SubElement(node, "category").text = str(category)
-        ET.SubElement(node, "description").text = _rss_description(stored)
+        ET.SubElement(node, "description").text = _rss_short_description(stored)
+        ET.SubElement(node, f"{{{CONTENT_NS}}}encoded").text = _rss_long_description(stored)
 
     ET.indent(rss, space="  ")
     return "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n" + ET.tostring(
@@ -825,10 +1130,27 @@ def update(
     return successful_sources, len(new_items), len(items)
 
 
+def render_existing(*, root: Path, feed_url: str) -> int:
+    items_path = root / "data" / "items.json"
+    feed_path = root / "feed.xml"
+    items = _read_json(items_path, [])
+    if not isinstance(items, list):
+        raise ValueError("data/items.json hat ein unbekanntes Format")
+    rss_text = build_rss(items, feed_url=feed_url, built_at=datetime.now(UTC))
+    ET.fromstring(rss_text)
+    _write_text_atomic(feed_path, rss_text)
+    return len(items)
+
+
 def parse_args(argv: Sequence[str] | None = None) -> argparse.Namespace:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--root", type=Path, default=Path(__file__).resolve().parent)
     parser.add_argument("--dry-run", action="store_true")
+    parser.add_argument(
+        "--render-only",
+        action="store_true",
+        help="feed.xml nur aus den gespeicherten Einträgen neu erzeugen",
+    )
     parser.add_argument(
         "--rebuild-all",
         action="store_true",
@@ -843,6 +1165,10 @@ def parse_args(argv: Sequence[str] | None = None) -> argparse.Namespace:
 
 def main(argv: Sequence[str] | None = None) -> int:
     args = parse_args(argv)
+    if args.render_only:
+        total = render_existing(root=args.root, feed_url=args.feed_url)
+        print(f"Feed neu erzeugt: {total} Einträge")
+        return 0
     sources, added, total = update(
         root=args.root,
         feed_url=args.feed_url,

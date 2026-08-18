@@ -57,6 +57,23 @@ class ParserTests(unittest.TestCase):
         self.assertEqual(cases[0].categories, ("Drogendelikt",))
         self.assertIn("31-jährige Deutsche", " ".join(cases[0].paragraphs))
 
+    def test_single_release_with_explicit_transition_is_split(self):
+        html = page(
+            "Zwei Tatverdächtige festgenommen",
+            "<p>Bei einer Kontrolle wurde ein Mann mit Kokain festgenommen.</p>"
+            "<p>Gegen ihn erging Haftbefehl.</p>"
+            "<p>Unabhängig davon nahmen Beamte eine weitere Frau mit Heroin fest.</p>"
+            "<p>Sie wurde nach den Maßnahmen entlassen.</p>",
+        )
+        cases = update_feed.parse_relevant_cases(html, fallback_title="Fallback")
+        self.assertEqual(len(cases), 2)
+        self.assertNotIn("Unabhängig davon", " ".join(cases[0].paragraphs))
+        self.assertIn("Unabhängig davon", " ".join(cases[1].paragraphs))
+        self.assertEqual(
+            cases[1].title,
+            "Unabhängig davon nahmen Beamte eine weitere Frau mit Heroin fest.",
+        )
+
     def test_numbered_collection_splits_cases_and_keeps_description(self):
         html = page(
             "Medieninformation vom 18.08.2026",
@@ -166,6 +183,82 @@ class FeedTests(unittest.TestCase):
             [node.text for node in root.findall("./channel/item/guid")],
             ["urn:test:1", "urn:test:2"],
         )
+        self.assertIsNotNone(
+            root.find(
+                "./channel/item/{http://purl.org/rss/1.0/modules/content/}encoded"
+            )
+        )
+
+    def test_short_and_long_forms_are_structured_and_not_the_full_release(self):
+        item = self.item("urn:test:summary", 1787049960, "summary")
+        item.update(
+            {
+                "title": "Zwei Tatverdächtige nach Raub festgenommen",
+                "organization": "Polizeipräsidium Oberpfalz",
+                "body": [
+                    "REGENSBURG. Am Sonntag, 16.08.2026, forderten drei "
+                    "Tatverdächtige einen 27-jährigen Mann zur Herausgabe von Geld auf.",
+                    "Der 27-jährige Geschädigte wurde mit einer Schusswaffe bedroht.",
+                    "Bei den Tatverdächtigen handelt es sich um drei 16-Jährige.",
+                    "Die drei Tatverdächtigen wurden nach den polizeilichen Maßnahmen "
+                    "wieder auf freien Fuß gesetzt.",
+                    "Dieser redaktionelle Restabsatz darf nicht vollständig im Feed stehen.",
+                ],
+            }
+        )
+        summary = update_feed.summarize_item(item)
+        self.assertEqual(summary.pm, "PM 18.08.2026, PP Oberpfalz")
+        self.assertEqual(summary.tatdatum, "16.08.26")
+        self.assertEqual(summary.tatort, "Regensburg")
+        self.assertIn("27-jährige Geschädigte", summary.opfer)
+        self.assertIn("drei 16-Jährige", summary.tatverdaechtige)
+        self.assertIn("freien Fuß", summary.ergebnis)
+
+        xml = update_feed.build_rss(
+            [item],
+            feed_url="https://example.test/feed.xml",
+            built_at=datetime(2026, 8, 18, tzinfo=UTC),
+        )
+        root = ET.fromstring(xml)
+        description = root.findtext("./channel/item/description", "")
+        long_form = root.findtext(
+            "./channel/item/{http://purl.org/rss/1.0/modules/content/}encoded", ""
+        )
+        self.assertIn("PM 18.08.2026, PP Oberpfalz", description)
+        self.assertIn("Tatdatum: 16.08.26", description)
+        self.assertIn("<strong>Opfer:</strong>", long_form)
+        self.assertIn("<strong>Tatverdächtige:</strong>", long_form)
+        self.assertNotIn("redaktionelle Restabsatz", description)
+        self.assertNotIn("redaktionelle Restabsatz", long_form)
+
+    def test_victim_is_not_mislabeled_when_actor_is_explicit(self):
+        item = self.item("urn:test:actor", 1787049960, "actor")
+        item.update(
+            {
+                "title": "Jugendliche aufgegriffen",
+                "body": [
+                    "PASSAU. Die aufgegriffene 15-Jährige musste anschließend in ein Krankenhaus gebracht werden.",
+                    "Sie war zuvor von einem 21-jährigen Griechen über die Grenze gebracht worden.",
+                    "Der Tatverdächtige wurde festgenommen.",
+                ],
+            }
+        )
+        summary = update_feed.summarize_item(item)
+        self.assertIn("aufgegriffene 15-Jährige", summary.opfer or "")
+        self.assertNotIn("Krankenhaus", summary.tatverdaechtige or "")
+        self.assertIn("21-jährigen Griechen", summary.tatverdaechtige or "")
+
+    def test_city_area_is_used_as_published_location(self):
+        item = self.item("urn:test:city", 1787049960, "city")
+        item.update(
+            {
+                "title": "Weitere Festnahme",
+                "body": [
+                    "Unabhängig davon nahmen Ermittler einen Mann im Stadtgebiet Nürnberg fest."
+                ],
+            }
+        )
+        self.assertEqual(update_feed.summarize_item(item).tatort, "Nürnberg")
 
 
 if __name__ == "__main__":
