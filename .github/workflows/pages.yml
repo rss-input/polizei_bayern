@@ -1,0 +1,45 @@
+name: GitHub Pages veröffentlichen
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - feed.xml
+      - index.html
+      - .nojekyll
+      - .github/workflows/pages.yml
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Repository auschecken
+        uses: actions/checkout@v4
+
+      - name: Pages einrichten
+        uses: actions/configure-pages@v5
+
+      - name: Statische Dateien vorbereiten
+        run: |
+          mkdir -p _site
+          cp feed.xml index.html .nojekyll _site/
+
+      - name: Pages-Artefakt hochladen
+        uses: actions/upload-pages-artifact@v3
+
+      - name: GitHub Pages bereitstellen
+        id: deployment
+        uses: actions/deploy-pages@v4
