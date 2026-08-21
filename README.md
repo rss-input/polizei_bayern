@@ -1,6 +1,7 @@
 # Bayerische Polizeimeldungen als RSS-Feed
 
-Dieses Repository erzeugt täglich einen RSS-2.0-Feed aus den
+Dieses Repository prüft alle 30 Minuten die aktuellen Pressemitteilungen und
+erzeugt daraus einen RSS-2.0-Feed aus den
 [Pressemitteilungen der Bayerischen Polizei](https://www.polizei.bayern.de/aktuelles/pressemitteilungen/index.html).
 
 **Feed-Adresse:**
@@ -53,13 +54,15 @@ Die Dateien haben folgende Aufgaben:
 - `feed.xml`: veröffentlichter RSS-2.0-Feed, neueste Fälle zuerst
 - `data/items.json`: dauerhaft gespeicherte Feed-Einträge
 - `data/state.json`: bereits geprüfte Pressemitteilungen
-- `.github/workflows/update.yml`: tägliche Aktualisierung um 05:17 Uhr UTC
+- `.github/workflows/update.yml`: Prüfung zweimal pro Stunde, jeweils um Minute 17 und 47
 - `.github/workflows/pages.yml`: Veröffentlichung als GitHub Pages
 
 Es gibt keine Python-Abhängigkeiten außerhalb der Standardbibliothek.
 Der Feed weist Aggregatoren mit RSS-`ttl` auf ein Aktualisierungsintervall von
 30 Minuten hin; der tatsächliche Abrufzeitpunkt bleibt vom jeweiligen Reader
-oder Synchronisationsdienst abhängig.
+oder Synchronisationsdienst abhängig. Wenn weder neue Meldungen noch ein neuer
+Verarbeitungsstand vorliegen, erzeugt der Prüflauf keinen bloßen
+Zeitstempel-Commit.
 
 ## Einmalige GitHub-Einrichtung
 

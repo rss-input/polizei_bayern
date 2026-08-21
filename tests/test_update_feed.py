@@ -203,6 +203,19 @@ class FeedTests(unittest.TestCase):
         result = update_feed.deduplicate_and_sort(items, 10)
         self.assertEqual([item["guid"] for item in result], ["new", "duplicate-content"])
 
+    def test_feed_rebuild_is_skipped_for_identical_items(self):
+        items = [self.item("unchanged", 300, "same")]
+        self.assertFalse(
+            update_feed.feed_needs_rebuild(items, list(items), feed_exists=True)
+        )
+        self.assertTrue(
+            update_feed.feed_needs_rebuild(items, list(items), feed_exists=False)
+        )
+        changed = [self.item("new", 400, "new")]
+        self.assertTrue(
+            update_feed.feed_needs_rebuild(items, changed, feed_exists=True)
+        )
+
     def test_stored_callcenter_items_require_an_identified_suspect(self):
         unknown = self.item("unknown", 300, "unknown")
         unknown["title"] = "Organisierter Callcenterbetrug"

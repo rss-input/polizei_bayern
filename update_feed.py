@@ -1002,6 +1002,15 @@ def deduplicate_and_sort(items: Iterable[dict[str, object]], limit: int) -> list
     return result
 
 
+def feed_needs_rebuild(
+    previous_items: Sequence[dict[str, object]],
+    current_items: Sequence[dict[str, object]],
+    *,
+    feed_exists: bool,
+) -> bool:
+    return not feed_exists or list(previous_items) != list(current_items)
+
+
 def _trim_at_word(value: str, limit: int) -> str:
     value = normalize_space(value).replace("\n", " ")
     if len(value) <= limit:
@@ -1850,6 +1859,7 @@ def update(
         raise ValueError("data/state.json hat ein unbekanntes Format")
     if not isinstance(items, list):
         raise ValueError("data/items.json hat ein unbekanntes Format")
+    previous_feed_items = deduplicate_and_sort(items, max_items)
 
     processed: dict[str, dict[str, object]] = dict(state["processed_sources"])
     pending = [
@@ -1917,13 +1927,20 @@ def update(
         reverse=True,
     )[:5000]
     new_state = {"version": 1, "processed_sources": dict(kept_sources)}
-    rss_text = build_rss(items, feed_url=feed_url, built_at=datetime.now(UTC))
-    ET.fromstring(rss_text)
+    rss_text: str | None = None
+    if feed_needs_rebuild(
+        previous_feed_items,
+        items,
+        feed_exists=feed_path.exists(),
+    ):
+        rss_text = build_rss(items, feed_url=feed_url, built_at=datetime.now(UTC))
+        ET.fromstring(rss_text)
 
     if not dry_run:
         _write_text_atomic(state_path, _json_text(new_state))
         _write_text_atomic(items_path, _json_text(items))
-        _write_text_atomic(feed_path, rss_text)
+        if rss_text is not None:
+            _write_text_atomic(feed_path, rss_text)
 
     return successful_sources, len(new_items), len(items)
 
