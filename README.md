@@ -19,13 +19,13 @@ Staatsangehörigkeit und Personenbeschreibungen bleiben im Originaltext des
 jeweiligen Falls erhalten. Das Programm ergänzt keine solchen Angaben und
 leitet insbesondere nichts aus Namen ab.
 
-Jeder RSS-Eintrag enthält zwei Darstellungen:
-
-- `description`: die fest formatierte fallbezogene Kurzform
-  `PM / Tatdatum / Tatort / Delikt / Opfer / Tatverdächtige / Ergebnis /
-  Besonderheiten / URL`
-- `content:encoded`: der vollständige von der Polizei veröffentlichte Text des
-  jeweiligen Falls; bei Sammelmeldungen nur der dem RSS-Item zugeordnete Falltext
+Jeder RSS-Eintrag ist als Summary-Feed aufgebaut. `description` enthält die
+fest formatierte fallbezogene Kurzform
+`PM / Tatdatum / Tatort / Delikt / Opfer / Tatverdächtige / Ergebnis /
+Besonderheiten / URL`. Ein zusätzliches `content:encoded` mit dem Volltext wird
+bewusst nicht ausgegeben, damit RSS-Reader wie Feedly und Vivaldi dieselbe
+Kurzfassung verwenden. Der vollständige Text bleibt über die verlinkte
+Originalmeldung erreichbar.
 
 Alle Felder der Kurzform werden ausgegeben. Wenn eine Angabe nicht zuverlässig
 ermittelt werden kann, steht dort ausdrücklich `nicht mitgeteilt`, `nicht näher

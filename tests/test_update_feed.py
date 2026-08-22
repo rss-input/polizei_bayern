@@ -1,8 +1,10 @@
 import base64
 import json
+import tempfile
 import unittest
 import xml.etree.ElementTree as ET
 from datetime import UTC, datetime
+from pathlib import Path
 
 import update_feed
 
@@ -250,13 +252,11 @@ class FeedTests(unittest.TestCase):
             [node.text for node in root.findall("./channel/item/guid")],
             ["urn:test:1", "urn:test:2"],
         )
-        self.assertIsNotNone(
-            root.find(
-                "./channel/item/{http://purl.org/rss/1.0/modules/content/}encoded"
-            )
+        self.assertIsNone(
+            root.find("./channel/item/{http://purl.org/rss/1.0/modules/content/}encoded")
         )
 
-    def test_short_form_follows_agreed_fields_and_long_form_is_full_case_text(self):
+    def test_summary_feed_contains_only_the_agreed_short_form(self):
         item = self.item("urn:test:summary", 1787049960, "summary")
         item.update(
             {
@@ -288,9 +288,6 @@ class FeedTests(unittest.TestCase):
         )
         root = ET.fromstring(xml)
         description = root.findtext("./channel/item/description", "")
-        long_form = root.findtext(
-            "./channel/item/{http://purl.org/rss/1.0/modules/content/}encoded", ""
-        )
         self.assertIn("PM 18.08.2026, PP Oberpfalz", description)
         expected_labels = [
             "Tatdatum 16.08.26",
@@ -306,9 +303,31 @@ class FeedTests(unittest.TestCase):
         self.assertEqual(positions, sorted(positions))
         self.assertNotIn("Kurzbeschreibung:", description)
         self.assertNotIn("redaktionelle Restabsatz", description)
-        self.assertIn("redaktionelle Restabsatz", long_form)
-        self.assertNotIn("<strong>Opfer:</strong>", long_form)
-        self.assertIn("Der 27-jährige Geschädigte", long_form)
+        self.assertIsNone(
+            root.find("./channel/item/{http://purl.org/rss/1.0/modules/content/}encoded")
+        )
+
+    def test_existing_full_content_feed_is_migrated_once(self):
+        legacy_xml = (
+            '<rss xmlns:content="http://purl.org/rss/1.0/modules/content/" '
+            'version="2.0"><channel><item><content:encoded>Volltext</content:encoded>'
+            "</item></channel></rss>"
+        )
+        with tempfile.TemporaryDirectory() as directory:
+            feed_path = Path(directory) / "feed.xml"
+            feed_path.write_text(legacy_xml, encoding="utf-8")
+            self.assertTrue(update_feed.feed_requires_summary_rebuild(feed_path))
+
+            item = self.item("urn:test:summary-only", 300, "summary-only")
+            feed_path.write_text(
+                update_feed.build_rss(
+                    [item],
+                    feed_url="https://example.test/feed.xml",
+                    built_at=datetime(2026, 8, 18, tzinfo=UTC),
+                ),
+                encoding="utf-8",
+            )
+            self.assertFalse(update_feed.feed_requires_summary_rebuild(feed_path))
 
     def test_relative_weekday_is_resolved_against_publication_date(self):
         item = self.item("urn:test:relative-date", 1787049960, "relative-date")
@@ -381,6 +400,29 @@ class FeedTests(unittest.TestCase):
         self.assertIn("15 Jahre", summary.opfer)
         self.assertNotIn("Krankenhaus", summary.tatverdaechtige)
         self.assertEqual(summary.tatverdaechtige, "1 (21 Jahre, griechisch)")
+
+    def test_former_partner_is_suspect_and_reporter_is_victim(self):
+        item = self.item("urn:test:former-partner", 1787142720, "former-partner")
+        item.update(
+            {
+                "title": "Größerer Polizeieinsatz nach Bedrohungssituation",
+                "organization": "Polizeipräsidium München",
+                "body": [
+                    "Am Dienstag, 18.08.2026, sprach eine 42-jährige Deutsche eine "
+                    "Passantin an. Sie gab an, kurz zuvor in ihrer Wohnung von ihrem "
+                    "ehemaligen Lebensgefährten, einem 33-jährigen Ungarn, angegriffen "
+                    "und mit einem Messer bedroht worden zu sein.",
+                    "Der gesuchte Täter konnte bislang nicht angetroffen werden.",
+                    "Die 42-Jährige wurde aufgrund ihrer Verletzungen in ein Krankenhaus "
+                    "gebracht.",
+                ],
+            }
+        )
+
+        summary = update_feed.summarize_item(item)
+
+        self.assertEqual(summary.opfer, "1 (42 Jahre, deutsch)")
+        self.assertEqual(summary.tatverdaechtige, "1 (33 Jahre, ungarisch)")
 
     def test_city_area_is_used_as_published_location(self):
         item = self.item("urn:test:city", 1787049960, "city")

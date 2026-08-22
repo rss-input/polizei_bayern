@@ -42,10 +42,9 @@ USER_AGENT = (
     "(+https://github.com/rss-input/polizei_bayern; contact via repository)"
 )
 ATOM_NS = "http://www.w3.org/2005/Atom"
-CONTENT_NS = "http://purl.org/rss/1.0/modules/content/"
+LEGACY_CONTENT_NS = "http://purl.org/rss/1.0/modules/content/"
 BERLIN_TZ = ZoneInfo("Europe/Berlin")
 ET.register_namespace("atom", ATOM_NS)
-ET.register_namespace("content", CONTENT_NS)
 
 
 COLLECTION_RE = re.compile(
@@ -262,6 +261,8 @@ SUSPECT_SENTENCE_RE = re.compile(
 AGE_SENTENCE_RE = re.compile(r"\b\d{1,3}-jährig\w*\b", re.IGNORECASE)
 ACTOR_PHRASE_RE = re.compile(
     r"\bvon (?:einem|einer) \d{1,3}-jährig\w*\s+[A-ZÄÖÜ][a-zäöüß-]+\b|"
+    r"\bvon (?:ihrem|seinem|deren|dessen)\b.{0,120}"
+    r"\b(?:einem|einer)\s+\d{1,3}-jährig\w*\s+[A-ZÄÖÜ][a-zäöüß-]+\b|"
     r"\b\d{1,3}-Jährig\w*.{0,120}\b(?:welcher|der)\b.{0,160}"
     r"\b(?:schlug|trat|stach|berührte|bedrohte|beraubte)\b",
     re.IGNORECASE,
@@ -1011,6 +1012,17 @@ def feed_needs_rebuild(
     return not feed_exists or list(previous_items) != list(current_items)
 
 
+def feed_requires_summary_rebuild(feed_path: Path) -> bool:
+    """Detect the former full-content format so it is migrated exactly once."""
+    if not feed_path.exists():
+        return False
+    try:
+        root = ET.parse(feed_path).getroot()
+    except (OSError, ET.ParseError):
+        return True
+    return root.find(f".//{{{LEGACY_CONTENT_NS}}}encoded") is not None
+
+
 def _trim_at_word(value: str, limit: int) -> str:
     value = normalize_space(value).replace("\n", " ")
     if len(value) <= limit:
@@ -1436,6 +1448,8 @@ def _role_target_ages(sentence: str, role: str) -> set[int]:
     else:
         patterns = (
             r"\bvon (?:einem|einer)\s+(\d{1,3})-Jährig\w*",
+            r"\bvon (?:ihrem|seinem|deren|dessen)\b.{0,120}"
+            r"\b(?:einem|einer)\s+(\d{1,3})-Jährig\w*",
             r"\b(\d{1,3})-Jährig\w*(?:(?!\d{1,3}-Jährig).){0,180}"
             r"\b(?:flüchtete|festgenommen|"
             r"steht im Verdacht|Tatverdächtig\w*|Beschuldigt\w*)",
@@ -1477,10 +1491,19 @@ def _compact_people(
 
     for position, sentence in enumerate(selected):
         if role == "suspect":
-            actor = re.search(
-                r"\bvon (?:einem|einer)\s+(\d{1,3})-jährig\w*\s+"
-                r"([A-ZÄÖÜ][A-Za-zÄÖÜäöüß-]+)",
-                sentence,
+            actor = next(
+                (
+                    match
+                    for pattern in (
+                        r"\bvon (?:einem|einer)\s+(\d{1,3})-jährig\w*\s+"
+                        r"([A-ZÄÖÜ][A-Za-zÄÖÜäöüß-]+)",
+                        r"\bvon (?:ihrem|seinem|deren|dessen)\b.{0,120}"
+                        r"\b(?:einem|einer)\s+(\d{1,3})-jährig\w*\s+"
+                        r"([A-ZÄÖÜ][A-Za-zÄÖÜäöüß-]+)",
+                    )
+                    if (match := re.search(pattern, sentence, re.IGNORECASE))
+                ),
+                None,
             )
             if actor:
                 labels = _nationality_labels(actor.group(0))
@@ -1778,17 +1801,6 @@ def _rss_short_description(item: dict[str, object]) -> str:
     return f'<p>{compact} / <a href="{link}">{link}</a></p>'
 
 
-def _rss_long_description(item: dict[str, object]) -> str:
-    parts = [
-        f"<p>{escape(normalize_space(str(paragraph)))}</p>"
-        for paragraph in item.get("body", [])
-        if normalize_space(str(paragraph))
-    ]
-    link = escape(str(item["link"]), quote=True)
-    parts.append(f'<p><a href="{link}">Originalmeldung der Bayerischen Polizei</a></p>')
-    return "\n".join(parts)
-
-
 def build_rss(items: Sequence[dict[str, object]], *, feed_url: str, built_at: datetime) -> str:
     items = [item for item in items if include_stored_item(item)]
     rss = ET.Element("rss", {"version": "2.0"})
@@ -1825,7 +1837,6 @@ def build_rss(items: Sequence[dict[str, object]], *, feed_url: str, built_at: da
         for category in stored.get("categories", []):
             ET.SubElement(node, "category").text = str(category)
         ET.SubElement(node, "description").text = _rss_short_description(stored)
-        ET.SubElement(node, f"{{{CONTENT_NS}}}encoded").text = _rss_long_description(stored)
 
     ET.indent(rss, space="  ")
     return "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n" + ET.tostring(
@@ -1932,7 +1943,7 @@ def update(
         previous_feed_items,
         items,
         feed_exists=feed_path.exists(),
-    ):
+    ) or feed_requires_summary_rebuild(feed_path):
         rss_text = build_rss(items, feed_url=feed_url, built_at=datetime.now(UTC))
         ET.fromstring(rss_text)
 
