@@ -39,6 +39,8 @@ jobs:
 
       - name: Pages-Artefakt hochladen
         uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
 
       - name: GitHub Pages bereitstellen
         id: deployment

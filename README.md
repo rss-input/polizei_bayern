@@ -54,8 +54,10 @@ Die Dateien haben folgende Aufgaben:
 - `feed.xml`: veröffentlichter RSS-2.0-Feed, neueste Fälle zuerst
 - `data/items.json`: dauerhaft gespeicherte Feed-Einträge
 - `data/state.json`: bereits geprüfte Pressemitteilungen
-- `.github/workflows/update.yml`: Prüfung zweimal pro Stunde, jeweils um Minute 17 und 47
-- `.github/workflows/pages.yml`: Veröffentlichung als GitHub Pages
+- `.github/workflows/update.yml`: Prüfung zweimal pro Stunde und direkte
+  Veröffentlichung eines geänderten Feeds als GitHub Pages
+- `.github/workflows/pages.yml`: zusätzliche Pages-Veröffentlichung nach
+  direkten, nicht automatisch erzeugten Änderungen an den statischen Dateien
 
 Es gibt keine Python-Abhängigkeiten außerhalb der Standardbibliothek.
 Der Feed weist Aggregatoren mit RSS-`ttl` auf ein Aktualisierungsintervall von
@@ -71,13 +73,17 @@ Nach dem ersten Commit ist nur noch die Aktivierung von GitHub Pages nötig:
 1. Im Repository **Settings → Pages** öffnen.
 2. Unter **Build and deployment** als Quelle **GitHub Actions** wählen.
 3. Unter **Actions → RSS-Feed aktualisieren → Run workflow** den ersten Lauf
-   manuell starten. Spätere Läufe erfolgen täglich automatisch.
+   manuell starten und dabei bei Bedarf **force_deploy** aktivieren. Spätere
+   Prüfläufe erfolgen automatisch zweimal pro Stunde.
 
 Falls GitHub Actions im Repository generell deaktiviert sind, müssen sie unter
 **Settings → Actions → General** erlaubt werden. Der Aktualisierungs-Workflow
 benötigt Schreibrecht auf Repository-Inhalte, damit er `feed.xml` und die beiden
 Datendateien committen kann. Dieses Recht ist im Workflow eng auf
-`contents: write` begrenzt.
+`contents: write` begrenzt. Wenn sich `feed.xml` geändert hat, veröffentlicht
+derselbe Workflow genau den soeben erzeugten Commit anschließend auf GitHub
+Pages. Dadurch hängt die Pages-Aktualisierung nicht von einem zweiten Workflow
+ab, den ein Commit mit dem GitHub-Actions-Token nicht auslösen würde.
 
 Nach erfolgreicher Pages-Bereitstellung ist der Feed hier erreichbar:
 

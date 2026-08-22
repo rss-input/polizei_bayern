@@ -4,9 +4,12 @@ on:
   schedule:
     - cron: "17,47 * * * *"
   workflow_dispatch:
-
-permissions:
-  contents: write
+    inputs:
+      force_deploy:
+        description: "GitHub Pages auch ohne neuen Feed-Inhalt veröffentlichen"
+        required: false
+        type: boolean
+        default: false
 
 concurrency:
   group: update-rss-feed
@@ -14,8 +17,13 @@ concurrency:
 
 jobs:
   update:
+    permissions:
+      contents: write
     runs-on: ubuntu-latest
     timeout-minutes: 20
+    outputs:
+      feed_changed: ${{ steps.publish.outputs.feed_changed }}
+      commit_sha: ${{ steps.publish.outputs.commit_sha }}
     steps:
       - name: Repository auschecken
         uses: actions/checkout@v4
@@ -32,13 +40,62 @@ jobs:
         run: python update_feed.py
 
       - name: Änderungen veröffentlichen
+        id: publish
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add feed.xml data/items.json data/state.json
+
+          if git diff --cached --quiet -- feed.xml; then
+            feed_changed=false
+          else
+            feed_changed=true
+          fi
+
           if git diff --cached --quiet; then
             echo "Keine Änderungen."
           else
             git commit -m "RSS-Feed automatisch aktualisieren"
             git push
           fi
+
+          echo "feed_changed=$feed_changed" >> "$GITHUB_OUTPUT"
+          echo "commit_sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+
+  deploy:
+    needs: update
+    if: ${{ needs.update.outputs.feed_changed == 'true' || inputs.force_deploy == true }}
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    concurrency:
+      group: pages
+      cancel-in-progress: true
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Veröffentlichten Commit auschecken
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ needs.update.outputs.commit_sha }}
+
+      - name: Pages einrichten
+        uses: actions/configure-pages@v5
+
+      - name: Statische Dateien vorbereiten
+        run: |
+          mkdir -p _site
+          cp feed.xml index.html .nojekyll _site/
+
+      - name: Pages-Artefakt hochladen
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+      - name: GitHub Pages bereitstellen
+        id: deployment
+        uses: actions/deploy-pages@v4
