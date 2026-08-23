@@ -23,6 +23,29 @@
   },
   {
     "body": [
+      "1253. Festnahme eines Tatverdächtigen nach sexueller Belästigung - Ludwigsvorstadt",
+      "Am Sonntag, 23.08.2026, gegen 02:20 Uhr, befand sich eine 25-Jährige mit österreichischer Staatsangehörigkeit und Wohnsitz in Österreich auf der Tanzfläche einer Diskothek in der Ludwigsvorstadt.",
+      "Dort wurde sie von einem 30-jährigen Iren mit Wohnsitz in Irland zunächst angesprochen und sexuell belästigt, indem er sie im Intimbereich berührte.",
+      "Die 25-Jährige verließ daraufhin mit einer Freundin die Diskothek und informierte den Sicherheitsdienst und anschließend die Polizei.",
+      "Der Tatverdächtige wurde vor Ort festgenommen und auf eine Polizeidienststelle verbracht. Er wurde wegen der sexuellen Belästigung angezeigt. Nach Zahlung einer Sicherheitsleistung im vierstelligen Bereich wurde er von der Polizeidienststelle entlassen.",
+      "Die weiteren Ermittlungen werden vom Kommissariat 15 der Münchner Kriminalpolizei übernommen."
+    ],
+    "case_key": "1253",
+    "case_ordinal": 4,
+    "categories": [
+      "Sexualdelikt"
+    ],
+    "content_hash": "cbd86e09197f67d1b544094d6815383a342e625fd76ce749e5e085d1b4ba12c5",
+    "guid": "urn:polizei-bayern:107514:1253",
+    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/107514/index.html",
+    "organization": "Polizeipräsidium München",
+    "published_ts": 1787480580,
+    "source_id": "107514",
+    "source_title": "Medieninformation der Polizei München vom 23.08.2026",
+    "title": "1253. Festnahme eines Tatverdächtigen nach sexueller Belästigung - Ludwigsvorstadt"
+  },
+  {
+    "body": [
       "WUERZBURG / INNENSTADT.Am Samstagmorgen, zwischen 03:00 Uhr und 05:00 Uhr, kam es in der Veitshöchheimer Straße, im Umfeld der dortigen Diskothek, zu mehreren Auseinandersetzung verschiedener Personen. Die Polizei hat in allen Fällen Ermittlungen wegen Körperverletzungsdelikten eingeleitet und bittet Augenzeugen, die dort Handgreiflichkeiten beobachtet haben, sich zu melden."
     ],
     "case_key": "070ca95811c9ef81",
