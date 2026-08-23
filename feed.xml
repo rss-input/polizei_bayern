@@ -6,10 +6,18 @@
     <description>Gewalt-, Sexual- und Drogendelikte sowie organisierte Kriminalität aus den Pressemitteilungen der Bayerischen Polizei.</description>
     <language>de-DE</language>
     <generator>polizei-bayern-rss</generator>
-    <lastBuildDate>Sun, 23 Aug 2026 09:59:22 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 23 Aug 2026 11:54:54 +0000</lastBuildDate>
     <ttl>30</ttl>
     <atom:link href="https://rss-input.github.io/polizei_bayern/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 23 Aug 2026 10:08:00 +0000</pubDate>
+    <pubDate>Sun, 23 Aug 2026 11:03:00 +0000</pubDate>
+    <item>
+      <title>Scheibe einer Straßenbahn beschädigt</title>
+      <link>https://www.polizei.bayern.de/aktuelles/pressemitteilungen/107517/index.html</link>
+      <guid isPermaLink="false">urn:polizei-bayern:107517:46bf7984105209c2</guid>
+      <pubDate>Sun, 23 Aug 2026 11:03:00 +0000</pubDate>
+      <category>Gewaltdelikt</category>
+      <description>&lt;p&gt;PM 23.08.2026, PP Mittelfranken / Tatdatum 22.08.26 / Tatort: Nürnberg, Landgrabenstraße / Delikt: tätlicher Angriff auf Vollstreckungsbeamte / Opfer: 1 (Frau, 53 Jahre); Staatsangehörigkeit nicht mitgeteilt / Tatverdächtige: nicht näher mitgeteilt / Ergebnis: in Fachklinik überstellt / Besonderheiten: (770) In der Nacht zum Samstag (22.08.2026) schlug eine 53-jährige Frau in der Landgrabenstraße die Scheibe einer Straßenbahn ein. Im weiteren Verlauf trat die Frau nach den Beamten. / &lt;a href="https://www.polizei.bayern.de/aktuelles/pressemitteilungen/107517/index.html"&gt;https://www.polizei.bayern.de/aktuelles/pressemitteilungen/107517/index.html&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>WUERZBURG / INNENSTADT.Am Samstagmorgen, zwischen 03:00 Uhr und 05:00 Uhr, kam es in der Veitshöchheimer Straße, im Umfeld der dortigen Diskothek, zu mehreren Auseinandersetzung…</title>
       <link>https://www.polizei.bayern.de/aktuelles/pressemitteilungen/107510/index.html</link>
