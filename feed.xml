@@ -6,10 +6,26 @@
     <description>Gewalt-, Sexual- und Drogendelikte sowie organisierte Kriminalität aus den Pressemitteilungen der Bayerischen Polizei.</description>
     <language>de-DE</language>
     <generator>polizei-bayern-rss</generator>
-    <lastBuildDate>Tue, 25 Aug 2026 14:09:02 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 25 Aug 2026 16:17:52 +0000</lastBuildDate>
     <ttl>30</ttl>
     <atom:link href="https://rss-input.github.io/polizei_bayern/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 25 Aug 2026 12:50:00 +0000</pubDate>
+    <pubDate>Tue, 25 Aug 2026 14:04:00 +0000</pubDate>
+    <item>
+      <title>1363 – Polizei nimmt Täter nach Raub fest</title>
+      <link>https://www.polizei.bayern.de/aktuelles/pressemitteilungen/107624/index.html</link>
+      <guid isPermaLink="false">urn:polizei-bayern:107624:65e9a313de92c90c</guid>
+      <pubDate>Tue, 25 Aug 2026 14:04:00 +0000</pubDate>
+      <category>Gewaltdelikt</category>
+      <description>&lt;p&gt;PM 25.08.2026, PP Schwaben Nord / Tatdatum nicht mitgeteilt / Tatort: nicht näher mitgeteilt / Delikt: Raub / Opfer: nicht näher mitgeteilt / Tatverdächtige: nicht näher mitgeteilt / Ergebnis: nicht mitgeteilt / Besonderheiten: keine weiteren Angaben / &lt;a href="https://www.polizei.bayern.de/aktuelles/pressemitteilungen/107624/index.html"&gt;https://www.polizei.bayern.de/aktuelles/pressemitteilungen/107624/index.html&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>-------------------In Absprache mit der Staatsanwaltschaft Augsburg ---------------</title>
+      <link>https://www.polizei.bayern.de/aktuelles/pressemitteilungen/107624/index.html</link>
+      <guid isPermaLink="false">urn:polizei-bayern:107624:072ddf4410781461</guid>
+      <pubDate>Tue, 25 Aug 2026 14:04:00 +0000</pubDate>
+      <category>Gewaltdelikt</category>
+      <description>&lt;p&gt;PM 25.08.2026, PP Schwaben Nord / Tatdatum 18.08.26 / Tatort: Hochvogelstraße / Delikt: schwerer Raub / Opfer: nicht näher mitgeteilt / Tatverdächtige: 1 (23 Jahre, gambisch); 1 (70 Jahre) / Ergebnis: festgenommen; in Justizvollzugsanstalt untergebracht / Besonderheiten: 1319 – Kriminalpolizei ermittelt nach schwerem Raub / &lt;a href="https://www.polizei.bayern.de/aktuelles/pressemitteilungen/107624/index.html"&gt;https://www.polizei.bayern.de/aktuelles/pressemitteilungen/107624/index.html&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Ermittlungen der "EKO Kajal" - Ein weiterer Tatverdächtiger festgenommen</title>
       <link>https://www.polizei.bayern.de/aktuelles/pressemitteilungen/107617/index.html</link>
