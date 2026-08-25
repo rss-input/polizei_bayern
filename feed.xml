@@ -6,10 +6,18 @@
     <description>Gewalt-, Sexual- und Drogendelikte sowie organisierte Kriminalität aus den Pressemitteilungen der Bayerischen Polizei.</description>
     <language>de-DE</language>
     <generator>polizei-bayern-rss</generator>
-    <lastBuildDate>Mon, 24 Aug 2026 14:27:52 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 25 Aug 2026 11:14:20 +0000</lastBuildDate>
     <ttl>30</ttl>
     <atom:link href="https://rss-input.github.io/polizei_bayern/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 24 Aug 2026 14:05:00 +0000</pubDate>
+    <pubDate>Tue, 25 Aug 2026 10:30:00 +0000</pubDate>
+    <item>
+      <title>Versuchter Einbruch in Apotheke | Festnahme auf frischer Tat</title>
+      <link>https://www.polizei.bayern.de/aktuelles/pressemitteilungen/107596/index.html</link>
+      <guid isPermaLink="false">urn:polizei-bayern:107596:3766a4346fd9046e</guid>
+      <pubDate>Tue, 25 Aug 2026 10:30:00 +0000</pubDate>
+      <category>Drogendelikt</category>
+      <description>&lt;p&gt;PM 25.08.2026, PP Schwaben Süd/West / Tatdatum 24.08.26 / Tatort: Füssen / Delikt: Drogendelikt / Opfer: keine individualisierten Geschädigten / Tatverdächtige: 1 (51 Jahre, deutsch) / Ergebnis: festgenommen / Besonderheiten: Eine aufmerksame Bürgerin verständigte die Polizei. / &lt;a href="https://www.polizei.bayern.de/aktuelles/pressemitteilungen/107596/index.html"&gt;https://www.polizei.bayern.de/aktuelles/pressemitteilungen/107596/index.html&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>1353 – Polizei ermittelt nach Körperverletzung</title>
       <link>https://www.polizei.bayern.de/aktuelles/pressemitteilungen/107560/index.html</link>
