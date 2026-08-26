@@ -1,6 +1,48 @@
 [
   {
     "body": [
+      "Stadtbergen– Ein unbekannter Mann attackierte am Dienstag (25.08.2026) zwei Personen in der Ochsengasse.",
+      "Gegen 17.30 waren zwei Frauen im Alter von 72 und 74 Jahren mit einem unangeleinten Hund im Bereich nördlich der Ochsengasse in Stadtbergen unterwegs. Als der Hund zu dem Hund eines anderen Mannes ging, trat dieser nach dem Tier. Als die Damen den unbekannten Mann auf sein Verhalten ansprachen, schubste er die 72-Jährige mehrfach. Diese stürzte dadurch und verletzte sich leicht. Die zweite Dame wurde durch den Mann ebenfalls körperlich leicht attackiert. Sie blieb jedoch unverletzt.",
+      "Der bislang unbekannte Täter wird wie folgt beschrieben:",
+      "Ca. 30 Jahre alt, ca. 180 cm groß und von kräftiger Statur. Er hatte kurze, zurückgekämmte Haare und war mit einem weinroten T-Shirt und einer grauen Short bekleidet.",
+      "Die Polizei ermittelt nun wegen des Verdachts der Körperverletzung. Zeugen, welche den Vorfall beobachtet haben oder Hinweise auf den Täter geben können, werden gebeten, sich bei der Polizeiinspektion Augsburg West unter der Telefonnummer 0821/323-2510 zu melden.",
+      "Die beiden Damen haben die deutsche Staatsangehörigkeit."
+    ],
+    "case_key": "1cb79764067e09c9",
+    "case_ordinal": 1,
+    "categories": [
+      "Gewaltdelikt"
+    ],
+    "content_hash": "2850e09b6f8670381d2a9ae6d902f4d2aaa25c72b71cb6258328cec4f0b4336c",
+    "guid": "urn:polizei-bayern:107689:1cb79764067e09c9",
+    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/107689/index.html",
+    "organization": "Polizeipräsidium Schwaben Nord",
+    "published_ts": 1787742240,
+    "source_id": "107689",
+    "source_title": "Medieninfo Nordschwaben - 26.08.2026",
+    "title": "Stadtbergen– Ein unbekannter Mann attackierte am Dienstag (25.08.2026) zwei Personen in der Ochsengasse."
+  },
+  {
+    "body": [
+      "Zwei E-Scooter-Fahrer unter Drogeneinfluss",
+      "BUCHLOE. Am Dienstagnachmittag kontrollierten Beamte in der Karwendelstraße einen 34-jährigen Mann auf einem E-Scooter und kurze Zeit später am Ladehof einen 17-jährigen E-Scooter-Fahrer wegen des Verdachts auf Drogenkonsum. Bei dem 34-Jährigen stellten die Beamten drogentypische Auffälligkeiten fest. Ein Drogentest reagierte positiv auf Cannabis und Kokain. Beim 17-Jährigen verlief der Drogentest positiv auf Cannabis. Die Beamten ordneten jeweils eine Blutentnahme an und untersagten die Weiterfahrt. Zudem leiteten sie jeweils ein Bußgeldverfahren ein. Die Fahrer erwarten nun ein mittleres dreistelliges Bußgeld, Punkte im Verkehrszentralregister und ein Fahrverbot. (PI Buchloe)"
+    ],
+    "case_key": "d973a7dd03d720d7",
+    "case_ordinal": 5,
+    "categories": [
+      "Drogendelikt"
+    ],
+    "content_hash": "d973a7dd03d720d7188273394ee751e3e897c8a1bb5d14253704b13e2133c064",
+    "guid": "urn:polizei-bayern:107683:d973a7dd03d720d7",
+    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/107683/index.html",
+    "organization": "Polizeipräsidium Schwaben Süd/West",
+    "published_ts": 1787740500,
+    "source_id": "107683",
+    "source_title": "PP SWS | Pressemeldungen vom 26.08.2026",
+    "title": "Zwei E-Scooter-Fahrer unter Drogeneinfluss"
+  },
+  {
+    "body": [
       "1363 – Polizei nimmt Täter nach Raub fest"
     ],
     "case_key": "65e9a313de92c90c",
