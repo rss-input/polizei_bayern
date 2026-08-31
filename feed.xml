@@ -6,10 +6,18 @@
     <description>Gewalt-, Sexual- und Drogendelikte sowie organisierte Kriminalität aus den Pressemitteilungen der Bayerischen Polizei.</description>
     <language>de-DE</language>
     <generator>polizei-bayern-rss</generator>
-    <lastBuildDate>Sun, 30 Aug 2026 12:19:19 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 31 Aug 2026 12:19:26 +0000</lastBuildDate>
     <ttl>30</ttl>
     <atom:link href="https://rss-input.github.io/polizei_bayern/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 30 Aug 2026 10:12:00 +0000</pubDate>
+    <pubDate>Mon, 31 Aug 2026 09:35:00 +0000</pubDate>
+    <item>
+      <title>1284. Brandstiftung an einem Pkw – Oberhaching</title>
+      <link>https://www.polizei.bayern.de/aktuelles/pressemitteilungen/107902/index.html</link>
+      <guid isPermaLink="false">urn:polizei-bayern:107902:1284</guid>
+      <pubDate>Mon, 31 Aug 2026 09:35:00 +0000</pubDate>
+      <category>Gewaltdelikt</category>
+      <description>&lt;p&gt;PM 31.08.2026, PP München / Tatdatum 30.08.26 / Tatort: Der Brand wurde durch die hinzugezogene Feuerwehr gelöscht. Verletzt wurde niemand, S-Bahnhof / Delikt: Gewaltdelikt / Opfer: nicht näher mitgeteilt / Tatverdächtige: nicht näher mitgeteilt / Ergebnis: Das Fahrzeug wurde für weitere Spurensicherungsmaßnahmen sichergestellt. / Besonderheiten: Am Sonntag, 30.08.2026, gegen 23:00 Uhr, bemerkte ein 50-Jähriger mit Wohnsitz im Landkreis München einen Brand in seinem Dacia Pkw, welcher auf einem Park-and-Ride-Parkplatz am S-Bahnhof Furth abgestellt war. / &lt;a href="https://www.polizei.bayern.de/aktuelles/pressemitteilungen/107902/index.html"&gt;https://www.polizei.bayern.de/aktuelles/pressemitteilungen/107902/index.html&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>1277. Größerer Polizeieinsatz – Bogenhausen</title>
       <link>https://www.polizei.bayern.de/aktuelles/pressemitteilungen/107867/index.html</link>
