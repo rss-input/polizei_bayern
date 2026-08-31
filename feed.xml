@@ -6,10 +6,19 @@
     <description>Gewalt-, Sexual- und Drogendelikte sowie organisierte Kriminalität aus den Pressemitteilungen der Bayerischen Polizei.</description>
     <language>de-DE</language>
     <generator>polizei-bayern-rss</generator>
-    <lastBuildDate>Mon, 31 Aug 2026 12:49:19 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 31 Aug 2026 13:49:36 +0000</lastBuildDate>
     <ttl>30</ttl>
     <atom:link href="https://rss-input.github.io/polizei_bayern/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 31 Aug 2026 12:13:00 +0000</pubDate>
+    <pubDate>Mon, 31 Aug 2026 13:32:00 +0000</pubDate>
+    <item>
+      <title>Niederbayern: Festnahme nach versuchten Raub- und Sexualdelikten</title>
+      <link>https://www.polizei.bayern.de/aktuelles/pressemitteilungen/107917/index.html</link>
+      <guid isPermaLink="false">urn:polizei-bayern:107917:4de95b58022d0489</guid>
+      <pubDate>Mon, 31 Aug 2026 13:32:00 +0000</pubDate>
+      <category>Gewaltdelikt</category>
+      <category>Sexualdelikt</category>
+      <description>&lt;p&gt;PM 31.08.2026, PP Niederbayern / Tatdatum 29.08.26 / Tatort: Deggendorf / Delikt: versuchter bewaffneter Raub / Opfer: nicht näher mitgeteilt / Tatverdächtige: 1 (27 Jahre, somalisch) / Ergebnis: festgenommen; in Justizvollzugsanstalt untergebracht / Besonderheiten: Gegen 16:35 Uhr ging beim polizeilichen Notruf eine Mitteilung aufgrund exhibitionistischer Handlungen eines Mannes an einer Tankstelle ein, welche durch eine 56-jährige Zeugin beobachtet wurden. / &lt;a href="https://www.polizei.bayern.de/aktuelles/pressemitteilungen/107917/index.html"&gt;https://www.polizei.bayern.de/aktuelles/pressemitteilungen/107917/index.html&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Innenstadt– Am Montag (31.08.2026) kam es in der Straße Metzgplatz zu einer gefährlichen Körperverletzung.</title>
       <link>https://www.polizei.bayern.de/aktuelles/pressemitteilungen/107909/index.html</link>
