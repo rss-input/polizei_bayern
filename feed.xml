@@ -6,10 +6,18 @@
     <description>Gewalt-, Sexual- und Drogendelikte sowie organisierte Kriminalität aus den Pressemitteilungen der Bayerischen Polizei.</description>
     <language>de-DE</language>
     <generator>polizei-bayern-rss</generator>
-    <lastBuildDate>Mon, 31 Aug 2026 13:49:36 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 01 Sep 2026 08:52:25 +0000</lastBuildDate>
     <ttl>30</ttl>
     <atom:link href="https://rss-input.github.io/polizei_bayern/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 31 Aug 2026 13:32:00 +0000</pubDate>
+    <pubDate>Tue, 01 Sep 2026 08:25:00 +0000</pubDate>
+    <item>
+      <title>Verfolgungsfahrt über eineinhalb Stunden – Polizeibeamter bei Festnahme schwer verletzt</title>
+      <link>https://www.polizei.bayern.de/aktuelles/pressemitteilungen/107943/index.html</link>
+      <guid isPermaLink="false">urn:polizei-bayern:107943:461a7d9831f58387</guid>
+      <pubDate>Tue, 01 Sep 2026 08:25:00 +0000</pubDate>
+      <category>Drogendelikt</category>
+      <description>&lt;p&gt;PM 01.09.2026, PP Oberpfalz / Tatdatum 31.08.26 / Tatort: Brennberg, Lkr. Regensburg, Rettenbach, Lkr. Cham / Delikt: Raub / Opfer: keine individualisierten Geschädigten / Tatverdächtige: 1 (18 Jahre, deutsch) / Ergebnis: tatverdächtige Person flüchtig; nach Abschluss der polizeilichen Maßnahmen entlassen; Krankenhausbehandlung bzw. -unterbringung / Besonderheiten: Ein ziviler Polizeibeamter schlug die Seitenscheibe mit dem Schlagstock ein, um ihn aus dem Pkw zu bringen. / &lt;a href="https://www.polizei.bayern.de/aktuelles/pressemitteilungen/107943/index.html"&gt;https://www.polizei.bayern.de/aktuelles/pressemitteilungen/107943/index.html&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Niederbayern: Festnahme nach versuchten Raub- und Sexualdelikten</title>
       <link>https://www.polizei.bayern.de/aktuelles/pressemitteilungen/107917/index.html</link>
