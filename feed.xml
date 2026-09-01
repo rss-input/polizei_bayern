@@ -6,7 +6,7 @@
     <description>Gewalt-, Sexual- und Drogendelikte sowie organisierte Kriminalität aus den Pressemitteilungen der Bayerischen Polizei.</description>
     <language>de-DE</language>
     <generator>polizei-bayern-rss</generator>
-    <lastBuildDate>Tue, 01 Sep 2026 11:50:39 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 01 Sep 2026 12:31:04 +0000</lastBuildDate>
     <ttl>30</ttl>
     <atom:link href="https://rss-input.github.io/polizei_bayern/feed.xml" rel="self" type="application/rss+xml" />
     <pubDate>Tue, 01 Sep 2026 11:32:00 +0000</pubDate>
@@ -17,6 +17,14 @@
       <pubDate>Tue, 01 Sep 2026 11:32:00 +0000</pubDate>
       <category>Gewaltdelikt</category>
       <description>&lt;p&gt;PM 01.09.2026, PP Schwaben Nord / Tatdatum nicht mitgeteilt / Tatort: nicht näher mitgeteilt / Delikt: Körperverletzung / Opfer: nicht näher mitgeteilt / Tatverdächtige: nicht näher mitgeteilt / Ergebnis: Die Polizei Augsburg Mitte ermittelt nun wegen gefährlicher Körperverletzung und bittet Zeugen, die Hinweise auf die Auseinandersetzung oder die unbekannten Personen haben, sich unter der Tel. / Besonderheiten: Gegen 23.45 Uhr kam es zu einer Rangelei zwischen zwei Personengruppen bestehend aus sechs bis acht Personen. / &lt;a href="https://www.polizei.bayern.de/aktuelles/pressemitteilungen/107952/index.html"&gt;https://www.polizei.bayern.de/aktuelles/pressemitteilungen/107952/index.html&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>1288. Raubdelikt – Schwabing</title>
+      <link>https://www.polizei.bayern.de/aktuelles/pressemitteilungen/107951/index.html</link>
+      <guid isPermaLink="false">urn:polizei-bayern:107951:1288</guid>
+      <pubDate>Tue, 01 Sep 2026 11:19:00 +0000</pubDate>
+      <category>Gewaltdelikt</category>
+      <description>&lt;p&gt;PM 01.09.2026, PP München / Tatdatum 30.08.26 / Tatort: Ackermannstraße / Delikt: Raub / Opfer: 1 (37 Jahre, irakisch) / Tatverdächtige: 1 (37 Jahre, irakisch) / Ergebnis: nicht mitgeteilt / Besonderheiten: Einer der Männer sprühte dem 37-Jährigen unvermittelt Pfefferspray ins Gesicht. / &lt;a href="https://www.polizei.bayern.de/aktuelles/pressemitteilungen/107951/index.html"&gt;https://www.polizei.bayern.de/aktuelles/pressemitteilungen/107951/index.html&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Familienstreit eskaliert | Polizei ermittelt nach Körperverletzung und Bedrohung</title>
