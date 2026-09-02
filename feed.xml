@@ -6,7 +6,7 @@
     <description>Gewalt-, Sexual- und Drogendelikte sowie organisierte Kriminalität aus den Pressemitteilungen der Bayerischen Polizei.</description>
     <language>de-DE</language>
     <generator>polizei-bayern-rss</generator>
-    <lastBuildDate>Wed, 02 Sep 2026 10:26:48 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 02 Sep 2026 12:31:50 +0000</lastBuildDate>
     <ttl>30</ttl>
     <atom:link href="https://rss-input.github.io/polizei_bayern/feed.xml" rel="self" type="application/rss+xml" />
     <pubDate>Wed, 02 Sep 2026 10:16:00 +0000</pubDate>
@@ -57,6 +57,22 @@
       <pubDate>Wed, 02 Sep 2026 10:16:00 +0000</pubDate>
       <category>Drogendelikt</category>
       <description>&lt;p&gt;PM 02.09.2026, PP Schwaben Süd/West / Tatdatum 01.09.26 / Tatort: Leipheim/A8 / Delikt: Fahren unter Betäubungsmitteleinfluss / Opfer: keine individualisierten Geschädigten / Tatverdächtige: nicht näher mitgeteilt / Ergebnis: Blutentnahme angeordnet / Besonderheiten: Am Dienstagabend kontrollierte eine Streife der Verkehrspolizei Günzburg an der Anschlussstelle Leipheim den Fahrer eines Pkw-Anhänger-Gespanns. / &lt;a href="https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108002/index.html"&gt;https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108002/index.html&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>1291. Versuchtes Tötungsdelikt – Am Hart</title>
+      <link>https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108001/index.html</link>
+      <guid isPermaLink="false">urn:polizei-bayern:108001:1291</guid>
+      <pubDate>Wed, 02 Sep 2026 10:07:00 +0000</pubDate>
+      <category>Gewaltdelikt</category>
+      <description>&lt;p&gt;PM 02.09.2026, PP München / Tatdatum 01.09.26 / Tatort: Das Opfer konnte in der Folge die Schleißheimer Straße stadtauswärts flüchten, Neuherbergstraße Ecke Schleißheimer Straße / Delikt: Gewaltdelikt / Opfer: 1 (33 Jahre, kosovarisch) / Tatverdächtige: 1 (33 Jahre, kosovarisch) / Ergebnis: Fahndung ohne Erfolg; eine 33-jährige Person vorübergehend im Krankenhaus behandelt / Besonderheiten: Im Rahmen der Auseinandersetzung kam es in der Folge zum Einsatz einer Schusswaffe, wodurch der 33-Jährige im Bereich des Oberkörpers getroffen und schwer verletzt wurde. / &lt;a href="https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108001/index.html"&gt;https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108001/index.html&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>1292. Raubüberfall auf Wettbüro – Neuhausen</title>
+      <link>https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108001/index.html</link>
+      <guid isPermaLink="false">urn:polizei-bayern:108001:1292</guid>
+      <pubDate>Wed, 02 Sep 2026 10:07:00 +0000</pubDate>
+      <category>Gewaltdelikt</category>
+      <description>&lt;p&gt;PM 02.09.2026, PP München / Tatdatum 01.09.26 / Tatort: nicht näher mitgeteilt / Delikt: Raub / Opfer: 1 (56 Jahre, deutsch) / Tatverdächtige: 1 (56 Jahre, deutsch) / Ergebnis: tatverdächtige Person flüchtig / Besonderheiten: Dabei war der Täter maskiert und mit einem Messer bewaffnet. Anschließend erbeutete der Täter einen mittleren fünfstelligen Eurobetrag und flüchtete in unbekannte Richtung. / &lt;a href="https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108001/index.html"&gt;https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108001/index.html&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Polizeipräsidium Mittelfranken nimmt zweiten Videoanhänger in Nürnberg in Betrieb</title>
