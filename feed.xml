@@ -6,10 +6,18 @@
     <description>Gewalt-, Sexual- und Drogendelikte sowie organisierte Kriminalität aus den Pressemitteilungen der Bayerischen Polizei.</description>
     <language>de-DE</language>
     <generator>polizei-bayern-rss</generator>
-    <lastBuildDate>Tue, 01 Sep 2026 12:31:04 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 02 Sep 2026 05:51:18 +0000</lastBuildDate>
     <ttl>30</ttl>
     <atom:link href="https://rss-input.github.io/polizei_bayern/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 01 Sep 2026 11:32:00 +0000</pubDate>
+    <pubDate>Wed, 02 Sep 2026 05:38:00 +0000</pubDate>
+    <item>
+      <title>Niederbayern: Bei Kontrolle Betäubungsmittel sichergestellt</title>
+      <link>https://www.polizei.bayern.de/aktuelles/pressemitteilungen/107981/index.html</link>
+      <guid isPermaLink="false">urn:polizei-bayern:107981:b7a29d970cbe9de8</guid>
+      <pubDate>Wed, 02 Sep 2026 05:38:00 +0000</pubDate>
+      <category>Drogendelikt</category>
+      <description>&lt;p&gt;PM 02.09.2026, PP Niederbayern / Tatdatum 31.08.26 / Tatort: Passau. Bab A3, Rastplatz / Delikt: Drogendelikt / Opfer: keine individualisierten Geschädigten / Tatverdächtige: 1 (34 Jahre, italienisch) / Ergebnis: festgenommen; in Justizvollzugsanstalt untergebracht / Besonderheiten: Am Montag, den 31.08.2026 stellten Kräfte der Grenzpolizeiinspektion Passau bei einer Kontrolle rund 3,3 kg Marihuana sowie 2,3 kg Haschisch sicher. / &lt;a href="https://www.polizei.bayern.de/aktuelles/pressemitteilungen/107981/index.html"&gt;https://www.polizei.bayern.de/aktuelles/pressemitteilungen/107981/index.html&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Innenstadt– Am Montagabend (31.08.2026) kam es zu einer körperlichen Auseinandersetzung zwischen mehreren Personen in der Straße Auf dem Kreuz.</title>
       <link>https://www.polizei.bayern.de/aktuelles/pressemitteilungen/107952/index.html</link>
