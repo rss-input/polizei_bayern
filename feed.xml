@@ -6,10 +6,18 @@
     <description>Gewalt-, Sexual- und Drogendelikte sowie organisierte Kriminalität aus den Pressemitteilungen der Bayerischen Polizei.</description>
     <language>de-DE</language>
     <generator>polizei-bayern-rss</generator>
-    <lastBuildDate>Thu, 03 Sep 2026 12:31:53 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 03 Sep 2026 14:27:27 +0000</lastBuildDate>
     <ttl>30</ttl>
     <atom:link href="https://rss-input.github.io/polizei_bayern/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 03 Sep 2026 11:26:00 +0000</pubDate>
+    <pubDate>Thu, 03 Sep 2026 13:47:00 +0000</pubDate>
+    <item>
+      <title>Innenstadt– Am Mittwoch (02.09.2026) gegen 08:30 Uhr wurde ein 82-jähriger Mann von einem bislang unbekannten in der Halderstraße so stark gestoßen, dass er stürzte und sich verletzte.</title>
+      <link>https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108080/index.html</link>
+      <guid isPermaLink="false">urn:polizei-bayern:108080:b3d3417a6de02601</guid>
+      <pubDate>Thu, 03 Sep 2026 13:47:00 +0000</pubDate>
+      <category>Gewaltdelikt</category>
+      <description>&lt;p&gt;PM 03.09.2026, PP Schwaben Nord / Tatdatum nicht mitgeteilt / Tatort: nicht näher mitgeteilt / Delikt: Körperverletzung / Opfer: nicht näher mitgeteilt / Tatverdächtige: 1 (Mann, 82 Jahre); Staatsangehörigkeit nicht mitgeteilt / Ergebnis: eine 82-jährige Person vorübergehend im Krankenhaus behandelt / Besonderheiten: Der 82-jährige Mann verlor das Gleichgewicht, stürzte zu Boden und brach sich die Schulter. / &lt;a href="https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108080/index.html"&gt;https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108080/index.html&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>1296. Versuchtes Tötungsdelikt – Altstadt</title>
       <link>https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108061/index.html</link>
