@@ -6,10 +6,26 @@
     <description>Gewalt-, Sexual- und Drogendelikte sowie organisierte Kriminalität aus den Pressemitteilungen der Bayerischen Polizei.</description>
     <language>de-DE</language>
     <generator>polizei-bayern-rss</generator>
-    <lastBuildDate>Thu, 03 Sep 2026 08:52:55 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 03 Sep 2026 10:26:30 +0000</lastBuildDate>
     <ttl>30</ttl>
     <atom:link href="https://rss-input.github.io/polizei_bayern/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 03 Sep 2026 08:42:00 +0000</pubDate>
+    <pubDate>Thu, 03 Sep 2026 10:00:00 +0000</pubDate>
+    <item>
+      <title>Mann wirft mit Tomate nach Familie mit Kind</title>
+      <link>https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108054/index.html</link>
+      <guid isPermaLink="false">urn:polizei-bayern:108054:fae204173fed0c3e</guid>
+      <pubDate>Thu, 03 Sep 2026 10:00:00 +0000</pubDate>
+      <category>Gewaltdelikt</category>
+      <description>&lt;p&gt;PM 03.09.2026, PP Schwaben Süd/West / Tatdatum 02.09.26 / Tatort: Buchloe, Überqueren der Straße / Delikt: Körperverletzung / Opfer: Glücklicherweise wurde niemand verletzt. / Tatverdächtige: 1 (40 Jahre, deutsch) / Ergebnis: Strafverfahren / Besonderheiten: Am Mittwochnachmittag wurde die Polizeiinspektion Buchloe in die Bahnhofstraße gerufen. / &lt;a href="https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108054/index.html"&gt;https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108054/index.html&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Drogenfahrten in Neu-Ulm</title>
+      <link>https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108054/index.html</link>
+      <guid isPermaLink="false">urn:polizei-bayern:108054:128115d04606b476</guid>
+      <pubDate>Thu, 03 Sep 2026 10:00:00 +0000</pubDate>
+      <category>Drogendelikt</category>
+      <description>&lt;p&gt;PM 03.09.2026, PP Schwaben Süd/West / Tatdatum 01.09.26 / Tatort: Neu-Ulm, Finninger Straße / Delikt: Fahren unter Betäubungsmitteleinfluss / Opfer: keine individualisierten Geschädigten / Tatverdächtige: 1 (45 Jahre, deutsch); 1 (21 Jahre, deutsch) / Ergebnis: Weiterfahrt untersagt / Besonderheiten: Am Dienstag kam es im Dienstbereich der Polizei Neu-Ulm zu mehreren Verkehrsdelikten. / &lt;a href="https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108054/index.html"&gt;https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108054/index.html&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Ermittlungen der „EKO Kajal“ – Festnahmen nach Vergewaltigung einer 14-Jährigen</title>
       <link>https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108049/index.html</link>
