@@ -6,10 +6,19 @@
     <description>Gewalt-, Sexual- und Drogendelikte sowie organisierte Kriminalität aus den Pressemitteilungen der Bayerischen Polizei.</description>
     <language>de-DE</language>
     <generator>polizei-bayern-rss</generator>
-    <lastBuildDate>Wed, 02 Sep 2026 13:27:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 03 Sep 2026 08:52:55 +0000</lastBuildDate>
     <ttl>30</ttl>
     <atom:link href="https://rss-input.github.io/polizei_bayern/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 02 Sep 2026 12:56:00 +0000</pubDate>
+    <pubDate>Thu, 03 Sep 2026 08:42:00 +0000</pubDate>
+    <item>
+      <title>Ermittlungen der „EKO Kajal“ – Festnahmen nach Vergewaltigung einer 14-Jährigen</title>
+      <link>https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108049/index.html</link>
+      <guid isPermaLink="false">urn:polizei-bayern:108049:20f0056df6374104</guid>
+      <pubDate>Thu, 03 Sep 2026 08:42:00 +0000</pubDate>
+      <category>Sexualdelikt</category>
+      <category>Drogendelikt</category>
+      <description>&lt;p&gt;PM 03.09.2026, PP Mittelfranken / Tatdatum 31.08.26 / Tatort: Nürnberg / Delikt: Drogenabgabe an Minderjährige / Opfer: nicht näher mitgeteilt / Tatverdächtige: 1 (16 Jahre, syrisch); 1 (18 Jahre, syrisch) / Ergebnis: festgenommen; eine 29-jährige Person vorübergehend im Krankenhaus behandelt / Besonderheiten: In diesem Zusammenhang wird der 29-Jährige verdächtigt mehrfach Betäubungsmittel an Minderjährige abgegeben zu haben. / &lt;a href="https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108049/index.html"&gt;https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108049/index.html&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Körperliche Auseinandersetzung in der Innenstadt - Zeugen gesucht</title>
       <link>https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108015/index.html</link>
