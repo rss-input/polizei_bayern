@@ -6,10 +6,18 @@
     <description>Gewalt-, Sexual- und Drogendelikte sowie organisierte Kriminalität aus den Pressemitteilungen der Bayerischen Polizei.</description>
     <language>de-DE</language>
     <generator>polizei-bayern-rss</generator>
-    <lastBuildDate>Fri, 04 Sep 2026 12:31:12 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 05 Sep 2026 04:49:24 +0000</lastBuildDate>
     <ttl>30</ttl>
     <atom:link href="https://rss-input.github.io/polizei_bayern/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 04 Sep 2026 11:42:00 +0000</pubDate>
+    <pubDate>Sat, 05 Sep 2026 04:31:00 +0000</pubDate>
+    <item>
+      <title>Niederbayern: Verfolgungsfahrt in Pilsting - Auto verunfallt und überschlägt sich</title>
+      <link>https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108142/index.html</link>
+      <guid isPermaLink="false">urn:polizei-bayern:108142:6b6c8caeca4de691</guid>
+      <pubDate>Sat, 05 Sep 2026 04:31:00 +0000</pubDate>
+      <category>Gewaltdelikt</category>
+      <description>&lt;p&gt;PM 05.09.2026, PP Niederbayern / Tatdatum 05.09.26 / Tatort: Landauer Straße / Delikt: tätlicher Angriff auf Vollstreckungsbeamte / Opfer: nicht näher mitgeteilt / Tatverdächtige: nicht näher mitgeteilt / Ergebnis: Krankenhausbehandlung bzw. -unterbringung; in Fachklinik überstellt / Besonderheiten: Pilsting, LKR Dingolfing-Landau / &lt;a href="https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108142/index.html"&gt;https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108142/index.html&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Innenstadt– Am Donnerstag (03.09.2026) kontrollierte die Polizei einen betrunkenen Fahrradfahrer in der Riedingerstraße / Austraße.</title>
       <link>https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108129/index.html</link>
