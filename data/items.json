@@ -1,6 +1,121 @@
 [
   {
     "body": [
+      "Die tagesaktuellen Meldungen der Polizeiinspektionen Kempten, Sonthofen, Immenstadt, und der Polizeistationen Oberstaufen und Oberstdorf sowie Meldungen der Kriminalpolizei, der Verkehrs- und Fahndungsdienststellen mit Regionalbezug.",
+      "Gewalttat aus bislang ungeklärtem Grund",
+      "KEMPTEN. Am frühen Samstagabend erging über den Notruf des Polizeipräsidiums Schwaben Süd/West die Mitteilung über eine Körperverletzung an einer Bushaltestelle am Forum Allgäu in Kempten. Im Detail beschrieb die Anruferin, dass ein ca. 60-jähriger Mann einer anderen männlichen Person eine Glasflasche auf den Kopf geschlagen habe. Aufgrund der präzisen Personenbeschreibung der Mitteilerin, konnte der mutmaßliche Täter durch die eingetroffene Streife im Rahmen der Fahndung festgestellt werden. Bei diesem handelt es sich um einen 63-jährigen deutschen Staatsbürger. Ein mit ihm durchgeführter Atemalkoholtest ergab einen Wert von über einem Promille. Er wurde für weitere Maßnahmen zur Dienststelle der Polizeiinspektion Kempten verbracht. Der Geschädigte wurde durch den Rettungsdienst vor Ort behandelt und konnte anschließend entlassen werden. Den Täter erwartet nun ein Strafverfahren wegen gefährlicher Körperverletzung. Das Motiv konnte bislang nicht geklärt werden, es ist Gegenstand der weiteren Ermittlungen. (PI Kempten)"
+    ],
+    "case_key": "9050d61c61cd1083",
+    "case_ordinal": 0,
+    "categories": [
+      "Gewaltdelikt"
+    ],
+    "content_hash": "39c509c7df2d466a169b92b7a09e229b1bcd9f10f94dc1cf07ad44d271ee9e82",
+    "guid": "urn:polizei-bayern:108163:9050d61c61cd1083",
+    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108163/index.html",
+    "organization": "Polizeipräsidium Schwaben Süd/West",
+    "published_ts": 1788678540,
+    "source_id": "108163",
+    "source_title": "PP SWS | Pressemeldungen vom 06.09.2026",
+    "title": "Die tagesaktuellen Meldungen der Polizeiinspektionen Kempten, Sonthofen, Immenstadt, und der Polizeistationen Oberstaufen und Oberstdorf sowie Meldungen der Kriminalpolizei, der Verkehrs…"
+  },
+  {
+    "body": [
+      "Verkehrskontrolle",
+      "BLAICHACH. Am Samstagabend wurde ein Pkw einer allgemeinen Verkehrskontrolle unterzogen. Bei einer Überprüfung der Fahrtüchtigkeit des 32-jährigen slowenischen Fahrzeugführers, konnten deutliche Ausfallerscheinungen festgestellt werden. Ein durchgeführter Atemalkoholtest ergab einen Wert von 0,84 Promille. Laut eigenen Angaben konsumierte der Fahrzeugführer zuvor Cannabis. Die Weiterfahrt wurde unterbunden und der 32-jährige slowenische Fahrzeugführer musste sich einer Blutentnahme unterziehen. (PI Immenstadt)"
+    ],
+    "case_key": "08f8eacf1c19cf08",
+    "case_ordinal": 3,
+    "categories": [
+      "Drogendelikt"
+    ],
+    "content_hash": "08f8eacf1c19cf08aa4c2bf13c2962e5fece1571c362efa57ece955f34454810",
+    "guid": "urn:polizei-bayern:108163:08f8eacf1c19cf08",
+    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108163/index.html",
+    "organization": "Polizeipräsidium Schwaben Süd/West",
+    "published_ts": 1788678540,
+    "source_id": "108163",
+    "source_title": "PP SWS | Pressemeldungen vom 06.09.2026",
+    "title": "Verkehrskontrolle"
+  },
+  {
+    "body": [
+      "Nächtliche Auseinandersetzung endet in Körperverletzung",
+      "OBERSTDORF – In der vergangenen Samstagnacht kam es in einer Oberstdorfer Nachtbar zu einem Vorfall zwischen zwei Männern. Was zunächst als verbale Streitigkeit zwischen einem 59-jährigen und einem 48-jährigen deutschen Staatsangehörigen begann, mündete im weiteren Verlauf der Nacht in einer körperlichen Auseinandersetzung. Nachdem sich die Situation zwischen den beiden alkoholisierten Männern zugespitzt hatte, schlug der Ältere dem Jüngeren ins Gesicht. Gegen den 59-Jährigen wurde ein Strafverfahren wegen Körperverletzung eingeleitet. (PSt. Oberstdorf)"
+    ],
+    "case_key": "d1c599707158e490",
+    "case_ordinal": 5,
+    "categories": [
+      "Gewaltdelikt"
+    ],
+    "content_hash": "d1c599707158e4907045b7db4557e877b84bfdb446e48483460fe4b65609c7b1",
+    "guid": "urn:polizei-bayern:108163:d1c599707158e490",
+    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108163/index.html",
+    "organization": "Polizeipräsidium Schwaben Süd/West",
+    "published_ts": 1788678540,
+    "source_id": "108163",
+    "source_title": "PP SWS | Pressemeldungen vom 06.09.2026",
+    "title": "Nächtliche Auseinandersetzung endet in Körperverletzung"
+  },
+  {
+    "body": [
+      "Fahrt unter Drogeneinfluss",
+      "BUCHLOE. Am Samstagabend, den 05.09.2026, wurde ein 14-jähriger deutscher Staatsbürger mit seinem E-Scooter einer allgemeinen Verkehrskontrolle unterzogen. Dabei stellten die Beamten drogentypische Auffälligkeiten fest. Ein Drogenvortest verlief positiv auf Cannabis. Eine Blutentnahme wurde durch die eingesetzten Beamten angeordnet. Gegen den 14-Jährigen wurde nun ein Ordnungswidrigkeitenverfahren eingeleitet. Nach den polizeilichen Maßnahmen wurde er seinen Erziehungsberechtigten übergeben. (PI Buchloe)"
+    ],
+    "case_key": "73ab1877a6dda035",
+    "case_ordinal": 11,
+    "categories": [
+      "Drogendelikt"
+    ],
+    "content_hash": "73ab1877a6dda035f1c447faa51996f86763ac2d34d2d13ac4495e0fcf8fc57d",
+    "guid": "urn:polizei-bayern:108163:73ab1877a6dda035",
+    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108163/index.html",
+    "organization": "Polizeipräsidium Schwaben Süd/West",
+    "published_ts": 1788678540,
+    "source_id": "108163",
+    "source_title": "PP SWS | Pressemeldungen vom 06.09.2026",
+    "title": "Fahrt unter Drogeneinfluss"
+  },
+  {
+    "body": [
+      "Fahrt unter dem Einfluss von berauschenden Mitteln",
+      "MEMMINGEN. Am Samstagabend gegen 18:15 Uhr, wurde ein 23-jähriger deutscher Fahrzeugführer eines Kleinkraftrades einer allgemeinen Verkehrskontrolle unterzogen. Im Rahmen dieser Verkehrskontrolle wurden beim Fahrzeugführer drogentypische Ausfallerscheinungen festgestellt, woraufhin dieser einräumte am Tag zuvor Cannabis konsumiert zu haben. Ein durchgeführter Drogentest verlief positiv, weshalb beim Fahrzeugführer eine Blutentnahme angeordnet wurde. Die Weiterfahrt mit dem Kleinkraftrad wurde unterbunden. Den Fahrzeugführer erwartet nun bei Überschreitung des THC-Grenzwertes eine Ordnungswidrigkeitenanzeige, welche mit einem Bußgeld von 500,- Euro, zwei Punkten in Flensburg und einem Monat Fahrverbot belegt ist. (APS Memmingen)"
+    ],
+    "case_key": "503488d674fe7c35",
+    "case_ordinal": 17,
+    "categories": [
+      "Drogendelikt"
+    ],
+    "content_hash": "503488d674fe7c35ca056e85bfbc01d61a5a9b56e3843a07a1f9fc048ecd4576",
+    "guid": "urn:polizei-bayern:108163:503488d674fe7c35",
+    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108163/index.html",
+    "organization": "Polizeipräsidium Schwaben Süd/West",
+    "published_ts": 1788678540,
+    "source_id": "108163",
+    "source_title": "PP SWS | Pressemeldungen vom 06.09.2026",
+    "title": "Fahrt unter dem Einfluss von berauschenden Mitteln"
+  },
+  {
+    "body": [
+      "Bedrohung mit Messer",
+      "MEMMINGEN. Am Nachmittag des gestrigen Samstages, erhielt die Polizei Memmingen Mitteilung über einen Streit vor einem Memminger Verbrauchermarkt. Der 34-jährige deutsche Geschädigte soll dabei von einer anderen männlichen Person mit einem Messer bedroht worden sein. Als die Polizei an der Örtlichkeit eintraf, konnten sie einen 23-jährigen Rumänen antreffen, welcher offenbar erheblich unter dem Einfluss von Alkohol und Betäubungsmitteln stand. Auf Ansprache durch die Polizei reagierte der Mann zunächst nicht. Der Mann musste im Anschluss durch die Polizisten gefesselt werden. Bei ihm konnte in der Hosentasche ein verbotenes Messer aufgefunden werden. Zur weiteren Abklärung wurde der Herr in ein Krankenhaus verbracht. Der 23-Jährige muss sich nun unter anderem wegen eines Vergehens der Bedrohung sowie des Führens des verbotenen Messers verantworten. (PI Memmingen)"
+    ],
+    "case_key": "269e567b55c8cd29",
+    "case_ordinal": 20,
+    "categories": [
+      "Drogendelikt"
+    ],
+    "content_hash": "269e567b55c8cd29e8078e742887e02d1b2e36295ecb15d02e634250cfd83ebb",
+    "guid": "urn:polizei-bayern:108163:269e567b55c8cd29",
+    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108163/index.html",
+    "organization": "Polizeipräsidium Schwaben Süd/West",
+    "published_ts": 1788678540,
+    "source_id": "108163",
+    "source_title": "PP SWS | Pressemeldungen vom 06.09.2026",
+    "title": "Bedrohung mit Messer"
+  },
+  {
+    "body": [
       "Fahrten unter Drogeneinfluss",
       "KEMPTEN. Im Stadtgebiet wurden gegen Mitternacht zwei Fahrzeugführer unter dem Einfluss von Cannabis festgestellt. Ein 37-jähriger kosovarischer Fahrzeugführer und ein 34-jähriger deutscher Fahrzeugführer zeigten cannabiskonsumtypische Auffälligkeiten, weshalb die Weiterfahrt unterbunden und eine Blutentnahme durchgeführt wurde. Gegen beide Personen wurden Verkehrsordnungswidrigkeitenverfahren eingeleitet. (PI Kempten)"
     ],
