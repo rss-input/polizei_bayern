@@ -6,10 +6,18 @@
     <description>Gewalt-, Sexual- und Drogendelikte sowie organisierte Kriminalität aus den Pressemitteilungen der Bayerischen Polizei.</description>
     <language>de-DE</language>
     <generator>polizei-bayern-rss</generator>
-    <lastBuildDate>Sun, 06 Sep 2026 08:50:59 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 06 Sep 2026 10:24:15 +0000</lastBuildDate>
     <ttl>30</ttl>
     <atom:link href="https://rss-input.github.io/polizei_bayern/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 06 Sep 2026 08:22:00 +0000</pubDate>
+    <pubDate>Sun, 06 Sep 2026 09:56:00 +0000</pubDate>
+    <item>
+      <title>Mehrere Strafanzeigen nach Streit im Straßenverkehr</title>
+      <link>https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108168/index.html</link>
+      <guid isPermaLink="false">urn:polizei-bayern:108168:1ba63920ba17458a</guid>
+      <pubDate>Sun, 06 Sep 2026 09:56:00 +0000</pubDate>
+      <category>Drogendelikt</category>
+      <description>&lt;p&gt;PM 06.09.2026, PP Mittelfranken / Tatdatum 05.09.26 / Tatort: Nürnberg, Regensburger Straße / Delikt: Körperverletzung / Opfer: keine individualisierten Geschädigten / Tatverdächtige: 1 (30 Jahre); 1 (40 Jahre, deutsch) / Ergebnis: Blutentnahme angeordnet / Besonderheiten: (796) Am Samstagabend (05.09.2026) gerieten im Nürnberger Stadtgebiet ein Autofahrer und ein Radfahrer in Streit. / &lt;a href="https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108168/index.html"&gt;https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108168/index.html&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Auseinandersetzung zwischen zwei Männern - Polizei Miltenberg ermittelt zum Tatverdächtigen</title>
       <link>https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108164/index.html</link>
