@@ -6,10 +6,18 @@
     <description>Gewalt-, Sexual- und Drogendelikte sowie organisierte Kriminalität aus den Pressemitteilungen der Bayerischen Polizei.</description>
     <language>de-DE</language>
     <generator>polizei-bayern-rss</generator>
-    <lastBuildDate>Sun, 06 Sep 2026 12:28:50 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 07 Sep 2026 09:28:22 +0000</lastBuildDate>
     <ttl>30</ttl>
     <atom:link href="https://rss-input.github.io/polizei_bayern/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 06 Sep 2026 09:56:00 +0000</pubDate>
+    <pubDate>Mon, 07 Sep 2026 09:18:00 +0000</pubDate>
+    <item>
+      <title>Niederbayern: Bei Kontrolle Betäubungsmittel aufgefunden</title>
+      <link>https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108205/index.html</link>
+      <guid isPermaLink="false">urn:polizei-bayern:108205:3078b4f4996b311c</guid>
+      <pubDate>Mon, 07 Sep 2026 09:18:00 +0000</pubDate>
+      <category>Drogendelikt</category>
+      <description>&lt;p&gt;PM 07.09.2026, PP Niederbayern / Tatdatum 05.09.26 / Tatort: Passau, Bab A3 / Delikt: illegaler Handel mit Betäubungsmitteln / Opfer: keine individualisierten Geschädigten / Tatverdächtige: 1 (32 Jahre, österreichisch) / Ergebnis: Untersuchungshaft; in Justizvollzugsanstalt untergebracht / Besonderheiten: Bei der Überprüfung des Fahrzeugs wurde eine geringe Menge Amphetamin in Pulverform, Metamphetamin sowie rund ein Kilogramm Amphetaminpaste aufgefunden und sichergestellt. / &lt;a href="https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108205/index.html"&gt;https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108205/index.html&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Mehrere Strafanzeigen nach Streit im Straßenverkehr</title>
       <link>https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108168/index.html</link>
