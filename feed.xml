@@ -6,10 +6,18 @@
     <description>Gewalt-, Sexual- und Drogendelikte sowie organisierte Kriminalität aus den Pressemitteilungen der Bayerischen Polizei.</description>
     <language>de-DE</language>
     <generator>polizei-bayern-rss</generator>
-    <lastBuildDate>Mon, 07 Sep 2026 12:32:39 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 07 Sep 2026 13:53:06 +0000</lastBuildDate>
     <ttl>30</ttl>
     <atom:link href="https://rss-input.github.io/polizei_bayern/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 07 Sep 2026 12:25:00 +0000</pubDate>
+    <pubDate>Mon, 07 Sep 2026 13:38:00 +0000</pubDate>
+    <item>
+      <title>Polizei sucht Hinweise auf die Herkunft einer Grabvase</title>
+      <link>https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108220/index.html</link>
+      <guid isPermaLink="false">urn:polizei-bayern:108220:17555a2da26960a1</guid>
+      <pubDate>Mon, 07 Sep 2026 13:38:00 +0000</pubDate>
+      <category>Drogendelikt</category>
+      <description>&lt;p&gt;PM 07.09.2026, PP Oberfranken / Tatdatum 01.09.26 / Tatort: Hof / Delikt: Drogendelikt / Opfer: keine individualisierten Geschädigten / Tatverdächtige: 1 (30 Jahre); Staatsangehörigkeit nicht mitgeteilt / Ergebnis: nicht mitgeteilt / Besonderheiten: Gegen den slowakischen Staatsangehörigen wird wegen mehreren Verstößen gegen das Betäubungsmittelgesetz und Hehlerei ermittelt. / &lt;a href="https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108220/index.html"&gt;https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108220/index.html&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Mehrere Drogenverstöße bei Kontrollen im Zulauf zu Musikveranstaltung</title>
       <link>https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108212/index.html</link>
