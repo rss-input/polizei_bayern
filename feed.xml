@@ -6,10 +6,18 @@
     <description>Gewalt-, Sexual- und Drogendelikte sowie organisierte Kriminalität aus den Pressemitteilungen der Bayerischen Polizei.</description>
     <language>de-DE</language>
     <generator>polizei-bayern-rss</generator>
-    <lastBuildDate>Mon, 07 Sep 2026 13:53:06 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 08 Sep 2026 07:53:16 +0000</lastBuildDate>
     <ttl>30</ttl>
     <atom:link href="https://rss-input.github.io/polizei_bayern/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 07 Sep 2026 13:38:00 +0000</pubDate>
+    <pubDate>Tue, 08 Sep 2026 07:41:00 +0000</pubDate>
+    <item>
+      <title>Schleierfahnder stellen Betäubungsmittel sicher</title>
+      <link>https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108244/index.html</link>
+      <guid isPermaLink="false">urn:polizei-bayern:108244:9a40b5fdab546a5f</guid>
+      <pubDate>Tue, 08 Sep 2026 07:41:00 +0000</pubDate>
+      <category>Drogendelikt</category>
+      <description>&lt;p&gt;PM 08.09.2026, PP Oberfranken / Tatdatum 07.09.26 / Tatort: A9 / PWC Lipperts, LKR. HOF / Delikt: Fahren unter Betäubungsmitteleinfluss / Opfer: keine individualisierten Geschädigten / Tatverdächtige: 1 (41 Jahre, polnisch) / Ergebnis: nicht mitgeteilt / Besonderheiten: Bei der Durchsuchung eines 41-jährigen polnischen Mitfahrers entdeckten die Fahnder in einer Umhängetasche sowie im Reisegepäck über zehn Gramm Amphetamin. / &lt;a href="https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108244/index.html"&gt;https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108244/index.html&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Polizei sucht Hinweise auf die Herkunft einer Grabvase</title>
       <link>https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108220/index.html</link>
