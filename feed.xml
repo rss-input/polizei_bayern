@@ -6,10 +6,18 @@
     <description>Gewalt-, Sexual- und Drogendelikte sowie organisierte Kriminalität aus den Pressemitteilungen der Bayerischen Polizei.</description>
     <language>de-DE</language>
     <generator>polizei-bayern-rss</generator>
-    <lastBuildDate>Wed, 09 Sep 2026 12:55:19 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 09 Sep 2026 14:26:59 +0000</lastBuildDate>
     <ttl>30</ttl>
     <atom:link href="https://rss-input.github.io/polizei_bayern/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 09 Sep 2026 12:51:00 +0000</pubDate>
+    <pubDate>Wed, 09 Sep 2026 13:45:00 +0000</pubDate>
+    <item>
+      <title>Niederbayern: Brand in einer Gaststätte in Vilshofen – Festnahme eines Tatverdächtigen</title>
+      <link>https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108312/index.html</link>
+      <guid isPermaLink="false">urn:polizei-bayern:108312:72ba3773a9ece7de</guid>
+      <pubDate>Wed, 09 Sep 2026 13:45:00 +0000</pubDate>
+      <category>Gewaltdelikt</category>
+      <description>&lt;p&gt;PM 09.09.2026, PP Niederbayern / Tatdatum 09.09.26 / Tatort: Vilshofen A.D. Donau/Alkofen, Lkr. Passau / Delikt: Gewaltdelikt / Opfer: nicht näher mitgeteilt / Tatverdächtige: 1 (27 Jahre, deutsch) / Ergebnis: festgenommen; Untersuchungshaftbefehl erlassen; in Justizvollzugsanstalt untergebracht / Besonderheiten: Am Mittwoch, 09.09.2026, kam es in den frühen Morgenstunden zu einem Brand in einer ehemaligen Gaststätte. / &lt;a href="https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108312/index.html"&gt;https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108312/index.html&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Verkehrsunfall mit E-Scooter | Jugendlicher unter Drogeneinfluss</title>
       <link>https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108295/index.html</link>
