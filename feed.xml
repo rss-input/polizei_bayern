@@ -6,10 +6,26 @@
     <description>Gewalt-, Sexual- und Drogendelikte sowie organisierte Kriminalität aus den Pressemitteilungen der Bayerischen Polizei.</description>
     <language>de-DE</language>
     <generator>polizei-bayern-rss</generator>
-    <lastBuildDate>Tue, 08 Sep 2026 14:28:36 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 09 Sep 2026 08:53:08 +0000</lastBuildDate>
     <ttl>30</ttl>
     <atom:link href="https://rss-input.github.io/polizei_bayern/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 08 Sep 2026 13:46:00 +0000</pubDate>
+    <pubDate>Wed, 09 Sep 2026 08:22:00 +0000</pubDate>
+    <item>
+      <title>Verkehrsteilnehmerin übersieht Kind mit Fahrrad - 6-Jähriger bei Unfall verletzt</title>
+      <link>https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108288/index.html</link>
+      <guid isPermaLink="false">urn:polizei-bayern:108288:e5bae6866bc2d298</guid>
+      <pubDate>Wed, 09 Sep 2026 08:22:00 +0000</pubDate>
+      <category>Gewaltdelikt</category>
+      <description>&lt;p&gt;PM 09.09.2026, PP Unterfranken / Tatdatum 08.09.26 / Tatort: Sinntalstraße / Delikt: Körperverletzung / Opfer: nicht näher mitgeteilt / Tatverdächtige: 1 (42 Jahre, deutsch) / Ergebnis: Krankenhausbehandlung bzw. -unterbringung / Besonderheiten: RIEDENBERG, LKR. BAD KISSINGEN.Am Dienstagmittag kam es in der Sinntalstraße zu einem Verkehrsunfall bei dem ein sechs Jahre alter Junge verletzt wurde. / &lt;a href="https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108288/index.html"&gt;https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108288/index.html&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Niederbayern: Mehrere Verstöße bei Kontrollen festgestellt</title>
+      <link>https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108287/index.html</link>
+      <guid isPermaLink="false">urn:polizei-bayern:108287:93c09b9342da9278</guid>
+      <pubDate>Wed, 09 Sep 2026 08:05:00 +0000</pubDate>
+      <category>Organisierte Kriminalität</category>
+      <description>&lt;p&gt;PM 09.09.2026, PP Niederbayern / Tatdatum nicht mitgeteilt / Tatort: Gegen 14:30 Uhr wurde ein BMW einer Kontrolle unterzogen / Delikt: Organisierte Kriminalität / Opfer: nicht näher mitgeteilt / Tatverdächtige: 1 (37 Jahre, rumänisch); 1 (32 Jahre, bulgarisch); 1 (30 Jahre, bulgarisch) / Ergebnis: nach Abschluss der polizeilichen Maßnahmen entlassen / Besonderheiten: Insgesamt handelte es sich um einen hohen fünfstelligen Eurobetrag. / &lt;a href="https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108287/index.html"&gt;https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108287/index.html&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Innenstadt– Am Samstag (05.09.2026) wurde ein Mann am Königsplatz von einem 30-Jährigen mit einer Glasflasche attackiert und im weiteren Verlauf mit einem Messer angegriffen.</title>
       <link>https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108269/index.html</link>
