@@ -6,10 +6,19 @@
     <description>Gewalt-, Sexual- und Drogendelikte sowie organisierte Kriminalität aus den Pressemitteilungen der Bayerischen Polizei.</description>
     <language>de-DE</language>
     <generator>polizei-bayern-rss</generator>
-    <lastBuildDate>Thu, 10 Sep 2026 04:52:57 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 10 Sep 2026 08:28:19 +0000</lastBuildDate>
     <ttl>30</ttl>
     <atom:link href="https://rss-input.github.io/polizei_bayern/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 10 Sep 2026 04:49:00 +0000</pubDate>
+    <pubDate>Thu, 10 Sep 2026 08:15:00 +0000</pubDate>
+    <item>
+      <title>Niederbayern: Länderübergreifende Schwerpunktaktion zur Bekämpfung der Betäubungsmittelkriminalität</title>
+      <link>https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108334/index.html</link>
+      <guid isPermaLink="false">urn:polizei-bayern:108334:1990e78837d49bcf</guid>
+      <pubDate>Thu, 10 Sep 2026 08:15:00 +0000</pubDate>
+      <category>Drogendelikt</category>
+      <category>Organisierte Kriminalität</category>
+      <description>&lt;p&gt;PM 10.09.2026, PP Niederbayern / Tatdatum 07.09.26 / Tatort: Passau / Delikt: Niederbayern: Länderübergreifende Schwerpunktaktion zur Bekämpfung der Betäubungsmittelkriminalität / Opfer: nicht näher mitgeteilt / Tatverdächtige: nicht näher mitgeteilt / Ergebnis: Dabei konnten verschiedene Verstöße festgestellt und Betäubungsmittel sichergestellt werden. Hierbei wurde eine Bargeldsumme im hohen fünfstelligen Eurobereich sichergestellt. / Besonderheiten: Hierbei wurde eine Bargeldsumme im hohen fünfstelligen Eurobereich sichergestellt. / &lt;a href="https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108334/index.html"&gt;https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108334/index.html&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Präventionsfahrräder zeigen Wirkung – erste Ermittlungserfolge in der Oberpfalz</title>
       <link>https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108322/index.html</link>
