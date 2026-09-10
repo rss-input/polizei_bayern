@@ -6,10 +6,19 @@
     <description>Gewalt-, Sexual- und Drogendelikte sowie organisierte Kriminalität aus den Pressemitteilungen der Bayerischen Polizei.</description>
     <language>de-DE</language>
     <generator>polizei-bayern-rss</generator>
-    <lastBuildDate>Wed, 09 Sep 2026 14:26:59 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 10 Sep 2026 04:52:57 +0000</lastBuildDate>
     <ttl>30</ttl>
     <atom:link href="https://rss-input.github.io/polizei_bayern/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 09 Sep 2026 13:45:00 +0000</pubDate>
+    <pubDate>Thu, 10 Sep 2026 04:49:00 +0000</pubDate>
+    <item>
+      <title>Präventionsfahrräder zeigen Wirkung – erste Ermittlungserfolge in der Oberpfalz</title>
+      <link>https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108322/index.html</link>
+      <guid isPermaLink="false">urn:polizei-bayern:108322:41f1a6890fc6f574</guid>
+      <pubDate>Thu, 10 Sep 2026 04:49:00 +0000</pubDate>
+      <category>Drogendelikt</category>
+      <category>Organisierte Kriminalität</category>
+      <description>&lt;p&gt;PM 10.09.2026, PP Oberpfalz / Tatdatum 14.08.26 / Tatort: Oberpfalz, Bahnhof / Delikt: Präventionsfahrräder zeigen Wirkung – erste Ermittlungserfolge in der Oberpfalz / Opfer: nicht näher mitgeteilt / Tatverdächtige: 1 (Mann, 47 Jahre); Staatsangehörigkeit nicht mitgeteilt / Ergebnis: festgenommen; Untersuchungshaft / Besonderheiten: Seit Mitte April setzt das Polizeipräsidium Oberpfalz sogenannte Präventionsfahrräder mit GPS-Sendern ein, um insbesondere professionell und überregional agierende Fahrraddiebe zu identifizieren. / &lt;a href="https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108322/index.html"&gt;https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108322/index.html&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Niederbayern: Brand in einer Gaststätte in Vilshofen – Festnahme eines Tatverdächtigen</title>
       <link>https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108312/index.html</link>
