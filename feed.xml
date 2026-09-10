@@ -6,10 +6,18 @@
     <description>Gewalt-, Sexual- und Drogendelikte sowie organisierte Kriminalität aus den Pressemitteilungen der Bayerischen Polizei.</description>
     <language>de-DE</language>
     <generator>polizei-bayern-rss</generator>
-    <lastBuildDate>Thu, 10 Sep 2026 13:52:55 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 10 Sep 2026 14:26:12 +0000</lastBuildDate>
     <ttl>30</ttl>
     <atom:link href="https://rss-input.github.io/polizei_bayern/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 10 Sep 2026 13:39:00 +0000</pubDate>
+    <pubDate>Thu, 10 Sep 2026 14:05:00 +0000</pubDate>
+    <item>
+      <title>Innenstadt– Am Montag (07.09.2026), im Zeitraum zwischen 20:00 Uhr – 21:15 Uhr, kam es in der Augsburger Innenstadt zu einem Sexualdelikt zum Nachteil einer 15-Jährigen.</title>
+      <link>https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108364/index.html</link>
+      <guid isPermaLink="false">urn:polizei-bayern:108364:bbbacc7680711bea</guid>
+      <pubDate>Thu, 10 Sep 2026 14:05:00 +0000</pubDate>
+      <category>Sexualdelikt</category>
+      <description>&lt;p&gt;PM 10.09.2026, PP Schwaben Nord / Tatdatum nicht mitgeteilt / Tatort: nicht näher mitgeteilt / Delikt: Sexualdelikt / Opfer: nicht näher mitgeteilt / Tatverdächtige: nicht näher mitgeteilt / Ergebnis: nicht mitgeteilt / Besonderheiten: Ein bislang unbekannter junger Mann soll die 15-Jährige sexuell missbraucht haben. / &lt;a href="https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108364/index.html"&gt;https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108364/index.html&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Niederbayern: Körperverletzung gegenüber Senior – Kriminalpolizei bittet um Zeugenhinweise</title>
       <link>https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108362/index.html</link>
