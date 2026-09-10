@@ -6,10 +6,18 @@
     <description>Gewalt-, Sexual- und Drogendelikte sowie organisierte Kriminalität aus den Pressemitteilungen der Bayerischen Polizei.</description>
     <language>de-DE</language>
     <generator>polizei-bayern-rss</generator>
-    <lastBuildDate>Thu, 10 Sep 2026 12:32:05 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 10 Sep 2026 13:52:55 +0000</lastBuildDate>
     <ttl>30</ttl>
     <atom:link href="https://rss-input.github.io/polizei_bayern/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 10 Sep 2026 11:21:00 +0000</pubDate>
+    <pubDate>Thu, 10 Sep 2026 13:39:00 +0000</pubDate>
+    <item>
+      <title>Niederbayern: Körperverletzung gegenüber Senior – Kriminalpolizei bittet um Zeugenhinweise</title>
+      <link>https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108362/index.html</link>
+      <guid isPermaLink="false">urn:polizei-bayern:108362:5bc4b3768bcef0ee</guid>
+      <pubDate>Thu, 10 Sep 2026 13:39:00 +0000</pubDate>
+      <category>Gewaltdelikt</category>
+      <description>&lt;p&gt;PM 10.09.2026, PP Niederbayern / Tatdatum 09.09.26 / Tatort: Ersten Erkenntnissen nach befand sich die Frau gegen 10.30 Uhr im Haus des Seniors, Klausenstraße / Delikt: Körperverletzung / Opfer: Der Senior wurde im Kopfbereich verletzt und nach Erstversorgung vor Ort in ein umliegendes Krankenhaus eingeliefert. / Tatverdächtige: unbekannte Person (Mann: schlank, 185 bis 190 cm groß, ca. 30-40 Jahre alt, rote Turnschuhe, graue Jogginghose, weißes Shirt, kurze braune Haare, seitlich hängend schwarze Tasche von Adidas; Staatsangehörigkeit nicht mitgeteilt) / Ergebnis: Krankenhausbehandlung bzw. -unterbringung / Besonderheiten: Aus derzeit noch unbekannten Gründen kam es schließlich zu einer Körperverletzung gegen den Senior durch die Frau, wobei sie Pfefferspray und einen Holzstock einsetzte. / &lt;a href="https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108362/index.html"&gt;https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108362/index.html&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Streit um Sitzplatz auf öffentlicher Bank</title>
       <link>https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108338/index.html</link>
