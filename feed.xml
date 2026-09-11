@@ -6,10 +6,18 @@
     <description>Gewalt-, Sexual- und Drogendelikte sowie organisierte Kriminalität aus den Pressemitteilungen der Bayerischen Polizei.</description>
     <language>de-DE</language>
     <generator>polizei-bayern-rss</generator>
-    <lastBuildDate>Fri, 11 Sep 2026 11:50:56 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 11 Sep 2026 12:31:16 +0000</lastBuildDate>
     <ttl>30</ttl>
     <atom:link href="https://rss-input.github.io/polizei_bayern/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 11 Sep 2026 11:41:00 +0000</pubDate>
+    <pubDate>Fri, 11 Sep 2026 12:13:00 +0000</pubDate>
+    <item>
+      <title>Raubüberfall auf Supermarkt in Kemptener Innenstadt | Tatverdächtiger in U-Haft</title>
+      <link>https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108408/index.html</link>
+      <guid isPermaLink="false">urn:polizei-bayern:108408:8e5304594b2cf210</guid>
+      <pubDate>Fri, 11 Sep 2026 12:13:00 +0000</pubDate>
+      <category>Gewaltdelikt</category>
+      <description>&lt;p&gt;PM 11.09.2026, PP Schwaben Süd/West / Tatdatum 10.09.26 / Tatort: Kempten / Delikt: schwerer Raub / Opfer: nicht näher mitgeteilt / Tatverdächtige: 1 (21 Jahre, deutsch) / Ergebnis: festgenommen / Besonderheiten: Unter Vorhalt eines Messers forderte er eine Kassiererin zur Herausgabe von Bargeld auf. / &lt;a href="https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108408/index.html"&gt;https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108408/index.html&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Bei Streit auf Parkplatz massiv auf Hals eingewirkt – Tatverdächtiger festgenommen</title>
       <link>https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108403/index.html</link>
@@ -17,6 +25,22 @@
       <pubDate>Fri, 11 Sep 2026 11:41:00 +0000</pubDate>
       <category>Gewaltdelikt</category>
       <description>&lt;p&gt;PM 11.09.2026, PP Mittelfranken / Tatdatum 20.08.26 / Tatort: Ansbach / Delikt: Gewaltdelikt / Opfer: 1 (32 Jahre, deutsch) / Tatverdächtige: 1 (18 Jahre, deutsch) / Ergebnis: festgenommen; eine 32-jährige Person vorübergehend im Krankenhaus behandelt / Besonderheiten: (806) Wie am 20.08.2026 mit Meldung 766 berichtet, wirkte am 19.08.2026 (Mittwochabend) ein zunächst Unbekannter auf einem Parkplatz des Scheerweihers bei Ansbach massiv auf den Hals eines 32-Jährigen ein. / &lt;a href="https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108403/index.html"&gt;https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108403/index.html&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>1350. Zwei Festnahmen nach versuchtem Tötungsdelikt – Am Hart</title>
+      <link>https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108397/index.html</link>
+      <guid isPermaLink="false">urn:polizei-bayern:108397:1350</guid>
+      <pubDate>Fri, 11 Sep 2026 10:12:00 +0000</pubDate>
+      <category>Gewaltdelikt</category>
+      <description>&lt;p&gt;PM 11.09.2026, PP München / Tatdatum 02.09.26 / Tatort: Neuherbergstraße Ecke Schleißheimer Straße / Delikt: Gewaltdelikt / Opfer: nicht näher mitgeteilt / Tatverdächtige: 1 (33 Jahre, kosovarisch); 1 (24 Jahre, türkisch); 1 (25 Jahre, türkisch) / Ergebnis: Untersuchungshaft; Fahndung ohne Erfolg; eine 33-jährige Person vorübergehend im Krankenhaus behandelt / Besonderheiten: Siehe Medieninformation Nr. 1291 vom 02.09.2026 / &lt;a href="https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108397/index.html"&gt;https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108397/index.html&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>1353. Täterfestnahme nach Sexualdelikt – Altstadt-Lehel</title>
+      <link>https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108397/index.html</link>
+      <guid isPermaLink="false">urn:polizei-bayern:108397:1353</guid>
+      <pubDate>Fri, 11 Sep 2026 10:12:00 +0000</pubDate>
+      <category>Sexualdelikt</category>
+      <description>&lt;p&gt;PM 11.09.2026, PP München / Tatdatum 10.09.26 / Tatort: nicht näher mitgeteilt / Delikt: Sexualdelikt / Opfer: nicht näher mitgeteilt / Tatverdächtige: 1 (34 Jahre, deutsch); 1 (42 Jahre, deutsch) / Ergebnis: nach Abschluss der polizeilichen Maßnahmen entlassen / Besonderheiten: Als sie ihn mit ihrem Ellenbogen wegschob, ließ er von ihr ab und ging weiter. / &lt;a href="https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108397/index.html"&gt;https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108397/index.html&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Tätlicher Angriff auf Vollstreckungsbeamte</title>
