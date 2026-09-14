@@ -6,7 +6,7 @@
     <description>Gewalt-, Sexual- und Drogendelikte sowie organisierte Kriminalität aus den Pressemitteilungen der Bayerischen Polizei.</description>
     <language>de-DE</language>
     <generator>polizei-bayern-rss</generator>
-    <lastBuildDate>Mon, 14 Sep 2026 11:26:34 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 14 Sep 2026 12:32:48 +0000</lastBuildDate>
     <ttl>30</ttl>
     <atom:link href="https://rss-input.github.io/polizei_bayern/feed.xml" rel="self" type="application/rss+xml" />
     <pubDate>Mon, 14 Sep 2026 11:20:00 +0000</pubDate>
@@ -42,6 +42,14 @@
       <pubDate>Mon, 14 Sep 2026 10:00:00 +0000</pubDate>
       <category>Drogendelikt</category>
       <description>&lt;p&gt;PM 14.09.2026, PP Schwaben Süd/West / Tatdatum 13.09.26 / Tatort: Buchloe, Münchener Straße / Delikt: Fahren unter Betäubungsmitteleinfluss / Opfer: keine individualisierten Geschädigten / Tatverdächtige: nicht näher mitgeteilt / Ergebnis: Blutentnahme angeordnet / Besonderheiten: Am Sonntagabend wurde ein 18-Jähriger mit seinem E-Scooter in der Münchener Straße zu einer allgemeinen Verkehrskontrolle angehalten. / &lt;a href="https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108508/index.html"&gt;https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108508/index.html&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>1369. Festnahme von zwei Tatverdächtigen nach Diebstahl eines E-Scooters – Ramersdorf</title>
+      <link>https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108509/index.html</link>
+      <guid isPermaLink="false">urn:polizei-bayern:108509:1369</guid>
+      <pubDate>Mon, 14 Sep 2026 09:53:00 +0000</pubDate>
+      <category>Drogendelikt</category>
+      <description>&lt;p&gt;PM 14.09.2026, Polizei Bayern / Tatdatum 14.09.26 / Tatort: Der 46-Jährige und die 44-Jährige wurden festgenommen, Balanstraße / Delikt: Fahren unter Betäubungsmitteleinfluss / Opfer: keine individualisierten Geschädigten / Tatverdächtige: 1 (44 Jahre, deutsch) / Ergebnis: festgenommen; nach Abschluss der polizeilichen Maßnahmen entlassen / Besonderheiten: Am Montag, 14.09.2026, gegen 02:30 Uhr, konnten zwei Personen im Bereich der Balanstraße durch eine zivile Polizeistreife festgestellt werden, wie sie abwechselnd einen E-Scooter fuhren. / &lt;a href="https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108509/index.html"&gt;https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108509/index.html&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Niederbayern: Flucht nach Pkw-Diebstahl und Tankbetrug – 1. Nachtragsmeldung</title>
