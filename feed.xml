@@ -6,10 +6,18 @@
     <description>Gewalt-, Sexual- und Drogendelikte sowie organisierte Kriminalität aus den Pressemitteilungen der Bayerischen Polizei.</description>
     <language>de-DE</language>
     <generator>polizei-bayern-rss</generator>
-    <lastBuildDate>Sun, 13 Sep 2026 22:29:07 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 14 Sep 2026 10:26:20 +0000</lastBuildDate>
     <ttl>30</ttl>
     <atom:link href="https://rss-input.github.io/polizei_bayern/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 13 Sep 2026 14:23:00 +0000</pubDate>
+    <pubDate>Mon, 14 Sep 2026 10:00:00 +0000</pubDate>
+    <item>
+      <title>E-Scooter-Fahrer unter Drogeneinfluss</title>
+      <link>https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108508/index.html</link>
+      <guid isPermaLink="false">urn:polizei-bayern:108508:bc15f05d15a506e2</guid>
+      <pubDate>Mon, 14 Sep 2026 10:00:00 +0000</pubDate>
+      <category>Drogendelikt</category>
+      <description>&lt;p&gt;PM 14.09.2026, PP Schwaben Süd/West / Tatdatum 13.09.26 / Tatort: Buchloe, Münchener Straße / Delikt: Fahren unter Betäubungsmitteleinfluss / Opfer: keine individualisierten Geschädigten / Tatverdächtige: nicht näher mitgeteilt / Ergebnis: Blutentnahme angeordnet / Besonderheiten: Am Sonntagabend wurde ein 18-Jähriger mit seinem E-Scooter in der Münchener Straße zu einer allgemeinen Verkehrskontrolle angehalten. / &lt;a href="https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108508/index.html"&gt;https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108508/index.html&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Niederbayern: Flucht nach Pkw-Diebstahl und Tankbetrug – 1. Nachtragsmeldung</title>
       <link>https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108465/index.html</link>
