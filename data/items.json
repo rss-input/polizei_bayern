@@ -1,6 +1,25 @@
 [
   {
     "body": [
+      "E-Scooter-Fahrer unter Drogeneinfluss",
+      "BUCHLOE. Am Sonntagabend wurde ein 18-Jähriger mit seinem E-Scooter in der Münchener Straße zu einer allgemeinen Verkehrskontrolle angehalten. Dabei stellten die Beamten drogentypische Auffälligkeiten fest. Ein Drogenvortest verlief positiv auf Cannabis. Der junge Mann musste sich einer Blutentnahme unterziehen. Die Weiterfahrt wurde untersagt. Der 18-Jährige muss nun mit einer Bußgeldanzeige rechnen. (PI Buchloe)"
+    ],
+    "case_key": "bc15f05d15a506e2",
+    "case_ordinal": 6,
+    "categories": [
+      "Drogendelikt"
+    ],
+    "content_hash": "bc15f05d15a506e2b9ef33ae466d53632bf9c4b4d06858c689287ae9a68d1c21",
+    "guid": "urn:polizei-bayern:108508:bc15f05d15a506e2",
+    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108508/index.html",
+    "organization": "Polizeipräsidium Schwaben Süd/West",
+    "published_ts": 1789392840,
+    "source_id": "108508",
+    "source_title": "PP SWS | Pressemeldungen vom 14.09.2026",
+    "title": "E-Scooter-Fahrer unter Drogeneinfluss"
+  },
+  {
+    "body": [
       "Gemeinsame Presseerklärung der Staatsanwaltschaft Bamberg und des Polizeipräsidiums Oberfranken",
       "RATTELSDORF, LKR. BAMBERG. Nach dem polizeilichen Schusswaffengebrauch am Samstagmorgen in Mürsbach hat der zuständige Ermittlungsrichter am Sonntag einen Unterbringungsbefehl gegen den 38-jährigen Beschuldigten erlassen.",
       "Am Samstagmorgen hatten mehrere Zeugen einen offenbar verwirrten Mann mit zwei Messern im Rattelsdorfer Gemeindeteil Mürsbach gemeldet. Im Rahmen der daraufhin eingeleiteten Fahndung trafen Polizeibeamte den 38-jährigen Deutschen an. Im weiteren Verlauf kam es zum Schusswaffengebrauch durch die Polizei. Der Mann erlitt dabei eine nicht lebensgefährliche Schussverletzung am Bein.",
@@ -89,25 +108,6 @@
     "source_id": "108510",
     "source_title": "Bilanz zum Rosenheimer Herbstfest 2026",
     "title": "Bilanz zum Rosenheimer Herbstfest 2026"
-  },
-  {
-    "body": [
-      "E-Scooter-Fahrer unter Drogeneinfluss",
-      "BUCHLOE. Am Sonntagabend wurde ein 18-Jähriger mit seinem E-Scooter in der Münchener Straße zu einer allgemeinen Verkehrskontrolle angehalten. Dabei stellten die Beamten drogentypische Auffälligkeiten fest. Ein Drogenvortest verlief positiv auf Cannabis. Der junge Mann musste sich einer Blutentnahme unterziehen. Die Weiterfahrt wurde untersagt. Der 18-Jährige muss nun mit einer Bußgeldanzeige rechnen. (PI Buchloe)"
-    ],
-    "case_key": "bc15f05d15a506e2",
-    "case_ordinal": 6,
-    "categories": [
-      "Drogendelikt"
-    ],
-    "content_hash": "bc15f05d15a506e2b9ef33ae466d53632bf9c4b4d06858c689287ae9a68d1c21",
-    "guid": "urn:polizei-bayern:108508:bc15f05d15a506e2",
-    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108508/index.html",
-    "organization": "Polizeipräsidium Schwaben Süd/West",
-    "published_ts": 1789380000,
-    "source_id": "108508",
-    "source_title": "PP SWS | Pressemeldungen vom 14.09.2026",
-    "title": "E-Scooter-Fahrer unter Drogeneinfluss"
   },
   {
     "body": [
