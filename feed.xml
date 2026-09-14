@@ -6,10 +6,18 @@
     <description>Gewalt-, Sexual- und Drogendelikte sowie organisierte Kriminalität aus den Pressemitteilungen der Bayerischen Polizei.</description>
     <language>de-DE</language>
     <generator>polizei-bayern-rss</generator>
-    <lastBuildDate>Mon, 14 Sep 2026 12:32:48 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 14 Sep 2026 12:57:07 +0000</lastBuildDate>
     <ttl>30</ttl>
     <atom:link href="https://rss-input.github.io/polizei_bayern/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 14 Sep 2026 11:20:00 +0000</pubDate>
+    <pubDate>Mon, 14 Sep 2026 12:34:00 +0000</pubDate>
+    <item>
+      <title>Unterbringungsbefehl nach Vorfall in Mürsbach erlassen</title>
+      <link>https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108520/index.html</link>
+      <guid isPermaLink="false">urn:polizei-bayern:108520:6e177e8471254faa</guid>
+      <pubDate>Mon, 14 Sep 2026 12:34:00 +0000</pubDate>
+      <category>Gewaltdelikt</category>
+      <description>&lt;p&gt;PM 14.09.2026, PP Oberfranken / Tatdatum 12.09.26 / Tatort: Rattelsdorf, Lkr. Bamberg / Delikt: tätlicher Angriff auf Vollstreckungsbeamte / Opfer: nicht näher mitgeteilt / Tatverdächtige: 1 (38 Jahre, deutsch) / Ergebnis: nicht mitgeteilt / Besonderheiten: Gemeinsame Presseerklärung der Staatsanwaltschaft Bamberg und des Polizeipräsidiums Oberfranken / &lt;a href="https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108520/index.html"&gt;https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108520/index.html&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Niederbayern: Sicherstellung von Bargeld und Uhren</title>
       <link>https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108513/index.html</link>
