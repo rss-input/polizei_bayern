@@ -6,10 +6,18 @@
     <description>Gewalt-, Sexual- und Drogendelikte sowie organisierte Kriminalität aus den Pressemitteilungen der Bayerischen Polizei.</description>
     <language>de-DE</language>
     <generator>polizei-bayern-rss</generator>
-    <lastBuildDate>Mon, 14 Sep 2026 13:53:37 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 15 Sep 2026 00:34:24 +0000</lastBuildDate>
     <ttl>30</ttl>
     <atom:link href="https://rss-input.github.io/polizei_bayern/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 14 Sep 2026 13:34:00 +0000</pubDate>
+    <pubDate>Mon, 14 Sep 2026 23:33:00 +0000</pubDate>
+    <item>
+      <title>Flucht vor Polizeikontrolle endet mit Verkehrsunfall</title>
+      <link>https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108539/index.html</link>
+      <guid isPermaLink="false">urn:polizei-bayern:108539:6c7fd6fa8c0e3d9a</guid>
+      <pubDate>Mon, 14 Sep 2026 23:33:00 +0000</pubDate>
+      <category>Drogendelikt</category>
+      <description>&lt;p&gt;PM 15.09.2026, PP Oberfranken / Tatdatum 14.09.26 / Tatort: Kemmern, Lkr. Bamberg / Delikt: Besitz von Betäubungsmitteln / Opfer: Der Fahrer und seine Beifahrerin waren kurzzeitig im Fahrzeug eingeklemmt und wurden durch den Aufprall leicht verletzt. / Tatverdächtige: 1 (22 Jahre, deutsch) / Ergebnis: tatverdächtige Person flüchtig; Krankenhausbehandlung bzw. -unterbringung / Besonderheiten: Am späten Montagabend, entzog sich der Fahrer eines BMW einer Anhaltung. / &lt;a href="https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108539/index.html"&gt;https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108539/index.html&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>E-Scooter-Fahrer unter Drogeneinfluss</title>
       <link>https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108508/index.html</link>
