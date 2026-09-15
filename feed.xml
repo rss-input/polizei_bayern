@@ -6,10 +6,18 @@
     <description>Gewalt-, Sexual- und Drogendelikte sowie organisierte Kriminalität aus den Pressemitteilungen der Bayerischen Polizei.</description>
     <language>de-DE</language>
     <generator>polizei-bayern-rss</generator>
-    <lastBuildDate>Tue, 15 Sep 2026 05:53:51 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 15 Sep 2026 07:54:51 +0000</lastBuildDate>
     <ttl>30</ttl>
     <atom:link href="https://rss-input.github.io/polizei_bayern/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 15 Sep 2026 05:36:00 +0000</pubDate>
+    <pubDate>Tue, 15 Sep 2026 07:29:00 +0000</pubDate>
+    <item>
+      <title>Ermittlungen der „EKO Kajal“ – 29-jähriger Mann in Haft</title>
+      <link>https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108548/index.html</link>
+      <guid isPermaLink="false">urn:polizei-bayern:108548:6ce769cb39acf02b</guid>
+      <pubDate>Tue, 15 Sep 2026 07:29:00 +0000</pubDate>
+      <category>Drogendelikt</category>
+      <description>&lt;p&gt;PM 15.09.2026, PP Mittelfranken / Tatdatum 10.09.26 / Tatort: Nürnberg / Delikt: Drogenabgabe an Minderjährige / Opfer: keine individualisierten Geschädigten / Tatverdächtige: 1 (29 Jahre, somalisch) / Ergebnis: festgenommen / Besonderheiten: Der Mann wird verdächtigt Betäubungsmittel an Minderjährige abgegeben zu haben. / &lt;a href="https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108548/index.html"&gt;https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108548/index.html&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Nachtrag zu Brand eines unbewohnten Gebäudes | Täterermittlung</title>
       <link>https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108545/index.html</link>
