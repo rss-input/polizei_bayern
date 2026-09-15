@@ -6,10 +6,18 @@
     <description>Gewalt-, Sexual- und Drogendelikte sowie organisierte Kriminalität aus den Pressemitteilungen der Bayerischen Polizei.</description>
     <language>de-DE</language>
     <generator>polizei-bayern-rss</generator>
-    <lastBuildDate>Tue, 15 Sep 2026 00:34:24 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 15 Sep 2026 05:53:51 +0000</lastBuildDate>
     <ttl>30</ttl>
     <atom:link href="https://rss-input.github.io/polizei_bayern/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 14 Sep 2026 23:33:00 +0000</pubDate>
+    <pubDate>Tue, 15 Sep 2026 05:36:00 +0000</pubDate>
+    <item>
+      <title>Nachtrag zu Brand eines unbewohnten Gebäudes | Täterermittlung</title>
+      <link>https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108545/index.html</link>
+      <guid isPermaLink="false">urn:polizei-bayern:108545:6952c865f722fa48</guid>
+      <pubDate>Tue, 15 Sep 2026 05:36:00 +0000</pubDate>
+      <category>Gewaltdelikt</category>
+      <description>&lt;p&gt;PM 15.09.2026, PP Schwaben Süd/West / Tatdatum 05.07.26 / Tatort: Ulmer Straße / Delikt: Gewaltdelikt / Opfer: nicht näher mitgeteilt / Tatverdächtige: 1 (16 Jahre); Staatsangehörigkeit nicht mitgeteilt / Ergebnis: nicht mitgeteilt / Besonderheiten: WEIßENHORN. / &lt;a href="https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108545/index.html"&gt;https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108545/index.html&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Flucht vor Polizeikontrolle endet mit Verkehrsunfall</title>
       <link>https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108539/index.html</link>
