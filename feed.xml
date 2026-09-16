@@ -6,10 +6,18 @@
     <description>Gewalt-, Sexual- und Drogendelikte sowie organisierte Kriminalität aus den Pressemitteilungen der Bayerischen Polizei.</description>
     <language>de-DE</language>
     <generator>polizei-bayern-rss</generator>
-    <lastBuildDate>Tue, 15 Sep 2026 12:30:57 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 16 Sep 2026 09:52:48 +0000</lastBuildDate>
     <ttl>30</ttl>
     <atom:link href="https://rss-input.github.io/polizei_bayern/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 15 Sep 2026 12:26:00 +0000</pubDate>
+    <pubDate>Wed, 16 Sep 2026 09:33:00 +0000</pubDate>
+    <item>
+      <title>Pkw-Fahrer flüchtete unter Drogeneinfluss vor der Polizei - Festnahme</title>
+      <link>https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108602/index.html</link>
+      <guid isPermaLink="false">urn:polizei-bayern:108602:7903d28cac7c2da3</guid>
+      <pubDate>Wed, 16 Sep 2026 09:33:00 +0000</pubDate>
+      <category>Drogendelikt</category>
+      <description>&lt;p&gt;PM 16.09.2026, PP Mittelfranken / Tatdatum 15.09.26 / Tatort: Nürnberg, Gustav-Adolf-Straße / Delikt: Fahren unter Betäubungsmitteleinfluss / Opfer: keine individualisierten Geschädigten / Tatverdächtige: 1 (38 Jahre, deutsch) / Ergebnis: festgenommen; Blutentnahme angeordnet / Besonderheiten: (819) Am frühen Dienstagmorgen (15.09.2026) sollte der Fahrer eines Mercedes C 200 im Nürnberger Westen einer polizeilichen Kontrolle unterzogen werden. / &lt;a href="https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108602/index.html"&gt;https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108602/index.html&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Niederbayern: Nach sexuellem Missbrauch – Ermittlungen der Kripo Landshut</title>
       <link>https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108575/index.html</link>
