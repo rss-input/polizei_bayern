@@ -6,10 +6,18 @@
     <description>Gewalt-, Sexual- und Drogendelikte sowie organisierte Kriminalität aus den Pressemitteilungen der Bayerischen Polizei.</description>
     <language>de-DE</language>
     <generator>polizei-bayern-rss</generator>
-    <lastBuildDate>Wed, 16 Sep 2026 10:27:02 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 16 Sep 2026 11:52:57 +0000</lastBuildDate>
     <ttl>30</ttl>
     <atom:link href="https://rss-input.github.io/polizei_bayern/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 16 Sep 2026 10:01:00 +0000</pubDate>
+    <pubDate>Wed, 16 Sep 2026 11:33:00 +0000</pubDate>
+    <item>
+      <title>Niederbayern: Mann attackiert Frau mit Messer</title>
+      <link>https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108617/index.html</link>
+      <guid isPermaLink="false">urn:polizei-bayern:108617:93d20b8772c264ba</guid>
+      <pubDate>Wed, 16 Sep 2026 11:33:00 +0000</pubDate>
+      <category>Gewaltdelikt</category>
+      <description>&lt;p&gt;PM 16.09.2026, PP Niederbayern / Tatdatum 16.09.26 / Tatort: Mallersdorf-Pfaffenberg, Lrk. Straubing-Bogen / Delikt: bewaffneter Raub / Opfer: Der Mann wurde schwer verletzt, die Frau wohl leicht. / Tatverdächtige: 1 (75 Jahre, deutsch) / Ergebnis: nicht mitgeteilt / Besonderheiten: Am 16.09.2026 griff ein 75-Jähriger seine Ehefrau im gemeinsamen Haus im südlichen Gemeindebereich mit einem Messer an. / &lt;a href="https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108617/index.html"&gt;https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108617/index.html&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Drogenfund nach Ladendiebstahl – Haftantrag gegen 38-Jährigen</title>
       <link>https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108608/index.html</link>
