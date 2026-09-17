@@ -6,10 +6,18 @@
     <description>Gewalt-, Sexual- und Drogendelikte sowie organisierte Kriminalität aus den Pressemitteilungen der Bayerischen Polizei.</description>
     <language>de-DE</language>
     <generator>polizei-bayern-rss</generator>
-    <lastBuildDate>Thu, 17 Sep 2026 12:31:08 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 17 Sep 2026 12:55:10 +0000</lastBuildDate>
     <ttl>30</ttl>
     <atom:link href="https://rss-input.github.io/polizei_bayern/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 17 Sep 2026 10:17:00 +0000</pubDate>
+    <pubDate>Thu, 17 Sep 2026 12:35:00 +0000</pubDate>
+    <item>
+      <title>Tötungsdelikt in Coburg - Tatverdächtiger festgenommen</title>
+      <link>https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108655/index.html</link>
+      <guid isPermaLink="false">urn:polizei-bayern:108655:81f6ec22e20cd51a</guid>
+      <pubDate>Thu, 17 Sep 2026 12:35:00 +0000</pubDate>
+      <category>Gewaltdelikt</category>
+      <description>&lt;p&gt;PM 17.09.2026, PP Oberfranken / Tatdatum 16.09.26 / Tatort: Coburg / Delikt: Gewaltdelikt / Opfer: nicht näher mitgeteilt / Tatverdächtige: 1 (35 Jahre, polnisch) / Ergebnis: festgenommen; in Justizvollzugsanstalt untergebracht; Krankenhausbehandlung bzw. -unterbringung / Besonderheiten: Gemeinsame Presseerklärung der Staatsanwaltschaft Coburg und des Polizeipräsidiums Oberfranken / &lt;a href="https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108655/index.html"&gt;https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108655/index.html&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Fahrt unter Alkohol- und Cannabiseinfluss</title>
       <link>https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108649/index.html</link>
