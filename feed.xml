@@ -6,10 +6,18 @@
     <description>Gewalt-, Sexual- und Drogendelikte sowie organisierte Kriminalität aus den Pressemitteilungen der Bayerischen Polizei.</description>
     <language>de-DE</language>
     <generator>polizei-bayern-rss</generator>
-    <lastBuildDate>Thu, 17 Sep 2026 12:55:10 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 17 Sep 2026 13:52:41 +0000</lastBuildDate>
     <ttl>30</ttl>
     <atom:link href="https://rss-input.github.io/polizei_bayern/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 17 Sep 2026 12:35:00 +0000</pubDate>
+    <pubDate>Thu, 17 Sep 2026 13:33:00 +0000</pubDate>
+    <item>
+      <title>Niederbayern: Durchsuchungen der Kriminalpolizei Straubing nach Verdacht des unerlaubten Handels mit Betäubungsmitteln</title>
+      <link>https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108662/index.html</link>
+      <guid isPermaLink="false">urn:polizei-bayern:108662:304cee07aabff4b8</guid>
+      <pubDate>Thu, 17 Sep 2026 13:33:00 +0000</pubDate>
+      <category>Drogendelikt</category>
+      <description>&lt;p&gt;PM 17.09.2026, PP Niederbayern / Tatdatum 16.09.26 / Tatort: Straubing, Lkr. Straubing-Bogen / Delikt: illegaler Handel mit Betäubungsmitteln / Opfer: keine individualisierten Geschädigten / Tatverdächtige: 1 (43 Jahre); Staatsangehörigkeit nicht mitgeteilt / Ergebnis: Untersuchungshaftbefehl erlassen / Besonderheiten: Im Zuge der Durchsuchungen wurden diverse mobile Endgeräte, Kleinmengen an Betäubungsmitteln und eine Schusswaffe sichergestellt. / &lt;a href="https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108662/index.html"&gt;https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108662/index.html&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Tötungsdelikt in Coburg - Tatverdächtiger festgenommen</title>
       <link>https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108655/index.html</link>
