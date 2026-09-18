@@ -6,7 +6,7 @@
     <description>Gewalt-, Sexual- und Drogendelikte sowie organisierte Kriminalität aus den Pressemitteilungen der Bayerischen Polizei.</description>
     <language>de-DE</language>
     <generator>polizei-bayern-rss</generator>
-    <lastBuildDate>Fri, 18 Sep 2026 11:49:32 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 18 Sep 2026 16:22:48 +0000</lastBuildDate>
     <ttl>30</ttl>
     <atom:link href="https://rss-input.github.io/polizei_bayern/feed.xml" rel="self" type="application/rss+xml" />
     <pubDate>Fri, 18 Sep 2026 11:20:00 +0000</pubDate>
@@ -33,6 +33,23 @@
       <pubDate>Fri, 18 Sep 2026 10:01:00 +0000</pubDate>
       <category>Drogendelikt</category>
       <description>&lt;p&gt;PM 18.09.2026, PP Schwaben Süd/West / Tatdatum 17.09.26 / Tatort: Günzburg / Delikt: Fahren unter Betäubungsmitteleinfluss / Opfer: keine individualisierten Geschädigten / Tatverdächtige: Daraufhin wurde eine Blutentnahme bei dem 27-Jährigen angeordnet und im nahegelegenen Krankenhaus durchgeführt. / Ergebnis: eine 27-jährige Person vorübergehend im Krankenhaus behandelt; Blutentnahme angeordnet / Besonderheiten: GÜNZBURG. / &lt;a href="https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108695/index.html"&gt;https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108695/index.html&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>1392. Festnahme eines Tatverdächtigen nach illegalem Handel mit Betäubungsmitteln – Ludwigsvorstadt-Isarvorstadt</title>
+      <link>https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108694/index.html</link>
+      <guid isPermaLink="false">urn:polizei-bayern:108694:1392</guid>
+      <pubDate>Fri, 18 Sep 2026 09:59:00 +0000</pubDate>
+      <category>Gewaltdelikt</category>
+      <category>Drogendelikt</category>
+      <description>&lt;p&gt;PM 18.09.2026, PP München / Tatdatum 13.09.26 / Tatort: nicht näher mitgeteilt / Delikt: illegaler Handel mit Betäubungsmitteln / Opfer: 1 (Polizeikraft; Staatsangehörigkeit nicht mitgeteilt) / Tatverdächtige: 1 (34 Jahre); Staatsangehörigkeit nicht mitgeteilt / Ergebnis: festgenommen; in Haftanstalt überstellt / Besonderheiten: Als dieser durchsucht werden sollte, griff er unvermittelt zwei Polizeibeamte mit Schlägen und Tritten an und versuchte anschließend zu flüchten. / &lt;a href="https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108694/index.html"&gt;https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108694/index.html&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>1393. Festnahme eines Tatverdächtigen nach exhibitionistischer Handlung – Ludwigsvorstadt</title>
+      <link>https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108694/index.html</link>
+      <guid isPermaLink="false">urn:polizei-bayern:108694:1393</guid>
+      <pubDate>Fri, 18 Sep 2026 09:59:00 +0000</pubDate>
+      <category>Sexualdelikt</category>
+      <description>&lt;p&gt;PM 18.09.2026, PP München / Tatdatum 17.09.26 / Tatort: Hauptbahnhof / Delikt: exhibitionistische Handlung / Opfer: nicht näher mitgeteilt / Tatverdächtige: 1 (24 Jahre, deutsch); 1 (43 Jahre, deutsch) / Ergebnis: in Haftanstalt überstellt / Besonderheiten: Aus diesem Grund wurde eine Streife der Münchner Polizei zur Einsatzörtlichkeit geschickt. / &lt;a href="https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108694/index.html"&gt;https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108694/index.html&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Öffentlichkeitsfahndung nach versuchtem Raubmord in Einfamilienhaus in Buchloe</title>
