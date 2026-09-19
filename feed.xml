@@ -6,10 +6,18 @@
     <description>Gewalt-, Sexual- und Drogendelikte sowie organisierte Kriminalität aus den Pressemitteilungen der Bayerischen Polizei.</description>
     <language>de-DE</language>
     <generator>polizei-bayern-rss</generator>
-    <lastBuildDate>Sat, 19 Sep 2026 11:33:14 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 19 Sep 2026 20:38:10 +0000</lastBuildDate>
     <ttl>30</ttl>
     <atom:link href="https://rss-input.github.io/polizei_bayern/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 19 Sep 2026 10:02:00 +0000</pubDate>
+    <pubDate>Sat, 19 Sep 2026 19:31:00 +0000</pubDate>
+    <item>
+      <title>Raubüberfall auf Tankstelle - Großangelegte Fahndung - Tatverdächtiger festgenommen</title>
+      <link>https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108734/index.html</link>
+      <guid isPermaLink="false">urn:polizei-bayern:108734:8a8459444674161e</guid>
+      <pubDate>Sat, 19 Sep 2026 19:31:00 +0000</pubDate>
+      <category>Gewaltdelikt</category>
+      <description>&lt;p&gt;PM 19.09.2026, PP Unterfranken / Tatdatum 19.09.26 / Tatort: Mespelbrunn, Lkr. Aschaffenburg, Hauptstraße / Delikt: Raub / Opfer: nicht näher mitgeteilt / Tatverdächtige: 1 (38 Jahre, deutsch) / Ergebnis: festgenommen / Besonderheiten: Ein Raubüberfall hat am Samstagabend für einen Großeinsatz der Polizeidienststellen am Bayerischen Untermain geführt. / &lt;a href="https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108734/index.html"&gt;https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108734/index.html&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Fahrt unter Cannabiseinfluss</title>
       <link>https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108723/index.html</link>
