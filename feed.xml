@@ -6,10 +6,18 @@
     <description>Gewalt-, Sexual- und Drogendelikte sowie organisierte Kriminalität aus den Pressemitteilungen der Bayerischen Polizei.</description>
     <language>de-DE</language>
     <generator>polizei-bayern-rss</generator>
-    <lastBuildDate>Sat, 19 Sep 2026 20:38:10 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 19 Sep 2026 22:29:45 +0000</lastBuildDate>
     <ttl>30</ttl>
     <atom:link href="https://rss-input.github.io/polizei_bayern/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 19 Sep 2026 19:31:00 +0000</pubDate>
+    <pubDate>Sat, 19 Sep 2026 22:02:00 +0000</pubDate>
+    <item>
+      <title>Motorradfahrer bei Abbiegevorgang lebensgefährlich verletzt</title>
+      <link>https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108737/index.html</link>
+      <guid isPermaLink="false">urn:polizei-bayern:108737:82bcd266c36326a6</guid>
+      <pubDate>Sat, 19 Sep 2026 22:02:00 +0000</pubDate>
+      <category>Gewaltdelikt</category>
+      <description>&lt;p&gt;PM 20.09.2026, PP Schwaben Süd/West / Tatdatum 19.09.26 / Tatort: Leipheim / Delikt: Körperverletzung / Opfer: nicht näher mitgeteilt / Tatverdächtige: 1 (21 Jahre, deutsch) / Ergebnis: Die Polizei ermittelt nun wegen fahrlässiger Körperverletzung gegen den 21-jährigen deutschen Traktorfahrer. (PI Günzburg) / Besonderheiten: Dabei übersah er vermutlich wegen der tief stehenden Sonne den entgegenkommenden Motorradfahrer. / &lt;a href="https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108737/index.html"&gt;https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108737/index.html&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Raubüberfall auf Tankstelle - Großangelegte Fahndung - Tatverdächtiger festgenommen</title>
       <link>https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108734/index.html</link>
