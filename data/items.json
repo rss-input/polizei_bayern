@@ -1,6 +1,26 @@
 [
   {
     "body": [
+      "Stadtgebiet – Am Mittwoch (23.09.2026), in der Zeit von 16.00 Uhr bis 22.00 Uhr, führte das Polizeipräsidium Schwaben Nord gemeinsam mit dem Zoll und der Stadt Augsburg behördenübergreifende Kontrollen in Augsburg durch.",
+      "An der behördenübergreifenden Aktion waren rund 50 Beamte und Mitarbeiter beteiligt.\n\nZiel der konzertierten Kontrollaktion war eine ganzheitliche Prüfung von Gewerbebetrieben. Insgesamt überprüften die Behörden vier Betriebe im Stadtgebiet Augsburg, bei denen mehrere Verstöße gegen baurechtliche Vorgaben und Verstöße nach dem Infektionsschutzgesetz, der Lebensmittel- und Lebensmittelhygieneverordnung, der Preisangabenverordnung, dem Gaststättengesetz und dem Jugendschutzgesetz festgestellt wurden. Die Zollbehörde stellte mehrere Auffälligkeiten fest, welche jedoch weitere Überprüfungen im Nachgang erfordern. In einem Betrieb fand die Polizei illegale Drogen. Diesbezüglich wird nun wegen eines Verstoßes nach dem Betäubungsmittelrecht gegen einen 59-jährigen Mann und eine 40-jährige Frau ermittelt.",
+      "Der 59-jährige Mann besitzt die serbische Staatsangehörigkeit. Die 40-jährige Frau besitzt die italienische Staatsangehörigkeit."
+    ],
+    "case_key": "c193f9a8bc8e74b0",
+    "case_ordinal": 0,
+    "categories": [
+      "Drogendelikt"
+    ],
+    "content_hash": "c0560d747d10c041ee7904cca21d99cc25550aabda2ef150316bd222de949ca8",
+    "guid": "urn:polizei-bayern:108976:c193f9a8bc8e74b0",
+    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108976/index.html",
+    "organization": "Polizeipräsidium Schwaben Nord",
+    "published_ts": 1790196840,
+    "source_id": "108976",
+    "source_title": "Medieninfo Nordschwaben - 23.09.2026 - Behördenübergreifende Schwerpunktkontrollen",
+    "title": "An der behördenübergreifenden Aktion waren rund 50 Beamte und Mitarbeiter beteiligt."
+  },
+  {
+    "body": [
       "WALDKIRCHEN, LKR. FREYUNG-GRAFENAU. THYRNAU, LKR. PASSAU. BÜCHLBERG, LKR. PASSAU. Am Mittwoch, 23.09.2026, wurden insgesamt sieben Durchsuchungsbeschlüsse wegen des Verdachts des banden- und gewerbsmäßigen Diebstahls vollzogen.",
       "In den Vormittagsstunden vollzog die Kriminalpolizeiinspektion Passau mit Unterstützung der Zentralen Einsatzdienste Passau und Straubing sieben Durchsuchungsbeschlüsse in Waldkirchen, Thyrnau und Büchlberg. Die Tatverdächtigen im Alter zwischen 17 und 25 Jahren mit syrischer Staatsangehörigkeit stehen im Verdacht, seit etwa Frühjahr 2026 gemeinsam hochwertige Parfüms aus verschiedenen Drogeriemärkten im Gesamtwert von rund 20.000 Euro entwendet zu haben.",
       "Bei den Durchsuchungen wurden mehrere Mobiltelefone, Parfums, verbotene Gegenstände nach dem WaffG und Betäubungsmittel sichergestellt.",
@@ -10977,24 +10997,5 @@
     "source_id": "106774",
     "source_title": "PP SWS | Pressemeldungen vom 05.08.2026",
     "title": "Körperverletzung nach Streit | Zeugen gesucht"
-  },
-  {
-    "body": [
-      "Verkehrsdelikte mit E-Scootern",
-      "GÜNZBURG. Am Dienstagvormittag, gegen 09:45 Uhr, kontrollierten Beamte der Polizeiinspektion Günzburg einen 40-jährigen deutschen E-Scooter-Fahrer. Dabei ergaben sich Hinweise auf den Konsum von Betäubungsmitteln. Die Beamten ordneten eine Blutentnahme an.\nKurze Zeit später wurden ein 24-jähriger deutscher E-Scooter-Fahrer und eine 56-jährige deutsche E-Scooter-Fahrerin ebenfalls kontrolliert. Auch bei ihnen ergaben sich Anhaltspunkte für den Konsum von Betäubungsmitteln, sodass Blutentnahmen angeordnet wurden. Sollten die Ergebnisse positiv ausfallen, müssen die Betroffenen mit einem mittleren dreistelligen Bußgeld, Punkten im Verkehrszentralregister und einem Fahrverbot rechnen. (PI Günzburg)"
-    ],
-    "case_key": "567ba8899d3357e6",
-    "case_ordinal": 45,
-    "categories": [
-      "Drogendelikt"
-    ],
-    "content_hash": "567ba8899d3357e670f55136291a60a9fdd1ea7c5bc25dd8643752e688181007",
-    "guid": "urn:polizei-bayern:106774:567ba8899d3357e6",
-    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/106774/index.html",
-    "organization": "Polizeipräsidium Schwaben Süd/West",
-    "published_ts": 1785926100,
-    "source_id": "106774",
-    "source_title": "PP SWS | Pressemeldungen vom 05.08.2026",
-    "title": "Verkehrsdelikte mit E-Scootern"
   }
 ]

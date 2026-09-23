@@ -6,10 +6,18 @@
     <description>Gewalt-, Sexual- und Drogendelikte sowie organisierte Kriminalität aus den Pressemitteilungen der Bayerischen Polizei.</description>
     <language>de-DE</language>
     <generator>polizei-bayern-rss</generator>
-    <lastBuildDate>Wed, 23 Sep 2026 16:56:17 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 23 Sep 2026 23:09:23 +0000</lastBuildDate>
     <ttl>30</ttl>
     <atom:link href="https://rss-input.github.io/polizei_bayern/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 23 Sep 2026 13:09:00 +0000</pubDate>
+    <pubDate>Wed, 23 Sep 2026 20:54:00 +0000</pubDate>
+    <item>
+      <title>An der behördenübergreifenden Aktion waren rund 50 Beamte und Mitarbeiter beteiligt.</title>
+      <link>https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108976/index.html</link>
+      <guid isPermaLink="false">urn:polizei-bayern:108976:c193f9a8bc8e74b0</guid>
+      <pubDate>Wed, 23 Sep 2026 20:54:00 +0000</pubDate>
+      <category>Drogendelikt</category>
+      <description>&lt;p&gt;PM 23.09.2026, PP Schwaben Nord / Tatdatum 23.09.26 / Tatort: Der 59-jährige Mann besitzt die serbische Staatsangehörigkeit / Delikt: Drogendelikt / Opfer: keine individualisierten Geschädigten / Tatverdächtige: 1 (59 Jahre, serbisch); 1 (40 Jahre, italienisch) / Ergebnis: nicht mitgeteilt / Besonderheiten: Stadtgebiet – Am Mittwoch (23.09.2026), in der Zeit von 16.00 Uhr bis 22.00 Uhr, führte das Polizeipräsidium Schwaben Nord gemeinsam mit dem Zoll und der Stadt Augsburg behördenübergreifende Kontrollen in Augsburg durch. / &lt;a href="https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108976/index.html"&gt;https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108976/index.html&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Niederbayern: Durchsuchungen wegen des Verdachts des banden- und gewerbsmäßigen Diebstahls</title>
       <link>https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108958/index.html</link>
@@ -4018,14 +4026,6 @@
       <pubDate>Wed, 05 Aug 2026 10:35:00 +0000</pubDate>
       <category>Gewaltdelikt</category>
       <description>&lt;p&gt;PM 05.08.2026, PP Schwaben Süd/West / Tatdatum 27.07.26 / Tatort: Buxheim/Lkr. Unterallgäu / Delikt: Körperverletzung / Opfer: Im Verlauf des Streits eskalierte die Situation, und der Mann schlug der Frau gegen den Oberarm. / Tatverdächtige: unbekannte Person (Der Mann wird wie folgt beschrieben: westeuropäisches Erscheinungsbild, etwa 40 Jahre alt, ca. 1,95 Meter groß, athletische und muskulöse Statur, etwa 95 Kilogramm schwer, leicht gelockte Haare sowie Tätowierungen in Form eines Gesichts an beiden Unterarmen.; Staatsangehörigkeit nicht mitgeteilt) / Ergebnis: nicht mitgeteilt / Besonderheiten: Der Mann wird wie folgt beschrieben: westeuropäisches Erscheinungsbild, etwa 40 Jahre alt, ca. 1,95 Meter groß, athletische und muskulöse Statur, etwa 95 Kilogramm schwer, leicht gelockte Haare sowie Tätowierungen in Form eines Gesichts an beiden Unterarmen. Im Verlauf des Streits eskalierte die Situation, und der Mann schlug der Frau gegen den Oberarm. / &lt;a href="https://www.polizei.bayern.de/aktuelles/pressemitteilungen/106774/index.html"&gt;https://www.polizei.bayern.de/aktuelles/pressemitteilungen/106774/index.html&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Verkehrsdelikte mit E-Scootern</title>
-      <link>https://www.polizei.bayern.de/aktuelles/pressemitteilungen/106774/index.html</link>
-      <guid isPermaLink="false">urn:polizei-bayern:106774:567ba8899d3357e6</guid>
-      <pubDate>Wed, 05 Aug 2026 10:35:00 +0000</pubDate>
-      <category>Drogendelikt</category>
-      <description>&lt;p&gt;PM 05.08.2026, PP Schwaben Süd/West / Tatdatum 04.08.26 / Tatort: Günzburg / Delikt: Fahren unter Betäubungsmitteleinfluss / Opfer: Sollten die Ergebnisse positiv ausfallen, müssen die Betroffenen mit einem mittleren dreistelligen Bußgeld, Punkten im Verkehrszentralregister und einem Fahrverbot rechnen. (PI Günzburg) / Tatverdächtige: 1 (40 Jahre, deutsch); 1 (24 Jahre, deutsch); 1 (56 Jahre, deutsch) / Ergebnis: Blutentnahme angeordnet / Besonderheiten: Dabei ergaben sich Hinweise auf den Konsum von Betäubungsmitteln. / &lt;a href="https://www.polizei.bayern.de/aktuelles/pressemitteilungen/106774/index.html"&gt;https://www.polizei.bayern.de/aktuelles/pressemitteilungen/106774/index.html&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
