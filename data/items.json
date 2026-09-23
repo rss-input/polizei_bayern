@@ -1,6 +1,29 @@
 [
   {
     "body": [
+      "WALDKIRCHEN, LKR. FREYUNG-GRAFENAU. THYRNAU, LKR. PASSAU. BÜCHLBERG, LKR. PASSAU. Am Mittwoch, 23.09.2026, wurden insgesamt sieben Durchsuchungsbeschlüsse wegen des Verdachts des banden- und gewerbsmäßigen Diebstahls vollzogen.",
+      "In den Vormittagsstunden vollzog die Kriminalpolizeiinspektion Passau mit Unterstützung der Zentralen Einsatzdienste Passau und Straubing sieben Durchsuchungsbeschlüsse in Waldkirchen, Thyrnau und Büchlberg. Die Tatverdächtigen im Alter zwischen 17 und 25 Jahren mit syrischer Staatsangehörigkeit stehen im Verdacht, seit etwa Frühjahr 2026 gemeinsam hochwertige Parfüms aus verschiedenen Drogeriemärkten im Gesamtwert von rund 20.000 Euro entwendet zu haben.",
+      "Bei den Durchsuchungen wurden mehrere Mobiltelefone, Parfums, verbotene Gegenstände nach dem WaffG und Betäubungsmittel sichergestellt.",
+      "Zeitgleich sind gegen die drei Tatverdächtigen im Alter von 22, 23 und 24 Jahren die von der Staatsanwaltschaft Passau erwirkten Haftbefehle wegen des dringenden Tatverdachts des banden- und gewerbsmäßigen Diebstahls vollzogen worden. Die drei Männer sind heute nach Vorführung beim Ermittlungsrichter des Amtsgerichts Passau in verschiedene bayerische Justizvollzugsanstalten eingeliefert worden und befinden sich nun in Untersuchungshaft.",
+      "Die weiteren Ermittlungen, insbesondere die Auswertung der sichergestellten Mobiltelefone, werden durch das zuständige Fachkommissariat der Kriminalpolizeiinspektion Passau unter Sachleitung der Staatsanwaltschaft Passau geführt.",
+      "Medienkontakt: Polizeipräsidium Niederbayern, PKin Gibis, Tel.: 09421/ 868-1015\n\nVeröffentlicht: 23.09.2026, 15:10 Uhr"
+    ],
+    "case_key": "75ce345379262d9a",
+    "case_ordinal": 0,
+    "categories": [
+      "Drogendelikt"
+    ],
+    "content_hash": "a4a629cb82bcbf38ef622ad30bd754a7ddc91b41d24bd20d39c581e4761236f2",
+    "guid": "urn:polizei-bayern:108958:75ce345379262d9a",
+    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108958/index.html",
+    "organization": "Polizeipräsidium Niederbayern",
+    "published_ts": 1790168940,
+    "source_id": "108958",
+    "source_title": "Niederbayern: Durchsuchungen wegen des Verdachts des banden- und gewerbsmäßigen Diebstahls",
+    "title": "Niederbayern: Durchsuchungen wegen des Verdachts des banden- und gewerbsmäßigen Diebstahls"
+  },
+  {
+    "body": [
       "NEUMARKT I.D.OPF. Am Dienstagnachmittag kam es in einer Drogeriemarkt-Filiale in Neumarkt zu einem Raubdelikt. Ein bislang unbekannter Täter bedrohte eine Kassiererin mit einem Reizstoffsprühgerät, erbeutete Bargeld und flüchtete. Die Kriminalpolizei Regensburg ermittelt und sucht Zeugen.",
       "Am 22.09.2026, gegen 14:50 Uhr, betrat ein bislang unbekannter, vermummter Mann die Filiale eines Drogeriemarktes in Neumarkt i.d.OPf., Oberer Marktstraße. Der Täter begab sich zur Kasse und bedrohte die dortige Kassiererin unter Vorhalt eines Reizstoffsprühgerätes. Im Anschluss erbeutete der Mann Bargeld in Höhe von etwa 450 Euro, sprühte einer anderen Kassiererin Reizstoff ins Gesicht und flüchtete zu Fuß.",
       "Auf seiner Flucht zog der Täter einen Teil seiner Oberbekleidung aus. Im Rahmen der Fahndungsmaßnahmen konnten an drei verschiedenen Stellen entlang des Fluchtweges diverse Kleidungsstücke aufgefunden werden, die dem Täter zugeordnet werden. Die Fahndung im Nahbereich sowie im Stadtgebiet Neumarkt i.d.OPf. verlief bislang ohne Erfolg. Im weiteren Verlauf wurde die Suche unter Einsatz von zwei Personensuchhunden des Polizeipräsidiums Mittelfranken fortgesetzt.",
@@ -10973,24 +10996,5 @@
     "source_id": "106774",
     "source_title": "PP SWS | Pressemeldungen vom 05.08.2026",
     "title": "Verkehrsdelikte mit E-Scootern"
-  },
-  {
-    "body": [
-      "Unter Drogeneinfluss mit E-Scooter unterwegs",
-      "NEU-ULM. Bei einer Verkehrskontrolle stellten Beamte einen 20-jährigen E-Scooter-Fahrer fest, der drogentypische Auffälligkeiten zeigte. Der Mann gab zu, vor der Fahrt Cannabis konsumiert zu haben. Die Beamten untersagten die Weiterfahrt und ordneten eine Blutentnahme an. Gegen den 20-Jährigen wurde ein Ordnungswidrigkeitenverfahren eingeleitet. Ihn erwarten ein Bußgeld im mittleren dreistelligen Bereich, Punkte im Verkehrszentralregister und ein Fahrverbot. (PI Neu-Ulm)"
-    ],
-    "case_key": "3be7b48d6bb0d00b",
-    "case_ordinal": 57,
-    "categories": [
-      "Drogendelikt"
-    ],
-    "content_hash": "3be7b48d6bb0d00b2fc3cec854838bec5896ca701a899463b17d6b255a4d357c",
-    "guid": "urn:polizei-bayern:106774:3be7b48d6bb0d00b",
-    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/106774/index.html",
-    "organization": "Polizeipräsidium Schwaben Süd/West",
-    "published_ts": 1785926100,
-    "source_id": "106774",
-    "source_title": "PP SWS | Pressemeldungen vom 05.08.2026",
-    "title": "Unter Drogeneinfluss mit E-Scooter unterwegs"
   }
 ]

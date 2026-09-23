@@ -6,10 +6,18 @@
     <description>Gewalt-, Sexual- und Drogendelikte sowie organisierte Kriminalität aus den Pressemitteilungen der Bayerischen Polizei.</description>
     <language>de-DE</language>
     <generator>polizei-bayern-rss</generator>
-    <lastBuildDate>Wed, 23 Sep 2026 12:11:38 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 23 Sep 2026 16:56:17 +0000</lastBuildDate>
     <ttl>30</ttl>
     <atom:link href="https://rss-input.github.io/polizei_bayern/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 23 Sep 2026 10:41:00 +0000</pubDate>
+    <pubDate>Wed, 23 Sep 2026 13:09:00 +0000</pubDate>
+    <item>
+      <title>Niederbayern: Durchsuchungen wegen des Verdachts des banden- und gewerbsmäßigen Diebstahls</title>
+      <link>https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108958/index.html</link>
+      <guid isPermaLink="false">urn:polizei-bayern:108958:75ce345379262d9a</guid>
+      <pubDate>Wed, 23 Sep 2026 13:09:00 +0000</pubDate>
+      <category>Drogendelikt</category>
+      <description>&lt;p&gt;PM 23.09.2026, PP Niederbayern / Tatdatum 23.09.26 / Tatort: Waldkirchen, Lkr. Freyung-Grafenau. Thyrnau, Lkr. Passau. Büchlberg, Lkr. Passau / Delikt: Raub / Opfer: keine individualisierten Geschädigten / Tatverdächtige: Die Tatverdächtigen im Alter zwischen 17 und 25 Jahren mit syrischer Staatsangehörigkeit stehen im Verdacht, seit etwa Frühjahr 2026 gemeinsam hochwertige Parfüms aus verschiedenen Drogeriemärkten im Gesamtwert von rund 20.000 Euro entwendet zu haben. Zeitgleich sind gegen die drei Tatverdächtigen im Alter von 22, 23… / Ergebnis: Untersuchungshaft / Besonderheiten: Am Mittwoch, 23.09.2026, wurden insgesamt sieben Durchsuchungsbeschlüsse wegen des Verdachts des banden- und gewerbsmäßigen Diebstahls vollzogen. / &lt;a href="https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108958/index.html"&gt;https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108958/index.html&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Raubdelikt in Drogeriemarkt – Täter flüchtig</title>
       <link>https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108947/index.html</link>
@@ -4018,14 +4026,6 @@
       <pubDate>Wed, 05 Aug 2026 10:35:00 +0000</pubDate>
       <category>Drogendelikt</category>
       <description>&lt;p&gt;PM 05.08.2026, PP Schwaben Süd/West / Tatdatum 04.08.26 / Tatort: Günzburg / Delikt: Fahren unter Betäubungsmitteleinfluss / Opfer: Sollten die Ergebnisse positiv ausfallen, müssen die Betroffenen mit einem mittleren dreistelligen Bußgeld, Punkten im Verkehrszentralregister und einem Fahrverbot rechnen. (PI Günzburg) / Tatverdächtige: 1 (40 Jahre, deutsch); 1 (24 Jahre, deutsch); 1 (56 Jahre, deutsch) / Ergebnis: Blutentnahme angeordnet / Besonderheiten: Dabei ergaben sich Hinweise auf den Konsum von Betäubungsmitteln. / &lt;a href="https://www.polizei.bayern.de/aktuelles/pressemitteilungen/106774/index.html"&gt;https://www.polizei.bayern.de/aktuelles/pressemitteilungen/106774/index.html&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Unter Drogeneinfluss mit E-Scooter unterwegs</title>
-      <link>https://www.polizei.bayern.de/aktuelles/pressemitteilungen/106774/index.html</link>
-      <guid isPermaLink="false">urn:polizei-bayern:106774:3be7b48d6bb0d00b</guid>
-      <pubDate>Wed, 05 Aug 2026 10:35:00 +0000</pubDate>
-      <category>Drogendelikt</category>
-      <description>&lt;p&gt;PM 05.08.2026, PP Schwaben Süd/West / Tatdatum nicht mitgeteilt / Tatort: Neu-Ulm / Delikt: Fahren unter Betäubungsmitteleinfluss / Opfer: keine individualisierten Geschädigten / Tatverdächtige: nicht näher mitgeteilt / Ergebnis: Blutentnahme angeordnet / Besonderheiten: Bei einer Verkehrskontrolle stellten Beamte einen 20-jährigen E-Scooter-Fahrer fest, der drogentypische Auffälligkeiten zeigte. / &lt;a href="https://www.polizei.bayern.de/aktuelles/pressemitteilungen/106774/index.html"&gt;https://www.polizei.bayern.de/aktuelles/pressemitteilungen/106774/index.html&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
