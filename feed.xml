@@ -6,10 +6,18 @@
     <description>Gewalt-, Sexual- und Drogendelikte sowie organisierte Kriminalität aus den Pressemitteilungen der Bayerischen Polizei.</description>
     <language>de-DE</language>
     <generator>polizei-bayern-rss</generator>
-    <lastBuildDate>Thu, 24 Sep 2026 12:16:08 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 24 Sep 2026 17:14:53 +0000</lastBuildDate>
     <ttl>30</ttl>
     <atom:link href="https://rss-input.github.io/polizei_bayern/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 24 Sep 2026 10:05:00 +0000</pubDate>
+    <pubDate>Thu, 24 Sep 2026 12:37:00 +0000</pubDate>
+    <item>
+      <title>Oberhausen– In der Nacht zum Donnerstag (24.09.2026) kontrollierte die Polizei gegen 01:15 Uhr in der Hofer Straße einen E-Scooter-Fahrer, welcher unter Drogeneinfluss stand.</title>
+      <link>https://www.polizei.bayern.de/aktuelles/pressemitteilungen/109023/index.html</link>
+      <guid isPermaLink="false">urn:polizei-bayern:109023:8054250e4a70aa5c</guid>
+      <pubDate>Thu, 24 Sep 2026 12:37:00 +0000</pubDate>
+      <category>Drogendelikt</category>
+      <description>&lt;p&gt;PM 24.09.2026, PP Schwaben Nord / Tatdatum nicht mitgeteilt / Tatort: Bei der allgemeinen Verkehrskontrolle bemerkten die Beamten bei dem 29-jährigen Mann drogentypische Auffälligkeiten / Delikt: Fahren unter Betäubungsmitteleinfluss / Opfer: keine individualisierten Geschädigten / Tatverdächtige: 1 (Mann, 29 Jahre); Staatsangehörigkeit nicht mitgeteilt / Ergebnis: Blutentnahme angeordnet / Besonderheiten: Bei der allgemeinen Verkehrskontrolle bemerkten die Beamten bei dem 29-jährigen Mann drogentypische Auffälligkeiten. / &lt;a href="https://www.polizei.bayern.de/aktuelles/pressemitteilungen/109023/index.html"&gt;https://www.polizei.bayern.de/aktuelles/pressemitteilungen/109023/index.html&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Streit am Bahnhofsvorplatz eskaliert</title>
       <link>https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108994/index.html</link>
@@ -4017,14 +4025,6 @@
       <pubDate>Thu, 06 Aug 2026 07:33:00 +0000</pubDate>
       <category>Gewaltdelikt</category>
       <description>&lt;p&gt;PM 06.08.2026, PP Unterfranken / Tatdatum 06.08.26 / Tatort: Bad Kissingen / Stadtgebiet, Schönbornstraße / Delikt: tätlicher Angriff auf Vollstreckungsbeamte / Opfer: nicht näher mitgeteilt / Tatverdächtige: nicht näher mitgeteilt / Ergebnis: Blutentnahme angeordnet / Besonderheiten: Als die Frau nach einem der Polizisten schlug, musste sie mittels unmittelbaren Zwangs gefesselt werden. / &lt;a href="https://www.polizei.bayern.de/aktuelles/pressemitteilungen/106819/index.html"&gt;https://www.polizei.bayern.de/aktuelles/pressemitteilungen/106819/index.html&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>1149. Pressekonferenz zum Lagebild „Gewalt gegen Polizeibeamte im Jahr 2025“ im Zuständigkeitsbereich des Polizeipräsidiums München</title>
-      <link>https://www.polizei.bayern.de/aktuelles/pressemitteilungen/106790/index.html</link>
-      <guid isPermaLink="false">urn:polizei-bayern:106790:1149</guid>
-      <pubDate>Wed, 05 Aug 2026 11:35:00 +0000</pubDate>
-      <category>Gewaltdelikt</category>
-      <description>&lt;p&gt;PM 05.08.2026, PP München / Tatdatum 05.08.26 / Tatort: nicht näher mitgeteilt / Delikt: gefährliche Körperverletzung / Opfer: 1 (Polizeikraft; Staatsangehörigkeit nicht mitgeteilt) / Tatverdächtige: In 27(23) Fällen führten Tatverdächtige Hieb- und Stichwaffen mit oder setzten diese gegen Polizeikräfte ein. Die Anzahl der Tatverdächtigenbeläuft sich auf insgesamt 1.190(2024: 1.174). von den Tatverdächtigen sind / Ergebnis: nicht mitgeteilt / Besonderheiten: Am Mittwoch, 05.08.2026, 10:45 Uhr, stellte Polizeipräsident Thomas Hampel das Lagebild „Gewalt gegen Polizeibeamte im Jahr 2025“ im Zuständigkeitsbereich des Polizeipräsidiums München vor. / &lt;a href="https://www.polizei.bayern.de/aktuelles/pressemitteilungen/106790/index.html"&gt;https://www.polizei.bayern.de/aktuelles/pressemitteilungen/106790/index.html&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
