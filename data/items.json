@@ -1,6 +1,123 @@
 [
   {
     "body": [
+      "Wie bereits berichtet, kam es am Samstag, 18.07.2026, gegen 02:30 Uhr zu einer Auseinandersetzung am Münchner Stachus. Hier kam es zur fremdenfeindlichen Beleidigung und zu Körperverletzungsdelikten jeweils zum Nachteil eines 22-Jährigen und eines 24-Jährigen.",
+      "Da die polizeilichen Ermittlungen nicht zur Ergreifung der zwei bislang unbekannten Täter geführt hatten, erließ das Amtsgericht München auf Antrag der Staatsanwaltschaft München I einen Beschluss zur Öffentlichkeitsfahndung.",
+      "In der Folge stellten sich nun am Freitag, 25.09.2026, gegen 16:55 Uhr, ein 20-Jähriger (deutsche Staatsangehörigkeit) und ein 23-Jähriger (kroatische Staatsangehörigkeit), beide aus München, bei einer Polizeidienststelle. Bei ihnen handelt es sich nach dem aktuellen Erkenntnisstand um die gesuchten Tatverdächtigen."
+    ],
+    "case_key": "46358271c8b777e0",
+    "case_ordinal": 0,
+    "categories": [
+      "Gewaltdelikt"
+    ],
+    "content_hash": "e2b6b8a08d56ab860d3280e47be2add7c9ee2163f707ea50f514d42c6f23e5d8",
+    "guid": "urn:polizei-bayern:109114:46358271c8b777e0",
+    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/109114/index.html",
+    "organization": "Polizeipräsidium München",
+    "published_ts": 1790355120,
+    "source_id": "109114",
+    "source_title": "1475. Öffentlichkeitsfahndung nach gefährlicher Körperverletzung am Stachus – Löschung der Fahndung – zwei Tatverdächtige haben sich gestellt - Altstadt-Lehel - siehe Medieninformation Nr. 1464 vom 25.09.2026",
+    "title": "Wie bereits berichtet, kam es am Samstag, 18.07.2026, gegen 02:30 Uhr zu einer Auseinandersetzung am Münchner Stachus."
+  },
+  {
+    "body": [
+      "-------------- In Absprache mit der Staatsanwaltschaft Augsburg --------------",
+      "Am 10.09.2026 berichteten wir in unserer Medieninformation Nr. 1459 Folgendes:",
+      "1459 – Kriminalpolizei sucht Zeugen nach Sexualdelikt",
+      "Innenstadt – Am Montag (07.09.2026), im Zeitraum zwischen 20:00 Uhr – 21:15 Uhr, kam es in der Augsburger Innenstadt zu einem Sexualdelikt zum Nachteil einer 15-Jährigen. Ein bislang unbekannter junger Mann soll die 15-Jährige sexuell missbraucht haben.",
+      "……..",
+      "Ab hier neu:",
+      "Aufgrund von Zeugenangaben und umfangreichen Ermittlungen nahm die Kriminalpolizei am Freitag (25.09.2026) einen 16-jährigen Tatverdächtigen fest.",
+      "Der Jugendliche wurde dem Ermittlungsrichter vorgeführt, welcher aufgrund des derzeit bestehende dringenden Tatverdachts einen Haftbefehl wegen dem Tatvorwurfs der Vergewaltigung erließ und diesen in Vollzug setzte.",
+      "Der 16-Jährige wurde in eine Justizvollzugsanstalt gebracht.",
+      "Die weiteren Ermittlungen dauern an. Aufgrund der laufenden Ermittlungen können keine weiteren Auskünfte erteilt werden."
+    ],
+    "case_key": "a066210f139095f0",
+    "case_ordinal": 0,
+    "categories": [
+      "Sexualdelikt"
+    ],
+    "content_hash": "e68167d5da7c4e0ba60c9bd78ca2640280d10340fdf581cd4f800ddf8e3e7c3b",
+    "guid": "urn:polizei-bayern:109108:a066210f139095f0",
+    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/109108/index.html",
+    "organization": "Polizeipräsidium Schwaben Nord",
+    "published_ts": 1790341800,
+    "source_id": "109108",
+    "source_title": "Medieninfo Nordschwaben - 25.09.2026 - Kriminalpolizei Augsburg nimmt Tatverdächtigen nach Sexualdelikt fest",
+    "title": "-------------- In Absprache mit der Staatsanwaltschaft Augsburg --------------"
+  },
+  {
+    "body": [
+      "Innenstadt – Am Donnerstag (24.09.2026) kam es in der Karolinenstraße zu einer Körperverletzung.",
+      "Gegen 07.30 Uhr befand sich ein 58-jähriger Mann in der Karolinenstraße, als ihn ein bislang unbekannter Mann beleidigte und körperlich leicht verletzte. Anschließend entfernte sich der Unbekannte.",
+      "Er wird wie folgt beschrieben:",
+      "Ca. 40-45 Jahre alt, ca. 165 cm groß, schlanke Statur, west-/nordeuropäisches Aussehen, sprach akzentfreies Deutsch.",
+      "Die Polizei ermittelt nun wegen Körperverletzung und Beleidigung.",
+      "Zeugen, die Hinweise zu dem Vorfall oder zum unbekannten Täter geben können, werden gebeten, sich bei der Polizei Augsburg Mitte unter der Tel. 0821/323-2110 zu melden.",
+      "Der 58-Jährige besitzt die deutsche Staatsangehörigkeit."
+    ],
+    "case_key": "9891549f839f7843",
+    "case_ordinal": 1,
+    "categories": [
+      "Gewaltdelikt"
+    ],
+    "content_hash": "038e040dec5cc6685e02c69b62d2ed496b4a5b36a6b721f8ab4711a6164adc7a",
+    "guid": "urn:polizei-bayern:109107:9891549f839f7843",
+    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/109107/index.html",
+    "organization": "Polizeipräsidium Schwaben Nord",
+    "published_ts": 1790341800,
+    "source_id": "109107",
+    "source_title": "Medieninfo Nordschwaben - 25.09.2026",
+    "title": "Innenstadt – Am Donnerstag (24.09.2026) kam es in der Karolinenstraße zu einer Körperverletzung."
+  },
+  {
+    "body": [
+      "Oberhausen– Am Donnerstag (24.09.2026) wurde ein 12-Jähriger in der Kreutzerstraße von mehreren unbekannten Jugendlichen angegangen und von einer Person geschlagen.",
+      "Gegen 18.30 Uhr befand sich der 12-Jährige am Spielplatz in der Kreutzerstraße. Mehrere Jugendliche kamen auf ihn zu und attackierten ihn verbal. Eine Person aus der Gruppe schlug den 12-Jährigen ins Gesicht und trat gegen sein Bein. Anschließend floh die Personengruppe in unbekannte Richtung.",
+      "Die unbekannte Person, welche den 12-Jährigen schlug, wird wie folgt beschrieben:",
+      "Jugendliches Alter, sehr klein, dunkelhäutig, kurze schwarze Haare, sprach gebrochenes Deutsch und trug eine Baskenmütze.",
+      "Der 12-Jährige wurde leicht verletzt und nach einer Überprüfung durch den Rettungsdienst entlassen.",
+      "Die Polizei ermittelt nun wegen Körperverletzung. Zeugenhinweise nimmt die Polizeiinspektion Augsburg West unter 0821/323-2510 entgegen.",
+      "Der 12-Jährige besitzt die polnische Staatsangehörigkeit."
+    ],
+    "case_key": "660279b4308d8cae",
+    "case_ordinal": 2,
+    "categories": [
+      "Gewaltdelikt"
+    ],
+    "content_hash": "584099a3f6a5b7196bd3ed1724e3ad93cebe8a0f548c9aea5bcc8c5791c73ed9",
+    "guid": "urn:polizei-bayern:109107:660279b4308d8cae",
+    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/109107/index.html",
+    "organization": "Polizeipräsidium Schwaben Nord",
+    "published_ts": 1790341800,
+    "source_id": "109107",
+    "source_title": "Medieninfo Nordschwaben - 25.09.2026",
+    "title": "Oberhausen– Am Donnerstag (24.09.2026) wurde ein 12-Jähriger in der Kreutzerstraße von mehreren unbekannten Jugendlichen angegangen und von einer Person geschlagen."
+  },
+  {
+    "body": [
+      "Innenstadt– Am Donnerstag (24.09.2026) schlug ein 42-jähriger man im Färbergässchen seine Lebensgefährtin.",
+      "Gegen 17.00 Uhr riefen Passanten die Polizei, da sich der 42-jährige Mann aggressiv gegenüber seiner 49-jährigen Partnerin verhielt.",
+      "Beim Eintreffen der Polizei war der 42-Jährige weiterhin aggressiv und musste schließlich gefesselt und in Gewahrsam genommen werden.",
+      "Die Polizei ermittelt nun unter anderem wegen Körperverletzung gegen den Mann.",
+      "Der 42-Jährige und die 49-Jährige besitzen beide die deutsche Staatsangehörigkeit."
+    ],
+    "case_key": "a8a3379eae6c2a64",
+    "case_ordinal": 3,
+    "categories": [
+      "Gewaltdelikt"
+    ],
+    "content_hash": "142e17bf085f37cde49ddc5c402fc64a6428124366e3c8ab75b4886df99627fe",
+    "guid": "urn:polizei-bayern:109107:a8a3379eae6c2a64",
+    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/109107/index.html",
+    "organization": "Polizeipräsidium Schwaben Nord",
+    "published_ts": 1790341800,
+    "source_id": "109107",
+    "source_title": "Medieninfo Nordschwaben - 25.09.2026",
+    "title": "Innenstadt– Am Donnerstag (24.09.2026) schlug ein 42-jähriger man im Färbergässchen seine Lebensgefährtin."
+  },
+  {
+    "body": [
       "MÜNCHBERG, LKR. HOF. Beamte der Fahndungs- und Kontrollgruppe der Verkehrspolizei Hof haben bei der Kontrolle eines Kleintransporters auf der A 9 Kokain aufgefunden. Gegen die beiden Insassen laufen nun Ermittlungen.",
       "Die Beamten kontrollierten am Donnerstagabend einen aus Polen kommenden Kleintransporter auf dem Pendlerparkplatz an der A 9 bei Münchberg. Bei der anschließenden Durchsuchung fanden sie in einer Kühlbox zwischen Getränkedosen eine Druckverschlusstüte mit einem weißen Pulver. Ein Stofftest bestätigte den Verdacht, dass es sich um Kokain handelte.",
       "Bei den beiden Insassen handelte es sich um einen 27 und einen 29 Jahre alten Polen. Der 29-jährige Fahrer muss sich zudem wegen des Verdachts einer Drogenfahrt verantworten. Ein durchgeführter Urintest reagierte positiv auf Kokain und THC.",
@@ -10821,111 +10938,5 @@
     "source_id": "106880",
     "source_title": "Grenzpolizisten stellen Betäubungsmittel sicher",
     "title": "Grenzpolizisten stellen Betäubungsmittel sicher"
-  },
-  {
-    "body": [
-      "FÜSSEN, LKR. OSTALLGÄU/ERGOLDING, LKR. LANDSHUT. In der Nacht von Sonntag auf Montag bestellten zwei Männer im Alter von 20 und 22 Jahren online eine Prostituierte. Das Treffen sollte im Gewerbegebiet Füssen-Nord stattfinden. Nach dem Eintreffen der Frau kurz vor Mitternacht kam es jedoch zu Unstimmigkeiten, und das Treffen wurde abgebrochen.",
-      "Als die Frau die Begleichung ihrer Benzinkosten forderte, verweigerten sich die beiden afghanischen Männer. Daraufhin stiegen zwei Männer aus dem Auto der Frau aus und griffen die beiden mit Schlägen gegen Kopf und Bauch an. Zudem drohten sie, die Männer abzustechen. Unter Anwendung von Gewalt raubten sie eine Tasche mit mehreren Hundert Euro Bargeld und das Mobiltelefon eines der Männer. Anschließend flüchteten sie mit dem Pkw. Die beiden leicht verletzten Männer alarmierten die Polizei Füssen, die erste Maßnahmen einleitete.",
-      "Die Ermittlungen der Kriminalpolizei Kempten führten zur Identifizierung der drei Tatverdächtigen. Am Mittwoch wurden sie in einem Mehrfamilienhaus in Ergolding von Beamten der Zentralen Ergänzungsdienste Landshut festgenommen. Dabei wurden diverse Beweismittel sichergestellt.",
-      "Auf Antrag der Staatsanwaltschaft Kempten wurden die 36-jährige Frau sowie die Männer im Alter von 41 und 48 Jahren am Donnerstagnachmittag dem Ermittlungsrichter beim Amtsgericht Kempten vorgeführt. Gegen die drei bulgarischen Staatsangehörigen wurde Untersuchungshaft u.a. wegen des dringenden Verdachts des schweren Raubes angeordnet. Sie wurden in unterschiedliche Justizvollzugsanstalten eingeliefert.",
-      "Die Kriminalpolizei Kempten hat unter der Sachleitung der Staatsanwaltschaft Kempten die Ermittlungen übernommen. (KPI Kempten)",
-      "Medienkontakt:\n\nPressestelle beim Polizeipräsidium Schwaben Süd/West, D-87439 Kempten (Allgäu),\n\nRufnummer (+49) 0831 9909-0 (-1012/ -1013)."
-    ],
-    "case_key": "5f6c2feeafcb6e32",
-    "case_ordinal": 0,
-    "categories": [
-      "Gewaltdelikt"
-    ],
-    "content_hash": "09a58532c5943732d5753f731e6ad8737ae10cd82482860355989c4f4b77d670",
-    "guid": "urn:polizei-bayern:106866:5f6c2feeafcb6e32",
-    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/106866/index.html",
-    "organization": "Polizeipräsidium Schwaben Süd/West",
-    "published_ts": 1786087560,
-    "source_id": "106866",
-    "source_title": "Raubüberfall im Prostitutionsgewerbe | Untersuchungshaft angeordnet",
-    "title": "Raubüberfall im Prostitutionsgewerbe | Untersuchungshaft angeordnet"
-  },
-  {
-    "body": [
-      "Auseinandersetzung nahe einer Asylunterkunft",
-      "BAD WÖRISHOFEN. Am späten Mittwochabend kam es in der Nähe einer Asylunterkunft zu einer körperlichen Auseinandersetzung zwischen zwei ukrainischen Männern. Ein 38-Jähriger versetzte nach bisherigen Erkenntnissen einem 18-jährigen Bewohner der Unterkunft mindestens einen Faustschlag ins Gesicht. Der 18-Jährige wurde leicht verletzt, war jedoch beim Eintreffen der Polizei nicht mehr vor Ort. Mitarbeiter eines Sicherheitsdienstes hielten den stark alkoholisierten und aggressiven Tatverdächtigen bis zum Eintreffen der Polizei fest. Während der polizeilichen Maßnahmen beleidigte der 38-Jährige einen Beamten und widersetzte sich den Anweisungen. Die Beamten blieben unverletzt. Der Mann wurde in Gewahrsam genommen und zur Polizeiinspektion gebracht. Gegen den 38-Jährigen wird nun unter anderem wegen Körperverletzung, tätlichen Angriffs auf Vollstreckungsbeamte, Widerstands gegen Vollstreckungsbeamte und Beleidigung ermittelt. (PI Bad Wörishofen)"
-    ],
-    "case_key": "e4fba43c0c5034bb",
-    "case_ordinal": 16,
-    "categories": [
-      "Gewaltdelikt"
-    ],
-    "content_hash": "e4fba43c0c5034bbd464494165096a5865ed235825477a91937d9c89acd314d7",
-    "guid": "urn:polizei-bayern:106828:e4fba43c0c5034bb",
-    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/106828/index.html",
-    "organization": "Polizeipräsidium Schwaben Süd/West",
-    "published_ts": 1786024560,
-    "source_id": "106828",
-    "source_title": "PP SWS | Pressemeldungen vom 06.08.2026",
-    "title": "Auseinandersetzung nahe einer Asylunterkunft"
-  },
-  {
-    "body": [
-      "Angriff auf Polizeibeamte bei Feier",
-      "GÜNZBURG. Am Mittwochabend gegen 21:45 Uhr kam es in der Theodor-Heuss-Straße in Leipheim zu einem tätlichen Angriff auf Polizeibeamte. Die Polizei war zu einer privaten Feier gerufen worden, da es dort zu einer Auseinandersetzung zwischen zwei Besuchern gekommen war. Beim Eintreffen der Beamten ging ein 23-jähriger Mann unvermittelt mit geballten Fäusten auf diese zu und holte zum Schlag aus. Ein Polizist konnte dem Angriff ausweichen. Als der Mann erneut auf die Beamten losging, brachten diese ihn zu Boden und fesselten ihn. Verletzt wurde niemand. Der deutlich alkoholisierte Mann gab an, die Polizisten verwechselt zu haben. Ihn erwartet nun eine Strafanzeige, unter anderem wegen eines tätlichen Angriffs auf Polizeibeamte. (PI Günzburg)"
-    ],
-    "case_key": "af708a52bc91d598",
-    "case_ordinal": 20,
-    "categories": [
-      "Gewaltdelikt"
-    ],
-    "content_hash": "af708a52bc91d59819588e04da1621661d2962954c499d93c5e33fb07a5cdf04",
-    "guid": "urn:polizei-bayern:106828:af708a52bc91d598",
-    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/106828/index.html",
-    "organization": "Polizeipräsidium Schwaben Süd/West",
-    "published_ts": 1786024560,
-    "source_id": "106828",
-    "source_title": "PP SWS | Pressemeldungen vom 06.08.2026",
-    "title": "Angriff auf Polizeibeamte bei Feier"
-  },
-  {
-    "body": [
-      "Versuchtes Tötungsdelikt in einer Arbeiterunterkunft in Memmingen",
-      "MEMMINGEN. Am Sonntag, den 02.08.2026, kam es am späten Nachmittag in einer Arbeiterunterkunft in der Europastraße zu einer körperlichen Auseinandersetzung zwischen zwei Personen, in deren Verlauf ein 54-jähriger rumänischer Mann mehrfach einem 33-jährigen Mann mit einem Gegenstand gegen den Kopf schlug. Dieser erlitt durch die Schläge mehrere stark blutende Verletzungen. Weitere Angriffe konnten von einem unbeteiligten Zeugen verhindert werden. Der Verletzte wurde durch den Rettungsdienst zur Versorgung in ein nahegelegenes Klinikum eingeliefert. Aktuell besteht keine Lebensgefahr. Aufgrund der schweren Schläge gegen den Kopf wird derzeit u.a. wegen gefährlicher Körperverletzung gegen den 54-jährigen Tatverdächtigen ermittelt. Dieser wurde durch die Polizeibeamten der Polizeiinspektion Memmingen und Grenzpolizeiinspektion Lindau noch vor Ort vorläufig festgenommen.",
-      "Der Tatverdächtige wurde am 03.08.2026 am Amtsgericht Memmingen vorgeführt. Die zuständige Ermittlungsrichterin erließ den von der Staatsanwaltschaft Memmingen beantragten Haftbefehl und setze diesen in Vollzug. Anschließend wurde der Tatverdächtige in eine Justizvollzugsanstalt in Bayern eingeliefert.",
-      "Die weiteren Ermittlungen führt das zuständige Fachkommissariat der Kriminalpolizei Memmingen unter Sachleitung der Staatsanwaltschaft Memmingen. Der genaue Tathergang und die Hintergründe der Tat sind Gegenstand der aktuellen Ermittlungen. (KPI Memmingen)"
-    ],
-    "case_key": "fac8f9215284647e",
-    "case_ordinal": 28,
-    "categories": [
-      "Gewaltdelikt"
-    ],
-    "content_hash": "6c1e9ff3dc763f9ddd700667bfb784097d441fe033c4f5bb10525cf7b4711bb5",
-    "guid": "urn:polizei-bayern:106828:fac8f9215284647e",
-    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/106828/index.html",
-    "organization": "Polizeipräsidium Schwaben Süd/West",
-    "published_ts": 1786024560,
-    "source_id": "106828",
-    "source_title": "PP SWS | Pressemeldungen vom 06.08.2026",
-    "title": "Versuchtes Tötungsdelikt in einer Arbeiterunterkunft in Memmingen"
-  },
-  {
-    "body": [
-      "ERLANGEN. (723) Am 30.07.2026 (Donnerstag) kam es im Erlanger Norden zu einem körperlichen Angriff auf einen Paketzusteller. Die Kriminalpolizei ermittelt und bittet um Zeugenhinweise.",
-      "Gegen 12:45 Uhr lieferte der spätere Geschädigte (25, deutsch/türkisch) Pakete in der Henkestraße aus. Im Abschnitt zwischen der Schuhstraße und der Nürnberger Straße klingelte er am Hauseingang eines Mehrfamilienhauses, woraufhin ein Mann aus dem Hauseingang herausstürmte und anfing, den Geschädigten in ausländerfeindlicher Art und Weise zu beschimpfen. Zudem schubste er ihn aus dem Hauseingang nach draußen.",
-      "Im weiteren Verlauf soll der Tatverdächtige dem 25-Jährigen mit der Faust gegen dessen Arm geschlagen haben.",
-      "Ermittlungen des Kommissariats für Staatsschutz führten zur Identifizierung des Tatverdächtigen (62, deutsch).",
-      "Die Beamten leiteten ein Ermittlungsverfahren wegen Körperverletzung und Beleidigung gegen den 62-Jährigen ein. Es werden vier Zeugen (Passanten) gesucht, welche nach Aussagen Beteiligter den Vorfall mitbekommen und die beiden Kontrahenten getrennt hätten.",
-      "Diese werden gebeten, sich unter der Rufnummer 0911 2112-3333 mit dem Kriminaldauerdienst in Verbindung zu setzen.",
-      "Erstellt durch: Janine Mendel"
-    ],
-    "case_key": "c06420618976c781",
-    "case_ordinal": 0,
-    "categories": [
-      "Gewaltdelikt"
-    ],
-    "content_hash": "7154e4b9eefa6bd93659f7f85b3d3d1156ee5a015e6217c51e6b0429bd2f5d98",
-    "guid": "urn:polizei-bayern:106847:c06420618976c781",
-    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/106847/index.html",
-    "organization": "Polizeipräsidium Mittelfranken",
-    "published_ts": 1786021860,
-    "source_id": "106847",
-    "source_title": "Angriff auf Paketzusteller – Zeugen gesucht",
-    "title": "Angriff auf Paketzusteller – Zeugen gesucht"
   }
 ]
