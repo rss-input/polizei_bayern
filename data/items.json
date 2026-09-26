@@ -1,6 +1,32 @@
 [
   {
     "body": [
+      "Gemeinsame Presseerklärung der Staatsanwaltschaft Coburg und des Polizeipräsidiums Oberfranken",
+      "COBURG. Den richtigen Riecher bewiesen zivile Polizeibeamte am Dienstag im Umfeld des Coburger Bahnhofs. Nachdem sie auf ein Anwesen aufmerksam geworden waren, erhärtete sich der Verdacht auf einen möglichen Handel mit Cannabis. Bei der anschließenden Durchsuchung stellten die Einsatzkräfte mehrere hundert Gramm Marihuana, verschiedene Waffen und weitere Gegenstände sicher. Ein 50-Jähriger befindet sich inzwischen in Untersuchungshaft.",
+      "Am Dienstag, 22. September, gegen 13.30 Uhr, fiel zivilen Beamten der Zentralen Einsatzdienste Coburg reger Verkehr an einem Anwesen im Umfeld des Coburger Bahnhofs auf. Zudem entdeckten die Polizisten im Garten mehrere Cannabispflanzen unterschiedlicher Größe. Die Feststellungen ließen den Verdacht aufkommen, dass aus dem Anwesen heraus mit Cannabis gehandelt werden könnte.",
+      "Bei der anschließenden Wohnungsdurchsuchung stellten die Einsatzkräfte eine größere Menge Marihuana sicher. Da die Menge im mittleren dreistelligen Grammbereich liegt und wegen hierzu gehörendem Verpackungsmaterial erhärtete sich der Verdacht des unerlaubten Cannabishandels.",
+      "Zusätzlich fanden die Beamten in der Wohnung mehrere Waffen und gefährliche Gegenstände – unter anderem einen Dolch, einen Morgenstern, ein Einhandmesser, Pfefferspray und einen Böller. Hier besteht der Verdacht auf mehrere Verstöße nach dem Waffen- und Sprengstoffgesetz.",
+      "Darüber hinaus stellten die Ermittler Medikamente sicher, die noch genauer untersucht werden müssen.",
+      "Sie nahmen den 50-jährigen jordanischen Tatverdächtigen vorläufig fest.",
+      "Auf Antrag der Staatsanwaltschaft Coburg erließ ein Ermittlungsrichter Haftbefehl gegen den Mann. Er befindet sich in Untersuchungshaft.",
+      "Die weiteren Ermittlungen führt die Kriminalpolizei Coburg unter Sachleitung der Staatsanwaltschaft Coburg."
+    ],
+    "case_key": "f30ad8747ed84eba",
+    "case_ordinal": 0,
+    "categories": [
+      "Drogendelikt"
+    ],
+    "content_hash": "ce0af6ace2b86e362d7a10a21aeef9f4fa2e26aa8f5bc01bc252b8ea41aa92db",
+    "guid": "urn:polizei-bayern:109130:f30ad8747ed84eba",
+    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/109130/index.html",
+    "organization": "Polizeipräsidium Oberfranken",
+    "published_ts": 1790431200,
+    "source_id": "109130",
+    "source_title": "Drogenhandel aufgedeckt – Tatverdächtiger in Untersuchungshaft",
+    "title": "Drogenhandel aufgedeckt – Tatverdächtiger in Untersuchungshaft"
+  },
+  {
+    "body": [
       "Fahrt unter Cannabiseinfluss",
       "IMMENSTADT. In der Nacht von Freitag auf Samstag kontrollierte eine Streifenbesatzung einen 25-jährigen Autofahrer. Die Beamten nahmen deutlichen Cannabisgeruch aus dem Fahrzeug wahr. Ein Drogentest verlief positiv auf THC. Die Polizei ordnete eine Blutentnahme an und untersagte dem Mann die Weiterfahrt. Die Polizei leitet gegen den 25-Jährigen ein Verkehrsordnungswidrigkeitenverfahren ein. (PI Immenstadt)"
     ],
@@ -10912,28 +10938,5 @@
     "source_id": "106891",
     "source_title": "Medieninformationen der Polizei München 07.08.2026",
     "title": "1163. Festnahme eines Tatverdächtigen nach gefährlicher Körperverletzung und Widerstand gegen Vollstreckungsbeamte – Sendling"
-  },
-  {
-    "body": [
-      "1166. Festnahme eines Tatverdächtigen aufgrund eines versuchten Tötungsdeliktes – Neuhausen-Nymphenburg",
-      "-Medieninformation Nr. 1130 vom 02.08.2026",
-      "Wie bereits berichtet, kam es am Freitag, 31.07.2026, gegen 10:20 Uhr, zu einem versuchten Tötungsdelikt in einem Mehrfamilienhaus in der Schachenmeierstraße in München. Ein 35-jähriger Kosovare mit Wohnsitz in München hatte hier an einer Wohnungstür geklingelt und anschließend einen 42-jährigen Deutschen mit Wohnsitz im Landkreis Fürstenfeldbruck, der die Wohnungstür öffnete, mit einem Messer sowie durch Faustschläge verletzt. Danach war der 35-Jährige geflüchtet.",
-      "Die Ermittlungen in dieser Sache wurden daraufhin vom Kommissariat 11 übernommen. Auf Antrag der Staatsanwaltschaft München I erließ das Amtsgericht München zwischenzeitlich einen Haftbefehl sowie einen Europäischen Haftbefehl u.a. wegen versuchten Mordes gegen den 35-Jährigen.",
-      "Am Donnerstag, 06.08.2026, stellte sich der 35-jährige kosovarische Staatsangehörige gegen 21:45 Uhr bei einer Polizeiinspektion in München. Der gegen ihn bestehende Haftbefehl wurde vollstreckt. Der 35-Jährige wird im Laufe des heutigen Tages dem zuständigen Ermittlungsrichter zur Entscheidung über die Haftfrage vorgeführt.",
-      "Die Ermittlungen zu Tathintergrund und Tatmotiv laufen weiter."
-    ],
-    "case_key": "1166",
-    "case_ordinal": 4,
-    "categories": [
-      "Gewaltdelikt"
-    ],
-    "content_hash": "a1de0d04c3122f67fd6450a3949a4ba6d90fd571d9b5f694135269cfdf6cada5",
-    "guid": "urn:polizei-bayern:106891:1166",
-    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/106891/index.html",
-    "organization": "Polizeipräsidium München",
-    "published_ts": 1786101240,
-    "source_id": "106891",
-    "source_title": "Medieninformationen der Polizei München 07.08.2026",
-    "title": "1166. Festnahme eines Tatverdächtigen aufgrund eines versuchten Tötungsdeliktes – Neuhausen-Nymphenburg"
   }
 ]

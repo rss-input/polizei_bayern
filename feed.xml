@@ -6,10 +6,18 @@
     <description>Gewalt-, Sexual- und Drogendelikte sowie organisierte Kriminalität aus den Pressemitteilungen der Bayerischen Polizei.</description>
     <language>de-DE</language>
     <generator>polizei-bayern-rss</generator>
-    <lastBuildDate>Sat, 26 Sep 2026 09:51:31 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 26 Sep 2026 14:28:35 +0000</lastBuildDate>
     <ttl>30</ttl>
     <atom:link href="https://rss-input.github.io/polizei_bayern/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 26 Sep 2026 08:13:00 +0000</pubDate>
+    <pubDate>Sat, 26 Sep 2026 14:00:00 +0000</pubDate>
+    <item>
+      <title>Drogenhandel aufgedeckt – Tatverdächtiger in Untersuchungshaft</title>
+      <link>https://www.polizei.bayern.de/aktuelles/pressemitteilungen/109130/index.html</link>
+      <guid isPermaLink="false">urn:polizei-bayern:109130:f30ad8747ed84eba</guid>
+      <pubDate>Sat, 26 Sep 2026 14:00:00 +0000</pubDate>
+      <category>Drogendelikt</category>
+      <description>&lt;p&gt;PM 26.09.2026, PP Oberfranken / Tatdatum 22.09.26 / Tatort: nicht näher mitgeteilt / Delikt: Drogendelikt / Opfer: keine individualisierten Geschädigten / Tatverdächtige: 1 (50 Jahre); Staatsangehörigkeit nicht mitgeteilt / Ergebnis: festgenommen; Untersuchungshaft / Besonderheiten: Bei der anschließenden Durchsuchung stellten die Einsatzkräfte mehrere hundert Gramm Marihuana, verschiedene Waffen und weitere Gegenstände sicher. Zusätzlich fanden die Beamten in der Wohnung mehrere Waffen und gefährliche Gegenstände – unter anderem einen Dolch, einen Morgenstern, ein Einhandmesser, Pfefferspray und einen Böller. / &lt;a href="https://www.polizei.bayern.de/aktuelles/pressemitteilungen/109130/index.html"&gt;https://www.polizei.bayern.de/aktuelles/pressemitteilungen/109130/index.html&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Fahrt unter Cannabiseinfluss</title>
       <link>https://www.polizei.bayern.de/aktuelles/pressemitteilungen/109124/index.html</link>
@@ -4017,14 +4025,6 @@
       <pubDate>Fri, 07 Aug 2026 11:14:00 +0000</pubDate>
       <category>Gewaltdelikt</category>
       <description>&lt;p&gt;PM 07.08.2026, PP München / Tatdatum 06.08.26 / Tatort: Gotzinger Straße / Delikt: Körperverletzung / Opfer: nicht näher mitgeteilt / Tatverdächtige: 1 (35 Jahre, somalisch); 1 (35 Jahre, deutsch); 1 (52 Jahre, deutsch) / Ergebnis: festgenommen; in Haftanstalt überstellt / Besonderheiten: Dabei wurde mitgeteilt, dass sich eine männliche Person in der Gotzinger Straße vor einem Anwesen mit einem Messer und einem anderen unbekannten Gegenstand in der Hand befand und andere Personen bedrohen würde. / &lt;a href="https://www.polizei.bayern.de/aktuelles/pressemitteilungen/106891/index.html"&gt;https://www.polizei.bayern.de/aktuelles/pressemitteilungen/106891/index.html&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>1166. Festnahme eines Tatverdächtigen aufgrund eines versuchten Tötungsdeliktes – Neuhausen-Nymphenburg</title>
-      <link>https://www.polizei.bayern.de/aktuelles/pressemitteilungen/106891/index.html</link>
-      <guid isPermaLink="false">urn:polizei-bayern:106891:1166</guid>
-      <pubDate>Fri, 07 Aug 2026 11:14:00 +0000</pubDate>
-      <category>Gewaltdelikt</category>
-      <description>&lt;p&gt;PM 07.08.2026, PP München / Tatdatum 02.08.26 / Tatort: Schachenmeierstraße / Delikt: Gewaltdelikt / Opfer: nicht näher mitgeteilt / Tatverdächtige: 1 (35 Jahre, kosovarisch); 1 (42 Jahre, deutsch) / Ergebnis: Auf Antrag der Staatsanwaltschaft München I erließ das Amtsgericht München zwischenzeitlich einen Haftbefehl sowie einen Europäischen Haftbefehl u.a. wegen versuchten Mordes gegen den 35-Jährigen. Der gegen ihn bestehende Haftbefehl wurde vollstreckt. / Besonderheiten: Ein 35-jähriger Kosovare mit Wohnsitz in München hatte hier an einer Wohnungstür geklingelt und anschließend einen 42-jährigen Deutschen mit Wohnsitz im Landkreis Fürstenfeldbruck, der die Wohnungstür öffnete, mit einem Messer sowie durch Faustschläge verletzt. / &lt;a href="https://www.polizei.bayern.de/aktuelles/pressemitteilungen/106891/index.html"&gt;https://www.polizei.bayern.de/aktuelles/pressemitteilungen/106891/index.html&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
