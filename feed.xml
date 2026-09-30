@@ -6,10 +6,18 @@
     <description>Gewalt-, Sexual- und Drogendelikte sowie organisierte Kriminalität aus den Pressemitteilungen der Bayerischen Polizei.</description>
     <language>de-DE</language>
     <generator>polizei-bayern-rss</generator>
-    <lastBuildDate>Wed, 30 Sep 2026 12:32:06 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 30 Sep 2026 18:07:53 +0000</lastBuildDate>
     <ttl>30</ttl>
     <atom:link href="https://rss-input.github.io/polizei_bayern/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 30 Sep 2026 10:05:00 +0000</pubDate>
+    <pubDate>Wed, 30 Sep 2026 14:12:00 +0000</pubDate>
+    <item>
+      <title>Innenstadt – Am Dienstag (29.09.2026) kontrollierten Polizeibeamte in der Riedingerstraße einen zunächst geflüchteten Autofahrer, welcher unter Drogen- und Alkoholeinfluss stand.</title>
+      <link>https://www.polizei.bayern.de/aktuelles/pressemitteilungen/109304/index.html</link>
+      <guid isPermaLink="false">urn:polizei-bayern:109304:b065bee07084f064</guid>
+      <pubDate>Wed, 30 Sep 2026 14:12:00 +0000</pubDate>
+      <category>Drogendelikt</category>
+      <description>&lt;p&gt;PM 30.09.2026, PP Schwaben Nord / Tatdatum nicht mitgeteilt / Tatort: nicht näher mitgeteilt / Delikt: Fahren unter Betäubungsmitteleinfluss / Opfer: keine individualisierten Geschädigten / Tatverdächtige: 1 (26 Jahre, italienisch) / Ergebnis: tatverdächtige Person flüchtig; Blutentnahme angeordnet / Besonderheiten: Gegen 11.15 Uhr sollte das Fahrzeug des 26-jährigen Mannes zunächst einer allgemeinen Verkehrskontrolle unterzogen werden. / &lt;a href="https://www.polizei.bayern.de/aktuelles/pressemitteilungen/109304/index.html"&gt;https://www.polizei.bayern.de/aktuelles/pressemitteilungen/109304/index.html&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>17-Jährige schlägt Ärztin</title>
       <link>https://www.polizei.bayern.de/aktuelles/pressemitteilungen/109283/index.html</link>
@@ -4015,14 +4023,6 @@
       <pubDate>Wed, 12 Aug 2026 07:35:00 +0000</pubDate>
       <category>Gewaltdelikt</category>
       <description>&lt;p&gt;PM 12.08.2026, PP Mittelfranken / Tatdatum 05.08.26 / Tatort: Spalt / Delikt: Körperverletzung / Opfer: 1 (47 Jahre); Staatsangehörigkeit nicht mitgeteilt / Tatverdächtige: Der 47-Jährige wurde mittels eines Rettungshubschraubers ins Krankenhaus geflogen. / Ergebnis: eine 47-jährige Person vorübergehend im Krankenhaus behandelt / Besonderheiten: (742) Wie mit Meldung 720 berichtet, kam es in Spalt (Lkrs. / &lt;a href="https://www.polizei.bayern.de/aktuelles/pressemitteilungen/107057/index.html"&gt;https://www.polizei.bayern.de/aktuelles/pressemitteilungen/107057/index.html&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Verkehrskontrollen der Lohrer Polizei - Zwei Fahrzeugführer unter Drogeneinfluss - 18-Jähriger ohne Fahrerlaubnis</title>
-      <link>https://www.polizei.bayern.de/aktuelles/pressemitteilungen/107055/index.html</link>
-      <guid isPermaLink="false">urn:polizei-bayern:107055:2c7192867c60829b</guid>
-      <pubDate>Wed, 12 Aug 2026 07:06:00 +0000</pubDate>
-      <category>Drogendelikt</category>
-      <description>&lt;p&gt;PM 12.08.2026, PP Unterfranken / Tatdatum nicht mitgeteilt / Tatort: nicht näher mitgeteilt / Delikt: Fahren unter Betäubungsmitteleinfluss / Opfer: keine individualisierten Geschädigten / Tatverdächtige: nicht näher mitgeteilt / Ergebnis: nicht mitgeteilt / Besonderheiten: LOHR A. / &lt;a href="https://www.polizei.bayern.de/aktuelles/pressemitteilungen/107055/index.html"&gt;https://www.polizei.bayern.de/aktuelles/pressemitteilungen/107055/index.html&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

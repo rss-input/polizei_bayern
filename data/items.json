@@ -1,6 +1,28 @@
 [
   {
     "body": [
+      "Innenstadt – Am Dienstag (29.09.2026) kontrollierten Polizeibeamte in der Riedingerstraße einen zunächst geflüchteten Autofahrer, welcher unter Drogen- und Alkoholeinfluss stand.",
+      "Gegen 11.15 Uhr sollte das Fahrzeug des 26-jährigen Mannes zunächst einer allgemeinen Verkehrskontrolle unterzogen werden. Dieser entzog sich der Kontrolle jedoch und flüchtete in Richtung Äußere Uferstraße. Dort parkte er seinen Pkw und lief davon.",
+      "Der 26-Jährige konnte im Rahmen der Fahndung festgestellt und kontrolliert werden. Dabei stellten die Beamten drogentypische Auffälligkeiten fest. Ein durchgeführter Test bestätigte den Verdacht, dass der Mann unter Drogeneinfluss stand. Ferner ermittelte die Polizei, dass der 26-Jährige nicht im Besitz der erforderlichen Fahrerlaubnis war. Diese wurde ihm bereits 2024 entzogen. Bei dem Mann wurde eine Blutentnahme durchgeführt.",
+      "Die Verkehrspolizei ermittelt nun wegen Trunkenheit im Verkehr infolge Drogeneinflusses und Fahrens ohne Fahrerlaubnis.",
+      "Der 26-Jährige besitzt die italienische Staatsangehörigkeit."
+    ],
+    "case_key": "b065bee07084f064",
+    "case_ordinal": 4,
+    "categories": [
+      "Drogendelikt"
+    ],
+    "content_hash": "650f538810473c28101d11fc6743a4fae9182073c3469114f437ab67aae2c58a",
+    "guid": "urn:polizei-bayern:109304:b065bee07084f064",
+    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/109304/index.html",
+    "organization": "Polizeipräsidium Schwaben Nord",
+    "published_ts": 1790777520,
+    "source_id": "109304",
+    "source_title": "Medieninfo Nordschwaben - 30.09.2026",
+    "title": "Innenstadt – Am Dienstag (29.09.2026) kontrollierten Polizeibeamte in der Riedingerstraße einen zunächst geflüchteten Autofahrer, welcher unter Drogen- und Alkoholeinfluss stand."
+  },
+  {
+    "body": [
       "17-Jährige schlägt Ärztin",
       "KEMPTEN. Am Dienstagabend gegen 21:30 Uhr schlug eine 17-jährige deutsche Frau einer Anästhesistin ins Gesicht, als diese ihr vor einer notwendigen Notoperation ein Beruhigungsmittel spritzen wollte. Anschließend wollte die 17-Jährige flüchten. Polizeibeamte stellten sie jedoch. Die Polizei ermittelt nun wegen Körperverletzung gegen die 17-Jährige. (PI Kempten)"
     ],
@@ -10963,24 +10985,5 @@
     "source_id": "107057",
     "source_title": "Auseinandersetzung in Spalt – Geschädigter im Krankenhaus verstorben",
     "title": "Auseinandersetzung in Spalt – Geschädigter im Krankenhaus verstorben"
-  },
-  {
-    "body": [
-      "Verkehrskontrollen der Lohrer Polizei - Zwei Fahrzeugführer unter Drogeneinfluss - 18-Jähriger ohne Fahrerlaubnis",
-      "LOHR A. MAIN U. PARTENSTEIN, LKR. MAIN-SPESSART. Streifen der Polizeiinspektion Lohr hatten mit ihren Kontrollen im Laufe des Dienstagabends den richtigen Riecher. Zwei Männer standen unter dem Einfluss von Betäubungsmitteln. Ein 18-Jähriger war zudem nicht im Besitz eines Führerscheins und führte verbotene Vapes mit sich."
-    ],
-    "case_key": "2c7192867c60829b",
-    "case_ordinal": 6,
-    "categories": [
-      "Drogendelikt"
-    ],
-    "content_hash": "2c7192867c60829bbf54dfa5393da598d40d790dcbf2b11298b12f93b2d7d5d1",
-    "guid": "urn:polizei-bayern:107055:2c7192867c60829b",
-    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/107055/index.html",
-    "organization": "Polizeipräsidium Unterfranken",
-    "published_ts": 1786518360,
-    "source_id": "107055",
-    "source_title": "Pressemeldungen des Polizeipräsidiums Unterfranken vom 12.08.2026",
-    "title": "Verkehrskontrollen der Lohrer Polizei - Zwei Fahrzeugführer unter Drogeneinfluss - 18-Jähriger ohne Fahrerlaubnis"
   }
 ]
