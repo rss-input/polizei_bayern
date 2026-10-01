@@ -6,10 +6,18 @@
     <description>Gewalt-, Sexual- und Drogendelikte sowie organisierte Kriminalität aus den Pressemitteilungen der Bayerischen Polizei.</description>
     <language>de-DE</language>
     <generator>polizei-bayern-rss</generator>
-    <lastBuildDate>Wed, 30 Sep 2026 18:07:53 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 01 Oct 2026 07:48:22 +0000</lastBuildDate>
     <ttl>30</ttl>
     <atom:link href="https://rss-input.github.io/polizei_bayern/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 30 Sep 2026 14:12:00 +0000</pubDate>
+    <pubDate>Thu, 01 Oct 2026 05:13:00 +0000</pubDate>
+    <item>
+      <title>Niederbayern: Straftaten im Rahmen eines Versammlungs- und Veranstaltungsgeschehens</title>
+      <link>https://www.polizei.bayern.de/aktuelles/pressemitteilungen/109315/index.html</link>
+      <guid isPermaLink="false">urn:polizei-bayern:109315:8bd3e93b090a046b</guid>
+      <pubDate>Thu, 01 Oct 2026 05:13:00 +0000</pubDate>
+      <category>Gewaltdelikt</category>
+      <description>&lt;p&gt;PM 01.10.2026, PP Niederbayern / Tatdatum 26.09.26 / Tatort: Landshut, Ländtorplatz / Delikt: Körperverletzung / Opfer: nicht näher mitgeteilt / Tatverdächtige: 1 (57 Jahre, deutsch); 1 (25 Jahre, deutsch) / Ergebnis: nicht mitgeteilt / Besonderheiten: Am Samstag, 26.09.2026, fand in Landshut der Christopher Street Day mit einem Aufzug und einem anschließenden Straßenfest am Ländtorplatz statt. / &lt;a href="https://www.polizei.bayern.de/aktuelles/pressemitteilungen/109315/index.html"&gt;https://www.polizei.bayern.de/aktuelles/pressemitteilungen/109315/index.html&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Innenstadt – Am Dienstag (29.09.2026) kontrollierten Polizeibeamte in der Riedingerstraße einen zunächst geflüchteten Autofahrer, welcher unter Drogen- und Alkoholeinfluss stand.</title>
       <link>https://www.polizei.bayern.de/aktuelles/pressemitteilungen/109304/index.html</link>
@@ -4015,14 +4023,6 @@
       <pubDate>Wed, 12 Aug 2026 09:55:00 +0000</pubDate>
       <category>Drogendelikt</category>
       <description>&lt;p&gt;PM 12.08.2026, PP München / Tatdatum 07.08.26 / Tatort: nicht näher mitgeteilt / Delikt: illegaler Handel mit Betäubungsmitteln / Opfer: keine individualisierten Geschädigten / Tatverdächtige: 1 (53 Jahre, deutsch); 1 (55 Jahre, deutsch) / Ergebnis: festgenommen; nach Abschluss der polizeilichen Maßnahmen entlassen / Besonderheiten: Am Freitag, 07.08.2026, gegen 16:10 Uhr, beobachteten zivile Beamte der Polizeiinspektion 25 (Riem) am Riemer See die Übergabe von zwei Plomben mit Cannabis gegen die Zahlung von Bargeld zwischen zwei Personen. / &lt;a href="https://www.polizei.bayern.de/aktuelles/pressemitteilungen/107071/index.html"&gt;https://www.polizei.bayern.de/aktuelles/pressemitteilungen/107071/index.html&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Auseinandersetzung in Spalt – Geschädigter im Krankenhaus verstorben</title>
-      <link>https://www.polizei.bayern.de/aktuelles/pressemitteilungen/107057/index.html</link>
-      <guid isPermaLink="false">urn:polizei-bayern:107057:12b5ea6b75b904b9</guid>
-      <pubDate>Wed, 12 Aug 2026 07:35:00 +0000</pubDate>
-      <category>Gewaltdelikt</category>
-      <description>&lt;p&gt;PM 12.08.2026, PP Mittelfranken / Tatdatum 05.08.26 / Tatort: Spalt / Delikt: Körperverletzung / Opfer: 1 (47 Jahre); Staatsangehörigkeit nicht mitgeteilt / Tatverdächtige: Der 47-Jährige wurde mittels eines Rettungshubschraubers ins Krankenhaus geflogen. / Ergebnis: eine 47-jährige Person vorübergehend im Krankenhaus behandelt / Besonderheiten: (742) Wie mit Meldung 720 berichtet, kam es in Spalt (Lkrs. / &lt;a href="https://www.polizei.bayern.de/aktuelles/pressemitteilungen/107057/index.html"&gt;https://www.polizei.bayern.de/aktuelles/pressemitteilungen/107057/index.html&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
