@@ -6,10 +6,19 @@
     <description>Gewalt-, Sexual- und Drogendelikte sowie organisierte Kriminalität aus den Pressemitteilungen der Bayerischen Polizei.</description>
     <language>de-DE</language>
     <generator>polizei-bayern-rss</generator>
-    <lastBuildDate>Tue, 06 Oct 2026 14:11:03 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 07 Oct 2026 09:16:11 +0000</lastBuildDate>
     <ttl>30</ttl>
     <atom:link href="https://rss-input.github.io/polizei_bayern/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 06 Oct 2026 12:53:00 +0000</pubDate>
+    <pubDate>Wed, 07 Oct 2026 06:07:00 +0000</pubDate>
+    <item>
+      <title>Betäubungsmittelstrukturen aufgebrochen – Ermittlungsverfahren „Nemo“ führt mit Spezialeinheit zu Festnahmen und Großmengen</title>
+      <link>https://www.polizei.bayern.de/aktuelles/pressemitteilungen/109578/index.html</link>
+      <guid isPermaLink="false">urn:polizei-bayern:109578:ab8f6881d8d6b863</guid>
+      <pubDate>Wed, 07 Oct 2026 06:07:00 +0000</pubDate>
+      <category>Drogendelikt</category>
+      <category>Organisierte Kriminalität</category>
+      <description>&lt;p&gt;PM 07.10.2026, PP Oberpfalz / Tatdatum 03.10.26 / Tatort: Nur wenige Tage später folgten nun erneut umfangreiche Maßnahmen – diesmal im Rahmen des Ermittlungsverfahrens „Nemo“ / Delikt: Fahren unter Betäubungsmitteleinfluss / Opfer: 1 (Polizeikraft; Staatsangehörigkeit nicht mitgeteilt) / Tatverdächtige: Dabei rückten neben Wohnungen auch eine mutmaßlich als Drogenlager genutzte Garage und weitere Aufenthaltsorte Tatverdächtiger in den Fokus. Zudem wurde eine weitere tatverdächtige Person im Stadtgebiet festgenommen. / Ergebnis: festgenommen / Besonderheiten: Im Rahmen des Ermittlungsverfahrens „Nemo“ stellten Polizeikräfte am Samstag, 3. Oktober 2026, mehrere Kilogramm Cannabis, ein Kilogramm Haschisch, mehrere Hundert Gramm Kokain sowie eine größere Summe Bargeld sicher. / &lt;a href="https://www.polizei.bayern.de/aktuelles/pressemitteilungen/109578/index.html"&gt;https://www.polizei.bayern.de/aktuelles/pressemitteilungen/109578/index.html&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Innenstadt – Am Dienstag (06.10.2026) kontrollierten Einsatzkräfte gegen 01.00 Uhr eine 26-jährige E-Scooter-Fahrerin in der Schießgrabenstraße.</title>
       <link>https://www.polizei.bayern.de/aktuelles/pressemitteilungen/109563/index.html</link>
@@ -4012,14 +4021,6 @@
       <pubDate>Mon, 17 Aug 2026 10:46:00 +0000</pubDate>
       <category>Gewaltdelikt</category>
       <description>&lt;p&gt;PM 17.08.2026, PP Niederbayern / Tatdatum 17.08.26 / Tatort: Langquaid, Kelheim / Delikt: Raub / Opfer: nicht näher mitgeteilt / Tatverdächtige: nicht näher mitgeteilt / Ergebnis: nicht mitgeteilt / Besonderheiten: Am 16. August 2026 gegen 22:00 Uhr stellte ein Passant südlich des Parkplatzes am Waldstadion am Waldrand in Langquaid zwei Brände fest. / &lt;a href="https://www.polizei.bayern.de/aktuelles/pressemitteilungen/107296/index.html"&gt;https://www.polizei.bayern.de/aktuelles/pressemitteilungen/107296/index.html&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Sprinter unter Drogeneinfluss geführt</title>
-      <link>https://www.polizei.bayern.de/aktuelles/pressemitteilungen/107291/index.html</link>
-      <guid isPermaLink="false">urn:polizei-bayern:107291:e8481262b1770b4e</guid>
-      <pubDate>Mon, 17 Aug 2026 10:35:00 +0000</pubDate>
-      <category>Drogendelikt</category>
-      <description>&lt;p&gt;PM 17.08.2026, PP Schwaben Süd/West / Tatdatum 16.08.26 / Tatort: Memmingen, Buxheimer Straße / Delikt: Fahren unter Betäubungsmitteleinfluss / Opfer: keine individualisierten Geschädigten / Tatverdächtige: 1 (24 Jahre, rumänisch) / Ergebnis: Blutentnahme angeordnet / Besonderheiten: Dabei stellten sie drogentypische Auffälligkeiten fest. / &lt;a href="https://www.polizei.bayern.de/aktuelles/pressemitteilungen/107291/index.html"&gt;https://www.polizei.bayern.de/aktuelles/pressemitteilungen/107291/index.html&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
