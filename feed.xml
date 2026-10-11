@@ -6,10 +6,18 @@
     <description>Gewalt-, Sexual- und Drogendelikte sowie organisierte Kriminalität aus den Pressemitteilungen der Bayerischen Polizei.</description>
     <language>de-DE</language>
     <generator>polizei-bayern-rss</generator>
-    <lastBuildDate>Sat, 10 Oct 2026 09:04:34 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 11 Oct 2026 08:47:58 +0000</lastBuildDate>
     <ttl>30</ttl>
     <atom:link href="https://rss-input.github.io/polizei_bayern/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 10 Oct 2026 07:53:00 +0000</pubDate>
+    <pubDate>Sun, 11 Oct 2026 06:46:00 +0000</pubDate>
+    <item>
+      <title>Drogeneinfluss bei Parkmanöver: 60-Jährige verletzt Radfahrerin und E-Scooter-Fahrerin</title>
+      <link>https://www.polizei.bayern.de/aktuelles/pressemitteilungen/109736/index.html</link>
+      <guid isPermaLink="false">urn:polizei-bayern:109736:10d633df4f5893e2</guid>
+      <pubDate>Sun, 11 Oct 2026 06:46:00 +0000</pubDate>
+      <category>Drogendelikt</category>
+      <description>&lt;p&gt;PM 11.10.2026, PP Unterfranken / Tatdatum nicht mitgeteilt / Tatort: Kitzingen / Delikt: Fahren unter Betäubungsmitteleinfluss / Opfer: keine individualisierten Geschädigten / Tatverdächtige: nicht näher mitgeteilt / Ergebnis: nicht mitgeteilt / Besonderheiten: Eine 60-jährige Fahrerin verursachte beim Einparken einen Sachschaden an einem Gartenzaun sowie einem Verteilerkasten. / &lt;a href="https://www.polizei.bayern.de/aktuelles/pressemitteilungen/109736/index.html"&gt;https://www.polizei.bayern.de/aktuelles/pressemitteilungen/109736/index.html&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Fahrt unter Drogeneinfluss</title>
       <link>https://www.polizei.bayern.de/aktuelles/pressemitteilungen/109718/index.html</link>
@@ -4015,14 +4023,6 @@
       <pubDate>Thu, 20 Aug 2026 10:51:00 +0000</pubDate>
       <category>Drogendelikt</category>
       <description>&lt;p&gt;PM 20.08.2026, PP Unterfranken / Tatdatum 19.08.26 / Tatort: Sailauf, Lkr. Aschaffenburg, Parkplatz / Delikt: Fahren unter Betäubungsmitteleinfluss / Opfer: keine individualisierten Geschädigten / Tatverdächtige: 1 (40 Jahre, serbisch) / Ergebnis: nach Abschluss der polizeilichen Maßnahmen entlassen; Blutentnahme angeordnet / Besonderheiten: Am Mittwochnachmittag geriet der Fahrer eines Fiat Ducato ins Visier einer Streife der Verkehrspolizei. / &lt;a href="https://www.polizei.bayern.de/aktuelles/pressemitteilungen/107427/index.html"&gt;https://www.polizei.bayern.de/aktuelles/pressemitteilungen/107427/index.html&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>1237. Raub auf einen Kurierfahrer; mehrere hundert Mobiltelefone entwendet – Aschheim</title>
-      <link>https://www.polizei.bayern.de/aktuelles/pressemitteilungen/107426/index.html</link>
-      <guid isPermaLink="false">urn:polizei-bayern:107426:1237</guid>
-      <pubDate>Thu, 20 Aug 2026 10:15:00 +0000</pubDate>
-      <category>Gewaltdelikt</category>
-      <description>&lt;p&gt;PM 20.08.2026, PP München / Tatdatum 18.08.26 / Tatort: nicht näher mitgeteilt / Delikt: Raub / Opfer: 1 (35 Jahre, italienisch, afghanisch) / Tatverdächtige: 1 (35 Jahre, italienisch, afghanisch) / Ergebnis: nicht mitgeteilt / Besonderheiten: Anschließend wurde der 35-Jährige mit Pfefferspray besprüht und zu Boden gestoßen. Die Täter entwendeten daraufhin aus dem Transporter rund 300 Mobiltelefone im Gesamtwert eines mittleren fünfstelligen Betrages. / &lt;a href="https://www.polizei.bayern.de/aktuelles/pressemitteilungen/107426/index.html"&gt;https://www.polizei.bayern.de/aktuelles/pressemitteilungen/107426/index.html&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -1,6 +1,25 @@
 [
   {
     "body": [
+      "Drogeneinfluss bei Parkmanöver: 60-Jährige verletzt Radfahrerin und E-Scooter-Fahrerin",
+      "KITZINGEN. Eine 60-jährige Fahrerin verursachte beim Einparken einen Sachschaden an einem Gartenzaun sowie einem Verteilerkasten. Dabei touchierte sie zudem eine E-Scooter-Fahrerin und eine Radfahrerin, die hierbei leichte Verletzungen erlitten. Aufgrund des Verdachts auf Einfluss von Betäubungsmitteln wurde ein Ermittlungsverfahren eingeleitet."
+    ],
+    "case_key": "10d633df4f5893e2",
+    "case_ordinal": 1,
+    "categories": [
+      "Drogendelikt"
+    ],
+    "content_hash": "10d633df4f5893e23c0a033231c93d0cec7bf895a39530f608f86dcc64c4512a",
+    "guid": "urn:polizei-bayern:109736:10d633df4f5893e2",
+    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/109736/index.html",
+    "organization": "Polizeipräsidium Unterfranken",
+    "published_ts": 1791701160,
+    "source_id": "109736",
+    "source_title": "Pressemeldungen des Polizeipräsidiums Unterfranken vom 11.10.2026",
+    "title": "Drogeneinfluss bei Parkmanöver: 60-Jährige verletzt Radfahrerin und E-Scooter-Fahrerin"
+  },
+  {
+    "body": [
       "Fahrt unter Drogeneinfluss",
       "KEMPTEN. Im Rahmen einer allgemeinen Verkehrskontrolle konnte bei einem 39-jährigen Fahrer eines E-Scooters starker Marihuanageruch wahrgenommen werden. Der 39-Jährige gab an, Cannabis in Form eines Joints konsumiert zu haben. Die Weiterfahrt wurde unterbunden, beim Fahrer des E-Scooters wurde eine Blutentnahme durchgeführt. Den 39-Jährigen erwartet nun eine Ordnungswidrigkeitenanzeige sowie ein Bußgeld.",
       "(PI Kempten)"
@@ -10951,36 +10970,5 @@
     "source_id": "107427",
     "source_title": "Pressemeldungen des Polizeipräsidiums Unterfranken vom 20.08.2026",
     "title": "Fiat-Fahrer unter Drogeneinfluss - Ermittlungsverfahren eingeleitet"
-  },
-  {
-    "body": [
-      "1237. Raub auf einen Kurierfahrer; mehrere hundert Mobiltelefone entwendet – Aschheim",
-      "Am Dienstag, 18.08.2026, gegen 23:00 Uhr, befand sich ein 35-jähriger afghanisch-italienischer Staatsangehöriger mit Wohnsitz in Wiesbaden mit einem Kleintransporter auf dem Parkplatz Lohwald West an der A99 bei Aschheim. Er war im Auftrag eines Elektronikunternehmens unterwegs und transportierte mehrere hundert generalüberholte Mobiltelefone von Frankfurt am Main nach Italien.",
-      "Als der 35-Jährige den Transporter für eine kurze Pause verlassen hatte, wurde er unvermittelt von mehreren bislang unbekannten Tätern angegriffen. Einer der Täter sprach ihn zunächst an. Anschließend wurde der 35-Jährige mit Pfefferspray besprüht und zu Boden gestoßen.",
-      "Die Täter entwendeten daraufhin aus dem Transporter rund 300 Mobiltelefone im Gesamtwert eines mittleren fünfstelligen Betrages. Im Fahrzeuginneren verursachten sie zudem Sachschaden. Anschließend flüchteten sie nach bisherigen Erkenntnissen mit einem schwarzen SUV in unbekannte Richtung.",
-      "Mit Hilfe eines unbeteiligten Zeugen verständigte der 35-Jährige den Polizeinotruf 110. Sofort eingeleitete Fahndungsmaßnahmen brachten bislang keine neuen Erkenntnisse zu den Tätern.",
-      "Der 35-Jährige wurde bei dem Angriff leicht verletzt und vor Ort durch den Rettungsdienst behandelt.",
-      "Das Kommissariat 21 hat die weiteren Ermittlungen übernommen.",
-      "Die Tatverdächtigen konnten teilweise wie folgt beschrieben werden:",
-      "Täter 1:\n\nMännlich, ca. 190 cm groß, dunkler Bart, schwarze, schulterlange Haare; er trug ein dunkles T-Shirt und eine weiße Baseballkappe",
-      "Täter 2:\n\nMännlich, klein und schlank; er trug einen grauen Kapuzenpullover und hatte die Kapuze über den Kopf gezogen.",
-      "Mindestens einer der Täter sprach Deutsch mit osteuropäischem Akzent.",
-      "Zeugenaufruf:\n\nWer hat am Dienstag, 18.08.2026, gegen 23:00 Uhr auf dem Parkplatz Lohwald West an der A99 bei Aschheim Wahrnehmungen gemacht, die im Zusammenhang mit dem Raub stehen könnten?",
-      "Insbesondere werden Personen gesucht, die dort verdächtige Personen oder einen schwarzen Mercedes beobachtet haben.",
-      "Personen, die sachdienliche Hinweise geben können, werden gebeten, sich mit dem Polizeipräsidium München, Kommissariat 21, Tel. 089 2910-0, oder jeder anderen Polizeidienststelle in Verbindung zu setzen."
-    ],
-    "case_key": "1237",
-    "case_ordinal": 0,
-    "categories": [
-      "Gewaltdelikt"
-    ],
-    "content_hash": "ccd7b1519fd5a423c67c6181d1a0f0cef52a98750273b28d60bee80e2fce4044",
-    "guid": "urn:polizei-bayern:107426:1237",
-    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/107426/index.html",
-    "organization": "Polizeipräsidium München",
-    "published_ts": 1787220900,
-    "source_id": "107426",
-    "source_title": "Medieninformation der Polizei München vom 20.08.2026",
-    "title": "1237. Raub auf einen Kurierfahrer; mehrere hundert Mobiltelefone entwendet – Aschheim"
   }
 ]
