@@ -6,10 +6,18 @@
     <description>Gewalt-, Sexual- und Drogendelikte sowie organisierte Kriminalität aus den Pressemitteilungen der Bayerischen Polizei.</description>
     <language>de-DE</language>
     <generator>polizei-bayern-rss</generator>
-    <lastBuildDate>Sun, 11 Oct 2026 15:38:56 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 12 Oct 2026 09:45:31 +0000</lastBuildDate>
     <ttl>30</ttl>
     <atom:link href="https://rss-input.github.io/polizei_bayern/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 11 Oct 2026 09:33:00 +0000</pubDate>
+    <pubDate>Mon, 12 Oct 2026 09:18:00 +0000</pubDate>
+    <item>
+      <title>Niederbayern: Zwei hochwertige Fahrzeuge bei Kontrollen sichergestellt</title>
+      <link>https://www.polizei.bayern.de/aktuelles/pressemitteilungen/109784/index.html</link>
+      <guid isPermaLink="false">urn:polizei-bayern:109784:0366d7c13df2e5ca</guid>
+      <pubDate>Mon, 12 Oct 2026 09:18:00 +0000</pubDate>
+      <category>Organisierte Kriminalität</category>
+      <description>&lt;p&gt;PM 12.10.2026, PP Niederbayern / Tatdatum 10.10.26 / Tatort: Passau, Bab A3 / Delikt: Organisierte Kriminalität / Opfer: nicht näher mitgeteilt / Tatverdächtige: 1 (40 Jahre, bulgarisch); 1 (49 Jahre, rumänisch) / Ergebnis: nach Abschluss der polizeilichen Maßnahmen entlassen / Besonderheiten: Zudem wurden am Mercedes AMG, dessen Wert im niedrigen sechsstelligen Eurobereich liegt, Unstimmigkeiten festgestellt. / &lt;a href="https://www.polizei.bayern.de/aktuelles/pressemitteilungen/109784/index.html"&gt;https://www.polizei.bayern.de/aktuelles/pressemitteilungen/109784/index.html&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Pkw-Beifahrer attackiert Fußgänger – Fahrer alkoholisiert</title>
       <link>https://www.polizei.bayern.de/aktuelles/pressemitteilungen/109740/index.html</link>
@@ -4015,14 +4023,6 @@
       <pubDate>Fri, 21 Aug 2026 10:05:00 +0000</pubDate>
       <category>Gewaltdelikt</category>
       <description>&lt;p&gt;PM 21.08.2026, PP Schwaben Süd/West / Tatdatum 14.08.26 / Tatort: Krumbach, Landauer Straße / Delikt: Gewaltdelikt / Opfer: nicht näher mitgeteilt / Tatverdächtige: Im Zeitraum von Freitag, 14.08.2026, 00:30 Uhr, bis Samstag, 15.08.2026, 09:00 Uhr, beschädigte ein bislang unbekannter Täter den rechten Vorderreifen eines geparkten Pkw. Der Täter stach den Reifen mit einem spitzen Gegenstand ein. / Ergebnis: Die Polizei ermittelt nun wegen Sachbeschädigung gegen den bislang unbekannten Täter. / Besonderheiten: Der Täter stach den Reifen mit einem spitzen Gegenstand ein. / &lt;a href="https://www.polizei.bayern.de/aktuelles/pressemitteilungen/107461/index.html"&gt;https://www.polizei.bayern.de/aktuelles/pressemitteilungen/107461/index.html&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Gefährliche Körperverletzung</title>
-      <link>https://www.polizei.bayern.de/aktuelles/pressemitteilungen/107461/index.html</link>
-      <guid isPermaLink="false">urn:polizei-bayern:107461:faf6901a3f3b3287</guid>
-      <pubDate>Fri, 21 Aug 2026 10:05:00 +0000</pubDate>
-      <category>Gewaltdelikt</category>
-      <description>&lt;p&gt;PM 21.08.2026, PP Schwaben Süd/West / Tatdatum 20.08.26 / Tatort: Illertissen, Bahnhofstraße / Delikt: gefährliche Körperverletzung / Opfer: nicht näher mitgeteilt / Tatverdächtige: 1 (31 Jahre, irakisch) / Ergebnis: Die Polizei ermittelt nun wegen gefährlicher Körperverletzung gegen den 31-jährigen irakischen Staatsangehörigen. / Besonderheiten: Am Donnerstag, 20.08.2026, am Nachmittag, kam es in einer Unterkunft in der Bahnhofstraße zu einem Streit zwischen zwei 31 und 56 Jahre alten irakischen Männern. / &lt;a href="https://www.polizei.bayern.de/aktuelles/pressemitteilungen/107461/index.html"&gt;https://www.polizei.bayern.de/aktuelles/pressemitteilungen/107461/index.html&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
