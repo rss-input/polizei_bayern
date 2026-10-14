@@ -13,7 +13,7 @@
     "guid": "urn:polizei-bayern:109904:1e85d85af8963b05",
     "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/109904/index.html",
     "organization": "Polizeipräsidium Schwaben Süd/West",
-    "published_ts": 1791972300,
+    "published_ts": 1791985500,
     "source_id": "109904",
     "source_title": "PP SWS | Pressemeldungen vom 14.10.2026",
     "title": "Ladendiebstahl und Körperverletzung in Verbrauchermarkt"
@@ -32,7 +32,7 @@
     "guid": "urn:polizei-bayern:109904:40c91ec40cfe5875",
     "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/109904/index.html",
     "organization": "Polizeipräsidium Schwaben Süd/West",
-    "published_ts": 1791972300,
+    "published_ts": 1791985500,
     "source_id": "109904",
     "source_title": "PP SWS | Pressemeldungen vom 14.10.2026",
     "title": "Betäubungsmittel bei Einreise aufgefunden"
@@ -51,7 +51,7 @@
     "guid": "urn:polizei-bayern:109904:2ddf51ff3a548064",
     "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/109904/index.html",
     "organization": "Polizeipräsidium Schwaben Süd/West",
-    "published_ts": 1791972300,
+    "published_ts": 1791985500,
     "source_id": "109904",
     "source_title": "PP SWS | Pressemeldungen vom 14.10.2026",
     "title": "Haftbefehl wegen Handels mit Betäubungsmitteln festgestellt"
@@ -70,7 +70,7 @@
     "guid": "urn:polizei-bayern:109904:f6a799e493d48ec5",
     "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/109904/index.html",
     "organization": "Polizeipräsidium Schwaben Süd/West",
-    "published_ts": 1791972300,
+    "published_ts": 1791985500,
     "source_id": "109904",
     "source_title": "PP SWS | Pressemeldungen vom 14.10.2026",
     "title": "Fahrt unter Drogeneinfluss"
@@ -89,10 +89,52 @@
     "guid": "urn:polizei-bayern:109904:ef0f0153c269bc57",
     "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/109904/index.html",
     "organization": "Polizeipräsidium Schwaben Süd/West",
-    "published_ts": 1791972300,
+    "published_ts": 1791985500,
     "source_id": "109904",
     "source_title": "PP SWS | Pressemeldungen vom 14.10.2026",
     "title": "Bedrohung durch Jugendliche | E-Scooter sichergestellt"
+  },
+  {
+    "body": [
+      "SACHSEN B.ANSBACH. (884) In der Nacht zum Mittwoch (14.10.2026) geriet in Sachsen b. Ansbach (Lkrs. Ansbach) ein Carport in Brand. Das Feuer griff auf das angrenzende Wohnhaus über. Verletzt wurde niemand.",
+      "Gegen 01:20 Uhr bemerkten die Bewohner den Brand im Carport und verständigten über den Notruf die Integrierte Leitstelle. Beim Eintreffen stellte eine Streife der Polizeiinspektion Ansbach fest, dass der Carport sowie zwei abgestellte Pkw bereits in Vollbrand standen. Die Flammen griffen auch auf das angrenzende, freistehende Einfamilienhaus über. Die alarmierten Freiwilligen Feuerwehren brachten den Brand zügig unter Kontrolle. Mehrere Kräfte des Rettungsdienstes unterstützten den Einsatz.",
+      "Die Einsatzkräfte räumten vorsorglich die umliegenden Gebäude. Gegen 02:12 Uhr konnten die Anwohner in ihre Wohnungen zurückkehren. Die Bewohner des betroffenen Einfamilienhauses kamen anderweitig unter. Verletzt wurde niemand, auch Tiere kamen bei dem Brand nicht zu Schaden. Der entstandene Sachschaden wird auf einen Betrag im unteren sechsstelligen Bereich geschätzt.",
+      "Nach derzeitigem Ermittlungsstand haben sich keine konkreten Hinweise auf eine vorsätzliche Brandstiftung ergeben. Beamte des Kriminaldauerdienstes Mittelfranken führten vor Ort die ersten kriminalpolizeilichen Maßnahmen durch. Das zuständige Fachkommissariat der Kriminalpolizei Ansbach hat die weiteren Ermittlungen zur Brandursache übernommen.",
+      "Erstellt durch: Michael Sebald"
+    ],
+    "case_key": "7f69dc2d8d7cce3e",
+    "case_ordinal": 0,
+    "categories": [
+      "Gewaltdelikt"
+    ],
+    "content_hash": "4844f600e5fe515fe1137a5d3148956e42e8e13af59767dddb15877d8ba15ebb",
+    "guid": "urn:polizei-bayern:109916:7f69dc2d8d7cce3e",
+    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/109916/index.html",
+    "organization": "Polizeipräsidium Mittelfranken",
+    "published_ts": 1791983820,
+    "source_id": "109916",
+    "source_title": "Carportbrand griff auf Wohnhaus über – hoher Sachschaden",
+    "title": "Carportbrand griff auf Wohnhaus über – hoher Sachschaden"
+  },
+  {
+    "body": [
+      "OBERSTAUFEN. Am Sonntag, 11.10.2026, gegen 08:30 Uhr, kam es in Oberstaufen zu einer Brandstiftung an einem unbewohnten Einfamilienhaus.",
+      "Zeugen bemerkten eine Rauchentwicklung am Gebäude. Wie sich herausstellte, wurde ein Fenster von außen eingeschlagen und anschließend ein Vorhang vorsätzlich entzündet. Die Feuerwehr konnte den Brand zeitnah löschen. Durch den Brand entstand ein Sachschaden im niedrigen vierstelligen Bereich.",
+      "Aufgrund von Ermittlungen konnte ein 52-jähriger deutscher Mann als Tatverdächtiger gefasst werden. Der Mann wurde festgenommen, einem Ermittlungsrichter vorgeführt und nach Erlass eines Haftbefehls in eine Justizvollzugsanstalt eingeliefert. Die Kriminalpolizeiinspektion Kempten hat unter der Sachleitung der Staatsanwaltschaft Kempten die Ermittlungen aufgenommen. (KPI Kempten)"
+    ],
+    "case_key": "1b74488d39940b56",
+    "case_ordinal": 0,
+    "categories": [
+      "Gewaltdelikt"
+    ],
+    "content_hash": "8e6b76ef2efee713847dbbe91f0bf845220dda838d8946820856df558a91cd46",
+    "guid": "urn:polizei-bayern:109911:1b74488d39940b56",
+    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/109911/index.html",
+    "organization": "Polizeipräsidium Schwaben Süd/West",
+    "published_ts": 1791979200,
+    "source_id": "109911",
+    "source_title": "Brandstiftung an unbewohntem Gebäude | Tatverdächtiger in Haft",
+    "title": "Brandstiftung an unbewohntem Gebäude | Tatverdächtiger in Haft"
   },
   {
     "body": [
@@ -906,6 +948,44 @@
   },
   {
     "body": [
+      "Fahren unter Drogeneinfluss",
+      "MEMMINGERBERG. Am Donnerstag, 08.10.2026, kontrollierten Beamte der Grenzpolizeiinspektion Memmingen einen 42-jährigen slowenischen Staatsangehörigen, der einen Bekannten am Flughafen Memmingen abholen wollte. Der Mann am Steuer zeigte drogentypische Auffälligkeiten, weshalb ein Drogentest durchgeführt wurde. Dieser bestätigte einen vorangegangenen Kokain-Konsum. Bei dem 42-Jährigen wurde eine Blutentnahme veranlasst. Dem Mann wurde die Weiterfahrt untersagt. Zudem musste er eine Sicherheitsleistung im mittleren dreistelligen Bereich hinterlegen. (GPI Memmingen)"
+    ],
+    "case_key": "bcde38057c89fe18",
+    "case_ordinal": 23,
+    "categories": [
+      "Drogendelikt"
+    ],
+    "content_hash": "bcde38057c89fe18a86a39fbe2ee09e284f5049b6ba98c644b1a841d76670500",
+    "guid": "urn:polizei-bayern:109692:bcde38057c89fe18",
+    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/109692/index.html",
+    "organization": "Polizeipräsidium Schwaben Süd/West",
+    "published_ts": 1791547500,
+    "source_id": "109692",
+    "source_title": "PP SWS | Pressemeldungen vom 09.10.2026",
+    "title": "Fahren unter Drogeneinfluss"
+  },
+  {
+    "body": [
+      "Polizeieinsatz im Glacis-Park | Mann leistet Widerstand und verletzt Polizeibeamtin",
+      "NEU-ULM. In der Nacht auf Freitag, 09.10.2026, leistete ein 21-jähriger Mann im Glacis-Park erheblichen Widerstand gegen die Polizei und verletzte dabei eine Beamtin. Der Mann hatte sich zuvor über den Notruf gemeldet und damit gedroht, sich selbst zu verletzen. Die Einsatzkräfte fanden ihn im Park am Boden vor, wobei er eine Glasscherbe gegen seinen Brustkorb hielt. Als die Beamten versuchten, den Arm des Mannes zu sichern, trat er wiederholt um sich. Während des Transports zum Dienstfahrzeug leistete der 21-Jährige erneut massiven Widerstand. Dabei trat er einer Polizeibeamtin gegen den Brustkorb und verletzte sie leicht. Zudem versuchte der Mann, die Einsatzkräfte zu beißen. Er wurde anschließend zur medizinischen Behandlung in ein Krankenhaus gebracht. Die Polizei ermittelt nun wegen Körperverletzung, tätlichen Angriffs auf Vollstreckungsbeamte und Widerstands gegen Vollstreckungsbeamte gegen den 21-Jährigen. (PI Neu-Ulm)"
+    ],
+    "case_key": "311c772411b344d2",
+    "case_ordinal": 33,
+    "categories": [
+      "Gewaltdelikt"
+    ],
+    "content_hash": "311c772411b344d2040f6a107771711e26ceb744860fdbb85e9ec827bbb600b0",
+    "guid": "urn:polizei-bayern:109692:311c772411b344d2",
+    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/109692/index.html",
+    "organization": "Polizeipräsidium Schwaben Süd/West",
+    "published_ts": 1791547500,
+    "source_id": "109692",
+    "source_title": "PP SWS | Pressemeldungen vom 09.10.2026",
+    "title": "Polizeieinsatz im Glacis-Park | Mann leistet Widerstand und verletzt Polizeibeamtin"
+  },
+  {
+    "body": [
       "Kriegshaber– Am Dienstag (06.10.2026) gegen 18.45 Uhr ging eine 33-jährige Frau während der Arbeit im Kobelweg körperlich gegen eine 30-jährige Kollegin vor.",
       "Die 33-Jährige beleidigte die 30-Jährige. Ferner attackierte sie die 30-Jährige und trat ihr gegen die Füße. Die 30-Jährige klagte anschließend über Atembeschwerden und Schmerzen.",
       "Die Polizei ermittelt nun wegen Körperverletzung und Beleidigung gegen die 33-jährige Frau.",
@@ -985,44 +1065,6 @@
     "source_id": "109696",
     "source_title": "Körperverletzungen am Nelson-Mandela-Platz mehr als halbiert – Sicherheitsgefühl am Aufseßplatz im Fokus: Oberbürgermeister Marcus König und Polizeipräsident Gernot Rochholz informierten über die Sicherheit in der Nürnberger Südstadt",
     "title": "Körperverletzungen am Nelson-Mandela-Platz mehr als halbiert – Sicherheitsgefühl am Aufseßplatz im Fokus: Oberbürgermeister Marcus König und Polizeipräsident Gernot Rochholz informierten…"
-  },
-  {
-    "body": [
-      "Fahren unter Drogeneinfluss",
-      "MEMMINGERBERG. Am Donnerstag, 08.10.2026, kontrollierten Beamte der Grenzpolizeiinspektion Memmingen einen 42-jährigen slowenischen Staatsangehörigen, der einen Bekannten am Flughafen Memmingen abholen wollte. Der Mann am Steuer zeigte drogentypische Auffälligkeiten, weshalb ein Drogentest durchgeführt wurde. Dieser bestätigte einen vorangegangenen Kokain-Konsum. Bei dem 42-Jährigen wurde eine Blutentnahme veranlasst. Dem Mann wurde die Weiterfahrt untersagt. Zudem musste er eine Sicherheitsleistung im mittleren dreistelligen Bereich hinterlegen. (GPI Memmingen)"
-    ],
-    "case_key": "bcde38057c89fe18",
-    "case_ordinal": 23,
-    "categories": [
-      "Drogendelikt"
-    ],
-    "content_hash": "bcde38057c89fe18a86a39fbe2ee09e284f5049b6ba98c644b1a841d76670500",
-    "guid": "urn:polizei-bayern:109692:bcde38057c89fe18",
-    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/109692/index.html",
-    "organization": "Polizeipräsidium Schwaben Süd/West",
-    "published_ts": 1791540300,
-    "source_id": "109692",
-    "source_title": "PP SWS | Pressemeldungen vom 09.10.2026",
-    "title": "Fahren unter Drogeneinfluss"
-  },
-  {
-    "body": [
-      "Polizeieinsatz im Glacis-Park | Mann leistet Widerstand und verletzt Polizeibeamtin",
-      "NEU-ULM. In der Nacht auf Freitag, 09.10.2026, leistete ein 21-jähriger Mann im Glacis-Park erheblichen Widerstand gegen die Polizei und verletzte dabei eine Beamtin. Der Mann hatte sich zuvor über den Notruf gemeldet und damit gedroht, sich selbst zu verletzen. Die Einsatzkräfte fanden ihn im Park am Boden vor, wobei er eine Glasscherbe gegen seinen Brustkorb hielt. Als die Beamten versuchten, den Arm des Mannes zu sichern, trat er wiederholt um sich. Während des Transports zum Dienstfahrzeug leistete der 21-Jährige erneut massiven Widerstand. Dabei trat er einer Polizeibeamtin gegen den Brustkorb und verletzte sie leicht. Zudem versuchte der Mann, die Einsatzkräfte zu beißen. Er wurde anschließend zur medizinischen Behandlung in ein Krankenhaus gebracht. Die Polizei ermittelt nun wegen Körperverletzung, tätlichen Angriffs auf Vollstreckungsbeamte und Widerstands gegen Vollstreckungsbeamte gegen den 21-Jährigen. (PI Neu-Ulm)"
-    ],
-    "case_key": "311c772411b344d2",
-    "case_ordinal": 33,
-    "categories": [
-      "Gewaltdelikt"
-    ],
-    "content_hash": "311c772411b344d2040f6a107771711e26ceb744860fdbb85e9ec827bbb600b0",
-    "guid": "urn:polizei-bayern:109692:311c772411b344d2",
-    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/109692/index.html",
-    "organization": "Polizeipräsidium Schwaben Süd/West",
-    "published_ts": 1791540300,
-    "source_id": "109692",
-    "source_title": "PP SWS | Pressemeldungen vom 09.10.2026",
-    "title": "Polizeieinsatz im Glacis-Park | Mann leistet Widerstand und verletzt Polizeibeamtin"
   },
   {
     "body": [
@@ -10902,62 +10944,5 @@
     "source_id": "107617",
     "source_title": "Ermittlungen der \"EKO Kajal\" - Ein weiterer Tatverdächtiger festgenommen",
     "title": "Ermittlungen der \"EKO Kajal\" - Ein weiterer Tatverdächtiger festgenommen"
-  },
-  {
-    "body": [
-      "Versuchter Einbruch in Apotheke | Festnahme auf frischer Tat",
-      "FÜSSEN. Am Montagmorgen versuchte ein 51-jähriger Deutscher, mit einer Eisenstange in eine Apotheke im Westen Füssens einzubrechen. Eine aufmerksame Bürgerin verständigte die Polizei. Beamte der Polizeiinspektion Füssen nahmen den Mann noch während des Einbruchsversuchs vorläufig fest. Er war erheblich alkoholisiert und stand offenbar unter dem Einfluss weiterer berauschender Mittel. Auf richterliche Anordnung durchsuchten die Beamten seine Wohnung und fanden dort Kokain. Nach Abschluss der Maßnahmen entließen sie den Mann auf Weisung der Staatsanwaltschaft. Die Polizei ermittelt nun wegen versuchten Einbruchdiebstahls und eines Verstoßes gegen das Betäubungsmittelgesetz gegen den 51-jährigen deutschen Mann. Ersten Ermittlungen zufolge entstand am angegangenen Objekt ein Sachschaden in Höhe eines niedrigen vierstelligen Betrages. Die Polizei bedankt sich bei der aufmerksamen Bürgerin. (PI Füssen)"
-    ],
-    "case_key": "3766a4346fd9046e",
-    "case_ordinal": 13,
-    "categories": [
-      "Drogendelikt"
-    ],
-    "content_hash": "3766a4346fd9046e35f13fb2f472985bf9896a23a2e2a87b12cbef075dd04db8",
-    "guid": "urn:polizei-bayern:107596:3766a4346fd9046e",
-    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/107596/index.html",
-    "organization": "Polizeipräsidium Schwaben Süd/West",
-    "published_ts": 1787653800,
-    "source_id": "107596",
-    "source_title": "PP SWS | Pressemeldungen vom 25.08.2026",
-    "title": "Versuchter Einbruch in Apotheke | Festnahme auf frischer Tat"
-  },
-  {
-    "body": [
-      "1263. Amtswechsel bei der Polizeiinspektion 1. und 2. Einsatzhundertschaft",
-      "Am Montag, 24. August 2026, wurden der neue Leiter der 1. Einsatzhundertschaft, Polizeirat Markus Oehme, und die neue Leiterin der 2. Einsatzhundertschaft, Polizeioberrätin Carina Fasser, durch Polizeipräsident Thomas Hampel offiziell in ihr neues Amt eingeführt.",
-      "Polizeirat Markus Oehme übernahm die Amtsgeschäfte am 1. August 2026 von seinem Vorgänger, Polizeioberrat a.D. Christian Schmid. Dieser leitete die Polizeiinspektion der 1. Einsatzhundertschaft seit Juli 2014 und verabschiedete sich zum August 2026 nach mehr als vier Jahrzehnten im Dienst der Bayerischen Polizei in den Ruhestand. Frau Fasser übernahm die Amtsgeschäfte am 1. April 2026 von ihrem Vorgänger, Herrn Polizeioberrat Martin Eisele. Dieser leitete die Polizeiinspektion der 2. Einsatzhundertschaft seit dem 1. April 2020.",
-      "Polizeioberrat Martin Eisele blickt auf eine rund sechsjährige Amtszeit als Leiter der 2. Einsatzhundertschaft zurück. In dieser Zeit war er mit zahlreichen besonderen Herausforderungen im Bereich der geschlossenen Einheiten und des täglichen Einsatzgeschehens betraut. Sein Amtsantritt fiel in die Zeit der Corona-Pandemie, die insbesondere an die Organisation, Führung und Einsatzbereitschaft der Einsatzhundertschaft besondere Anforderungen stellte. Eine Vielzahl von Einsätzen von Europameisterschaft, Internationale Automobil-Ausstellung, Münchner Sicherheitskonferenz bis hin zu diversen Fußballspielen wurden noch professioneller gemeistert.",
-      "Zum 1. August 2025 wechselte Herr Eisele als stellvertretender Leiter zum Abschnitt Zentrale Einsatzdienste des Polizeipräsidiums München. Dort bringt er seine langjährige Erfahrung aus der Führung einer Einsatzhundertschaft bereits in verantwortungsvoller Funktion ein. Übergangsweise wurde die 2. Einsatzhundertschaft bis zur Amtsübernahme durch Polizeioberrätin Carina Fasser von Ersten Polizeihauptkommissar Reinhard Schuster geführt.",
-      "Mit Polizeirat Markus Oehme übernimmt ein erfahrener Polizeibeamter mit einem vielseitigen beruflichen Werdegang und umfangreicher Führungs- und Einsatzerfahrung die Leitung der 1. Einsatzhundertschaft.",
-      "Seine Laufbahn bei der Bayerischen Polizei begann Herr Oehme im Jahr 2000 im mittleren Dienst. Seine ersten dienstlichen Verwendungen führten ihn von 2004 bis 2005 zur 1. Einsatzhundertschaft. Anschließend war er von 2005 bis 2012 im Streifendienst der Polizeiinspektion 21 eingesetzt und vertiefte dort seine Erfahrungen im polizeilichen Einzeldienst.",
-      "Von 2012 bis 2014 absolvierte Herr Oehme das Studium für den gehobenen Dienst an der Hochschule für den öffentlichen Dienst in Fürstenfeldbruck. Nach Abschluss des Studiums übernahm er von 2014 bis 2017 erneut Aufgaben bei der 1. Einsatzhundertschaft, unter anderem im Bereich der Zugführung.",
-      "Im Rahmen seines Förderverfahrens für die 4. Qualifikationsebene sammelte Herr Oehme von 2017 bis 2020 wertvolle Erfahrungen bei unterschiedlichen Dienststellen. Seine Stationen führten ihn zum damaligen Kommissariat 76 (Betrugsdelikte), zur Polizeiinspektion 24 (Perlach) sowie in die Pressestelle beim Präsidialbüro. Die für seinen weiteren Werdegang erforderliche Führungsbewährung absolvierte er bei der Polizeiinspektion Rosenheim.",
-      "Im Jahr 2020 wechselte Herr Oehme zur Stabsstelle E 3 (Kriminalitätsbekämpfung) des Polizeipräsidiums München. Von 2021 bis 2023 absolvierte er an der Deutschen Hochschule der Polizei in Münster erfolgreich das Studium für den Aufstieg in die 4. Qualifikationsebene. Nach seinem Studium übernahm er die Funktion als Höherer Beamter vom Dienst beim Polizeipräsidium München.",
-      "Von 2024 bis 2026 war Herr Oehme beim Kriminalfachdezernat 4 (Staatsschutzdelikte) des Polizeipräsidiums München tätig.",
-      "Mit seiner langjährigen Erfahrung aus dem Einsatz- und Einzeldienst, seinen Kenntnissen aus unterschiedlichen Bereichen der Schutz- und Kriminalpolizei sowie seiner Führungserfahrung bringt Polizeirat Oehme beste Voraussetzungen für seine neue Aufgabe mit. Sein beruflicher Werdegang verbindet operative Erfahrung mit Führungsverantwortung und einem umfassenden Einblick in die unterschiedlichen Aufgabenbereiche des Polizeipräsidiums München.",
-      "Auch die neue Leiterin der 2. Einsatzhundertschaft, Polizeioberrätin Carina Fasser, verfügt über umfangreiche Erfahrungen in unterschiedlichen Bereichen der Bayerischen Polizei sowie über eine ausgeprägte Führungsexpertise.",
-      "Frau Fasser begann ihre berufliche Laufbahn im Jahr 2013 als stellvertretende Dienstgruppenleiterin bei der Polizeiinspektion 42 (Neuhausen). Nach dreijähriger Verwendung bei der Polizeiinspektion 42 folgte der Wechsel in das Präsidialbüro.",
-      "Zwischen 2017 und 2019 durchlief Frau Fasser im Rahmen ihres Förderverfahrens für die 4. Qualifikationsebene verschiedene Stationen. Hierzu gehörten unter anderem eine Verwendung als Dienstgruppenleiterin bei der Polizeiinspektion 14 (Westend), Tätigkeiten im Bayerischen Staatsministerium des Innern sowie beim Kriminalkommissariat 83 (Rauschgiftdelikte).",
-      "Ihre Führungsbewährung absolvierte Frau Fasser als Hundertschaftsführerin der 14. Bereitschaftspolizeihundertschaft bei der Bayerischen Bereitschaftspolizei in München. In dieser Funktion sammelte sie umfassende Erfahrungen in der Führung einer geschlossenen Einheit.",
-      "Zwischen 2019 und 2021 absolvierte Frau Fasser erfolgreich ihr Studium an der Deutschen Hochschule der Polizei. Anschließend war sie erneut im Landespolizeipräsidium beim Bayerischen Staatsministerium des Innern, für Sport und Integration tätig. Dort waren insbesondere Fachkompetenz, Verantwortungsbewusstsein und ein sicheres Gespür für komplexe Zusammenhänge gefragt.",
-      "Polizeioberrätin Fasser bringt mit ihrer langjährigen Erfahrung im operativen Polizeidienst, ihren Führungskenntnissen und ihren Tätigkeiten in unterschiedlichen Bereichen der Bayerischen Polizei die besten Voraussetzungen für ihre neue Aufgabe mit.",
-      "Die 1. und 2. Einsatzhundertschaft der Münchner Polizei sind spezialisierte Einheiten, die die örtlichen Polizeiinspektionen und die Kriminalpolizei vor allem bei größeren oder besonderen Einsatzlagen unterstützen. Dazu gehören beispielsweise Großveranstaltungen, Demonstrationen und Sportveranstaltungen. Dabei ist es besonders wichtig, dass die Einsatzkräfte als geschlossene und gut koordinierte Einheit zusammenarbeiten.",
-      "Zu ihren Aufgaben gehören außerdem die Unterstützung bei polizeilichen Brennpunkten, die Bewältigung größerer Einsätze sowie die Absicherung und Betreuung zahlreicher Veranstaltungen. 2025 waren die beiden Einsatzhundertschaften sehr umfangreich im Einsatz: Insgesamt bearbeiteten ihre Züge 12.345 Einsätze und waren dabei in allen 25 regionalen Dienstbereichen Münchens tätig. Zusätzlich gab es 906 Einsätze, bei denen sie als geschlossene Einheit eingesetzt wurden.",
-      "Mit Polizeirat Markus Oehme und Polizeioberrätin Carina Fasser übernehmen zwei erfahrene Führungskräfte die Verantwortung für die 1. und 2. Einsatzhundertschaft. Beide bringen umfangreiche Erfahrungen aus unterschiedlichen Bereichen der Bayerischen Polizei sowie aus verschiedenen Führungsfunktionen mit."
-    ],
-    "case_key": "1263",
-    "case_ordinal": 5,
-    "categories": [
-      "Drogendelikt"
-    ],
-    "content_hash": "f2af539adb964e91d800f07673aa3cfe111b4643b8db9781e621936cc8d3ec50",
-    "guid": "urn:polizei-bayern:107599:1263",
-    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/107599/index.html",
-    "organization": "Polizeipräsidium München",
-    "published_ts": 1787651400,
-    "source_id": "107599",
-    "source_title": "Medieninformation der Polizei München vom 25.08.2026",
-    "title": "1263. Amtswechsel bei der Polizeiinspektion 1. und 2. Einsatzhundertschaft"
   }
 ]
