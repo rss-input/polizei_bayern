@@ -6,10 +6,18 @@
     <description>Gewalt-, Sexual- und Drogendelikte sowie organisierte Kriminalität aus den Pressemitteilungen der Bayerischen Polizei.</description>
     <language>de-DE</language>
     <generator>polizei-bayern-rss</generator>
-    <lastBuildDate>Thu, 22 Oct 2026 01:51:50 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 22 Oct 2026 07:32:49 +0000</lastBuildDate>
     <ttl>30</ttl>
     <atom:link href="https://rss-input.github.io/polizei_bayern/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 21 Oct 2026 23:43:00 +0000</pubDate>
+    <pubDate>Thu, 22 Oct 2026 06:46:00 +0000</pubDate>
+    <item>
+      <title>Niederbayern: Bargeld bei Kontrolle aufgefunden</title>
+      <link>https://www.polizei.bayern.de/aktuelles/pressemitteilungen/110308/index.html</link>
+      <guid isPermaLink="false">urn:polizei-bayern:110308:0ffae96e465f99fa</guid>
+      <pubDate>Thu, 22 Oct 2026 06:46:00 +0000</pubDate>
+      <category>Organisierte Kriminalität</category>
+      <description>&lt;p&gt;PM 22.10.2026, PP Niederbayern / Tatdatum 21.10.26 / Tatort: Passau, Bab A3 / Delikt: Organisierte Kriminalität / Opfer: nicht näher mitgeteilt / Tatverdächtige: 1 (58 Jahre, ukrainisch) / Ergebnis: nach Abschluss der polizeilichen Maßnahmen entlassen / Besonderheiten: Am Mittwoch, 21.10.2026, stellten Fahnder der Verkehrspolizeiinspektion Passau im Rahmen einer Verkehrskontrolle einen niedrigen fünfstelligen Eurobetrag sicher. / &lt;a href="https://www.polizei.bayern.de/aktuelles/pressemitteilungen/110308/index.html"&gt;https://www.polizei.bayern.de/aktuelles/pressemitteilungen/110308/index.html&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Brand in der Tiefgarage eines Mehrfamilienhauses löst Großeinsatz aus</title>
       <link>https://www.polizei.bayern.de/aktuelles/pressemitteilungen/110293/index.html</link>
@@ -4015,14 +4023,6 @@
       <pubDate>Thu, 03 Sep 2026 11:26:00 +0000</pubDate>
       <category>Gewaltdelikt</category>
       <description>&lt;p&gt;PM 03.09.2026, PP München / Tatdatum 02.09.26 / Tatort: nicht näher mitgeteilt / Delikt: Gewaltdelikt / Opfer: nicht näher mitgeteilt / Tatverdächtige: 1 (37 Jahre, deutsch); 1 (60 Jahre, deutsch); 1 (35 Jahre, deutsch) / Ergebnis: eine 35-jährige Person vorübergehend im Krankenhaus behandelt / Besonderheiten: Zudem nahmen sie Rauchgeruch wahr. / &lt;a href="https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108061/index.html"&gt;https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108061/index.html&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Mann wirft mit Tomate nach Familie mit Kind</title>
-      <link>https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108054/index.html</link>
-      <guid isPermaLink="false">urn:polizei-bayern:108054:fae204173fed0c3e</guid>
-      <pubDate>Thu, 03 Sep 2026 10:00:00 +0000</pubDate>
-      <category>Gewaltdelikt</category>
-      <description>&lt;p&gt;PM 03.09.2026, PP Schwaben Süd/West / Tatdatum 02.09.26 / Tatort: Buchloe, Überqueren der Straße / Delikt: Körperverletzung / Opfer: Glücklicherweise wurde niemand verletzt. / Tatverdächtige: 1 (40 Jahre, deutsch) / Ergebnis: Strafverfahren / Besonderheiten: Am Mittwochnachmittag wurde die Polizeiinspektion Buchloe in die Bahnhofstraße gerufen. / &lt;a href="https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108054/index.html"&gt;https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108054/index.html&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

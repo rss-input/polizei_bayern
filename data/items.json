@@ -1,6 +1,28 @@
 [
   {
     "body": [
+      "PASSAU, BAB A3. Am Mittwoch, 21.10.2026, stellten Fahnder der Verkehrspolizeiinspektion Passau im Rahmen einer Verkehrskontrolle einen niedrigen fünfstelligen Eurobetrag sicher. Die Ermittlungen hat die Kriminalpolizeiinspektion Passau übernommen.",
+      "Gegen 11:00 Uhr kontrollierten Fahnder einen Skoda, welcher mit einem 58-jährigen ukrainischen Staatsangehörigen besetzt war. Bei der Überprüfung des Fahrzeugs konnte in einem Hohlraum eine Bargeldsumme in einem niedrigen fünfstelligen Eurobereich aufgefunden werden. Da der Tatverdächtige keine plausiblen Angaben zur Herkunft des Geldes machen konnte, wurde dieses sichergestellt.",
+      "Der 58-Jährige wurde nach Abschluss der polizeilichen Maßnahmen entlassen.",
+      "Die Ermittlungen wegen des Verdachts der Geldwäsche wurden durch das Fachkommissariat der Kriminalpolizeiinspektion Passau übernommen.",
+      "Medienkontakt: Polizeipräsidium Niederbayern, PKin Gibis, Tel.: 09421/ 868-1015\n\nVeröffentlicht: 22.10.2026, 08:50 Uhr"
+    ],
+    "case_key": "0ffae96e465f99fa",
+    "case_ordinal": 0,
+    "categories": [
+      "Organisierte Kriminalität"
+    ],
+    "content_hash": "864494c0ea51213a8b7615233383c794e8a707b5c45244779a652061d7d2b952",
+    "guid": "urn:polizei-bayern:110308:0ffae96e465f99fa",
+    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/110308/index.html",
+    "organization": "Polizeipräsidium Niederbayern",
+    "published_ts": 1792651560,
+    "source_id": "110308",
+    "source_title": "Niederbayern: Bargeld bei Kontrolle aufgefunden",
+    "title": "Niederbayern: Bargeld bei Kontrolle aufgefunden"
+  },
+  {
+    "body": [
       "KEMPTEN. Am Mittwochnachmittag wurde die Polizeiinspektion Kempten gegen 17:00 Uhr von der Integrierten Leitstelle über eine Rauchentwicklung in einer Tiefgarage in der Lotterbergstraße in Kempten informiert. Durch das schnelle Einschreiten der Feuerwehr konnte die Ausbreitung des Brandes auf die Wohngebäude verhindert werden. Aufgrund der massiven Rauchentwicklung wurden die Bewohner der angrenzenden Wohngebäude vorsorglich in Sicherheit gebracht und vom Rettungsdienst mit Einbindung Kriseninterventions-Teams betreut. Die ersten Ermittlungen am Brandort wurden durch die örtlich zuständige Polizeiinspektion Kempten sowie dem Kriminaldauerdienst Memmingen übernommen. Darüber hinaus unterstützten Einsatzkräfte der Verkehrspolizeiinspektion Kempten, der Zentralen Einsatzdienste und der Grenzpolizeiinspektion Pfronten. Die Brandbekämpfung erfolgte durch die Feuerwehr Kempten mit Unterstützung durch das THW Kempten. Nach derzeitigem Kenntnisstand wurden durch den Brand acht geparkte Fahrzeuge (Verbrenner und Elektrofahrzeuge) in der Tiefgarage zerstört. Die Brandursache ist aktuell noch unklar. Es gibt jedoch keine Hinweise auf eine vorsätzliche Brandstiftung. Das gesamte Schadensausmaß befindet sich nach ersten Schätzungen im unteren 7-stelligen Bereich. Personen wurden nicht verletzt. Sämtliche Bewohner konnten am späten Abend wieder in ihre Wohnungen zurückkehren. Die weiteren Ermittlungen werden vom Fachkommissariat der Kriminalpolizei Kempten übernommen. (PI Kempten)",
       "Medienkontakt:\n\nPressestelle beim Polizeipräsidium Schwaben Süd/West, D-87439 Kempten (Allgäu),\n\nRufnummer (+49) 0831 9909-0 (-1012/ -1013)."
     ],
@@ -10962,24 +10984,5 @@
     "source_id": "108061",
     "source_title": "Medieninformation der Polizei München vom 03.09.2026",
     "title": "1298. Festnahme eines Tatverdächtigen nach Brandlegung in einem Kellerabteil; eine Person verletzt – Ramersdorf"
-  },
-  {
-    "body": [
-      "Mann wirft mit Tomate nach Familie mit Kind",
-      "BUCHLOE. Am Mittwochnachmittag wurde die Polizeiinspektion Buchloe in die Bahnhofstraße gerufen. Anlass war ein Vorfall, bei dem ein 40-jähriger deutscher Mann aus dem Fenster einer Wohnung im ersten Obergeschoss eine Tomate in Richtung einer vorbeigehenden Familie mit Kleinkind warf. Nach bisherigen Erkenntnissen hatte das Kleinkind beim Überqueren der Straße geweint. Daraufhin soll der Mann die Familie zunächst beleidigt und anschließend in deren Richtung gespuckt haben. Glücklicherweise wurde niemand verletzt. Gegen den Mann wird ein Strafverfahren wegen eines versuchten Körperverletzungsdelikts sowie wegen Beleidigung eingeleitet. (PI Buchloe)"
-    ],
-    "case_key": "fae204173fed0c3e",
-    "case_ordinal": 11,
-    "categories": [
-      "Gewaltdelikt"
-    ],
-    "content_hash": "fae204173fed0c3e94a06c9c12d1904887186eff1f202a46f1fdc1ff112533a8",
-    "guid": "urn:polizei-bayern:108054:fae204173fed0c3e",
-    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108054/index.html",
-    "organization": "Polizeipräsidium Schwaben Süd/West",
-    "published_ts": 1788429600,
-    "source_id": "108054",
-    "source_title": "PP SWS | Pressemeldungen vom 03.09.2026",
-    "title": "Mann wirft mit Tomate nach Familie mit Kind"
   }
 ]
