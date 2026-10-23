@@ -1,6 +1,27 @@
 [
   {
     "body": [
+      "LANDSHUT. Am Freitag, 23.10.2026, wurde ein 25-jähriger Mann aufgrund eines aktuellen Haftbefehls der Staatsanwaltschaft Oldenburg dem Ermittlungsrichter beim Amtsgericht Landshut vorgeführt.",
+      "Nachdem dem Rumänen der Haftbefehl eröffnet wurde und er anschließend zum Dienstfahrzeug verbracht werden sollte, ergriff er gegen 15.15 Uhr zunächst zu Fuß die Flucht. Einer der eingesetzten Beamten gab daraufhin einen Warnschuss ab. Ungeachtet dessen setzte der Mann seine Flucht jedoch fort, konnte aber von den Einsatzkräften nach kurzer Strecke eingeholt und festgenommen werden. Bei der Festnahme soll der Mann erheblichen Widerstand geleistet haben. Hierbei wurden sowohl die eingesetzten Polizeibeamten als auch der 25-Jährige verletzt. Durch die Schussabgabe wurde niemand verletzt oder gefährdet.",
+      "Der Mann wurde nach ärztlicher Versorgung in eine bayerische Justizvollzugsanstalt eingeliefert. Die Kripo Landshut hat unter Sachleitung der Staatsanwaltschaft Landshut die weiteren Ermittlungen übernommen.",
+      "Veröffentlicht: 23.10.2026, 17.12 Uhr"
+    ],
+    "case_key": "18b28667c5e458d6",
+    "case_ordinal": 0,
+    "categories": [
+      "Gewaltdelikt"
+    ],
+    "content_hash": "906f9ca818115ae6b3981d344e9816350c1be14da75bd5a8e54e6ef3e2282fe4",
+    "guid": "urn:polizei-bayern:110381:18b28667c5e458d6",
+    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/110381/index.html",
+    "organization": "Polizeipräsidium Niederbayern",
+    "published_ts": 1792768380,
+    "source_id": "110381",
+    "source_title": "Niederbayern: Fluchtversuch nach Haftbefehlseröffnung – Polizei gibt Warnschuss ab",
+    "title": "Niederbayern: Fluchtversuch nach Haftbefehlseröffnung – Polizei gibt Warnschuss ab"
+  },
+  {
+    "body": [
       "Zurückweisungen",
       "MEMMINGERBERG. Im Rahmen der Einreisekontrolle zum Flug aus Pristina/Kosovo am vergangenen Donnerstag haben Beamte der Grenzpolizei Memmingen insgesamt drei Personen die Einreise nach Deutschland verweigert. Zwei kosovarische Schwestern legten im Rahmen der Einreisebefragung gefälschten Hotel- und Rückflugtickets vor und wollten so über ihren eigentlichen Aufenthaltsgrund hinwegtäuschen. Gegen die 26-jährige und die 20-jährige Kosovarinnen wurden Strafverfahren eingeleitet und es wurde ein zweijähriges Einreiseverbot ausgesprochen. Auch ein 42-jähriger Kosovare konnte seinen Einreisegrund und die -dauer nicht plausibel darlegen. Zudem wurden im Gepäck des Mannes verschreibungspflichtige Medikamente aufgefunden, für die er nach dem Betäubungsmittelgesetz das Rezept eines Arztes benötigt hätte. Dieses konnte der Kosovare jedoch nicht vorweisen. Die Bearbeitung des Vorgangs wurde vom Deutschen Zoll übernommen. Der Mann muss sich nun wegen des Schmuggels von Betäubungsmittel verantworten. Alle drei Personen wurden mit dem nächst möglichen Flug in den Kosovo zurückgewiesen und verließen Deutschland in ihr Heimatland. (GPI Memmingen-Flughafen)"
     ],
@@ -10974,24 +10995,5 @@
     "source_id": "108163",
     "source_title": "PP SWS | Pressemeldungen vom 06.09.2026",
     "title": "Fahrt unter dem Einfluss von berauschenden Mitteln"
-  },
-  {
-    "body": [
-      "Bedrohung mit Messer",
-      "MEMMINGEN. Am Nachmittag des gestrigen Samstages, erhielt die Polizei Memmingen Mitteilung über einen Streit vor einem Memminger Verbrauchermarkt. Der 34-jährige deutsche Geschädigte soll dabei von einer anderen männlichen Person mit einem Messer bedroht worden sein. Als die Polizei an der Örtlichkeit eintraf, konnten sie einen 23-jährigen Rumänen antreffen, welcher offenbar erheblich unter dem Einfluss von Alkohol und Betäubungsmitteln stand. Auf Ansprache durch die Polizei reagierte der Mann zunächst nicht. Der Mann musste im Anschluss durch die Polizisten gefesselt werden. Bei ihm konnte in der Hosentasche ein verbotenes Messer aufgefunden werden. Zur weiteren Abklärung wurde der Herr in ein Krankenhaus verbracht. Der 23-Jährige muss sich nun unter anderem wegen eines Vergehens der Bedrohung sowie des Führens des verbotenen Messers verantworten. (PI Memmingen)"
-    ],
-    "case_key": "269e567b55c8cd29",
-    "case_ordinal": 20,
-    "categories": [
-      "Drogendelikt"
-    ],
-    "content_hash": "269e567b55c8cd29e8078e742887e02d1b2e36295ecb15d02e634250cfd83ebb",
-    "guid": "urn:polizei-bayern:108163:269e567b55c8cd29",
-    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108163/index.html",
-    "organization": "Polizeipräsidium Schwaben Süd/West",
-    "published_ts": 1788678540,
-    "source_id": "108163",
-    "source_title": "PP SWS | Pressemeldungen vom 06.09.2026",
-    "title": "Bedrohung mit Messer"
   }
 ]

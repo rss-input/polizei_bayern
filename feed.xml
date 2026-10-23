@@ -6,10 +6,18 @@
     <description>Gewalt-, Sexual- und Drogendelikte sowie organisierte Kriminalität aus den Pressemitteilungen der Bayerischen Polizei.</description>
     <language>de-DE</language>
     <generator>polizei-bayern-rss</generator>
-    <lastBuildDate>Fri, 23 Oct 2026 14:27:06 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 23 Oct 2026 18:43:17 +0000</lastBuildDate>
     <ttl>30</ttl>
     <atom:link href="https://rss-input.github.io/polizei_bayern/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 23 Oct 2026 12:09:00 +0000</pubDate>
+    <pubDate>Fri, 23 Oct 2026 15:13:00 +0000</pubDate>
+    <item>
+      <title>Niederbayern: Fluchtversuch nach Haftbefehlseröffnung – Polizei gibt Warnschuss ab</title>
+      <link>https://www.polizei.bayern.de/aktuelles/pressemitteilungen/110381/index.html</link>
+      <guid isPermaLink="false">urn:polizei-bayern:110381:18b28667c5e458d6</guid>
+      <pubDate>Fri, 23 Oct 2026 15:13:00 +0000</pubDate>
+      <category>Gewaltdelikt</category>
+      <description>&lt;p&gt;PM 23.10.2026, PP Niederbayern / Tatdatum 23.10.26 / Tatort: Landshut / Delikt: Gewaltdelikt / Opfer: 1 (25 Jahre); Staatsangehörigkeit nicht mitgeteilt / Tatverdächtige: nicht näher mitgeteilt / Ergebnis: festgenommen; in Justizvollzugsanstalt untergebracht / Besonderheiten: Am Freitag, 23.10.2026, wurde ein 25-jähriger Mann aufgrund eines aktuellen Haftbefehls der Staatsanwaltschaft Oldenburg dem Ermittlungsrichter beim Amtsgericht Landshut vorgeführt. / &lt;a href="https://www.polizei.bayern.de/aktuelles/pressemitteilungen/110381/index.html"&gt;https://www.polizei.bayern.de/aktuelles/pressemitteilungen/110381/index.html&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Zurückweisungen</title>
       <link>https://www.polizei.bayern.de/aktuelles/pressemitteilungen/110359/index.html</link>
@@ -4015,14 +4023,6 @@
       <pubDate>Sun, 06 Sep 2026 07:09:00 +0000</pubDate>
       <category>Drogendelikt</category>
       <description>&lt;p&gt;PM 06.09.2026, PP Schwaben Süd/West / Tatdatum 05.09.26 / Tatort: Memmingen / Delikt: Fahren unter Betäubungsmitteleinfluss / Opfer: keine individualisierten Geschädigten / Tatverdächtige: 1 (23 Jahre, deutsch) / Ergebnis: Blutentnahme angeordnet / Besonderheiten: Im Rahmen dieser Verkehrskontrolle wurden beim Fahrzeugführer drogentypische Ausfallerscheinungen festgestellt, woraufhin dieser einräumte am Tag zuvor Cannabis konsumiert zu haben. / &lt;a href="https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108163/index.html"&gt;https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108163/index.html&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Bedrohung mit Messer</title>
-      <link>https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108163/index.html</link>
-      <guid isPermaLink="false">urn:polizei-bayern:108163:269e567b55c8cd29</guid>
-      <pubDate>Sun, 06 Sep 2026 07:09:00 +0000</pubDate>
-      <category>Drogendelikt</category>
-      <description>&lt;p&gt;PM 06.09.2026, PP Schwaben Süd/West / Tatdatum nicht mitgeteilt / Tatort: Memmingen / Delikt: Drogendelikt / Opfer: 1 (34 Jahre, deutsch) / Tatverdächtige: 1 (23 Jahre, rumänisch) / Ergebnis: Krankenhausbehandlung bzw. -unterbringung / Besonderheiten: Der 34-jährige deutsche Geschädigte soll dabei von einer anderen männlichen Person mit einem Messer bedroht worden sein. / &lt;a href="https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108163/index.html"&gt;https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108163/index.html&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
