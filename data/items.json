@@ -1,6 +1,30 @@
 [
   {
     "body": [
+      "1673. Festnahme nach versuchtem Tötungsdelikt – Moosach",
+      "Am Samstag, 24.10.2026, gegen 07:20 Uhr, befand sich eine 49-jährige Deutsche mit Wohnsitz in München im Zwischengeschoss des U-Bahnhofs Moosach. Im Bereich der Treppe zum Bahnsteig wurde sie unvermittelt von einem 34-jährigen Deutschen mit Wohnsitz in München angegriffen. Er verletzte sie dabei im Bereich des Oberkörpers mit einem spitzen Gegenstand schwer. Zudem stürzte das Opfer im Zuge des Angriffes einige Meter einer Treppe zu den Bahnsteigen hinab. Wie es dazu kam, bedarf weiterer Ermittlungen. Eine Vorbeziehung zwischen den beiden Personen besteht nach derzeitigem Stand der Ermittlungen nicht.",
+      "Passanten kamen der Frau zu Hilfe. Ein zufällig vor Ort befindlicher Arzt versorgte sie, bis Rettungsdienst und Notarzt eintrafen. Zwei weitere Passanten zeigten ebenfalls unter Inkaufnahme eines hohen Eigenrisikos Zivilcourage und verwickelten den 34-Jährigen in ein Gespräch, bis eine schnell eintreffende Polizeistreife ihn festnehmen konnte. Am Tatort wurde ein Messer sichergestellt. Ob es sich dabei um die Tatwaffe handelt, ist Gegenstand der Ermittlungen.",
+      "Die 49-Jährige kam mit dem Rettungswagen in ein Münchner Krankenhaus und wurde sofort notoperiert. Nach derzeitigem Kenntnisstand besteht keine Lebensgefahr.",
+      "Der 34-Jährige wurde vorläufig festgenommen und zu einer nahegelegenen Polizeidienststelle gebracht. Während und nach der Tat machte er einen psychisch auffälligen Eindruck. Derzeit wird geklärt, inwieweit ein Haft- oder Unterbringungsbefehl beantragt wird.",
+      "Am Tatort wurden umfangreiche Spurensicherungsmaßnahmen durchgeführt. Für die Dauer des Einsatzes musste der U-Bahnsteig der U3 bis ca. 10:30 Uhr gesperrt werden.",
+      "Die Münchner Mordkommission (K11) hat die weiteren Ermittlungen wegen eines versuchten Tötungsdelikts übernommen."
+    ],
+    "case_key": "1673",
+    "case_ordinal": 0,
+    "categories": [
+      "Gewaltdelikt"
+    ],
+    "content_hash": "dcaed30a1a8dde5fbceda4a02b2e2ff86c18ada9bd5300df1caeae3c80cdbdbf",
+    "guid": "urn:polizei-bayern:110399:1673",
+    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/110399/index.html",
+    "organization": "Polizeipräsidium München",
+    "published_ts": 1792843560,
+    "source_id": "110399",
+    "source_title": "Medieninformation der Polizei München vom 24.10.2026",
+    "title": "1673. Festnahme nach versuchtem Tötungsdelikt – Moosach"
+  },
+  {
+    "body": [
       "Fahrt unter Einwirkung von Cannabis",
       "ZIEMETSHAUSEN. Am Freitag, 23.10.2026, gegen 15:45 Uhr wurde ein 34-jähriger deutscher Pkw-Fahrer in einer Kontrollstelle an der B300 kontrolliert. Bei dem Fahrer konnten drogentypische Ausfallerscheinungen festgestellt werden. Aus diesem Grund wurde eine Blutentnahme angeordnet und die Weiterfahrt wurde unterbunden. (PI Krumbach)"
     ],
@@ -10977,24 +11001,5 @@
     "source_id": "108164",
     "source_title": "Pressemeldungen des Polizeipräsidiums Unterfranken vom 06.09.2026",
     "title": "Beherztes Eingreifen verhindert Übergreifen des Feuers - Zwei Mitglieder der Jugendfeuerwehr schreiten ein"
-  },
-  {
-    "body": [
-      "GEROLZHOFEN, LKR. SCHWEINFURT.Am frühen Samstagabend, gegen 17:45 Uhr, kam es in der Kolpingstraße zu einer körperlichen Auseinandersetzung zwischen einem 14 Jahre alten E-Scooter-Fahrer und dem bislang unbekannten Fahrer eines Fahrdienstes. Aus noch unklaren Gründen, bremste der Mann den E-Scooter-Fahrer aus, stieg aus und schlug dem Jungen mit der Faust auf die rechte Wange. Im Anschluss stieg der Mann wieder ein und fuhr weiter. Die Polizei Gerolzhofen ermittelt nun unteranderem wegen Körperverletzung und Nötigung. Die Ermittler sind auf der Suche nach unbeteiligten Zeugen. Insbesondere der Fahrgast des Fahrdienstes wird gebeten sich zu melden.",
-      "Hinweise nimmt die Polizeiinspektion Gerolzhofen unter Tel. 09382/940-0 entgegen."
-    ],
-    "case_key": "3894070e711ef214",
-    "case_ordinal": 17,
-    "categories": [
-      "Gewaltdelikt"
-    ],
-    "content_hash": "3894070e711ef2144255593174b423b2700f836a769e343aff887555ce56acf5",
-    "guid": "urn:polizei-bayern:108164:3894070e711ef214",
-    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108164/index.html",
-    "organization": "Polizeipräsidium Unterfranken",
-    "published_ts": 1788682920,
-    "source_id": "108164",
-    "source_title": "Pressemeldungen des Polizeipräsidiums Unterfranken vom 06.09.2026",
-    "title": "GEROLZHOFEN, LKR."
   }
 ]
