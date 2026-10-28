@@ -6,10 +6,18 @@
     <description>Gewalt-, Sexual- und Drogendelikte sowie organisierte Kriminalität aus den Pressemitteilungen der Bayerischen Polizei.</description>
     <language>de-DE</language>
     <generator>polizei-bayern-rss</generator>
-    <lastBuildDate>Tue, 27 Oct 2026 14:54:45 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 28 Oct 2026 08:59:14 +0000</lastBuildDate>
     <ttl>30</ttl>
     <atom:link href="https://rss-input.github.io/polizei_bayern/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 27 Oct 2026 14:40:00 +0000</pubDate>
+    <pubDate>Wed, 28 Oct 2026 07:02:00 +0000</pubDate>
+    <item>
+      <title>Niederbayern: Ergebnisse der Schwerpunktwochen zur Bekämpfung der Unfallursache Ablenkung</title>
+      <link>https://www.polizei.bayern.de/aktuelles/pressemitteilungen/110570/index.html</link>
+      <guid isPermaLink="false">urn:polizei-bayern:110570:b8ca410c7f1b4c3b</guid>
+      <pubDate>Wed, 28 Oct 2026 07:02:00 +0000</pubDate>
+      <category>Drogendelikt</category>
+      <description>&lt;p&gt;PM 28.10.2026, PP Niederbayern / Tatdatum 19.07.26 / Tatort: Niederbayern / Delikt: Fahren unter Betäubungsmitteleinfluss / Opfer: keine individualisierten Geschädigten / Tatverdächtige: nicht näher mitgeteilt / Ergebnis: nicht mitgeteilt / Besonderheiten: Im Rahmen der Verkehrssicherheitsarbeit des Polizeipräsidiums Niederbayern führten die Dienststellen in den Zeiträumen vom 13.07. bis 19.07.2026 sowie vom 12.10. bis 18.10.2026 verstärkte Verkehrskontrollen zur Bekämpfung der Unfallursache „Ablenkung“ durch. / &lt;a href="https://www.polizei.bayern.de/aktuelles/pressemitteilungen/110570/index.html"&gt;https://www.polizei.bayern.de/aktuelles/pressemitteilungen/110570/index.html&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Innenstadt– Am Montag (26.10.2026) gegen 09.30 Uhr kam es in der Frauentorstraße zu einer körperlichen Auseinandersetzung zwischen zwei Männern.</title>
       <link>https://www.polizei.bayern.de/aktuelles/pressemitteilungen/110534/index.html</link>
@@ -4015,14 +4023,6 @@
       <pubDate>Wed, 09 Sep 2026 10:26:00 +0000</pubDate>
       <category>Gewaltdelikt</category>
       <description>&lt;p&gt;PM 09.09.2026, PP München / Tatdatum 08.09.26 / Tatort: Kolumbusstraße / Delikt: Raub / Opfer: 1 (70 Jahre, deutsch) / Tatverdächtige: 1 (70 Jahre, deutsch) / Ergebnis: tatverdächtige Person flüchtig / Besonderheiten: Unmittelbar danach verständigte der 70-Jährige die Polizeiinspektion 21. / &lt;a href="https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108297/index.html"&gt;https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108297/index.html&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Niederbayern: Streit eskaliert – Ermittlungen der Kripo Landshut</title>
-      <link>https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108296/index.html</link>
-      <guid isPermaLink="false">urn:polizei-bayern:108296:3c479d9d30899fbe</guid>
-      <pubDate>Wed, 09 Sep 2026 10:03:00 +0000</pubDate>
-      <category>Gewaltdelikt</category>
-      <description>&lt;p&gt;PM 09.09.2026, PP Niederbayern / Tatdatum 08.09.26 / Tatort: nicht näher mitgeteilt / Delikt: Körperverletzung / Opfer: nicht näher mitgeteilt / Tatverdächtige: 1 (23 Jahre, deutsch); 1 (26 Jahre, deutsch) / Ergebnis: festgenommen; Untersuchungshaft; in Justizvollzugsanstalt untergebracht / Besonderheiten: DINGOLFING. / &lt;a href="https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108296/index.html"&gt;https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108296/index.html&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
