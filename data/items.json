@@ -1,6 +1,28 @@
 [
   {
     "body": [
+      "REISBACH, LKR. DINGOLFING-LANDAU. Beamte der Kriminalpolizeiinspektion Landshut haben bei einer Wohnungsdurchsuchung am Donnerstag, 29.10.2026, u. a. rund 500 Gramm Cannabis sichergestellt.",
+      "Ein 23-jähriger Deutscher stand aufgrund anderweitiger Ermittlungen im Verdacht, von seiner Wohnung aus mit Betäubungsmittel zu handeln.",
+      "Ermittler der Kriminalpolizeiinspektion Landshut haben in diesem Zusammenhang am Donnerstag einen vom Amtsgericht Landshut auf Antrag der Staatsanwaltschaft erlassenen Durchsuchungsbeschluss vollzogen und dabei in der Wohnung des Verdächtigen neben rund 500 Gramm Cannabis auch verschiedene Chemikalien, die zur Herstellung von Rauschgift geeignet sind, sichergestellt.",
+      "Die Ermittlungen gegen den 23-Jährigen dauern an.",
+      "Veröffentlicht: 30.10.2026, 08.50 Uhr"
+    ],
+    "case_key": "8535f16facb8a757",
+    "case_ordinal": 0,
+    "categories": [
+      "Drogendelikt"
+    ],
+    "content_hash": "a2a3758a4b24d57272184dc247ef9423dff93f91a2607c73256dba53fd949325",
+    "guid": "urn:polizei-bayern:110684:8535f16facb8a757",
+    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/110684/index.html",
+    "organization": "Polizeipräsidium Niederbayern",
+    "published_ts": 1793346480,
+    "source_id": "110684",
+    "source_title": "Niederbayern: Kripo stellt Cannabis und Chemikalien bei Durchsuchung sicher",
+    "title": "Niederbayern: Kripo stellt Cannabis und Chemikalien bei Durchsuchung sicher"
+  },
+  {
+    "body": [
       "STRAUBING. Gestern Abend (28.10.2026) kam es zwischen zwei Personengruppen nach einem Streit zur körperlichen Auseinandersetzung, wobei auch ein Mobiltelefon entwendet wurde. Die Kriminalpolizei ermittelt und bittet um Zeugenhinweise.",
       "Den ersten Erkenntnissen nach gerieten gegen 20.30 Uhr drei junge Männer im Alter von 18 bis 20 Jahren in der Flurlgasse mit einer weiteren Gruppe von drei derzeit Unbekannten in Streit. Im Verlauf soll es zwischen einem 20-Jährigen und den Unbekannten zu einer körperlichen Auseinandersetzung gekommen sein. Dabei entrissen sie dem Geschädigten seine Kappe und sein Mobiltelefon. Die bislang Unbekannten sollen dabei auch eine Glasflasche eingesetzt haben.",
       "Eine Anwohnerin konnte die Auseinandersetzung beobachten und verständigte die Polizei Straubing. Trotz sofortiger Fahndung nach den Tatverdächtigen, die wohl Richtung Rosengasse geflüchtet sind, konnten sie nicht mehr festgestellt werden. Die Tatverdächtigen sind dem Geschädigten zumindest teilweise bekannt. Durch die Schläge wurde der 20-Jährige und ein Bekannter, der ihm zu Hilfe kam, leicht verletzt, benötigten aber keine medizinische Versorgung.",
@@ -10907,28 +10929,5 @@
     "source_id": "108380",
     "source_title": "Niederbayern: Verdacht des unerlaubten Handels mit Betäubungsmitteln – Durchsuchungen der Kriminalpolizei Passau",
     "title": "Niederbayern: Verdacht des unerlaubten Handels mit Betäubungsmitteln – Durchsuchungen der Kriminalpolizei Passau"
-  },
-  {
-    "body": [
-      "Innenstadt– Am Montag (07.09.2026), im Zeitraum zwischen 20:00 Uhr – 21:15 Uhr, kam es in der Augsburger Innenstadt zu einem Sexualdelikt zum Nachteil einer 15-Jährigen.",
-      "Ein bislang unbekannter junger Mann soll die 15-Jährige sexuell missbraucht haben.",
-      "Der genaue Tatort ist bislang nicht bekannt, wird aber im Bereich Königsplatz / Zeugplatz / Maximilianstraße / Hallstraße vermutet. Die 15-Jährige wurde nach dem Vorfall im Bleigässchen in hilfloser Lage aufgefunden und ärztlich versorgt.",
-      "Die Kriminalpolizei ermittelt wegen des Verdachts der Vergewaltigung.",
-      "Wer hat die Jugendliche, möglicherweise in Begleitung anderer Personen, vor 21:15 Uhr gesehen? Relevant wären insbesondere Personengruppen, deren Teilnehmer im Alter von etwa 15 - 20 Jahren waren und gegebenenfalls vereinzelt unter Alkohol- oder Drogeneinfluss standen.",
-      "Zeugenhinweise nimmt der Kriminaldauerdienst Augsburg unter der Telefonnummer 0821/323-3821 entgegen."
-    ],
-    "case_key": "bbbacc7680711bea",
-    "case_ordinal": 2,
-    "categories": [
-      "Sexualdelikt"
-    ],
-    "content_hash": "e748a2a8f9a28214b91967a18a01c8411111c037dc2afecfd24aa85ec6cb9266",
-    "guid": "urn:polizei-bayern:108364:bbbacc7680711bea",
-    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108364/index.html",
-    "organization": "Polizeipräsidium Schwaben Nord",
-    "published_ts": 1789049100,
-    "source_id": "108364",
-    "source_title": "Medieninfo Nordschwaben - 10.09.2026",
-    "title": "Innenstadt– Am Montag (07.09.2026), im Zeitraum zwischen 20:00 Uhr – 21:15 Uhr, kam es in der Augsburger Innenstadt zu einem Sexualdelikt zum Nachteil einer 15-Jährigen."
   }
 ]
