@@ -1,6 +1,25 @@
 [
   {
     "body": [
+      "FÜSSEN. Am Freitagabend führte die Verkehrspolizeiinspektion Kempten mit Unterstützung der Bayerischen Bereitschaftspolizei, der Grenzpolizeiinspektion Pfronten, der Bundespolizei, des Zolls und ehrenamtlicher Helfer des THW Füssen eine Großkontrolle auf der A 7 vor dem Grenztunnel in Richtung Österreich durch. Bei den ganzheitlichen Fahrzeugkontrollen wurde besonderes Augenmerk auf die Fahrtüchtigkeit der Fahrzeugführer sowie die Einhaltung der Sozialvorschriften und der Ladungssicherung im Lieferverkehr der Kleinlaster gelegt.\n\nEs wurden insgesamt mehr als 190 Fahrzeuge und mehr als 260 Personen kontrolliert. Bei fünf Fahrzeugführern verlief ein Drogenschnelltest positiv. Die Polizei ordnete Blutentnahmen an und untersagte den betroffenen Fahrzeugführern die Weiterfahrt.\n\nZudem nahmen die Beamten drei Anzeigen wegen der versuchten Ausfuhr von Betäubungsmitteln und zwei Anzeigen wegen unerlaubten Aufenthalts auf. Darunter war ein moldawischer Staatsangehöriger, der die erlaubte Aufenthaltsdauer im Schengenraum deutlich überschritten hatte. Außerdem brachten die Einsatzkräfte drei waffenrechtliche Verstöße zur Anzeige, unter anderem wegen des Mitführens von Einhandmessern.\n\nBei den kontrollierten Lieferwagen konnten neben einer Manipulation der Abgasanlage auch mehrere erhebliche Verstöße gegen die Lenk- und Ruhezeiten festgestellt werden. Einen Fahrer sowie dessen polnische Spedition erwartet für die fahrpersonalrechtlichen Verstöße ein Bußgeld von insgesamt rund 12.000 Euro. Mehrere Verkehrsordnungswidrigkeiten, wie mangelnde Kindersicherung, wurden ebenfalls geahndet. (VPI Kempten)",
+      "Medienkontakt:\n\nPressestelle beim Polizeipräsidium Schwaben Süd/West, D-87439 Kempten (Allgäu),\n\nRufnummer (+49) 0831 9909-0 (-1012/ -1013)."
+    ],
+    "case_key": "0000737e989d908c",
+    "case_ordinal": 0,
+    "categories": [
+      "Drogendelikt"
+    ],
+    "content_hash": "0000737e989d908c63ab0921e391c77d9aab118cd38160749cd47fc8edf0c820",
+    "guid": "urn:polizei-bayern:110720:0000737e989d908c",
+    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/110720/index.html",
+    "organization": "Polizeipräsidium Schwaben Süd/West",
+    "published_ts": 1793407560,
+    "source_id": "110720",
+    "source_title": "Zahlreiche Verstöße bei Großkontrolle auf der A 7 festgestellt",
+    "title": "Zahlreiche Verstöße bei Großkontrolle auf der A 7 festgestellt"
+  },
+  {
+    "body": [
       "Innenstadt – Die Verkehrspolizei Augsburg lädt Bürgerinnen und Bürger anlässlich des Präventionstags \"Alkohol und Drogen im Straßenverkehr\" zu einer Veranstaltung in die City-Galerie ein. Der Bund gegen Alkohol und Drogen im Straßenverkehr e. V. ist u. a. mit einem PKW-Fahrsimulator sowie einem E-Scooter Fahrsimulator vertreten. Der Drogenkontrolltrupp der Verkehrspolizei Augsburg klärt auf und steht Bürgerinnen und Bürgern Rede und Antwort.",
       "Wann: Am Samstag, 31.10.2026, von 11.00 Uhr bis 16.00 Uhr",
       "Wo: City Galerie in Augsburg, Willy-Brandt-Platz 1"
@@ -10929,24 +10948,5 @@
     "source_id": "108425",
     "source_title": "Die tagesaktuellen Pressemeldungen des Polizeipräsidiums Schwaben Süd/West inklusive Nachtragsmeldungen.",
     "title": "Fahrt unter Drogeneinfluss"
-  },
-  {
-    "body": [
-      "E-Scooterfahrt unter Einwirkung von Cannabis",
-      "GÜNZBURG. Am Freitagabend wurde eine 34-jährige deutsche Staatsangehörige mit ihrem E-Scooter im Bereich der Schützenstraße einer allgemeinen Verkehrskontrolle unterzogen. Im Rahmen der Kontrolle ergab sich der Verdacht, dass diese vor Fahrtantritt Cannabis konsumiert hatte. Auf Nachfrage wurde durch die Dame ein Rezept vorgezeigt. Da die Fahrzeugführerin jedoch ihr Cannabis nicht wie auf dem Rezept ersichtlich bestimmungsgemäß eingenommen hatte, wurde gegen sie ein Ermittlungsverfahren eingeleitet. Zur Bestimmung der genauen Wirkstoffkonzentration wurde durch die Beamten eine Blutentnahme angeordnet. Bei einem positiven Ergebnis hat die Dame mit einem Bußgeld sowie einem mindestens einmonatigen Fahrverbot zu rechnen. (PI Günzburg)"
-    ],
-    "case_key": "392e23755e9a3187",
-    "case_ordinal": 33,
-    "categories": [
-      "Drogendelikt"
-    ],
-    "content_hash": "392e23755e9a3187d9d8b45eba570dc3c66e42862ec579340b760b7fb438c8f8",
-    "guid": "urn:polizei-bayern:108425:392e23755e9a3187",
-    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108425/index.html",
-    "organization": "Polizeipräsidium Schwaben Süd/West",
-    "published_ts": 1789207080,
-    "source_id": "108425",
-    "source_title": "Die tagesaktuellen Pressemeldungen des Polizeipräsidiums Schwaben Süd/West inklusive Nachtragsmeldungen.",
-    "title": "E-Scooterfahrt unter Einwirkung von Cannabis"
   }
 ]

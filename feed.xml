@@ -6,10 +6,18 @@
     <description>Gewalt-, Sexual- und Drogendelikte sowie organisierte Kriminalität aus den Pressemitteilungen der Bayerischen Polizei.</description>
     <language>de-DE</language>
     <generator>polizei-bayern-rss</generator>
-    <lastBuildDate>Fri, 30 Oct 2026 16:41:35 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 31 Oct 2026 06:20:40 +0000</lastBuildDate>
     <ttl>30</ttl>
     <atom:link href="https://rss-input.github.io/polizei_bayern/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 30 Oct 2026 13:22:00 +0000</pubDate>
+    <pubDate>Sat, 31 Oct 2026 00:46:00 +0000</pubDate>
+    <item>
+      <title>Zahlreiche Verstöße bei Großkontrolle auf der A 7 festgestellt</title>
+      <link>https://www.polizei.bayern.de/aktuelles/pressemitteilungen/110720/index.html</link>
+      <guid isPermaLink="false">urn:polizei-bayern:110720:0000737e989d908c</guid>
+      <pubDate>Sat, 31 Oct 2026 00:46:00 +0000</pubDate>
+      <category>Drogendelikt</category>
+      <description>&lt;p&gt;PM 31.10.2026, PP Schwaben Süd/West / Tatdatum 30.10.26 / Tatort: Füssen / Delikt: Fahren unter Betäubungsmitteleinfluss / Opfer: Die Polizei ordnete Blutentnahmen an und untersagte den betroffenen Fahrzeugführern die Weiterfahrt. / Tatverdächtige: nicht näher mitgeteilt / Ergebnis: nicht mitgeteilt / Besonderheiten: Am Freitagabend führte die Verkehrspolizeiinspektion Kempten mit Unterstützung der Bayerischen Bereitschaftspolizei, der Grenzpolizeiinspektion Pfronten, der Bundespolizei, des Zolls und ehrenamtlicher Helfer des THW Füssen eine Großkontrolle auf der A 7 vor dem Grenztunnel in Richtung Österreich durch. / &lt;a href="https://www.polizei.bayern.de/aktuelles/pressemitteilungen/110720/index.html"&gt;https://www.polizei.bayern.de/aktuelles/pressemitteilungen/110720/index.html&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Innenstadt – Die Verkehrspolizei Augsburg lädt Bürgerinnen und Bürger anlässlich des Präventionstags "Alkohol und Drogen im Straßenverkehr" zu einer Veranstaltung in die City-Galerie ein.</title>
       <link>https://www.polizei.bayern.de/aktuelles/pressemitteilungen/110706/index.html</link>
@@ -4013,14 +4021,6 @@
       <pubDate>Sat, 12 Sep 2026 09:58:00 +0000</pubDate>
       <category>Drogendelikt</category>
       <description>&lt;p&gt;PM 12.09.2026, PP Schwaben Süd/West / Tatdatum 11.09.26 / Tatort: Jettingen-Scheppach / Delikt: Fahren unter Betäubungsmitteleinfluss / Opfer: keine individualisierten Geschädigten / Tatverdächtige: nicht näher mitgeteilt / Ergebnis: nicht mitgeteilt / Besonderheiten: Am vergangenen Freitag gegen 21:00 Uhr wurde der Fahrer eines Elektrokleinstfahrzeugs einer allgemeinen Verkehrskontrolle Unterzogen. / &lt;a href="https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108425/index.html"&gt;https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108425/index.html&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>E-Scooterfahrt unter Einwirkung von Cannabis</title>
-      <link>https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108425/index.html</link>
-      <guid isPermaLink="false">urn:polizei-bayern:108425:392e23755e9a3187</guid>
-      <pubDate>Sat, 12 Sep 2026 09:58:00 +0000</pubDate>
-      <category>Drogendelikt</category>
-      <description>&lt;p&gt;PM 12.09.2026, PP Schwaben Süd/West / Tatdatum 11.09.26 / Tatort: Günzburg, Schützenstraße / Delikt: Fahren unter Betäubungsmitteleinfluss / Opfer: keine individualisierten Geschädigten / Tatverdächtige: 1 (34 Jahre, deutsch) / Ergebnis: Blutentnahme angeordnet / Besonderheiten: Im Rahmen der Kontrolle ergab sich der Verdacht, dass diese vor Fahrtantritt Cannabis konsumiert hatte. / &lt;a href="https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108425/index.html"&gt;https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108425/index.html&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
