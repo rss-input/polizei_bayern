@@ -1,6 +1,27 @@
 [
   {
     "body": [
+      "NIEDERBAYERN. Die Polizeidienststellen im Regierungsbezirk ziehen Bilanz zum Einsatzgeschehen rund um Halloween.",
+      "Die niederbayerischen Polizeidienststellen bewerkstelligten im Zeitraum von 31.10.2026, 16:00 Uhr bis 01.11.2026, 07:00 Uhr ein Aufkommen von insgesamt 310 Einsätzen, wobei ca. 80 davon einen konkreten Halloween-Bezug aufwiesen. Insgesamt waren in diesem Kontext 16 Körperverletzungen mit 16 leicht verletzten Personen, zehn Sachbeschädigungen mit einem Gesamtschaden von insgesamt ca. 2.200.- Euro sowie an die 30 Ruhestörungen zu verzeichnen.",
+      "Es wurden darüber hinaus ca. 8 Verkehrsunfälle aufgenommen, bei denen niemand verletzt wurde, aber ein geschätzter Gesamtschaden von ca. 38.000 Euro entstand.",
+      "Größere Zwischenfälle blieben aus, das Einsatzgeschehen bewegte sich etwa auf dem Niveau des Vorjahres. Die Polizei Niederbayern bedankt sich bei allen, die friedlich Halloween gefeiert haben."
+    ],
+    "case_key": "67e30c6b501487aa",
+    "case_ordinal": 0,
+    "categories": [
+      "Gewaltdelikt"
+    ],
+    "content_hash": "4e9cb38587317fc3d991a190cdf4ea5dcb3115dfab497048a6758507cda1b1a5",
+    "guid": "urn:polizei-bayern:110746:67e30c6b501487aa",
+    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/110746/index.html",
+    "organization": "Polizeipräsidium Niederbayern",
+    "published_ts": 1793521380,
+    "source_id": "110746",
+    "source_title": "NIEDERBAYERN. Einsatzgeschehen in Niederbayern an Halloween",
+    "title": "NIEDERBAYERN. Einsatzgeschehen in Niederbayern an Halloween"
+  },
+  {
+    "body": [
       "Körperverletzung in Diskothek | Zeugenaufruf",
       "KEMPTEN. In einer Diskothek in der Linggstraße kam es am späten Freitagabend auf der Tanzfläche zu einer körperlichen Auseinandersetzung. Dabei schlug ein bislang unbekannter Tatverdächtiger einer 16-jährigen Besucherin mit der Faust ins Gesicht. Die Geschädigte erlitt eine Gesichtsverletzung und musste im Klinikum Kempten behandelt werden. Wer sachdienliche Hinweise zum Tatverdächtigen geben kann, wird gebeten sich unter der Telefonnummer 0831/99090 zu melden. (PI Kempten)"
     ],
@@ -10926,24 +10947,5 @@
     "source_id": "108425",
     "source_title": "Die tagesaktuellen Pressemeldungen des Polizeipräsidiums Schwaben Süd/West inklusive Nachtragsmeldungen.",
     "title": "Gefährliche Körperverletzung"
-  },
-  {
-    "body": [
-      "Bedrohung auf der Tanzfläche",
-      "KEMPTEN. Erbost über einen Antanzversuch an seiner Freundin kam es auf der Tanzfläche einer Diskothek in der Kemptener Innenstadt zwischen einem 24-jährigen Ukrainer und einem 25-jährigen Marokkaner zunächst zu einem verbalen Streit, welcher in einer Handgreiflichkeit endete. Hierbei zog der 24-Jährige ein Einhandmesser und hielt dieses drohend vor seinen Kontrahenten. Eine Streifebensatzung der Polizeiinspektion Kempten befand sich in anderer Sache am Eingang der Diskothek und konnte die Auseinandersetzung beenden. Nach dem derzeitigen Ermittlungsstand sieht sich der Ukrainer mit einem Strafverfahren wegen Körperverletzung, Bedrohung und einem Verstoß nach dem Waffengesetz konfrontiert. Die Feierlichkeiten der beiden Kontrahenten waren anschließend beendet"
-    ],
-    "case_key": "9f0ac3c0ed2d6356",
-    "case_ordinal": 9,
-    "categories": [
-      "Gewaltdelikt"
-    ],
-    "content_hash": "9f0ac3c0ed2d6356065dcd0159784ac6cabeb6a36413e62b71f32190c477b486",
-    "guid": "urn:polizei-bayern:108425:9f0ac3c0ed2d6356",
-    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108425/index.html",
-    "organization": "Polizeipräsidium Schwaben Süd/West",
-    "published_ts": 1789207080,
-    "source_id": "108425",
-    "source_title": "Die tagesaktuellen Pressemeldungen des Polizeipräsidiums Schwaben Süd/West inklusive Nachtragsmeldungen.",
-    "title": "Bedrohung auf der Tanzfläche"
   }
 ]

@@ -6,10 +6,18 @@
     <description>Gewalt-, Sexual- und Drogendelikte sowie organisierte Kriminalität aus den Pressemitteilungen der Bayerischen Polizei.</description>
     <language>de-DE</language>
     <generator>polizei-bayern-rss</generator>
-    <lastBuildDate>Sat, 31 Oct 2026 13:04:31 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Nov 2026 09:43:50 +0000</lastBuildDate>
     <ttl>30</ttl>
     <atom:link href="https://rss-input.github.io/polizei_bayern/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 31 Oct 2026 11:40:00 +0000</pubDate>
+    <pubDate>Sun, 01 Nov 2026 08:23:00 +0000</pubDate>
+    <item>
+      <title>NIEDERBAYERN. Einsatzgeschehen in Niederbayern an Halloween</title>
+      <link>https://www.polizei.bayern.de/aktuelles/pressemitteilungen/110746/index.html</link>
+      <guid isPermaLink="false">urn:polizei-bayern:110746:67e30c6b501487aa</guid>
+      <pubDate>Sun, 01 Nov 2026 08:23:00 +0000</pubDate>
+      <category>Gewaltdelikt</category>
+      <description>&lt;p&gt;PM 01.11.2026, PP Niederbayern / Tatdatum 31.10.26 / Tatort: Niederbayern / Delikt: Körperverletzung / Opfer: Es wurden darüber hinaus ca. 8 Verkehrsunfälle aufgenommen, bei denen niemand verletzt wurde, aber ein geschätzter Gesamtschaden von ca. 38.000 Euro entstand. / Tatverdächtige: nicht näher mitgeteilt / Ergebnis: nicht mitgeteilt / Besonderheiten: Die Polizeidienststellen im Regierungsbezirk ziehen Bilanz zum Einsatzgeschehen rund um Halloween. / &lt;a href="https://www.polizei.bayern.de/aktuelles/pressemitteilungen/110746/index.html"&gt;https://www.polizei.bayern.de/aktuelles/pressemitteilungen/110746/index.html&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Körperverletzung in Diskothek | Zeugenaufruf</title>
       <link>https://www.polizei.bayern.de/aktuelles/pressemitteilungen/110728/index.html</link>
@@ -4013,14 +4021,6 @@
       <pubDate>Sat, 12 Sep 2026 09:58:00 +0000</pubDate>
       <category>Gewaltdelikt</category>
       <description>&lt;p&gt;PM 12.09.2026, PP Schwaben Süd/West / Tatdatum 12.09.26 / Tatort: Bad Hindelang / Delikt: gefährliche Körperverletzung / Opfer: 1 (33 Jahre); Staatsangehörigkeit nicht mitgeteilt / Tatverdächtige: 1 (38 Jahre, deutsch) / Ergebnis: nicht mitgeteilt / Besonderheiten: Daraufhin hatte der Mann eine leere Glasflasche genommen, sich wiederum zum Zelteingang begeben und einem Security-Mitarbeiter unvermittelt mit der Flasche gegen den Kopf geschlagen. / &lt;a href="https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108425/index.html"&gt;https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108425/index.html&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Bedrohung auf der Tanzfläche</title>
-      <link>https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108425/index.html</link>
-      <guid isPermaLink="false">urn:polizei-bayern:108425:9f0ac3c0ed2d6356</guid>
-      <pubDate>Sat, 12 Sep 2026 09:58:00 +0000</pubDate>
-      <category>Gewaltdelikt</category>
-      <description>&lt;p&gt;PM 12.09.2026, PP Schwaben Süd/West / Tatdatum nicht mitgeteilt / Tatort: nicht näher mitgeteilt / Delikt: Körperverletzung / Opfer: nicht näher mitgeteilt / Tatverdächtige: 1 (24 Jahre, ukrainisch, marokkanisch); 1 (25 Jahre, ukrainisch, marokkanisch) / Ergebnis: Strafverfahren / Besonderheiten: KEMPTEN. / &lt;a href="https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108425/index.html"&gt;https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108425/index.html&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
