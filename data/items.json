@@ -1,6 +1,29 @@
 [
   {
     "body": [
+      "OBERNBURG A. MAIN, LKR. MILTENBERG. Am Halloween-Abend (31.10.2026) sammelten Kinder Süßigkeiten im Ortsgebiet. Beim Auspacken am heutigen Sonntag entdeckte ein Kind einen Schokoriegel welcher mit einer Nadel versehen war. Die Polizei hat Ermittlungen eingeleitet und bittet um entsprechende Vorsicht.",
+      "Am späten Sonntagnachmittag Uhr teilte eine Mutter der Polizei mit, dass ihr Kind in seinen gesammelten Süßigkeiten einen kleinen Schokoriegel gefunden hatte, welcher mit einer Nadel versehen war. Die Kinder waren an Halloween im Ortsgebiet von Obernburg zum Sammeln von Süßigkeiten unterwegs. Das Kind entdeckte die Nadel vor dem Verzehr der Schokolade und blieb unverletzt.",
+      "Weitere Mittelungen gingen diesbezüglich aus dem Bereich Unterfranken bis dato bei der Polizei nicht ein.",
+      "Die Polizeiinspektion Obernburg leitete ein Ermittlungsverfahren wegen versuchter gefährlicher Körperverletzung gegen Unbekannt ein.",
+      "Die Polizei bittet Eltern, die Süßigkeiten ihrer Kinder, insbesondere, wenn diese im genannten Bereich gesammelt wurden, sorgfältig zu überprüfen.",
+      "Hinweise zu dem Geschehen nimmt die Polizei in Obernburg unter Tel. 06022/629-0 entgegen."
+    ],
+    "case_key": "ecc40d0d378dee34",
+    "case_ordinal": 0,
+    "categories": [
+      "Gewaltdelikt"
+    ],
+    "content_hash": "86ee46eb01cad961c608960f754711743ffcdaef2c5907ba41f61b5d1771b966",
+    "guid": "urn:polizei-bayern:110762:ecc40d0d378dee34",
+    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/110762/index.html",
+    "organization": "Polizeipräsidium Unterfranken",
+    "published_ts": 1793554020,
+    "source_id": "110762",
+    "source_title": "Nadel in Halloween-Süßigkeit gefunden - Polizei ermittelt und warnt",
+    "title": "Nadel in Halloween-Süßigkeit gefunden - Polizei ermittelt und warnt"
+  },
+  {
+    "body": [
       "NÜRNBERG. (925) Am Halloween-Abend (31.10.2026) entdeckten Kinder beim Auspacken ihrer gesammelten Süßigkeiten im Nürnberger Westen Schokoriegel, welche mit Nadeln versehen waren. Die Polizei hat Ermittlungen eingeleitet und bittet um umsichtige Vorsicht.",
       "Gegen 20:30 Uhr teilte eine Mutter der Polizei mit, dass ihre Kinder in ihren gesammtelten Süßigkeiten kleine Schokoriegel gefunden hätten, welche mit Nadeln versehen waren.",
       "Die Kinder waren im Bereich des Bienwegs, Bielefelder Straße und Dortmunder Straße unterwegs.",
@@ -10923,25 +10946,5 @@
     "source_id": "108451",
     "source_title": "PP SWS | Pressemeldungen vom 13.09.2026",
     "title": "Widerstand gegen Vollstreckungsbeamte bei Durchsuchung"
-  },
-  {
-    "body": [
-      "Die tagesaktuellen Meldungen der Polizeiinspektionen Memmingen, Mindelheim und Bad Wörishofen sowie Meldungen der Kriminalpolizei, der Verkehrs- und Fahndungsdienststellen mit Regionalbezug.",
-      "Körperverletzung vor Bar",
-      "BAD WÖRISHOFEN. In der Nacht von Samstag auf Sonntag wurde ein 24-jähriger Slowake vor einer Bar in der Innenstadt von zwei bis dato unbekannten Männern körperlich angegangen. Der 24-Jährige wurde hierbei zu Boden geworfen und zog sich leichte Verletzungen am Ellenbogen sowie einer Hand zu. Eine medizinische Behandlung war nicht notwendig. Zeugen, die sachdienliche Hinweise zu der Körperverletzung machen können, werden gebeten sich bei der Polizeiinspektion Bad Wörishofen unter der Telefonnummer 08247/9680-0 zu melden. (PI Bad Wörishofen)"
-    ],
-    "case_key": "00f6e33d604faa0b",
-    "case_ordinal": 23,
-    "categories": [
-      "Gewaltdelikt"
-    ],
-    "content_hash": "ab9e3126ac28ef02b0ae159fe25a33057c3cb5599325e7a048015efcaa5b0404",
-    "guid": "urn:polizei-bayern:108451:00f6e33d604faa0b",
-    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108451/index.html",
-    "organization": "Polizeipräsidium Schwaben Süd/West",
-    "published_ts": 1789293420,
-    "source_id": "108451",
-    "source_title": "PP SWS | Pressemeldungen vom 13.09.2026",
-    "title": "Die tagesaktuellen Meldungen der Polizeiinspektionen Memmingen, Mindelheim und Bad Wörishofen sowie Meldungen der Kriminalpolizei, der Verkehrs- und Fahndungsdienststellen mit Regionalbezug."
   }
 ]

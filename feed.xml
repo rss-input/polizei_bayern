@@ -6,10 +6,18 @@
     <description>Gewalt-, Sexual- und Drogendelikte sowie organisierte Kriminalität aus den Pressemitteilungen der Bayerischen Polizei.</description>
     <language>de-DE</language>
     <generator>polizei-bayern-rss</generator>
-    <lastBuildDate>Sun, 01 Nov 2026 16:24:17 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Nov 2026 20:49:40 +0000</lastBuildDate>
     <ttl>30</ttl>
     <atom:link href="https://rss-input.github.io/polizei_bayern/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 01 Nov 2026 11:34:00 +0000</pubDate>
+    <pubDate>Sun, 01 Nov 2026 17:27:00 +0000</pubDate>
+    <item>
+      <title>Nadel in Halloween-Süßigkeit gefunden - Polizei ermittelt und warnt</title>
+      <link>https://www.polizei.bayern.de/aktuelles/pressemitteilungen/110762/index.html</link>
+      <guid isPermaLink="false">urn:polizei-bayern:110762:ecc40d0d378dee34</guid>
+      <pubDate>Sun, 01 Nov 2026 17:27:00 +0000</pubDate>
+      <category>Gewaltdelikt</category>
+      <description>&lt;p&gt;PM 01.11.2026, PP Unterfranken / Tatdatum 31.10.26 / Tatort: Obernburg A. Main, Lkr. Miltenberg / Delikt: Körperverletzung / Opfer: nicht näher mitgeteilt / Tatverdächtige: nicht näher mitgeteilt / Ergebnis: Die Polizei hat Ermittlungen eingeleitet und bittet um entsprechende Vorsicht. / Besonderheiten: Am Halloween-Abend (31.10.2026) sammelten Kinder Süßigkeiten im Ortsgebiet. / &lt;a href="https://www.polizei.bayern.de/aktuelles/pressemitteilungen/110762/index.html"&gt;https://www.polizei.bayern.de/aktuelles/pressemitteilungen/110762/index.html&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Metallnadeln in Halloween-Süßigkeiten festgestellt</title>
       <link>https://www.polizei.bayern.de/aktuelles/pressemitteilungen/110755/index.html</link>
@@ -4013,14 +4021,6 @@
       <pubDate>Sun, 13 Sep 2026 09:57:00 +0000</pubDate>
       <category>Gewaltdelikt</category>
       <description>&lt;p&gt;PM 13.09.2026, PP Schwaben Süd/West / Tatdatum nicht mitgeteilt / Tatort: Sonthofen / Delikt: Körperverletzung / Opfer: 1 (Polizeikraft; Staatsangehörigkeit nicht mitgeteilt) / Tatverdächtige: 1 (20 Jahre, deutsch) / Ergebnis: nicht mitgeteilt / Besonderheiten: keine weiteren Angaben / &lt;a href="https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108451/index.html"&gt;https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108451/index.html&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Die tagesaktuellen Meldungen der Polizeiinspektionen Memmingen, Mindelheim und Bad Wörishofen sowie Meldungen der Kriminalpolizei, der Verkehrs- und Fahndungsdienststellen mit Regionalbezug.</title>
-      <link>https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108451/index.html</link>
-      <guid isPermaLink="false">urn:polizei-bayern:108451:00f6e33d604faa0b</guid>
-      <pubDate>Sun, 13 Sep 2026 09:57:00 +0000</pubDate>
-      <category>Gewaltdelikt</category>
-      <description>&lt;p&gt;PM 13.09.2026, PP Schwaben Süd/West / Tatdatum 12.–13.09.26 / Tatort: Bad Wörishofen / Delikt: Körperverletzung / Opfer: nicht näher mitgeteilt / Tatverdächtige: 1 (24 Jahre, slowakisch) / Ergebnis: nicht mitgeteilt / Besonderheiten: Körperverletzung vor Bar / &lt;a href="https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108451/index.html"&gt;https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108451/index.html&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
