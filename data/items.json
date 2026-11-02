@@ -1,6 +1,180 @@
 [
   {
     "body": [
+      "ROHR. i. NB, LKR. KELHEIM. Am 02.11.2026, gegen 10:15 Uhr, geriet aus bislang noch unbekannter Ursache eine Garage eines Einfamilienhauses in der Wildenberger Straße in Brand.",
+      "Das Feuer breitete sich auf das Wohnhaus aus. Dieses brennt aktuell noch. Die Feuerwehr ist mit den Löscharbeiten beschäftigt. Alle Bewohner konnten sich rechtzeitig in Sicherheit bringen. Eine Person wurde mit leichten Verletzungen in ein Krankenhaus gebracht.",
+      "Nach derzeitigem Ermittlungsstand wird von keiner vorsätzlichen Brandstiftung ausgegangen. Die Feuerwehren Neustadt a.d. Donau, Kelheim, Langquaid, Abensberg, Sandsbach, Obereulenbach, Wildenberg und Rohr i. Nb sind im Einsatz. Die Brandermittlungen werden durch die Kriminalpolizeiinspektion Landshut geführt.",
+      "Veröffentlicht: 02.11.2026, 13.35 Uhr"
+    ],
+    "case_key": "39d444b42166c47e",
+    "case_ordinal": 0,
+    "categories": [
+      "Gewaltdelikt"
+    ],
+    "content_hash": "ac273183498e8d3fe825535088db170807c49b925be252b9eec8cef4c8f42c3f",
+    "guid": "urn:polizei-bayern:110816:39d444b42166c47e",
+    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/110816/index.html",
+    "organization": "Polizeipräsidium Niederbayern",
+    "published_ts": 1793630040,
+    "source_id": "110816",
+    "source_title": "Niederbayern: Erstmeldung der PI Mainburg zum Brand einer Garage - hoher Sachschaden",
+    "title": "Niederbayern: Erstmeldung der PI Mainburg zum Brand einer Garage - hoher Sachschaden"
+  },
+  {
+    "body": [
+      "Kriegshaber – Am Sonntag (01.11.2026), gegen 19.00 Uhr verletzte ein bislang unbekannter Täter einen 31-jährigen Polizeibeamten in der Reeseallee leicht mittels eines Böllers.",
+      "Die Polizeibeamten waren im Begriff, das Einfahrtstor der Polizeiinspektion Augsburg West zu passieren, wofür der 31-jährige Fahrer des Streifenwagens das Autofenster öffnete. In diesem Moment warf ein bislang unbekannter Täter einen Böller in Richtung des Streifenwagens, welcher neben dem geöffneten Fenster detonierte. Der Polizeibeamte wurde hierdurch leicht verletzt und erlitt ein Knalltrauma, konnte seinen Dienst jedoch fortsetzen.",
+      "Der bislang unbekannte Täter entfernte sich daraufhin mit einem E-Scooter in Richtung Carl-Schurz-Straße.",
+      "Die Polizei ermittelt nun u.a. wegen Tätlichen Angriffs auf Vollstreckungsbeamte, Gefährliche Körperverletzung und versuchter Sachbeschädigung.",
+      "Hinweise nimmt die Polizeiinspektion Augsburg West unter der Telefonnummer 0821/323-2510 entgegen."
+    ],
+    "case_key": "20299bb8b3acbd38",
+    "case_ordinal": 10,
+    "categories": [
+      "Gewaltdelikt"
+    ],
+    "content_hash": "2844db77f2bbbf84637667eda1211ef99b78961452f8315892ecbd70741dcdb5",
+    "guid": "urn:polizei-bayern:110814:20299bb8b3acbd38",
+    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/110814/index.html",
+    "organization": "Polizeipräsidium Schwaben Nord",
+    "published_ts": 1793628360,
+    "source_id": "110814",
+    "source_title": "Medieninfo Nordschwaben - 02.11.2026",
+    "title": "Kriegshaber – Am Sonntag (01.11.2026), gegen 19.00 Uhr verletzte ein bislang unbekannter Täter einen 31-jährigen Polizeibeamten in der Reeseallee leicht mittels eines Böllers."
+  },
+  {
+    "body": [
+      "Aichach – Am Samstag (31.10.2026), gegen 20.45 Uhr stand ein leerstehendes Gebäude in der Schrobenhausener Straße in Brand.",
+      "Die hinzugerufenen Einsatzkräfte der Feuerwehr konnten das Feuer unter Kontrolle bringen. Die Löscharbeiten dauerten bis etwa 23.00 Uhr an.",
+      "Aufgrund der starken Rauchentwicklung wurde zwischenzeitlich eine Warnmeldung mittels Warn-App (NINA) veranlasst. Durch den Brand des leerstehenden Gebäudes kamen keine Personen zu Schaden.",
+      "Der entstandene Sachschaden sowie die Brandursache sind derzeit Gegenstand der Ermittlungen.",
+      "Die Polizei ermittelt wegen Brandstiftung.",
+      "Hinweise nimmt die Kriminalpolizei Augsburg unter der Telefonnummer 0821/323-3821 entgegen."
+    ],
+    "case_key": "bdeb0331017253e6",
+    "case_ordinal": 13,
+    "categories": [
+      "Gewaltdelikt"
+    ],
+    "content_hash": "a29c5abb60302a4154e87d5181a1ad7905556a03f96f3bf8cf6182436da2e5b5",
+    "guid": "urn:polizei-bayern:110814:bdeb0331017253e6",
+    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/110814/index.html",
+    "organization": "Polizeipräsidium Schwaben Nord",
+    "published_ts": 1793628360,
+    "source_id": "110814",
+    "source_title": "Medieninfo Nordschwaben - 02.11.2026",
+    "title": "Aichach – Am Samstag (31.10.2026), gegen 20.45 Uhr stand ein leerstehendes Gebäude in der Schrobenhausener Straße in Brand."
+  },
+  {
+    "body": [
+      "PASSAU, BAB A3. Am Freitag, 30.10.2026, stellten Schleierfahnder der Grenzpolizeiinspektion Passau bei einer Fahrzeugkontrolle zahlreiche mutmaßlich gestohlene Gegenstände sicher. Der 43-jährige Fahrer wurde vorläufig festgenommen. Auf Antrag der Staatsanwaltschaft Passau erließ das Amtsgericht Passau am Folgetag Haftbefehl. Die weiteren Ermittlungen führt die Kriminalpolizei Passau.",
+      "Gegen 19:00 Uhr kontrollierten die Fahnder einen Ford. Bei der anschließenden Durchsuchung des Fahrzeugs fanden sie zahlreiche originalverpackte Gegenstände, darunter Spielekonsolen, Mobiltelefone, Werkzeugkoffer, Laptops, Tablets, Kameras sowie verschiedene Haushaltsgeräte wie Kaffeevollautomaten, Bügeleisen und Saugroboter. Insgesamt handelt es sich um 143 Gegenstände mit einem geschätzten Gesamtwert im mittleren fünfstelligen Eurobereich.",
+      "Der 43-jährige rumänische Fahrer konnte keine Eigentumsnachweise für die Gegenstände vorlegen. Zudem ergaben sich bei seinen Angaben Unstimmigkeiten. Die Gegenstände wurden daraufhin sichergestellt.",
+      "Der Tatverdächtige wurde vorläufig festgenommen und am Samstag, 31.10.2026, dem Amtsgericht Passau vorgeführt. Auf Antrag der Staatsanwaltschaft Passau wurde Haftbefehl erlassen. Der 43-Jährige befindet sich zwischenzeitlich in Untersuchungshaft.",
+      "Die weiteren Ermittlungen, unter anderem wegen des Verdachts der Geldwäsche und der gewerbsmäßigen Hehlerei, werden durch das zuständige Fachkommissariat der Kriminalpolizei Passau unter Sachleitung der Staatsanwaltschaft Passau geführt.",
+      "Medienkontakt: Polizeipräsidium Niederbayern, PKin Gibis, Tel.: 09421/ 868-1015\n\nVeröffentlicht: 02.11.2026, 12:10 Uhr"
+    ],
+    "case_key": "e8cc9833df0b4f39",
+    "case_ordinal": 0,
+    "categories": [
+      "Organisierte Kriminalität"
+    ],
+    "content_hash": "9bd169f89255e7c010aa61b78bac1ed95049fdd7f7ce80a585191638aad9dfa9",
+    "guid": "urn:polizei-bayern:110799:e8cc9833df0b4f39",
+    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/110799/index.html",
+    "organization": "Polizeipräsidium Niederbayern",
+    "published_ts": 1793617680,
+    "source_id": "110799",
+    "source_title": "Niederbayern: Mutmaßliches Diebesgut im Wert eines mittleren fünfstelligen Eurobetrags sichergestellt",
+    "title": "Niederbayern: Mutmaßliches Diebesgut im Wert eines mittleren fünfstelligen Eurobetrags sichergestellt"
+  },
+  {
+    "body": [
+      "Fahrten unter Einfluss von Alkohol und Cannabis",
+      "KEMPTEN. Am frühen Sonntagabend führten Streifenbeamte der Polizeiinspektion Kempten verstärkt Verkehrskontrollen an unterschiedlichen Örtlichkeiten im Stadtgebiet durch. Die Verkehrstüchtigkeit stand hierbei im Fokus. Im Rahmen der Kontrollen wurde bei einem 25-jährigen deutschen Pkw-Fahrer Alkoholgeruch festgestellt. Der anschließend durchgeführte Alkoholtest ergab einen Wert von über 0,5 Promille. Bereits zuvor wurden im Zuge der Kontrolltätigkeiten bei einer 36-jährigen deutschen Pkw-Fahrerin drogentypische Auffälligkeiten festgestellt. Im weiteren Verlauf der Kontrolle räumte die Fahrzeuglenkerin den Konsum von Cannabis ein. Bei der Betroffenen wurde eine Blutentnahme angeordnet. Beiden Verkehrsteilnehmern wurde die Weiterfahrt unterbunden und sie erwarten nun ein Bußgeld im dreistelligen Bereich, Punkte im Fahreignungsregister sowie ein Fahrverbot. (PI Kempten)"
+    ],
+    "case_key": "5f28f71954d8eb90",
+    "case_ordinal": 3,
+    "categories": [
+      "Drogendelikt"
+    ],
+    "content_hash": "5f28f71954d8eb904a27ec42fe6bf460e4625bc227fc6033fe00f4dc03219e49",
+    "guid": "urn:polizei-bayern:110797:5f28f71954d8eb90",
+    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/110797/index.html",
+    "organization": "Polizeipräsidium Schwaben Süd/West",
+    "published_ts": 1793617140,
+    "source_id": "110797",
+    "source_title": "PP SWS | Pressemeldungen vom 02.11.2026",
+    "title": "Fahrten unter Einfluss von Alkohol und Cannabis"
+  },
+  {
+    "body": [
+      "E-Scooter-Fahrer unter Drogeneinfluss kontrolliert",
+      "BAD GRÖNENBACH. Am Sonntag, 01.11.2026, gegen 15:00 Uhr, befuhr ein 22-jähriger mazedonischer Staatsangehöriger mit seinem E-Scooter die Kreisstraße MN 19. Dort wurde er durch eine Streifenbesatzung der Polizeiinspektion Memmingen zu einer allgemeinen Verkehrskontrolle angehalten. Hierbei stellten die Beamten drogentypische Auffälligkeiten fest. Der 22-Jährige räumte zudem ein, regelmäßig Cannabis zu konsumieren. Ein durchgeführter Drogenschnelltest verlief positiv auf THC. Daraufhin wurde eine Blutentnahme angeordnet und die Weiterfahrt unterbunden. Den Mann erwartet nun eine Ordnungswidrigkeitenanzeige. (PI Memmingen)"
+    ],
+    "case_key": "491fad76d0fe87af",
+    "case_ordinal": 19,
+    "categories": [
+      "Drogendelikt"
+    ],
+    "content_hash": "491fad76d0fe87af72aa2ac38948a35d27b30276a3134e18ccfeecaf3942d2d3",
+    "guid": "urn:polizei-bayern:110797:491fad76d0fe87af",
+    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/110797/index.html",
+    "organization": "Polizeipräsidium Schwaben Süd/West",
+    "published_ts": 1793617140,
+    "source_id": "110797",
+    "source_title": "PP SWS | Pressemeldungen vom 02.11.2026",
+    "title": "E-Scooter-Fahrer unter Drogeneinfluss kontrolliert"
+  },
+  {
+    "body": [
+      "Autofahrer unter Cannabis Einfluss",
+      "WEISSENHORN. Am Sonntagnachmittag, gegen 13:30 Uhr, wurde ein 21-jähriger Rumäne mit seinem Pkw zu einer allgemeinen Verkehrskontrolle angehalten. Die Beamten konnten bei ihm drogentypische Auffälligkeiten feststellen. Ein durchgeführter Vortest verlief positiv auf Cannabis. Folglich wurde die Weiterfahrt unterbunden und der Pkw-Fahrer wurde zur Polizeiinspektion Illertissen gebracht, wo eine Blutentnahme durchgeführt wurde. Er muss mit einem Bußgeld im dreistelligen Bereich, Punkten im Fahreignungsregister und einem Fahrverbot rechnen. (PI Illertissen)"
+    ],
+    "case_key": "6e2831571f16b511",
+    "case_ordinal": 37,
+    "categories": [
+      "Drogendelikt"
+    ],
+    "content_hash": "6e2831571f16b5119d78a622e55eb228ea1223bf605fe166b418cd06aa3eb001",
+    "guid": "urn:polizei-bayern:110797:6e2831571f16b511",
+    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/110797/index.html",
+    "organization": "Polizeipräsidium Schwaben Süd/West",
+    "published_ts": 1793617140,
+    "source_id": "110797",
+    "source_title": "PP SWS | Pressemeldungen vom 02.11.2026",
+    "title": "Autofahrer unter Cannabis Einfluss"
+  },
+  {
+    "body": [
+      "NIEDERBAYERN. In Niederbayern kam es am Wochenende zu mehreren Feststellungen präparierter Süßigkeiten, in denen spitze Gegenstände wie Nägel, Schrauben oder Nadeln entdeckt wurden. Die gefährlichen Gegenstände konnten jeweils noch vor dem Verzehr bemerkt werden. Die Polizei hat in allen Fällen Ermittlungen aufgenommen und bittet insbesondere Eltern um erhöhte Aufmerksamkeit.",
+      "LANDSHUT. Am Samstagabend wurden im Stadtgebiet Landshut zwei Fälle bekannt, bei denen Süßigkeiten mit spitzen Metallgegenständen bzw. Schrauben präpariert worden waren. Kinder hatten im Zeitraum zwischen 17:00 Uhr und 19:30 Uhr im Bereich der Wolfgangssiedlung sowie in Landshut-West im Rahmen des Halloweenbrauchs Süßigkeiten gesammelt. Noch vor dem Verzehr stellten die Eltern bei einzelnen Kaubonbons und Schokoriegeln die darin eingebrachten Gegenstände fest. Sachdienliche Hinweise werden unter der Telefonnummer 0871/9252-0 entgegengenommen.",
+      "VILSHOFEN A.D.DONAU, LKR. PASSAU. Am Sonntagabend wurde der Polizei mitgeteilt, dass im Vilshofener Ortsteil Pleinting eine präparierte Süßigkeit aufgefunden worden war. Eltern entdeckten in einer Knusperwaffel einen Nagel. Die Süßigkeiten hatten Kinder bereits am Samstagabend zwischen 19:00 Uhr und 21:00 Uhr beim Halloween-Sammeln erhalten.",
+      "ADLKOFEN, LKR. LANDSHUT. Auch in Adlkofen wurde über den polizeilichen Notruf der Fund eines spitzen Gegenstandes in einer Süßigkeit mitgeteilt. In einem von Kindern an Halloween gesammelten Schokoriegel wurde eine Nadel entdeckt. Verletzt wurde niemand.",
+      "In allen drei Fällen haben die zuständigen Polizeiinspektionen Ermittlungen wegen des Verdachts der versuchten gefährlichen Körperverletzung aufgenommen.",
+      "POCKING, LKR. PASSAU. Auch in Pocking wurde am Samstag, 31.10.2026, ein möglicher Fall präparierter Süßigkeiten gemeldet. Dabei bestand zunächst der Verdacht, dass sich eine Nadel in einer Süßigkeit befinden könnte. Im Rahmen der weiteren Abklärungen stellte sich jedoch heraus, dass die Süßigkeit selbst präpariert worden war. Es handelte sich somit um eine Nachahmungstat.",
+      "Die Polizei bittet um besondere Vorsicht:",
+      "Eltern werden gebeten, die an Halloween gesammelten Süßigkeiten vor dem Verzehr sorgfältig zu überprüfen. Dabei sollte insbesondere auf beschädigte Verpackungen, ungewöhnliche Einstichstellen oder sonstige Auffälligkeiten geachtet werden. Süßigkeiten, bei denen Zweifel bestehen, sollten keinesfalls verzehrt werden.",
+      "Sollten spitze oder andere gefährliche Gegenstände in Süßigkeiten entdeckt werden, wird darum gebeten, umgehend die Polizei zu verständigen.",
+      "Auch Kinder sollten für die Gefahren sensibilisiert werden und Süßigkeiten nicht ungeprüft verzehren.",
+      "Medienkontakt: Polizeipräsidium Niederbayern, PKin Gibis, Tel.: 09421/ 868-1015\n\nVeröffentlicht: 02.11.2026, 08:05 Uhr"
+    ],
+    "case_key": "725d955a42de12fd",
+    "case_ordinal": 0,
+    "categories": [
+      "Gewaltdelikt"
+    ],
+    "content_hash": "68ae6a76e3aa4baa4f8544ce971f68eacec98830ca9e98402dcaaa27eebf146a",
+    "guid": "urn:polizei-bayern:110780:725d955a42de12fd",
+    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/110780/index.html",
+    "organization": "Polizeipräsidium Niederbayern",
+    "published_ts": 1793602860,
+    "source_id": "110780",
+    "source_title": "Niederbayern: Präparierte Halloween-Süßigkeiten - Polizei bittet um Vorsicht",
+    "title": "Niederbayern: Präparierte Halloween-Süßigkeiten - Polizei bittet um Vorsicht"
+  },
+  {
+    "body": [
       "OBERNBURG A. MAIN, LKR. MILTENBERG. Am Halloween-Abend (31.10.2026) sammelten Kinder Süßigkeiten im Ortsgebiet. Beim Auspacken am heutigen Sonntag entdeckte ein Kind einen Schokoriegel welcher mit einer Nadel versehen war. Die Polizei hat Ermittlungen eingeleitet und bittet um entsprechende Vorsicht.",
       "Am späten Sonntagnachmittag Uhr teilte eine Mutter der Polizei mit, dass ihr Kind in seinen gesammelten Süßigkeiten einen kleinen Schokoriegel gefunden hatte, welcher mit einer Nadel versehen war. Die Kinder waren an Halloween im Ortsgebiet von Obernburg zum Sammeln von Süßigkeiten unterwegs. Das Kind entdeckte die Nadel vor dem Verzehr der Schokolade und blieb unverletzt.",
       "Weitere Mittelungen gingen diesbezüglich aus dem Bereich Unterfranken bis dato bei der Polizei nicht ein.",
@@ -10743,208 +10917,5 @@
     "source_id": "108510",
     "source_title": "Bilanz zum Rosenheimer Herbstfest 2026",
     "title": "Bilanz zum Rosenheimer Herbstfest 2026"
-  },
-  {
-    "body": [
-      "1369. Festnahme von zwei Tatverdächtigen nach Diebstahl eines E-Scooters – Ramersdorf",
-      "Am Montag, 14.09.2026, gegen 02:30 Uhr, konnten zwei Personen im Bereich der Balanstraße durch eine zivile Polizeistreife festgestellt werden, wie sie abwechselnd einen E-Scooter fuhren. Sie wurden anschließend einer Verkehrskontrolle unterzogen. Es handelte sich dabei um einen 46-Jährigen mit bosnisch-herzegowinische Staatsangehörigkeit und Wohnsitz in München und eine 44-Jährige mit deutscher Staatsangehörigkeit und Wohnsitz in München.",
-      "Beide konnte keinen Eigentumsnachweis für den E-Scooter erbringen. Zudem ergaben sich im Laufe der Kontrolle Hinweise auf den Einfluss von Betäubungsmitteln bei beiden Personen.",
-      "Der 46-Jährige und die 44-Jährige wurden festgenommen. Nach Abschluss der polizeilichen Sachbearbeitung wurden beide wieder entlassen.",
-      "Das Fahrzeug wurde sichergestellt.",
-      "Die Beiden wurden u.a. wegen des Diebstahls sowie des Fahrens unter Einfluss von Betäubungsmitteln angezeigt. Das Kommissariat 54 übernimmt die weiteren Ermittlungen."
-    ],
-    "case_key": "1369",
-    "case_ordinal": 3,
-    "categories": [
-      "Drogendelikt"
-    ],
-    "content_hash": "56d241c95a3659bafbd22b4838b0c8e13d91148cf919fe0909994ab2745e5b5a",
-    "guid": "urn:polizei-bayern:108509:1369",
-    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108509/index.html",
-    "organization": "Polizei Bayern",
-    "published_ts": 1789379580,
-    "source_id": "108509",
-    "source_title": "Medieninformation der Polizei München vom 14.09.2026",
-    "title": "1369. Festnahme von zwei Tatverdächtigen nach Diebstahl eines E-Scooters – Ramersdorf"
-  },
-  {
-    "body": [
-      "PASSAU. Die Ermittlungen gegen den 17-Jährigen der gestern (Samstag, 12.09.2026) mit einem gestohlenen Audi die Anhaltesignale der Polizei ignorierte und im Bereich der Franz-Josef-Strauß-Brücke eine Straßensperre durchbrach, bei der es zum polizeilichen Schusswaffeneinsatz gegen das Fahrzeug kam, laufen auf Hochtouren weiter.",
-      "Haftbefehl erlassen",
-      "Aufgrund der bisherigen Ermittlungen hat die Staatsanwaltschaft Passau zwischenzeitlich einen Haftbefehl gegen den 17-jährigen Tschechen mit Wohnsitz in Passau wegen des dringenden Tatverdachts des Diebstahls des Fahrzeugs in einem besonders schweren Fall, versuchten Mordes, gefährlichen Eingriffs in den Straßenverkehr, verbotenem Kraftfahrzeugrennens, tätlichen Angriffs auf Vollstreckungsbeamte u.a. erwirkt.",
-      "Der Tatverdächtige ist heute Nachmittag nach Vorführung bei der Ermittlungsrichterin des Amtsgerichts Passau in eine bayerische Justizvollzugsanstalt eingeliefert worden und befindet sich nun in Untersuchungshaft.",
-      "Die Ermittlungen zu den Tatvorwürfen durch die Kriminalpolizeiinspektion Passau unter Sachleitung der Staatsanwaltschaft Passau dauern an. Hierzu ergeht auch der nachfolgende Zeugenaufruf.",
-      "Die Ermittlungen zum polizeilichen Schusswaffengebrauch im Zuge des Fluchtgeschehens dauern ebenfalls an. Nach derzeitigem Ermittlungsstand ist von mehreren Schüssen auf das flüchtende Fahrzeug auszugehen, von denen einer das Fahrzeug im Bereich der Beifahrerseite getroffen hat. Der Flüchtende blieb insoweit unverletzt.",
-      "Zeugenaufruf",
-      "Die Polizei bittet in diesem Zusammenhang erneut um sachdienliche Hinweise. Der Zeugenaufruf richtet sich insbesondere an Verkehrsteilnehmer, die am Samstag, 12.09.2026, zu folgenden Zeiten unterwegs waren:",
-      "gegen 17.35 Uhr auf der BAB A 3, etwa auf Höhe der Anschlussstelle Hengersberg in Richtung Passau,",
-      "gegen 17.45 Uhr von der Anschlussstelle Passau-Nord in Richtung Passau.",
-      "Verkehrsteilnehmer, die durch den Audi-Fahrer in diesen Zeiträumen und Streckenabschnitten gefährdet worden sind, werden gebeten, sich mit der Polizeiinspektion Passau, Tel. 0851/9511-0, in Verbindung zu setzen.",
-      "Veröffentlicht: 13.09.2026, 16.25 Uhr"
-    ],
-    "case_key": "a265537b704ba1ba",
-    "case_ordinal": 0,
-    "categories": [
-      "Gewaltdelikt"
-    ],
-    "content_hash": "e0c14cc305f4d730c766de9cb8bc756bb6e661eee3652652d6732f5a6b8d7357",
-    "guid": "urn:polizei-bayern:108465:a265537b704ba1ba",
-    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108465/index.html",
-    "organization": "Polizeipräsidium Niederbayern",
-    "published_ts": 1789309380,
-    "source_id": "108465",
-    "source_title": "Niederbayern: Flucht nach Pkw-Diebstahl und Tankbetrug – 1. Nachtragsmeldung",
-    "title": "Niederbayern: Flucht nach Pkw-Diebstahl und Tankbetrug – 1. Nachtragsmeldung"
-  },
-  {
-    "body": [
-      "1362. Festnahme eines Tatverdächtigen nach versuchter räuberischer Erpressung – Giesing",
-      "Am Freitag, 11.09.2026, gegen 10:45 Uhr, meldete sich ein 69-jähriger Deutscher mit Wohnsitz in München beim Polizeinotruf 110 und gab an, dass er soeben in seiner Wohnung durch einen ihm unbekannten Mann angegriffen wird. Aus diesem Grund wurden mehrere Streifen der Münchner Polizei zum Einsatzort geschickt.",
-      "Da bei Eintreffen der ersten Streifen der unbekannte Täter geflüchtet war, wurden Fahndungsmaßnahmen im Umfeld eingeleitet. Diese führten zur Ergreifung des Tatverdächtigen. Es handelt sich bei ihm um einen 31-jährigen Deutschen mit Wohnsitz in München.",
-      "Nach derzeitigem Ermittlungsstand begab sich der 69-Jährige an seine Gartentür, als er vom 31-Jährigen angesprochen wurde. Dieser gab an, Schuldeneintreiber zu sein und nun einen vierstelligen Eurobetrag vom 69-Jährigen eintreiben zu wollen. In der Folge kam es zu einem verbalen Streit. Der 69-Jährige begab sich daraufhin zurück in seine Wohnung, woraufhin ihm der 31-Jährige folgte und körperliche Gewalt anwandte.",
-      "Der 31-Jährige wurde unter anderem wegen der versuchten räuberischen Erpressung, der Körperverletzung und des Hausfriedensbruchs angezeigt. Nach Beendigung der Anzeigenaufnahme und nach Anordnung der Staatsanwaltschaft München I durchgeführten Blutentnahme wurde der 31-Jährige entlassen.",
-      "Der 69-Jährige kam leicht verletzt zur weiteren Abklärung in ein Krankenhaus.",
-      "Das Kommissariat 21 hat die weiteren Ermittlungen übernommen."
-    ],
-    "case_key": "1362",
-    "case_ordinal": 6,
-    "categories": [
-      "Gewaltdelikt"
-    ],
-    "content_hash": "f63be843e7ea9f75c8495e9e7194099508d545679889f456c36f87259d63b66e",
-    "guid": "urn:polizei-bayern:108457:1362",
-    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108457/index.html",
-    "organization": "Polizeipräsidium München",
-    "published_ts": 1789295880,
-    "source_id": "108457",
-    "source_title": "Medieninformation der Polizei München vom 13.09.2026",
-    "title": "1362. Festnahme eines Tatverdächtigen nach versuchter räuberischer Erpressung – Giesing"
-  },
-  {
-    "body": [
-      "1364. Mehrere Festnahmen von Tatverdächtigen nach sexueller Belästigung – Stadtgebiet München",
-      "Fall 1:\n\nAm Samstag, 12.09.2026, gegen 04:00 Uhr, befand sich eine 17-Jährige mit ukrainischer Staatsangehörigkeit und mit Wohnsitz in München in einem Tanzlokal in der Sonnenstraße. Nach ersten Erkenntnissen tanzte sie dabei ein 30-Jähriger mit weißrussischer Staatsangehörigkeit und ohne festen Wohnsitz in Deutschland an und führte in der Folge seine Hände über das Gesäß an ihre Brüste, was die 17-Jährige nicht wollte.",
-      "Dies sah der Bruder der 17-Jährigen, ein 20-Jähriger mit ukrainischer Staatsangehörigkeit und mit Wohnsitz im Landkreis München, weshalb er den 30-Jährigen von seiner Schwester abbrachte. Im weiteren Verlauf kam es zu einer körperlichen Auseinandersetzung zwischen dem 30-Jährigen und dem 20-Jährigen, in deren Folge sich beide Verletzungen zuzogen. Die beiden konnten durch das Personal getrennt und des Clubs verwiesen werden.",
-      "Der 30-Jährige wurde zu einer Polizeiinspektion gebracht und unter anderem wegen der sexuellen Belästigung und der Körperverletzung angezeigt. Nach erfolgter Blutentnahme und erhobener Sicherheitsleistung wurde er vor Ort wieder entlassen.",
-      "Der 20-Jährige wurde ebenfalls wegen der Körperverletzung angezeigt und konnte vor Ort entlassen werden.",
-      "Fall 2:\n\nAm Samstag, 12.09.2026, gegen 22:30 Uhr, befand sich ein eine 18-jährige Deutsche mit Wohnsitz im Landkreis Neuburg-Schrobenhausen auf dem Truderinger Weinfest. Von dort aus verließ sie nach derzeitigem Ermittlungsstand kurzzeitig das Festgelände, dabei folgte ihr ein 20-jähriger Deutscher mit Wohnsitz in München.",
-      "In der Folge fasste der 20-Jährige der 18-Jährigen mehrmals ans Gesäß, woraufhin diese ihn wegstieß und die Handlungen verneinte. Es kam zu weiteren Berührungen seitens des 20-Jährigen am Brustbereich der 18-Jährigen.",
-      "Dies sah ein ebenfalls 20-jähriger Deutscher mit Wohnsitz in München und schritt in die Situation ein. Mit Hilfe eines weiteren Zeugen (einem 19-jährigen Deutschen mit Wohnsitz im Landkreis München) konnte der 20-Jährige bis zum Eintreffen der verständigten Polizei festgehalten werden.",
-      "Der 20-Jährige wurde vorläufig festgenommen und zu einer Polizeiinspektion gebracht. Er wurde wegen der sexuellen Belästigung angezeigt und nach Beendigung der Anzeigenaufnahme sowie einer erkennungsdienstlichen Behandlung wieder entlassen.",
-      "Fall 3:\n\nAm Sonntag, 13.09.2026, gegen 02:40 Uhr, befanden sich ein 23-Jähriger mit ukrainischer Staatsangehörigkeit und mit Wohnsitz im Landkreis Weißenburg-Gunzenhausen und eine 21-jährige Deutsche mit Wohnsitz in München in einer Diskothek in der Ludwigsvorstadt. Nach ersten Erkenntnissen rückte dabei der 23-Jährige der 21-Jährigen immer näher und berührte sie, gegen ihren Willen, an ihrem Gesäß. Anschließend begab er sich in den Außenbereich.",
-      "Die 21-Jährige verständigte den Sicherheitsdienst, wodurch der 23-Jährige festgehalten und der verständigten Polizei übergeben werden konnte. Er wurde wegen der sexuellen Belästigung angezeigt und nach Beendigung der Anzeigenaufnahme vor Ort entlassen.",
-      "Fall 4:\n\nAm Sonntag, 13.09.2026, gegen 02:20 Uhr, befanden sich eine 35-jährige Deutsche mit Wohnsitz im Landkreis Landshut und eine 34-jährige Deutsche mit Wohnsitz im Landkreis Traunstein im Bereich des Karlsplatzes. Dort wurden sie von einem 31-Jährigen mit ukrainischer Staatsangehörigkeit und mit Wohnsitz in München angesprochen.",
-      "Nach derzeitigem Ermittlungsstand fasste der 31-Jährige im Laufe des Gesprächs beide Damen in deren Brustbereich, woraufhin diese seine Hände abwehrten. Aus diesem Grund schlug der 31-Jährige die 34-Jährige ins Gesicht. Daraufhin wurde die Polizei verständigt, welche den 31-Jährigen vor Ort vorläufig festnahmen und zu einer Polizeiinspektion verbringen konnten. Er wurde wegen der sexuellen Belästigung und der Körperverletzung angezeigt, nach Beendigung der Anzeigenaufnahme und einer erkennungsdienstlichen Behandlung vor Ort entlassen.",
-      "Die 34-Jährige wurde durch den Schlag leicht verletzt.",
-      "Das Kommissariat 15 hat in allen vier Fällen die weiteren Ermittlungen übernommen."
-    ],
-    "case_key": "1364",
-    "case_ordinal": 8,
-    "categories": [
-      "Gewaltdelikt"
-    ],
-    "content_hash": "ca3b9c18c1853f83925d4533401c1bb30d807d6f839d8c4fc4ad0dc3b8c8514b",
-    "guid": "urn:polizei-bayern:108457:1364",
-    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108457/index.html",
-    "organization": "Polizeipräsidium München",
-    "published_ts": 1789295880,
-    "source_id": "108457",
-    "source_title": "Medieninformation der Polizei München vom 13.09.2026",
-    "title": "1364. Mehrere Festnahmen von Tatverdächtigen nach sexueller Belästigung – Stadtgebiet München"
-  },
-  {
-    "body": [
-      "1365. Polizeieinsatz im Rahmen des Veranstaltungsgeschehens – Maxvorstadt",
-      "Am Samstag, 12.09.2026, kam es ab 14:00 Uhr zu einer angemeldeten Versammlung mit dem Thema „Merz muss weg, diese Regierung muss weg“ auf dem Königsplatz. Auf einem angrenzenden Bereich in der Arcisstraße fanden sich zeitgleich Personen zu einer angemeldeten Gegenkundgebung gegen die zuvor genannte Versammlung ein.",
-      "Gegen 14:00 Uhr hatte die sich fortbewegende Versammlung „Merz muss weg“ 200 Teilnehmer und die Gegenkundgebung 250 Teilnehmer. Beide Versammlungen konnten nach erfolgter Belehrung durch die Polizei ohne Vorkommnisse beginnen.",
-      "Im Verlauf zeigte sich jedoch, dass mehrere Kleingruppen der Gegenkundgebung sich der Versammlung „Merz muss weg“ auf verschiedenen Wegen näheren wollten, weshalb die Einsatzkräfte dies vor Ort unterbanden. In der folgenden Stunde erfuhr die Gegenkundgebung weiteren Zuwachs und wuchs auf 600 Teilnehmende an.",
-      "Diese verließen ihren zugewiesenen Versammlungsort und begaben sich zu einer spontan angemeldeten Gegenversammlung im Bereich zwischen der Antikensammlung und der Glypothek.",
-      "Aus diesem Grund und um eine Gefährdung aller Versammlungsteilnehmer wurde für die ursprünglich sich fortbewegende Versammlung „Merz muss weg“ eine Beschränkung zur stationären Versammlung seitens der Polizeiführung vor Ort erlassen.",
-      "Bis 16:30 Uhr sank die Teilnehmerzahl beider Versammlungen auf 100 Teilnehmer (Merz muss weg) und 350 Teilnehmer (Gegenversammlung).",
-      "Da sich im weiteren Verlauf eine Gruppe Opponierender der Versammlung „Merz muss weg“ näherte und es dabei zu körperlichen Angriffen auf Polizeibeamte kam, mussten diese mittels Einsatzes des Reizstoffsprühgerätes und des Schlagstocks zurückgedrängt werden.",
-      "Gegen 17:00 Uhr wurde die Versammlung „Merz muss weg“ beendet und die Versammlungsteilnehmer in der Folge durch die Einsatzkräfte zum U-Bahnhof Königsplatz begleitet, von welchem sie ohne Vorkommnisse abfahren konnten.",
-      "Auch die Versammlungsteilnehmer der Gegenkundgebung entfernten sich anschließend nach und nach. Gegen 18:00 Uhr waren am Königsplatz keine Versammlungsteilnehmer mehr, weshalb vorhandene Sperren aufgehoben wurden.",
-      "Es wurden vier Personen wegen dem tätlichen Angriff auf Polizeibeamte angezeigt. Zudem verletzten sich vier Polizeibeamte leicht, wovon zwei nicht mehr dienstfähig waren."
-    ],
-    "case_key": "1365",
-    "case_ordinal": 9,
-    "categories": [
-      "Gewaltdelikt"
-    ],
-    "content_hash": "7fdef7f940624cdf7c8541e25886e4e4d0aa905c01f740025959bd1d6912d810",
-    "guid": "urn:polizei-bayern:108457:1365",
-    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108457/index.html",
-    "organization": "Polizeipräsidium München",
-    "published_ts": 1789295880,
-    "source_id": "108457",
-    "source_title": "Medieninformation der Polizei München vom 13.09.2026",
-    "title": "1365. Polizeieinsatz im Rahmen des Veranstaltungsgeschehens – Maxvorstadt"
-  },
-  {
-    "body": [
-      "ANSBACH. (810) Am frühen Samstagmorgen (12.09.2026) kam es im Rahmen einer körperlichen Auseinandersetzung in Ansbach zu Fußtritten gegen den Kopf eines 34-jährigen Mannes. Ein 38-jähriger Tatverdächtiger muss sich nun wegen des Verdachts eines versuchten Tötungsdelikts verantworten.",
-      "Gegen 05:30 Uhr gerieten in der Kronacher Straße / Ecke Würzburger Straße aus noch nicht geklärter Ursache zwei Männer im Alter von 34 und 38 Jahren (beide deutsche Staatsangehörige) in Streit. Der Streit eskalierte im weiteren Verlauf zu einer körperlichen Auseinandersetzung, bei welcher der 38-Jährige seinen Kontrahenten zu Boden schlug. Dort trat er offenbar mehrmals mit dem Fuß auf den Kopf des 34-Jährigen ein und flüchtete.",
-      "Anwohner, die auf das Geschehen aufmerksam wurden, verständigten die Polizei und den Rettungsdienst. Der 34-Jährige, welcher mit gut 1,6 Promille alkoholisiert war, musste zur medizinischen Versorgung in ein Krankenhaus gefahren werden. Er befindet sich glücklicherweise in einem nicht lebensbedrohlichen Zustand.",
-      "Im Verlauf der Ermittlungen ergaben sich Hinweise auf den 38-jährigen Tatverdächtigen, welcher zunächst vom Tatort flüchtete. Dieser wurde aufgrund seiner ebenfalls starken Alkoholisierung mit einem Rettungswagen in ein Krankenhaus gefahren. Dort erfolgte die Festnahme des Tatverdächtigen durch die Polizeiinspektion Ansbach.",
-      "Der Kriminaldauerdienst Mittelfranken koordinierte die ersten kriminalpolizeilichen Maßnahmen. Nach Rücksprache mit der Staatsanwaltschaft Ansbach wird gegen den 38-Jährigen, aufgrund der potenziell lebensbedrohlichen Folgen von Fußtritten gegen den Kopf, wegen des Verdachts eines versuchten Tötungsdelikts ermittelt.",
-      "Der 38-Jährige wird zudem auf Antrag der Staatsanwaltschaft dem Ermittlungsrichter zur Prüfung der Haftfrage vorgeführt. Die Ansbacher Mordkommission führt nun die weiteren Ermittlungen zur Klärung des Tatgeschehens.",
-      "Erstellt durch: Michael Petzold"
-    ],
-    "case_key": "1496fb3820b34d3f",
-    "case_ordinal": 0,
-    "categories": [
-      "Gewaltdelikt"
-    ],
-    "content_hash": "559cbd0f49a6ee3ae3be2b27de1e7e31b4ba390283490785f6569008bd4954e3",
-    "guid": "urn:polizei-bayern:108455:1496fb3820b34d3f",
-    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108455/index.html",
-    "organization": "Polizeipräsidium Mittelfranken",
-    "published_ts": 1789294140,
-    "source_id": "108455",
-    "source_title": "Mehrmals gegen den Kopf getreten - Festnahme",
-    "title": "Mehrmals gegen den Kopf getreten - Festnahme"
-  },
-  {
-    "body": [
-      "FÜRTH. (807) Am frühen Sonntagmorgen (13.09.2026) kam es in der Fürther Innenstadt zu einer Auseinandersetzung, in deren Verlauf ein Mann Verletzungen durch Tritte gegen den Kopf erlitt. Die Polizei nahm einen 19-jährigen Tatverdächtigen fest und ermittelt wegen des Verdachts eines versuchten Tötungsdelikts.",
-      "Gegen 03:00 Uhr geriet aus noch nicht geklärter Ursache ein 58-jähriger Mann (deutscher Staatsangehöriger) in der Königstraße mit zwei Männern im Alter von 17 und 19 Jahren (beide ebenfalls deutsche Staatsangehörige) in Streit. Die Streitigkeit entwickelte sich zu einer handfesten Auseinandersetzung, in deren Verlauf der 58-Jährige zu Boden geschlagen wurde.",
-      "Der 19-Jährige soll dann mehrmals mit den Füßen gegen den Kopf des am Boden Liegenden getreten und sich daraufhin von der Örtlichkeit entfernt haben. Alarmierte Streifenbesatzungen der Polizeiinspektion Fürth konnten den 19-Jährigen und seinen 17-jährigen Begleiter kurze Zeit später antreffen und festnehmen.",
-      "Der 58-Jährige musste mit Kopfverletzungen in ein Krankenhaus zur weiteren medizinischen Versorgung gefahren werden. Er befindet sich derzeit in einem stabilen Zustand.",
-      "Aufgrund der potenziell lebensbedrohlichen Folgen von Fußtritten gegen den Kopf, wird nun wegen des Verdachts eines versuchten Tötungsdelikts ermittelt. Hierzu führte der Kriminaldauerdienst Mittelfranken die ersten kriminalpolizeilichen Maßnahmen vor Ort. Das zuständige Fachkommissariat der Fürther Kriminalpolizei übernimmt die weiteren Ermittlungen zur Klärung des Sachverhalts. Zeugen, welche den Vorfall beobachtet haben, werden gebeten sich mit der Polizei unter der Telefonnummer 0911 2112-3333 in Verbindung zu setzen.",
-      "Der 19-Jährige wird auf Antrag der Staatsanwaltschaft dem Ermittlungsrichter zur Prüfung der Haftfrage vorgeführt. Der 17-Jährige wurde nach Beendigung der polizeilichen Maßnahmen noch am Sonntagmorgen den Erziehungsberechtigten übergeben.",
-      "Erstellt durch: Michael Petzold"
-    ],
-    "case_key": "6d113b3a90404f31",
-    "case_ordinal": 0,
-    "categories": [
-      "Gewaltdelikt"
-    ],
-    "content_hash": "53d5cd017f9bd6434f3391229b03ff7b729f1415021fbfe8e8e89b6c0ac22bd3",
-    "guid": "urn:polizei-bayern:108452:6d113b3a90404f31",
-    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108452/index.html",
-    "organization": "Polizeipräsidium Mittelfranken",
-    "published_ts": 1789294020,
-    "source_id": "108452",
-    "source_title": "Tritte gegen den Kopf - Haftantrag",
-    "title": "Tritte gegen den Kopf - Haftantrag"
-  },
-  {
-    "body": [
-      "Widerstand gegen Vollstreckungsbeamte bei Durchsuchung",
-      "SONTHOFEN. Bei der Vollstreckung eines richterlichen Durchsuchungsbefehls weigerte sich der Betroffene gegen die Maßnahmen und leistete Widerstand gegen die Beamten. Ein Beamter wurde hierbei leicht verletzt, konnte seinen Dienst aber fortführen. Gegen den 20-jährigen Beschuldigten deutscher Staatsbürgerschaft, wird jetzt wegen Körperverletzung und Widerstand gegen Vollstreckungsbeamte ermittelt. (PI Sonthofen)"
-    ],
-    "case_key": "44564403742ac689",
-    "case_ordinal": 4,
-    "categories": [
-      "Gewaltdelikt"
-    ],
-    "content_hash": "44564403742ac689a06bc477c7d81cb38f84d91de2c06fa367f12c36da8772fe",
-    "guid": "urn:polizei-bayern:108451:44564403742ac689",
-    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108451/index.html",
-    "organization": "Polizeipräsidium Schwaben Süd/West",
-    "published_ts": 1789293420,
-    "source_id": "108451",
-    "source_title": "PP SWS | Pressemeldungen vom 13.09.2026",
-    "title": "Widerstand gegen Vollstreckungsbeamte bei Durchsuchung"
   }
 ]
