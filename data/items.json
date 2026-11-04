@@ -1,6 +1,27 @@
 [
   {
     "body": [
+      "INGOLSTADT.Umfangreiche Ermittlungen führten die Kriminalpolizei Ingolstadt auf die Spur mutmaßlicher Rauschgifthändler. Bei Durchsuchungen konnten Kokain, Bargeld und eine Schreckschusswaffe sichergestellt werden.",
+      "Am vergangenen Montag konnte ein 25-jähriger albanischer Staatsangehöriger nach monatelangen Vorermittlungen in Ingolstadt festgenommen werden. Er trug mehrere verkaufsfertige Konsumeinheiten Kokain bei sich. Bei einer anschließenden Durchsuchung seiner Unterkunft in Ingolstadt wurden weitere 15 Gramm Kokain sowie eine erlaubnispflichtige Schreckschusswaffe sichergestellt. Eine im Zimmer angetroffene 33-jährige mögliche Komplizin wurde vorläufig festgenommen und später aus dem Gewahrsam entlassen.",
+      "Im Zuge weiterer Ermittlungen konnte am gestrigen Dienstag weiterhin ein 19-jähriger Albaner in einem Pensionszimmer im Ingolstädter Nordwesten festgenommen werden. Die Kriminalbeamten stellten bei ihm rund 600 Gramm Kokain, Händlerutensilien und Verpackungsmaterial sowie Bargeld in Höhe von 15000 Euro sicher.",
+      "Auf Antrag der sachleitenden Staatsanwaltschaft Ingolstadt wurden die beiden Männer Richtern vorgeführt, die jeweils die Untersuchungshaft anordneten. Die Tatverdächtigen wurden daraufhin an Justizvollzugsanstalten überstellt."
+    ],
+    "case_key": "eb591eb581dc06ee",
+    "case_ordinal": 0,
+    "categories": [
+      "Drogendelikt"
+    ],
+    "content_hash": "5bdd47c5d8ad937747e68864e47e80eeaaac4f5ef0d5537c621c789bc73642e1",
+    "guid": "urn:polizei-bayern:110967:eb591eb581dc06ee",
+    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/110967/index.html",
+    "organization": "Polizeipräsidium Oberbayern Nord",
+    "published_ts": 1793809560,
+    "source_id": "110967",
+    "source_title": "Handel mit Kokain – zwei Tatverdächtige in Haft",
+    "title": "Handel mit Kokain – zwei Tatverdächtige in Haft"
+  },
+  {
+    "body": [
       "KEMPTEN. Am Dienstag, 03.11.2026, gegen 17:30 Uhr, wurde eine 79-jährige Frau im Kemptener Stadtteil Bühl Opfer eines Raubüberfalls.",
       "Die Frau war auf dem Heimweg von der Bushaltestelle „Auf dem Bühl“ zu ihrer Wohnung. Ein bislang unbekannter Mann näherte sich ihr von hinten und versuchte, ihr den Rucksack zu entreißen. Die Seniorin hielt den Rucksack zunächst fest, verlor ihn jedoch durch die Gewalt des Mannes. Der bislang unbekannte Täter flüchtete anschließend über eine Treppe in Richtung der Grünanlage zwischen der Straße „Auf dem Bühl“ und dem Bad Dürkheimer Weg. Im weinroten Rucksack befanden sich persönliche Gegenstände im Wert eines mittleren dreistelligen Bereichs. Die Frau wurde durch das gewaltsame Entreißen des Rucksacks leicht verletzt.",
       "Der Mann wird als etwa 170 cm groß und von schlanker Statur beschrieben. Er trug dunkle Kleidung und eine Kapuze. Trotz umfangreicher Fahndungsmaßnahmen im Wohngebiet Bühl und Umgebung konnte der bislang unbekannte Täter nicht gefasst werden. Die Polizei ermittelt nun wegen Raub gegen einen bislang unbekannten Täter.",
@@ -10895,24 +10916,5 @@
     "source_id": "108604",
     "source_title": "PP SWS | Pressemeldungen vom 16.09.2026",
     "title": "Körperverletzung bei Streit um Leergut"
-  },
-  {
-    "body": [
-      "Verstoß gegen das Konsumcannabisgesetz",
-      "GÜNZBURG. Beamte der Polizeiinspektion Günzburg kontrollierten gestern Nachmittag am Bahnhof eine 17-jährige Deutsche und eine 16-jährige Türkin. Beide führten geringe Mengen an Marihuana mit sich, welche nach den Bestimmungen des Konsumcannabisgesetz für Erwachsene im Bereich der Straffreiheit liegen. Nachdem der Besitz der Substanz ist jedoch erst ab 18 Jahren erlaubt ist wurden das Marihuana in beiden Fällen sichergestellt und der Vernichtung zugeführt. Zudem wird das Jugendamt von dem Vorfall informiert. (PI Günzburg)"
-    ],
-    "case_key": "457df0222d9138db",
-    "case_ordinal": 38,
-    "categories": [
-      "Drogendelikt"
-    ],
-    "content_hash": "457df0222d9138db7978d11d9fd61ce906b1b6fd27d3a938d70b128b73f2ba8c",
-    "guid": "urn:polizei-bayern:108604:457df0222d9138db",
-    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108604/index.html",
-    "organization": "Polizeipräsidium Schwaben Süd/West",
-    "published_ts": 1789552800,
-    "source_id": "108604",
-    "source_title": "PP SWS | Pressemeldungen vom 16.09.2026",
-    "title": "Verstoß gegen das Konsumcannabisgesetz"
   }
 ]

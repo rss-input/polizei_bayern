@@ -6,10 +6,18 @@
     <description>Gewalt-, Sexual- und Drogendelikte sowie organisierte Kriminalität aus den Pressemitteilungen der Bayerischen Polizei.</description>
     <language>de-DE</language>
     <generator>polizei-bayern-rss</generator>
-    <lastBuildDate>Wed, 04 Nov 2026 15:46:08 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 04 Nov 2026 21:32:08 +0000</lastBuildDate>
     <ttl>30</ttl>
     <atom:link href="https://rss-input.github.io/polizei_bayern/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 04 Nov 2026 15:19:00 +0000</pubDate>
+    <pubDate>Wed, 04 Nov 2026 16:26:00 +0000</pubDate>
+    <item>
+      <title>Handel mit Kokain – zwei Tatverdächtige in Haft</title>
+      <link>https://www.polizei.bayern.de/aktuelles/pressemitteilungen/110967/index.html</link>
+      <guid isPermaLink="false">urn:polizei-bayern:110967:eb591eb581dc06ee</guid>
+      <pubDate>Wed, 04 Nov 2026 16:26:00 +0000</pubDate>
+      <category>Drogendelikt</category>
+      <description>&lt;p&gt;PM 04.11.2026, PP Oberbayern Nord / Tatdatum 02.11.26 / Tatort: INGOLSTADT.Umfangreiche Ermittlungen führten die Kriminalpolizei Ingolstadt auf die Spur mutmaßlicher Rauschgifthändler / Delikt: Drogendelikt / Opfer: keine individualisierten Geschädigten / Tatverdächtige: 1 (25 Jahre, albanisch); 1 (19 Jahre, albanisch) / Ergebnis: festgenommen; Untersuchungshaft; nach Abschluss der polizeilichen Maßnahmen entlassen / Besonderheiten: Bei einer anschließenden Durchsuchung seiner Unterkunft in Ingolstadt wurden weitere 15 Gramm Kokain sowie eine erlaubnispflichtige Schreckschusswaffe sichergestellt. / &lt;a href="https://www.polizei.bayern.de/aktuelles/pressemitteilungen/110967/index.html"&gt;https://www.polizei.bayern.de/aktuelles/pressemitteilungen/110967/index.html&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Raubüberfall im Stadtteil Bühl | Zeugen gesucht</title>
       <link>https://www.polizei.bayern.de/aktuelles/pressemitteilungen/110966/index.html</link>
@@ -4013,14 +4021,6 @@
       <pubDate>Wed, 16 Sep 2026 10:00:00 +0000</pubDate>
       <category>Gewaltdelikt</category>
       <description>&lt;p&gt;PM 16.09.2026, PP Schwaben Süd/West / Tatdatum 15.09.26 / Tatort: Buchloe / Delikt: Körperverletzung / Opfer: nicht näher mitgeteilt / Tatverdächtige: 1 (31 Jahre, deutsch, syrisch); 1 (55 Jahre, deutsch, syrisch) / Ergebnis: Strafverfahren / Besonderheiten: Beide gaben gegenüber der Polizei an, der jeweils andere habe ihm die zwei streitgegenständlichen Kästen Leergut gestohlen. / &lt;a href="https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108604/index.html"&gt;https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108604/index.html&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Verstoß gegen das Konsumcannabisgesetz</title>
-      <link>https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108604/index.html</link>
-      <guid isPermaLink="false">urn:polizei-bayern:108604:457df0222d9138db</guid>
-      <pubDate>Wed, 16 Sep 2026 10:00:00 +0000</pubDate>
-      <category>Drogendelikt</category>
-      <description>&lt;p&gt;PM 16.09.2026, PP Schwaben Süd/West / Tatdatum 15.09.26 / Tatort: Bahnhof / Delikt: Drogendelikt / Opfer: keine individualisierten Geschädigten / Tatverdächtige: 1 (17 Jahre, deutsch, türkisch); 1 (16 Jahre, deutsch, türkisch) / Ergebnis: Nachdem der Besitz der Substanz ist jedoch erst ab 18 Jahren erlaubt ist wurden das Marihuana in beiden Fällen sichergestellt und der Vernichtung zugeführt. / Besonderheiten: GÜNZBURG. / &lt;a href="https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108604/index.html"&gt;https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108604/index.html&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
