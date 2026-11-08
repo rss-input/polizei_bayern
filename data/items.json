@@ -1,6 +1,283 @@
 [
   {
     "body": [
+      "1757. Versuchtes Tötungsdelikt – Ludwigsvorstadt",
+      "Am Samstag, 07.11.2026, gegen 19:00 Uhr, hielt sich ein 38-jähriger Deutscher mit Wohnsitz im Landkreis Miesbach im Bereich des Hauptbahnhofes auf und äußerte mehrfach lautstarke Äußerungen mit unter anderem fremdenfeindlichem Inhalt Wenig später traf er zufällig auf einen 32-jährigen Afghanen mit Wohnsitz in München. Zwischen den beiden entwickelte sich zunächst eine verbale Streitigkeit. Im weiteren Verlauf zog der 38-Jährige ein Messer und stach unvermittelt in Richtung des Bauchbereichs des 32-Jährigen.",
+      "Dieser konnte die Angriffe abwehren und brachte den 38-Jährigen zu Boden, wo er ihn bis zum Eintreffen der Polizei fixierte. Eine unbeteiligte Person bemerkte die Auseinandersetzung und verständigte den Polizeinotruf 110.",
+      "Der 32-Jährige blieb bei der körperlichen Auseinandersetzung unverletzt. Der 38-Jährige wurde durch die eintreffenden Polizeibeamten festgenommen. Er wird im Laufe des Tages einem Haftrichter vorgeführt.",
+      "Die weiteren Ermittlungen wegen des Verdachts eines versuchten Tötungsdelikts übernimmt das Kommissariat 11."
+    ],
+    "case_key": "1757",
+    "case_ordinal": 0,
+    "categories": [
+      "Gewaltdelikt"
+    ],
+    "content_hash": "db4c3cf4e229b1c45e41855e843d0230f667ad533f2fd5ceb3f41f770c143c8c",
+    "guid": "urn:polizei-bayern:111157:1757",
+    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/111157/index.html",
+    "organization": "Polizeipräsidium München",
+    "published_ts": 1794139200,
+    "source_id": "111157",
+    "source_title": "Medieninformationen Polizei München vom 08.11.2026",
+    "title": "1757. Versuchtes Tötungsdelikt – Ludwigsvorstadt"
+  },
+  {
+    "body": [
+      "1760. Festnahme nach exhibitionistischer Handlung – Ramersdorf-Perlach",
+      "Am Samstag, 07.11.2026, gegen 16:45 Uhr, befanden sich eine 41-jährige Deutsche mit Wohnsitz in München und ein 55-jähriger Deutscher mit Wohnsitz in München im Saunabereich eines Schwimmbades.",
+      "Dort bemerkte die 41-Jährige, dass ein 55-Jährige sein erigiertes Glied präsentierte und dabei gezielt den Blickkontakt zu mehreren Frauen suchte. Daraufhin informierte sie das Schwimmbadpersonal, welches wiederum die Polizei verständigte.",
+      "Die eingesetzten Polizeibeamten konnten den 55-Jährigen vor Ort antreffen und vorläufig festnehmen. Nach Abschluss der polizeilichen Maßnahmen wurde er wieder entlassen.",
+      "Gegen ihn wird nun wegen des Verdachts einer exhibitionistischen Handlung ermittelt.\n\nDie weiteren Ermittlungen übernimmt das Kommissariat 15."
+    ],
+    "case_key": "1760",
+    "case_ordinal": 3,
+    "categories": [
+      "Sexualdelikt"
+    ],
+    "content_hash": "ecae9e4706fe2d84f552015216566c5b572387e02b0cb8d3f90f95ebf41d07a3",
+    "guid": "urn:polizei-bayern:111157:1760",
+    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/111157/index.html",
+    "organization": "Polizeipräsidium München",
+    "published_ts": 1794139200,
+    "source_id": "111157",
+    "source_title": "Medieninformationen Polizei München vom 08.11.2026",
+    "title": "1760. Festnahme nach exhibitionistischer Handlung – Ramersdorf-Perlach"
+  },
+  {
+    "body": [
+      "Körperverletzung zwischen zwei Männern",
+      "OBERSTAUFEN. Am 07.11.2026, gegen 23:35 Uhr, kam es in Oberstaufen, Rainwaldstraße im dortigen Tanzlokal, zu einem verbalen Streit zwischen einem 46-jährigen Slowaken und einem 23-jährigen Deutschen. Im Zuge der Auseinandersetzung verpasste der Slowake dem Deutschen unvermittelt einen Faustschlag ins Gesicht. Die Beamten vor Ort erteilten dem Täter einen Platzverweis. Dieser beleidigte die Polizisten. Der junge Mann erlitt durch den Schlag eine Kopfplatzwunde. Er wurde zur ambulanten Behandlung ins Krankenhaus Immenstadt verbracht. Die Polizeiinspektion Immenstadt ermittelt nun wegen des Verdachts der Körperverletzung und Beleidigung. (PI Immenstadt)"
+    ],
+    "case_key": "65d876c2e4b9c772",
+    "case_ordinal": 8,
+    "categories": [
+      "Gewaltdelikt"
+    ],
+    "content_hash": "65d876c2e4b9c7724d7d7b8a53ea6f18fc476e0457b816ec79e1acc521895e5e",
+    "guid": "urn:polizei-bayern:111150:65d876c2e4b9c772",
+    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/111150/index.html",
+    "organization": "Polizeipräsidium Schwaben Süd/West",
+    "published_ts": 1794132660,
+    "source_id": "111150",
+    "source_title": "PP SWS | Pressemeldungen vom 08.11.2026",
+    "title": "Körperverletzung zwischen zwei Männern"
+  },
+  {
+    "body": [
+      "Fahrt unter Drogeneinfluss",
+      "BUCHLOE. Am Samstagabend wurde ein 24-jährige afghanischer Staatsbürger mit seinem E-Scooter einer allgemeinen Verkehrskontrolle unterzogen. Dabei stellten die Beamten drogentypische Auffälligkeiten fest. Ein Drogenvortest verlief positiv auf Cannabis. Eine Blutentnahme wurde durch die eingesetzten Beamten angeordnet. Gegen den 24-Jährigen wurde nun ein Ordnungswidrigkeitenverfahren eingeleitet. (PI Buchloe)"
+    ],
+    "case_key": "deb87df16335a77a",
+    "case_ordinal": 13,
+    "categories": [
+      "Drogendelikt"
+    ],
+    "content_hash": "deb87df16335a77ac16402993b5a0021ea22666d1acd917d3cf4c36c07af4d3c",
+    "guid": "urn:polizei-bayern:111150:deb87df16335a77a",
+    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/111150/index.html",
+    "organization": "Polizeipräsidium Schwaben Süd/West",
+    "published_ts": 1794132660,
+    "source_id": "111150",
+    "source_title": "PP SWS | Pressemeldungen vom 08.11.2026",
+    "title": "Fahrt unter Drogeneinfluss"
+  },
+  {
+    "body": [
+      "Cannabis statt Fahrerlaubnis",
+      "FÜSSEN. Am Samstagnachmittag wurde ein polnischer Fahrzeugführer durch die Bundespolizei Kempten einer Einreisekontrolle auf der A7 unterzogen. Bei der Kontrolle stellte sich heraus, dass seine vorgezeigte Fahrerlaubnis ungültig war. Des Weiteren führte der 23-jährige Fahrzeugführer Cannabis mit sich, welches er über den Grenztunnel von Österreich nach Deutschland einführte. Nachdem der Fahrer drogentypische Auffälligkeiten an den Tag legte, wurde eine Blutentnahme angeordnet. Die Fahrt durfte er nicht fortsetzen. Den 23-Jährigen erwarten nun Strafanzeigen bei der Staatsanwaltschaft aufgrund Fahrens ohne Fahrerlaubnis, Einfuhr von Cannabis sowie eine Ordnungswidrigkeitenanzeige aufgrund von Fahren unter dem Einfluss von Cannabis. (PI Füssen)"
+    ],
+    "case_key": "21b3e4ce28ff7ac3",
+    "case_ordinal": 16,
+    "categories": [
+      "Drogendelikt"
+    ],
+    "content_hash": "21b3e4ce28ff7ac36371c9fbba34ee263d56ec75d66a11e04a09248ff5e8df0d",
+    "guid": "urn:polizei-bayern:111150:21b3e4ce28ff7ac3",
+    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/111150/index.html",
+    "organization": "Polizeipräsidium Schwaben Süd/West",
+    "published_ts": 1794132660,
+    "source_id": "111150",
+    "source_title": "PP SWS | Pressemeldungen vom 08.11.2026",
+    "title": "Cannabis statt Fahrerlaubnis"
+  },
+  {
+    "body": [
+      "Die tagesaktuellen Meldungen der Polizeiinspektionen Memmingen, Mindelheim und Bad Wörishofen sowie Meldungen der Kriminalpolizei, der Verkehrs- und Fahndungsdienststellen mit Regionalbezug.",
+      "Widerstand nach Flugausschluss",
+      "MEMMINGERBERG. Am Samstagabend wurde ein in Deutschland wohnhafter 51-jähriger Portugiese vom Flug nach Faro/Portugal ausgeschlossen, da er zu alkoholisiert war. Ihm wurde von den hinzugerufenen Polizeibeamten ein Platzverweis ausgesprochen, welchem er nicht nachkam. Er musste daher vom Flughafengelände verbracht werden. Auf dem Weg aus dem Terminal wurde er aggressiv, baute sich bedrohlich auf und musste zu Boden gebracht werden. Hierbei wurden sowohl er selbst, als auch ein Beamter leicht verletzt. Im Laufe der Aufnahme stellte sich heraus, dass er den zuvor konsumierten Alkohol an zwei Shops des Flughafens entwendete. Der Beschuldigte verbrachte die Nacht anschließend in der Arrestzelle. Ihn erwarten Strafverfahren wegen Ladendiebstahls, Körperverletzung und Widerstands gegen Vollstreckungsbeamte. (GPI Memmingen)"
+    ],
+    "case_key": "466ac23421025ba8",
+    "case_ordinal": 21,
+    "categories": [
+      "Gewaltdelikt"
+    ],
+    "content_hash": "65a0707792ed1e9dae54946a5b2a20e5112956638d2ddc1aca2eeb51458d6b6c",
+    "guid": "urn:polizei-bayern:111150:466ac23421025ba8",
+    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/111150/index.html",
+    "organization": "Polizeipräsidium Schwaben Süd/West",
+    "published_ts": 1794132660,
+    "source_id": "111150",
+    "source_title": "PP SWS | Pressemeldungen vom 08.11.2026",
+    "title": "Die tagesaktuellen Meldungen der Polizeiinspektionen Memmingen, Mindelheim und Bad Wörishofen sowie Meldungen der Kriminalpolizei, der Verkehrs- und Fahndungsdienststellen mit Regionalbezug."
+  },
+  {
+    "body": [
+      "Wechselseitige Körperverletzung auf Geburtstagsfeier",
+      "BAD WÖRISHOFEN. In der Samstagnacht kam es in Bad Wörishofen im Ortsteil Gartenstadt auf einer privaten Geburtstagsfeier zu einem Körperverletzungsdelikt. Zwei weibliche, alkoholisierte Gäste gerieten in einen Streit. Eine 45-jährige kroatische Dame zog ihrer 24-jährigen kroatischen Kontrahentin an den Haaren, riss ihr die Kette vom Hals und kratzte diese. Im Gegenzug schlug die 24-Jährige ihrem Gegenüber in das Gesicht und biss ihr in die Hand. Die beiden Frauen erwartet nun jeweils eine Anzeige wegen Körperverletzung. (PI Bad Wörishofen)"
+    ],
+    "case_key": "8332e6a40d323632",
+    "case_ordinal": 24,
+    "categories": [
+      "Gewaltdelikt"
+    ],
+    "content_hash": "8332e6a40d323632d7d32bf2b56302ebfd601bdd63dad9068c60d6ffdc4dcb67",
+    "guid": "urn:polizei-bayern:111150:8332e6a40d323632",
+    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/111150/index.html",
+    "organization": "Polizeipräsidium Schwaben Süd/West",
+    "published_ts": 1794132660,
+    "source_id": "111150",
+    "source_title": "PP SWS | Pressemeldungen vom 08.11.2026",
+    "title": "Wechselseitige Körperverletzung auf Geburtstagsfeier"
+  },
+  {
+    "body": [
+      "Mann geschlagen, in Transporter geschmissen und davongefahren",
+      "MEMMINGEN. Am frühen Sonntagmorgen des 08.11.2026, konnten am Bahnhof mehrere Zeugen einen 42-jährigen Kroaten und einen 39-jährigen Serben dabei beobachten, wie diese gegen 02:40 Uhr einen 53-jährigen Bulgaren gegen einen Transporter schlugen und anschließend durch das Fenster in das Fahrzeuginnere hoben und davonfuhren. Das besagte Fahrzeug konnte anschließend an der Wohnanschrift festgestellt werden, wobei die Beschuldigten und auch die verletzte Person in der Wohnung angetroffen werden konnten. Die zwei Männer erwartet nun eine Anzeige wegen gefährlicher Körperverletzung und Freiheitsberaubung. Weil der mutmaßliche Fahrer des Transporters einen Atemalkoholwert von knapp 1,6 Promille und keine Fahrerlaubnis hatte, wurde außerdem ein Verfahren wegen Trunkenheit im Verkehr und Fahren ohne Fahrerlaubnis eingeleitet. (PI Memmingen)"
+    ],
+    "case_key": "b83361df8fcfe606",
+    "case_ordinal": 33,
+    "categories": [
+      "Gewaltdelikt"
+    ],
+    "content_hash": "b83361df8fcfe606b12b666f916b96048a4102f659ff32ccdfdc5743b8b1230a",
+    "guid": "urn:polizei-bayern:111150:b83361df8fcfe606",
+    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/111150/index.html",
+    "organization": "Polizeipräsidium Schwaben Süd/West",
+    "published_ts": 1794132660,
+    "source_id": "111150",
+    "source_title": "PP SWS | Pressemeldungen vom 08.11.2026",
+    "title": "Mann geschlagen, in Transporter geschmissen und davongefahren"
+  },
+  {
+    "body": [
+      "Die tagesaktuellen Meldungen der Polizeiinspektionen Günzburg, Krumbach und Burgau sowie Meldungen der Kriminalpolizei, der Verkehrs- und Fahndungsdienststellen mit Regionalbezug.",
+      "Verkehrsunfall mit E-Scooter – Verdacht auf Alkohol und Drogen",
+      "BURGAU. Am vergangenen Samstagmittag, gegen 11:45 Uhr, kam es in der Mühlstraße zu einem Verkehrsunfall. Ein 48-jähriger deutsch-türkischer E-Scooter-Fahrer wurde von einem Pkw mit Anhänger überholt. Als das Gespann bereits nahezu vorbeigefahren war, lenkte der E-Scooter-Fahrer plötzlich nach links und kollidierte mit dem Anhänger. Dabei stürzte er und verletzte sich leicht. Da der Verdacht auf Alkohol- und Drogeneinfluss bestand, wurde eine Blutentnahme angeordnet. Der Mann wurde zur Behandlung ins Krankenhaus gebracht. Es entstand kein Sachschaden. (PI Burgau)"
+    ],
+    "case_key": "8aabdaec7906f270",
+    "case_ordinal": 34,
+    "categories": [
+      "Drogendelikt"
+    ],
+    "content_hash": "f8483fab59147f230f08a3323eacabb78d28ae16e100c5e57dfe5a3901547f6c",
+    "guid": "urn:polizei-bayern:111150:8aabdaec7906f270",
+    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/111150/index.html",
+    "organization": "Polizeipräsidium Schwaben Süd/West",
+    "published_ts": 1794132660,
+    "source_id": "111150",
+    "source_title": "PP SWS | Pressemeldungen vom 08.11.2026",
+    "title": "Die tagesaktuellen Meldungen der Polizeiinspektionen Günzburg, Krumbach und Burgau sowie Meldungen der Kriminalpolizei, der Verkehrs- und Fahndungsdienststellen mit Regionalbezug."
+  },
+  {
+    "body": [
+      "Betrunkener Partygast wird handgreiflich",
+      "KAMMELTAL. Am frühen Sonntagmorgen fiel ein 22-jähriger deutscher Besucher einer Veranstaltung in Ried/Behlingen durch aggressives Verhalten auf. Der Mann war deutlich alkoholisiert und sollte deshalb durch den Sicherheitsdienst von der Veranstaltung verwiesen werden. Hierbei kam es zu mehreren körperlichen Übergriffen, bei denen zwei Sicherheitsmitarbeiter sowie eine zu Hilfe eilende Person durch Schläge und Ohrfeigen angegangen wurden. Zudem beleidigte der 22-Jährige mehrere Beteiligte. Da sich der Mann weiterhin aggressiv verhielt, wurde er durch die Polizei in Gewahrsam genommen. Ein Atemalkoholtest ergab einen Wert von knapp 3 Promille. Die Polizei Burgau ermittelt nun wegen Körperverletzung und Beleidigung. (PI Burgau)"
+    ],
+    "case_key": "d5146d87ba8db563",
+    "case_ordinal": 35,
+    "categories": [
+      "Gewaltdelikt"
+    ],
+    "content_hash": "d5146d87ba8db56370bef20a88e51c3a03ef87210a5713b944d72b0cc2e9f047",
+    "guid": "urn:polizei-bayern:111150:d5146d87ba8db563",
+    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/111150/index.html",
+    "organization": "Polizeipräsidium Schwaben Süd/West",
+    "published_ts": 1794132660,
+    "source_id": "111150",
+    "source_title": "PP SWS | Pressemeldungen vom 08.11.2026",
+    "title": "Betrunkener Partygast wird handgreiflich"
+  },
+  {
+    "body": [
+      "Verfolgungsfahrt auf BAB 8",
+      "ELCHINGEN/A8. Am Samstagabend, gegen 17:26 Uhr, befuhr ein 36-jähriger deutscher Staatsbürger mit seinem Pkw die A8 in Fahrtrichtung Stuttgart. Unmittelbar vor dem Autobahnkreuz Ulm/Elchingen sollte das Fahrzeug durch polizeiliche Einsatzkräfte der Verkehrspolizeiinspektion Günzburg einer Verkehrskontrolle unterzogen werden. Kurz vor der Abfahrt zog der 36-Jährige zurück auf die Durchgangsfahrbahn und versuchte sich durch starkes beschleunigen der Kontrolle zu entziehen. Hierbei fuhr er durchgehend und trotz des Verkehrsaufkommens mit hohen Geschwindigkeiten zwischen 150-180 km/h, fuhr weiteren Verkehrsteilnehmern sehr dicht auf und überholte sie mehrfach rechts sowie über den Seitenstreifen. Als der Fahrer von der B10 auf einen Feldweg abbog, brach zunächst der Sichtkontakt ab. Durch Fahndungsmaßnahmen der Polizeikräfte aus Bayern und Baden-Württemberg, konnten das Fahrzeug sowie der Fahrer wieder angetroffen werden. Ermittlungen ergaben, dass das Fahrzeug keine aktuelle Zulassung sowie keine Versicherung aufwies. Die Zulassungs- und die HU-Plakette wurden zuvor durch den 36-jährigen Fahrer gefälscht und am Fahrzeug angebracht. Zudem stand er während der Verfolgungsfahrt unter Einfluss von Betäubungsmitteln. Ein Drogen-Vortest reagierte positiv auf Kokain und THC. Nach aktuellen Ermittlungsstand kam es während der Verfolgungsfahrt zu keinen Verkehrsunfällen. Jedoch kam es durch die beschriebene Fahrweise zumindest zu mehrfachen Gefährdungen diverser Verkehrsteilnehmer, welche bislang unbekannt sind. Von Seiten der Polizei wird in diesem Zusammenhang um mögliche Hinweise zur besagten Verfolgungsfahrt gebeten. (VPI Günzburg)"
+    ],
+    "case_key": "ef1be2ae6f97acc1",
+    "case_ordinal": 37,
+    "categories": [
+      "Drogendelikt"
+    ],
+    "content_hash": "ef1be2ae6f97acc151c1df5c71a5f7cfb1c1d8b6f43a3d0589927c6c0d5c3fd3",
+    "guid": "urn:polizei-bayern:111150:ef1be2ae6f97acc1",
+    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/111150/index.html",
+    "organization": "Polizeipräsidium Schwaben Süd/West",
+    "published_ts": 1794132660,
+    "source_id": "111150",
+    "source_title": "PP SWS | Pressemeldungen vom 08.11.2026",
+    "title": "Verfolgungsfahrt auf BAB 8"
+  },
+  {
+    "body": [
+      "Drogenfahrt mit Pkw und ohne Führerschein",
+      "GÜNZBURG. In der Nacht von Samstag auf Sonntag wurde ein 48-jähriger türkischer Staatsangehöriger mit seinem Pkw im Bereich des Bahnhofplatzes einer allgemeinen Verkehrskontrolle unterzogen. Im Laufe der Kontrolle ergab sich die Erkenntnis, dass der Herr über keine gültige Fahrerlaubnis verfügt. Ebenfalls ergab sich der Verdacht, dass der Herr vor Fahrtantritt Cannabis konsumiert hatte. Die Weiterfahrt mit dem Fahrzeug wurde unterbunden. Zur Bestimmung des genauen THC-Wertes wurde durch die Beamten eine Blutentnahme angeordnet. Gegen den Herrn wurde ein Ermittlungsverfahren aufgrund des Fahrens ohne Fahrerlaubnis sowie des Führens eines Kraftfahrzeugs unter Cannabiseinwirkung eingeleitet. PI Günzburg)"
+    ],
+    "case_key": "7e9e6b6ca0eae72d",
+    "case_ordinal": 40,
+    "categories": [
+      "Drogendelikt"
+    ],
+    "content_hash": "7e9e6b6ca0eae72d23cf912a9655694db955547e8d4c0a7c3837bdecfddcdeea",
+    "guid": "urn:polizei-bayern:111150:7e9e6b6ca0eae72d",
+    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/111150/index.html",
+    "organization": "Polizeipräsidium Schwaben Süd/West",
+    "published_ts": 1794132660,
+    "source_id": "111150",
+    "source_title": "PP SWS | Pressemeldungen vom 08.11.2026",
+    "title": "Drogenfahrt mit Pkw und ohne Führerschein"
+  },
+  {
+    "body": [
+      "E-Scooterfahrer unter Cannabiseinwirkung",
+      "KRUMBACH. Am gestrigen Samstag, den 07.11.2026, gegen 23:46 Uhr, wurde ein E-Scooterfahrer in der Babenhauser Straße in Krumbach einer Verkehrskontrolle unterzogen. Dabei bemerkten die Beamten bei dem 28-jährigen afghanischen Staatsangehörigen drogentypische Auffälligkeiten. Nach einem positiven Vortest wurde die Weiterfahrt für den Fahrer untersagt und eine Blutentnahme angeordnet. Sollte sich der Verdacht bestätigten, erwartet den 28-Jährigen ein Bußgeld, sowie ein Fahrverbot von einem Monat. Weiterhin wird die Fahrerlaubnisbehörde über den Konsum informiert. (PI Krumbach)"
+    ],
+    "case_key": "e0da91a0018696cd",
+    "case_ordinal": 42,
+    "categories": [
+      "Drogendelikt"
+    ],
+    "content_hash": "e0da91a0018696cdb2177608b86ba31a613b0ddef613a77e5a179ccb64be9ee8",
+    "guid": "urn:polizei-bayern:111150:e0da91a0018696cd",
+    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/111150/index.html",
+    "organization": "Polizeipräsidium Schwaben Süd/West",
+    "published_ts": 1794132660,
+    "source_id": "111150",
+    "source_title": "PP SWS | Pressemeldungen vom 08.11.2026",
+    "title": "E-Scooterfahrer unter Cannabiseinwirkung"
+  },
+  {
+    "body": [
+      "Mehrere Fahrzeuge und Arbeitsgeräte in Brand gesetzt - Mutmaßlicher Brandstifter vorläufig festgenommen",
+      "ASCHAFFENBURG / STRIETWALD. Am frühen Sonntagmorgen kam es auf einem Firmengelände zu Bränden mehrere Fahrzeuge sowie Arbeitsmaschinen. Ein Tatverdächtiger konnte vorläufig festgenommen werden. Vorführung im Laufe des Montags.",
+      "Gegen 04:55 Uhr wurden auf einem Firmengelände in der Daimlerstraße mehrere brennende Fahrzeuge gemeldet. Die alarmierte Feuerwehr Aschaffenburg konnte die brennenden Fahrzeuge löschen. Schnell erhärtete sich der Verdacht der vorsätzlichen Brandstiftung. Die sofort eingeleitete Fahndung durch starke Kräfte der Polizei Aschaffenburg erbrachte zunächst kein Ergebnis. Durch die Bundespolizei wurde gegen 07:10 Uhr mitgeteilt, dass dort ein möglicher Tatverdächtiger, ein 44-jähriger Deutscher, vorläufig festgenommen werden konnte. Dieser hatte sich selbst bei der Bundespolizei gemeldet.",
+      "Die Kriminalpolizei Aschaffenburg hat nun die Ermittlung wegen des Verdachts der Brandstiftung aufgenommen. Auf Weisung der Staatsanwaltschaft Aschaffenburg wird der Tatverdächtige morgen einem Ermittlungsrichter vorgeführt.",
+      "Der Höhe des entstandenen Sachschadens sowie der genaue Tathergang sind nun Gegenstand der laufenden Ermittlungen. Beschädigt wurden ein Lkw, ein Transporter sowie zwei Gabelstapler."
+    ],
+    "case_key": "4f4afcf4ebc8ba18",
+    "case_ordinal": 10,
+    "categories": [
+      "Gewaltdelikt"
+    ],
+    "content_hash": "0b07741d22562ca96bf3f9dd14a8516cd2bdeaafd66a48cec5d79d7e7a0309e2",
+    "guid": "urn:polizei-bayern:111144:4f4afcf4ebc8ba18",
+    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/111144/index.html",
+    "organization": "Polizeipräsidium Unterfranken",
+    "published_ts": 1794130680,
+    "source_id": "111144",
+    "source_title": "Pressemeldungen des Polizeipräsidiums Unterfranken vom 08.11.2026",
+    "title": "Mehrere Fahrzeuge und Arbeitsgeräte in Brand gesetzt - Mutmaßlicher Brandstifter vorläufig festgenommen"
+  },
+  {
+    "body": [
       "Hundebiss in Sonthofen",
       "SONTHOFEN. Am 06.11.2026, gegen 14:10 Uhr, hat sich in der Straußbergstraße ein Schäferhund losgerissen und einen weiteren Hund in einem Vorgarten angegriffen.",
       "Die 33-jährige Deutsche, die mit einem Säugling in einer Trage und dem Schäferhund spazieren war, konnte diesen an der Leine nicht zurückhalten. Der Schäferhund rannte in einen Garten, in welchem sich ein weiterer Hundehalter mit seinem Jack Russel befand. Dieser versuchte wiederum seinen Hund zu schützen und nahm ihn hierzu auf den Arm. Der Schäferhund sprang an dem Mann hoch und entriss ihm den Jack Russel. Beim darauffolgenden Versuch, seinen Hund aus den Fängen des Schäferhundes zu befreien, wurde der Hundehalter des Jack Russel ebenfalls gebissen. Der eigentliche Hundehalter des Schäferhundes kam nach einiger Zeit hinzu und zog seinen Hund an der Leine aus dem Garten. Sowohl der Jack Russel als auch sein Besitzer wurden bei dem Angriff des Schäferhundes verletzt. Der Jack Russel musste in einer Tierklinik behandelt werden.",
@@ -10617,290 +10894,5 @@
     "source_id": "108750",
     "source_title": "Größerer Polizeieinsatz nach mitgeteilter Schusswaffe",
     "title": "Größerer Polizeieinsatz nach mitgeteilter Schusswaffe"
-  },
-  {
-    "body": [
-      "Körperverletzung nach Feierlichkeiten in Immenstadt",
-      "IMMENSTADT. Am Samstag gegen 22:30 Uhr kam es im Bereich des Festzeltes am Viehmarktplatz in Immenstadt zu einer körperlichen Auseinandersetzung zwischen zwei Besuchern. Dabei verletzte ein 34-jähriger deutscher Staatsangehöriger einen weiteren Besucher leicht. Bei der anschließenden Anzeigenaufnahme beleidigte und bedrohte der Beschuldigte die eingesetzten Polizeibeamten. Aufgrund des äußerst unkooperativen Verhaltens des 34-jährigen mussten die anschließenden polizeilichen Maßnahmen unter Anwendung unmittelbaren Zwangs durchgesetzt werden. Hierbei leistete der 34-Jährige Widerstand gegen die eingesetzten Polizeibeamten. Gegen den Beschuldigten wurden entsprechende Strafverfahren wegen Körperverletzung, Beleidigung, Bedrohung und Widerstands gegen Vollstreckungsbeamte eingeleitet. (PI Kempten)"
-    ],
-    "case_key": "0b8fad071554096c",
-    "case_ordinal": 2,
-    "categories": [
-      "Gewaltdelikt"
-    ],
-    "content_hash": "0b8fad071554096c206bad26e8071ede7b8c7e67b571a0d4b40dbbba46173efe",
-    "guid": "urn:polizei-bayern:108749:0b8fad071554096c",
-    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108749/index.html",
-    "organization": "Polizeipräsidium Schwaben Süd/West",
-    "published_ts": 1789895700,
-    "source_id": "108749",
-    "source_title": "PP SWS | Pressemeldungen vom 20.09.2026",
-    "title": "Körperverletzung nach Feierlichkeiten in Immenstadt"
-  },
-  {
-    "body": [
-      "Die tagesaktuellen Meldungen der Polizeiinspektionen Buchloe, Kaufbeuren, Marktoberdorf, Füssen sowie Meldungen der Kriminalpolizei, der Verkehrs- und Fahndungsdienststellen mit Regionalbezug.",
-      "Fahrt unter Drogeneinfluss",
-      "DÖSINGEN. Am Samstagmittag wurde ein 48-jähriger rumänischer Staatsbürger in der Stöttwanger Straße in Westendorf einer allgemeinen Verkehrskontrolle unterzogen. Bei der Kontrolle des Fahrzeugführers konnten die Beamten drogentypische Auffälligkeiten feststellen. Ein Drogenvortest verlief positiv auf Cannabis, daraufhin wurde durch die eingesetzten Beamten eine Blutentnahme angeordnet. Gegen den 48-jährigen wurde nun ein Ordnungswidrigkeitenverfahren eingeleitet und die Weiterfahrt wurde unterbunden. (PI Buchloe)"
-    ],
-    "case_key": "fff726678fa68bfa",
-    "case_ordinal": 9,
-    "categories": [
-      "Drogendelikt"
-    ],
-    "content_hash": "170aba5c9c20f047060d6535b29f9014ca1d1b88f74be5d97ded2017f61391f7",
-    "guid": "urn:polizei-bayern:108749:fff726678fa68bfa",
-    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108749/index.html",
-    "organization": "Polizeipräsidium Schwaben Süd/West",
-    "published_ts": 1789895700,
-    "source_id": "108749",
-    "source_title": "PP SWS | Pressemeldungen vom 20.09.2026",
-    "title": "Die tagesaktuellen Meldungen der Polizeiinspektionen Buchloe, Kaufbeuren, Marktoberdorf, Füssen sowie Meldungen der Kriminalpolizei, der Verkehrs- und Fahndungsdienststellen mit…"
-  },
-  {
-    "body": [
-      "Vielfältig berauscht auf dem E-Scooter",
-      "GÜNZBURG. Am 19.09.2026, gegen 21:30 Uhr, unterzog eine Streife der Polizei Günzburg in der Lochfelbenstraße in Günzburg einen E-Scooter-Fahrer einer allgemeinen Verkehrskontrolle. Im Laufe der Kontrolle bemerkten die Beamten alkohol- und drogentypische Auffälligkeiten. Vortests ergaben den Verdacht auf einen Mix aus Alkohol, Cannabis- und Amphetaminkonsum. Die Weiterfahrt wurde unterbunden und bei dem 31-jährigen Polen wurde eine Blutentnahme durchgeführt. Sollte das Blutergebnis den Verdacht bestätigen, erwartet den Mann eine Anzeige",
-      "(PI Günzburg)"
-    ],
-    "case_key": "cc303e5dba828baa",
-    "case_ordinal": 28,
-    "categories": [
-      "Drogendelikt"
-    ],
-    "content_hash": "3c363f237ca45baaad1553443294e2e4bfac2f82b36f2c8839c2edb8ee2146b4",
-    "guid": "urn:polizei-bayern:108749:cc303e5dba828baa",
-    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108749/index.html",
-    "organization": "Polizeipräsidium Schwaben Süd/West",
-    "published_ts": 1789895700,
-    "source_id": "108749",
-    "source_title": "PP SWS | Pressemeldungen vom 20.09.2026",
-    "title": "Vielfältig berauscht auf dem E-Scooter"
-  },
-  {
-    "body": [
-      "STEIN. (829) Am Samstagnachmittag (19.09.2026) bedrohte ein 25-jähriger Mann in Roßtal (Lkr. Fürth) seinen Mitbewohner mit einer Schreckschusswaffe. Bei seiner Festnahme leistete der Tatverdächtige Widerstand.",
-      "Gegen 15:45 Uhr teilten mehrere Personen der Polizei mit, dass sich in der Jahnstraße in Roßtal ein Mann mit einer Pistole aufhalte. Nach derzeitigem Ermittlungsstand hatte der 25-Jährige zuvor einen Mitbewohner mit der Waffe bedroht und in dem von ihm bewohnten Anwesen randaliert. Danach zog er sich in das Gebäude zurück.",
-      "Beim Verlassen des Anwesens nahmen Polizeikräfte den Mann fest. Hierbei leistete er Widerstand. In seiner Wohnung fanden die Beamten eine geladene Schreckschusswaffe und stellten diese sicher.",
-      "Ein Atemalkoholtest ergab bei dem rumänischen Staatsangehörigen einen Wert von rund 1,7 Promille. Die Staatsanwaltschaft Nürnberg-Fürth ordnete daraufhin eine Blutentnahme an. Da sich der 25-Jährige offenbar in einer psychischen Ausnahmesituation befand, wurde er anschließend in einer Fachklinik untergebracht.",
-      "Bei dem Vorfall wurde niemand verletzt. Die Polizei leitete gegen den Mann Ermittlungsverfahren wegen Bedrohung, Widerstands gegen Vollstreckungsbeamte sowie wegen eines Verstoßes gegen das Waffengesetz ein. Die weiteren Ermittlungen führt die Polizeiinspektion Stein.",
-      "Erstellt durch: Alexander Greil"
-    ],
-    "case_key": "fc54845f65b60b3b",
-    "case_ordinal": 0,
-    "categories": [
-      "Gewaltdelikt"
-    ],
-    "content_hash": "aca9ce8440d69affd1eb1c8018c87c2476d9814674d1a40e8bb1891e64478bd2",
-    "guid": "urn:polizei-bayern:108748:fc54845f65b60b3b",
-    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108748/index.html",
-    "organization": "Polizeipräsidium Mittelfranken",
-    "published_ts": 1789894560,
-    "source_id": "108748",
-    "source_title": "Mit Schreckschusswaffe gedroht – 25-Jähriger festgenommen",
-    "title": "Mit Schreckschusswaffe gedroht – 25-Jähriger festgenommen"
-  },
-  {
-    "body": [
-      "Widerstand geleistet",
-      "Bereits zu Beginn der Verkehrskontrolle konnte in der Hand des 45-jährigen Fahrers eine Druckverschlusstüte mit weißem Pulver festgestellt werden. Als die Beamten dieses sicherstellen wollten, leistete der Fahrer unvermittelt Widerstand gegen die Maßnahmen und musste in der Folge zu Boden gebracht und gefesselt werden. Hierbei wurde ein Polizeibeamter leicht verletzt und musste letztendlich auch seinen Dienst beenden. Die Betäubungsmittel wurden sichergestellt."
-    ],
-    "case_key": "2a8ab12b170ad11e",
-    "case_ordinal": 2,
-    "categories": [
-      "Drogendelikt"
-    ],
-    "content_hash": "2a8ab12b170ad11e1823c01d078e095222b805623c7b934f27aa5f101ab91f45",
-    "guid": "urn:polizei-bayern:108745:2a8ab12b170ad11e",
-    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108745/index.html",
-    "organization": "Polizeipräsidium Unterfranken",
-    "published_ts": 1789890540,
-    "source_id": "108745",
-    "source_title": "Pressemeldungen des Polizeipräsidiums Unterfranken vom 20.09.2026",
-    "title": "Widerstand geleistet"
-  },
-  {
-    "body": [
-      "LEIPHEIM. Am Samstagabend kam es auf der Staatsstraße 2509 bei Leipheim zu einem schweren Verkehrsunfall zwischen einem 21-jährigen deutschen Traktorfahrer und einem 22-jährigen deutschen Motorradfahrer.Der Traktorfahrer fuhr von Leipheim in Richtung Westen und wollte nach links in Richtung Echlishausen abbiegen.\n\nDabei übersah er vermutlich wegen der tief stehenden Sonne den entgegenkommenden Motorradfahrer. Dieser konnte nicht mehr ausweichen und prallte gegen das hintere Ende des Aufliegers. Durch die Wucht des Aufpralls wurde der Motorradfahrer von seinem Motorrad geschleudert und kam rund 50 bis 60 Meter weiter in einem Grünstreifen zum Liegen. Ein Rettungshubschrauber brachte ihn mit lebensgefährlichen Verletzungen in eine umliegende Klinik.\n\nDie Staatsanwaltschaft Memmingen ordnete zur Klärung der Unfallursache ein unfallanalytisches Gutachten an. Die Staatsstraße blieb während der Unfallaufnahme rund vier Stunden vollständig gesperrt. Die Freiwilligen Feuerwehren Leipheim und Echlishausen unterstützten die Polizei bei der Absicherung der Unfallstelle.\n\nDie Polizei ermittelt nun wegen fahrlässiger Körperverletzung gegen den 21-jährigen deutschen Traktorfahrer. (PI Günzburg)",
-      "Medienkontakt:\n\nPressestelle beim Polizeipräsidium Schwaben Süd/West, D-87439 Kempten (Allgäu),\n\nRufnummer (+49) 0831 9909-0 (-1012/ -1013)."
-    ],
-    "case_key": "82bcd266c36326a6",
-    "case_ordinal": 0,
-    "categories": [
-      "Gewaltdelikt"
-    ],
-    "content_hash": "82bcd266c36326a650c1923925c4a01ccae93c52fa4a7b5534c71ca5f8c567da",
-    "guid": "urn:polizei-bayern:108737:82bcd266c36326a6",
-    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108737/index.html",
-    "organization": "Polizeipräsidium Schwaben Süd/West",
-    "published_ts": 1789855320,
-    "source_id": "108737",
-    "source_title": "Motorradfahrer bei Abbiegevorgang lebensgefährlich verletzt",
-    "title": "Motorradfahrer bei Abbiegevorgang lebensgefährlich verletzt"
-  },
-  {
-    "body": [
-      "MESPELBRUNN, LKR. ASCHAFFENBURG. Ein Raubüberfall hat am Samstagabend für einen Großeinsatz der Polizeidienststellen am Bayerischen Untermain geführt. Ein Tatverdächtiger konnte im Rahmen der Fahndung vorläufig festgenommen werden. Die weiteren Ermittlungen werden nun durch die Kriminalpolizei in Absprache mit der Staatsanwaltschaft geführt.",
-      "Raub in Hauptstraße",
-      "Dem Sachstand nach betrat der zunächst unbekannte Täter am Samstag gegen 19:30 Uhr die Verkaufsräume der Tankstelle in der Hauptstraße. Unter Vorhalten eines Messers forderte der Mann nach derzeitigen Erkenntnissen Zigaretten von einer Angestellten. Kurze Zeit später flüchtete der Mann jedoch ohne Tatbeute zu Fuß. Nach Eingang der ersten Mitteilung bei der Einsatzzentrale des Polizeipräsidiums begaben sich umgehend eine Vielzahl von Streifen der Aschaffenburger Polizei und angrenzender Dienststellen in den Bereich des Tatorts.",
-      "Festnahme eines 38-Jährigen",
-      "Im Rahmen der umfangreichen Fahndungsmaßnahmen konnte noch im Ortsgebiet schließlich ein 38-jähriger deutscher Tatverdächtiger vorläufig festgenommen werden. Dieser wurde nach den ersten Maßnahmen vor Ort zur Dienststelle der Aschaffenburger Polizei transportiert. Er verbringt die restliche Nacht in der Haftzelle.",
-      "Die weiteren Ermittlungen werden nun durch die Kripo Aschaffenburg in enger Absprache mit der Staatsanwaltschaft geführt."
-    ],
-    "case_key": "8a8459444674161e",
-    "case_ordinal": 0,
-    "categories": [
-      "Gewaltdelikt"
-    ],
-    "content_hash": "5acf2a6f17809bc590f32e91fd03714f65b402c6c83d260a24d48a198076b5ac",
-    "guid": "urn:polizei-bayern:108734:8a8459444674161e",
-    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108734/index.html",
-    "organization": "Polizeipräsidium Unterfranken",
-    "published_ts": 1789846260,
-    "source_id": "108734",
-    "source_title": "Raubüberfall auf Tankstelle - Großangelegte Fahndung - Tatverdächtiger festgenommen",
-    "title": "Raubüberfall auf Tankstelle - Großangelegte Fahndung - Tatverdächtiger festgenommen"
-  },
-  {
-    "body": [
-      "Fahrt unter Cannabiseinfluss",
-      "KEMPTEN. Am Freitagmittag kontrollierte eine Streife in Kempten einen 40-jährigen deutschen Pkw-Fahrer, der unter dem Einfluss von Cannabis stand.",
-      "Die Polizei ordnete eine Blutentnahme an und stellte den Fahrzeugschlüssel sicher. Sollte die Blutuntersuchung eine Überschreitung des gesetzlichen Grenzwerts ergeben, erwarten den Mann ein Ordnungswidrigkeitenverfahren und ein Fahrverbot. (PI Kempten)"
-    ],
-    "case_key": "32798fb65894aeb5",
-    "case_ordinal": 1,
-    "categories": [
-      "Drogendelikt"
-    ],
-    "content_hash": "21b28f85761d12bd5ac3d5f449d2ff6383f3db312d67f85f775ab19414e27f45",
-    "guid": "urn:polizei-bayern:108723:32798fb65894aeb5",
-    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108723/index.html",
-    "organization": "Polizeipräsidium Schwaben Süd/West",
-    "published_ts": 1789812120,
-    "source_id": "108723",
-    "source_title": "PP SWS | Pressemeldungen vom 19.09.2026",
-    "title": "Fahrt unter Cannabiseinfluss"
-  },
-  {
-    "body": [
-      "Fahrt unter Drogeneinfluss",
-      "BUCHLOE. Am Freitagnachmittag, wurde ein 45-jähriger deutscher Staatsbürger mit seinem E-Scooter einer allgemeinen Verkehrskontrolle unterzogen. Dabei stellten die Beamten drogentypische Auffälligkeiten fest. Ein Drogenvortest verlief positiv und Cannabis. Eine Blutentnahme wurde durch die eingesetzten Beamten angeordnet. Gegen den 45-jährigen wurde nun ein Ordnungswidrigkeitenverfahren eingeleitet. (PI Buchloe)"
-    ],
-    "case_key": "1e5c05b47df5adde",
-    "case_ordinal": 9,
-    "categories": [
-      "Drogendelikt"
-    ],
-    "content_hash": "1e5c05b47df5addeee09ce7d699a850b182157c2b7884d692a5007d5467c90c4",
-    "guid": "urn:polizei-bayern:108723:1e5c05b47df5adde",
-    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108723/index.html",
-    "organization": "Polizeipräsidium Schwaben Süd/West",
-    "published_ts": 1789812120,
-    "source_id": "108723",
-    "source_title": "PP SWS | Pressemeldungen vom 19.09.2026",
-    "title": "Fahrt unter Drogeneinfluss"
-  },
-  {
-    "body": [
-      "Die tagesaktuellen Meldungen der Polizeiinspektionen Lindau und Lindenberg sowie Meldungen der Kriminalpolizei, der Verkehrs- und Fahndungsdienststellen mit Regionalbezug.",
-      "E-Scooter-Fahrer unter Cannabiseinwirkung",
-      "LINDAU. Eine Streife der Polizei kontrollierte am Freitag gegen 23:20 Uhr in der Bregenzer Straße einen 50-jährigen Österreicher, der mit einem E-Scooter unterwegs war.",
-      "Die Beamten fanden bei dem Mann 10 Gramm Cannabis und einen angerauchten Joint. Der 50-Jährige räumte den Konsum ein. Die Polizei ordnete eine Blutentnahme an. Außerdem konnte der Mann keine gültige Versicherung für den E-Scooter nachweisen. Anschließend musste er zu Fuß weitergehen.",
-      "Die Polizei ermittelt nun wegen mehrerer Delikte gegen den 50-jährigen Mann. (PI Lindau)"
-    ],
-    "case_key": "731c51bae0d4d20e",
-    "case_ordinal": 12,
-    "categories": [
-      "Drogendelikt"
-    ],
-    "content_hash": "1725bfd64c3fe3622157f65a8e8609b2e8f0631f3c98ed0fd806bafeb900ba36",
-    "guid": "urn:polizei-bayern:108723:731c51bae0d4d20e",
-    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108723/index.html",
-    "organization": "Polizeipräsidium Schwaben Süd/West",
-    "published_ts": 1789812120,
-    "source_id": "108723",
-    "source_title": "PP SWS | Pressemeldungen vom 19.09.2026",
-    "title": "Die tagesaktuellen Meldungen der Polizeiinspektionen Lindau und Lindenberg sowie Meldungen der Kriminalpolizei, der Verkehrs- und Fahndungsdienststellen mit Regionalbezug."
-  },
-  {
-    "body": [
-      "Körperverletzung am Bahnhof in Günzburg",
-      "GÜNZBURG. Am 18.09.2026, um 22.00 Uhr, wurde die Polizei wegen einer tätlichen Auseinandersetzung zum Bahnhof in Günzburg gerufen. Vor Ort wurde ein 23jähriger Herr angetroffen, welcher zuvor von einem unbekannten Täter ins Gesicht geschlagen und beleidigt wurde. Der Herr wurde dabei im Gesicht Verletzt und mit dem Rettungswagen zur ärztlichen Behandlung in ein Krankenhaus verbracht. Der Geschädigte war erheblich alkoholisiert und konnte weder zum Tatablauf, noch zum Täter Angaben machen. Nachdem auch anwesende Zeugen deutlich alkoholisiert waren und zum Täter keine genauen Angaben machen konnten verlief die Fahndung nach dem flüchtigen Täter ohne Erfolg. (PI Günzburg)",
-      "Zeugen, Angaben zu dem flüchtigen Täter machen können werden gebeten, sich bei der PI Günzburg, Tel. 08221-9190, zu melden."
-    ],
-    "case_key": "cfe66a75654711ec",
-    "case_ordinal": 29,
-    "categories": [
-      "Gewaltdelikt"
-    ],
-    "content_hash": "7888bdda7506d768ec2b80ebb7afb266eb040dc1f651304d5e040f686009fae3",
-    "guid": "urn:polizei-bayern:108723:cfe66a75654711ec",
-    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108723/index.html",
-    "organization": "Polizeipräsidium Schwaben Süd/West",
-    "published_ts": 1789812120,
-    "source_id": "108723",
-    "source_title": "PP SWS | Pressemeldungen vom 19.09.2026",
-    "title": "Körperverletzung am Bahnhof in Günzburg"
-  },
-  {
-    "body": [
-      "Kleinbus unter dem Einfluss von Drogen geführt",
-      "GÜNZBURG. Am 18.09.2026, um 10.10 Uhr, wurde in Günzburg in der Wilhelm-Röntgen-Straße ein mit mehreren Personen besetzter Kleinbus mit bulgarischen Kennzeichen zu einer allgemeinen Verkehrskontrolle angehalten. Bei Überprüfung des 21jährigen bulgarischen Fahrers ergaben sich Anzeichen, dass dieser unter dem Einfluss von Betäubungsmitteln steht. Ein daraufhin durchgeführter Schnelltest bestätigte den Verdacht. Bei dem Herrn wurde eine Blutentnahme angeordnet. Sollte sich dabei bestätigen, dass er unter dem Einfluss von Betäubungsmitteln stand, erwartet ihn eine entsprechende Anzeige wegen einer Verkehrsordnungswidrigkeit. Dem Herrn wurde die Weiterfahrt mit dem Kleinbus untersagt, Die Weiterfahrt erfolgte durch einen verkehrstüchtigen Mitfahrer. (PI Günzburg)",
-      "Zeugen werden gebeten, sich bei der PI Günzburg, Tel. 08221-9190, zu melden."
-    ],
-    "case_key": "0c1c6ed00edc78e4",
-    "case_ordinal": 34,
-    "categories": [
-      "Drogendelikt"
-    ],
-    "content_hash": "4a8ad0af17f8ae0ed269a264517bc9b57cfbc448beb2b6cc69b88c86f6197536",
-    "guid": "urn:polizei-bayern:108723:0c1c6ed00edc78e4",
-    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108723/index.html",
-    "organization": "Polizeipräsidium Schwaben Süd/West",
-    "published_ts": 1789812120,
-    "source_id": "108723",
-    "source_title": "PP SWS | Pressemeldungen vom 19.09.2026",
-    "title": "Kleinbus unter dem Einfluss von Drogen geführt"
-  },
-  {
-    "body": [
-      "Streit im Bordell endet mit Strafanzeige und Hausverbot",
-      "NEU-ULM. In der Nacht von Freitag auf Samstag wurde der Polizei ein Streit zwischen einem 20-jährigen afghanischen Klient und einer 23-jährigen bulgarischen Sexarbeiterin in einem Neu-Ulmer Bordell mitgeteilt. Zwischen dem 20-Jährigen und der 23-Jährigen kam es zu einem zunächst verbalen Streit, der Grund und Inhalt des Streits ist nicht bekannt. Im Verlauf des Streits nahm die 23-Jährige ihren Stöckelschuh und schlug in Richtung des 20-Jährigen, welcher am Arm getroffen, dabei aber nicht verletzt wurde. Im Anschluss wurde die Polizei durch den 20-Jährigen verständigt. Durch die verständigte Streifenbesatzung konnte der Grund des Streits weiterhin nicht näher erforscht werden. Es wurden derzeit Ermittlungen wegen gefährlicher Körperverletzung zum Nachteil des 20-Jährigen aufgenommen. Nachdem es in der Vergangenheit mit dem 20-Jährigen immer wieder zu Streitigkeiten im Bordell mit den dortigen Sexarbeiterinnen kam, erhielt dieser hier vom Betreiber ein lebenslanges Hausverbot. (PI Neu-Ulm)"
-    ],
-    "case_key": "44861575e5a1c7e0",
-    "case_ordinal": 38,
-    "categories": [
-      "Gewaltdelikt"
-    ],
-    "content_hash": "44861575e5a1c7e0713a81ad987321a45b9842704e0e4b6d41c13023bb132251",
-    "guid": "urn:polizei-bayern:108723:44861575e5a1c7e0",
-    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108723/index.html",
-    "organization": "Polizeipräsidium Schwaben Süd/West",
-    "published_ts": 1789812120,
-    "source_id": "108723",
-    "source_title": "PP SWS | Pressemeldungen vom 19.09.2026",
-    "title": "Streit im Bordell endet mit Strafanzeige und Hausverbot"
-  },
-  {
-    "body": [
-      "CREUßEN, LKR. BAYREUTH. Zu einem brennenden Pkw mussten die Feuerwehr und die Pegnitzer Polizei am Donnerstagabend ausrücken. Weil sich Hinweise auf Brandstiftung ergaben, ermittelt jetzt die Kripo.",
-      "Gegen 21.30 Uhr teilten Passanten der Integrierten Leitstelle den Brand eines Fahrzeugs im Hintermühlweg in der Nähe des Schwarzbachs mit. Durch die Hitze der Flammen wurde ein weiteres danebenstehendes Auto beschädigt. Es handelt sich um zwei ältere Fahrzeuge der Marke Audi, an denen ein Gesamtschaden in Höhe von mehr als zehntausend Euro entstand.",
-      "Nachdem die Feuerwehr die Autos gelöscht hatte, begannen die Ermittlungen der Pegnitzer Polizei. Hierbei ergaben sich Hinweise auf Brandstiftung.",
-      "Deshalb übernahm die Kriminalpolizei Bayreuth die weiteren Ermittlungen und bittet um Hinweise zur Tat.",
-      "Wer hat gegen 21.30 Uhr Beobachtungen zu verdächtigen Personen oder zur Tat gemacht. Zeugen werden gebeten, sich an die Kripo Bayreuth unter Tel.-Nr. 0921/506-0 zu wenden."
-    ],
-    "case_key": "b9e534ef1c2fe307",
-    "case_ordinal": 0,
-    "categories": [
-      "Gewaltdelikt"
-    ],
-    "content_hash": "fe4ff1657c88530c48a4b014a61995db1a4ce243380eb54144450988ce847b90",
-    "guid": "urn:polizei-bayern:108700:b9e534ef1c2fe307",
-    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108700/index.html",
-    "organization": "Polizeipräsidium Oberfranken",
-    "published_ts": 1789730400,
-    "source_id": "108700",
-    "source_title": "Brand eines Pkw",
-    "title": "Brand eines Pkw"
   }
 ]
