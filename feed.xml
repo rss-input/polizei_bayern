@@ -6,10 +6,18 @@
     <description>Gewalt-, Sexual- und Drogendelikte sowie organisierte Kriminalität aus den Pressemitteilungen der Bayerischen Polizei.</description>
     <language>de-DE</language>
     <generator>polizei-bayern-rss</generator>
-    <lastBuildDate>Sun, 08 Nov 2026 13:20:57 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 09 Nov 2026 09:46:10 +0000</lastBuildDate>
     <ttl>30</ttl>
     <atom:link href="https://rss-input.github.io/polizei_bayern/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 08 Nov 2026 12:00:00 +0000</pubDate>
+    <pubDate>Mon, 09 Nov 2026 09:34:00 +0000</pubDate>
+    <item>
+      <title>Fahrzeugbrand in Tiefgarage – Kripo geht von Brandstiftung aus</title>
+      <link>https://www.polizei.bayern.de/aktuelles/pressemitteilungen/111178/index.html</link>
+      <guid isPermaLink="false">urn:polizei-bayern:111178:9f87b3e85fd7e315</guid>
+      <pubDate>Mon, 09 Nov 2026 09:34:00 +0000</pubDate>
+      <category>Gewaltdelikt</category>
+      <description>&lt;p&gt;PM 09.11.2026, PP Oberbayern Nord / Tatdatum 07.11.26 / Tatort: Geschwister-Scholl-Platz / Delikt: Gewaltdelikt / Opfer: nicht näher mitgeteilt / Tatverdächtige: nicht näher mitgeteilt / Ergebnis: nicht mitgeteilt / Besonderheiten: FÜRSTENFELDBRUCK.Beim Brand eines Fahrzeuges in einer Tiefgarage in Fürstenfeldbruck entstand am vergangenen Samstag Sachschaden. / &lt;a href="https://www.polizei.bayern.de/aktuelles/pressemitteilungen/111178/index.html"&gt;https://www.polizei.bayern.de/aktuelles/pressemitteilungen/111178/index.html&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>1757. Versuchtes Tötungsdelikt – Ludwigsvorstadt</title>
       <link>https://www.polizei.bayern.de/aktuelles/pressemitteilungen/111157/index.html</link>
@@ -4014,14 +4022,6 @@
       <pubDate>Sun, 20 Sep 2026 09:55:00 +0000</pubDate>
       <category>Gewaltdelikt</category>
       <description>&lt;p&gt;PM 20.09.2026, PP München / Tatdatum 19.09.26 / Tatort: nicht näher mitgeteilt / Delikt: Körperverletzung / Opfer: 1 (28 Jahre); Staatsangehörigkeit nicht mitgeteilt / Tatverdächtige: Der tatverdächtige Mitarbeiter des Sicherheitsdienstes konnte vor Ort nicht mehr angetroffen werden. / Ergebnis: nicht mitgeteilt / Besonderheiten: Hierbei schlug der 28-Jährige mit dem Kopf auf dem Boden auf und verlor kurzzeitig das Bewusstsein. / &lt;a href="https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108752/index.html"&gt;https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108752/index.html&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Größerer Polizeieinsatz nach mitgeteilter Schusswaffe</title>
-      <link>https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108750/index.html</link>
-      <guid isPermaLink="false">urn:polizei-bayern:108750:52e05fb7874125e2</guid>
-      <pubDate>Sun, 20 Sep 2026 09:32:00 +0000</pubDate>
-      <category>Drogendelikt</category>
-      <description>&lt;p&gt;PM 20.09.2026, PP Oberfranken / Tatdatum 18.09.26 / Tatort: Hof / Delikt: Besitz von Betäubungsmitteln / Opfer: keine individualisierten Geschädigten / Tatverdächtige: nicht näher mitgeteilt / Ergebnis: nicht mitgeteilt / Besonderheiten: Ein aufmerksamer Autofahrer erkannte beim Vorbeifahren an einer Personengruppe eine Schusswaffe. / &lt;a href="https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108750/index.html"&gt;https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108750/index.html&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -1,6 +1,28 @@
 [
   {
     "body": [
+      "FÜRSTENFELDBRUCK.Beim Brand eines Fahrzeuges in einer Tiefgarage in Fürstenfeldbruck entstand am vergangenen Samstag Sachschaden. Die Kriminalpolizei hat die Ermittlungen übernommen.",
+      "Gegen 18:20 Uhr waren die Rettungskräfte über das Feuer in der öffentlich zugänglichen Tiefgarage am Geschwister-Scholl-Platz informiert worden.",
+      "Der alarmierten Feuerwehr gelang es, den brennenden Pkw zügig abzulöschen und ein Übergreifen der Flammen auf weitere Fahrzeuge sowie Gebäudeteile zu verhindern. An dem auf einem gemieteten Parkplatz seit mehreren Monaten unbewegten Wagen entstand Sachschaden in Höhe von rund 5000 Euro. Die hautsächlich durch Ruß entstandenen Schäden an der Garage sind derzeit noch nicht bezifferbar.",
+      "Ersten Zeugenhinweisen zufolge waren kurz vor Brandausbruch mehrere Jugendliche in der Nähe des Fahrzeuges beobachtet und Knallgeräusche -eventuell von Feuerwerkskörpern- wahrgenommen worden. Danach seien die Unbekannten davongelaufen.",
+      "Experten der Kriminalpolizei Fürstenfeldbruck gehen nach einer ersten Begutachtung von einer vorsätzlich herbeigeführten Brandstiftung an dem Fahrzeug aus. Eventuelle Zeugen werden gebeten, auffällige Beobachtungen unter der Telefonnummer 08141-6120 zu melden."
+    ],
+    "case_key": "9f87b3e85fd7e315",
+    "case_ordinal": 0,
+    "categories": [
+      "Gewaltdelikt"
+    ],
+    "content_hash": "4345268a33e94467dc603c3c98448034738e820dc9929e7dfa15c9ab73869a07",
+    "guid": "urn:polizei-bayern:111178:9f87b3e85fd7e315",
+    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/111178/index.html",
+    "organization": "Polizeipräsidium Oberbayern Nord",
+    "published_ts": 1794216840,
+    "source_id": "111178",
+    "source_title": "Fahrzeugbrand in Tiefgarage – Kripo geht von Brandstiftung aus",
+    "title": "Fahrzeugbrand in Tiefgarage – Kripo geht von Brandstiftung aus"
+  },
+  {
+    "body": [
       "1757. Versuchtes Tötungsdelikt – Ludwigsvorstadt",
       "Am Samstag, 07.11.2026, gegen 19:00 Uhr, hielt sich ein 38-jähriger Deutscher mit Wohnsitz im Landkreis Miesbach im Bereich des Hauptbahnhofes auf und äußerte mehrfach lautstarke Äußerungen mit unter anderem fremdenfeindlichem Inhalt Wenig später traf er zufällig auf einen 32-jährigen Afghanen mit Wohnsitz in München. Zwischen den beiden entwickelte sich zunächst eine verbale Streitigkeit. Im weiteren Verlauf zog der 38-Jährige ein Messer und stach unvermittelt in Richtung des Bauchbereichs des 32-Jährigen.",
       "Dieser konnte die Angriffe abwehren und brachte den 38-Jährigen zu Boden, wo er ihn bis zum Eintreffen der Polizei fixierte. Eine unbeteiligte Person bemerkte die Auseinandersetzung und verständigte den Polizeinotruf 110.",
@@ -10870,29 +10892,5 @@
     "source_id": "108752",
     "source_title": "Medieninformation der Polizei München vom 20.09.2026",
     "title": "1411. Körperverletzungsdelikt – Festzelt"
-  },
-  {
-    "body": [
-      "HOF. Ein aufmerksamer Autofahrer erkannte beim Vorbeifahren an einer Personengruppe eine Schusswaffe. Polizisten stellten die Waffe sicher.",
-      "Am Freitagvormittag, gegen 9.15 Uhr, verständigte der Mann den Notruf. Er war im Bereich des Hofer Longoliusplatz unterwegs und sah dort mehrere Personen in einer Gruppe, von denen einer eine Waffe dabei hatte.",
-      "Mehrere Streifen der Hofer Polizei fuhren deshalb zum Einsatzort und kontrollierten die Personengruppe. Diese bestand aus vier syrischen Männern im Alter von 17 bis 26 Jahren. Hierbei fanden die Beamten die beschriebene Schusswaffe und stellten sie sicher. Nach aktuellem Stand handelt es sich hierbei um eine Gaspistole.",
-      "Weiter fanden die Beamten mehrere Tabletten, bei denen es sich nach aktuellem Stand um verschreibungspflichtige Medikamente oder um Betäubungsmittel handeln könnte.",
-      "Bei sich deshalb anschließenden Wohnungsdurchsuchungen wurden keine weiteren verdächtigen Gegenstände aufgefunden.",
-      "Die weiteren Ermittlungen wegen möglicher Verstöße nach dem Waffengesetz, Betäubungs- und dem Arzneimittelgesetz führt die Hofer Polizei.",
-      "Im Rahmen der Sachverhaltsaufnahme bei der Polizeiinspektion Hof verschlechterte sich der Gesundheitszustand von allen vier Männern mutmaßlich aufgrund des Konsums von Betäubungs- oder Arzneimitteln. Deshalb wurde ein Notarzt sowie der Rettungsdienst zu Hilfe geholt. Alle vier Männer mussten daraufhin in umliegende Krankenhäuser gebracht werden."
-    ],
-    "case_key": "52e05fb7874125e2",
-    "case_ordinal": 0,
-    "categories": [
-      "Drogendelikt"
-    ],
-    "content_hash": "0fd077193d6d38780b7d6526d5a6cbabcac50a0dd0dd94632c3ab12ba160b939",
-    "guid": "urn:polizei-bayern:108750:52e05fb7874125e2",
-    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108750/index.html",
-    "organization": "Polizeipräsidium Oberfranken",
-    "published_ts": 1789896720,
-    "source_id": "108750",
-    "source_title": "Größerer Polizeieinsatz nach mitgeteilter Schusswaffe",
-    "title": "Größerer Polizeieinsatz nach mitgeteilter Schusswaffe"
   }
 ]
