@@ -1,6 +1,101 @@
 [
   {
     "body": [
+      "Kassiererin in Discountmarkt angegriffen | Zeugen gesucht",
+      "FÜSSEN. Am Donnerstag, den 12.11.2026, griff eine bislang unbekannte Kundin in einem Discountmarkt in Füssen eine Kassiererin an. Die Frau war offenbar verärgert, weil der Pfandflaschenautomat defekt war und sie die leeren Flaschen auch an der Kasse nicht abgeben konnte. Anschließend warf sie mehrere Gegenstände auf die Kassiererin. Die Frau wurde dabei leicht verletzt. Weitere Kunden befanden sich im Kassenbereich und könnten den Vorfall beobachtet haben. Die Polizei ermittelt wegen gefährlicher Körperverletzung gegen eine bislang unbekannte Frau. Hinweise nimmt die Polizeiinspektion Füssen unter der Telefonnummer 08362/91230 entgegen. (PI Füssen)"
+    ],
+    "case_key": "2e49293554958991",
+    "case_ordinal": 5,
+    "categories": [
+      "Gewaltdelikt"
+    ],
+    "content_hash": "2e492935549589914c4a65535fbf2d5002735f9998499278f1f4f3968d97712c",
+    "guid": "urn:polizei-bayern:111456:2e49293554958991",
+    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/111456/index.html",
+    "organization": "Polizeipräsidium Schwaben Süd/West",
+    "published_ts": 1794654780,
+    "source_id": "111456",
+    "source_title": "PP SWS | Pressemeldungen vom 14.11.2026",
+    "title": "Kassiererin in Discountmarkt angegriffen | Zeugen gesucht"
+  },
+  {
+    "body": [
+      "Fahrt unter Drogeneinfluss",
+      "LINDAU. Am frühen Samstagmorgen gegen 00:15 Uhr kontrollierte eine Streife der Polizeiinspektion Lindau einen Pkw mit österreichischer Zulassung. Bei dem 25-jährigen Fahrer stellten die Beamten drogentypische Auffälligkeiten fest. Ein Drogentest erhärtete den Verdacht, dass der Mann zuvor Marihuana konsumiert hatte. Die Polizei ordnete eine Blutentnahme an. Sollte die Auswertung den Verdacht bestätigen, muss der Fahrer mit einer Geldstrafe und einem Fahrverbot rechnen. (PI Lindau)"
+    ],
+    "case_key": "ae630f4f7d4750b2",
+    "case_ordinal": 10,
+    "categories": [
+      "Drogendelikt"
+    ],
+    "content_hash": "ae630f4f7d4750b2b3211ae5112239892a486a3aa03f9bb77f79839636a1b66e",
+    "guid": "urn:polizei-bayern:111456:ae630f4f7d4750b2",
+    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/111456/index.html",
+    "organization": "Polizeipräsidium Schwaben Süd/West",
+    "published_ts": 1794654780,
+    "source_id": "111456",
+    "source_title": "PP SWS | Pressemeldungen vom 14.11.2026",
+    "title": "Fahrt unter Drogeneinfluss"
+  },
+  {
+    "body": [
+      "Körperverletzung und Widerstand",
+      "LINDAU. Am Freitag, gegen 18:45 Uhr, kam es in einer Obdachlosenunterkunft zu einer Auseinandersetzung zwischen einem 45-jährigen Italiener und einem 57-jährigen Deutschen. Der 45-Jährige soll den Mann nach einem Streit körperlich angegriffen und ein Fahrrad geworfen haben. Als die Polizei den Mann in Gewahrsam nehmen wollte, leistete er erheblichen Widerstand und beleidigte die Beamten. Dabei verletzte sich ein Beamter leicht, blieb jedoch dienstfähig. Die Polizei ermittelt nun wegen Körperverletzung, Beleidigung und Widerstands gegen Vollstreckungsbeamte gegen den 45-Jährigen. (PI Lindau)"
+    ],
+    "case_key": "eaf310dc1b85f50d",
+    "case_ordinal": 11,
+    "categories": [
+      "Gewaltdelikt"
+    ],
+    "content_hash": "eaf310dc1b85f50d4efb983b0d0ee4b860cbc98db9009e557bc341f4350474fb",
+    "guid": "urn:polizei-bayern:111456:eaf310dc1b85f50d",
+    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/111456/index.html",
+    "organization": "Polizeipräsidium Schwaben Süd/West",
+    "published_ts": 1794654780,
+    "source_id": "111456",
+    "source_title": "PP SWS | Pressemeldungen vom 14.11.2026",
+    "title": "Körperverletzung und Widerstand"
+  },
+  {
+    "body": [
+      "Jugendlicher unter Drogeneinfluss mit E-Scooter unterwegs",
+      "BURGAU. Weil er mit seinem Freund zusammen auf dem E-Scooter fuhr und zudem noch sein Mobiltelefon benutzte, wurde ein 17-jähriger einer Kontrolle unterzogen. Im Rahmen der Kontrolle stellten die Beamten Anzeichen fest, dass der Fahrer unter Einfluss von Betäubungsmitteln stehen könnte. Auf den Verdacht angesprochen, räumte der 17-Jährige den Konsum von Betäubungsmitteln ein. Ihn erwartet nun ein Ordnungswidrigkeitenverfahren. (PI Burgau)"
+    ],
+    "case_key": "e105474a845e9ab9",
+    "case_ordinal": 24,
+    "categories": [
+      "Drogendelikt"
+    ],
+    "content_hash": "e105474a845e9ab91de5df59b5a5d2c7f26129aefeed5477ae50a106d854ecf6",
+    "guid": "urn:polizei-bayern:111456:e105474a845e9ab9",
+    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/111456/index.html",
+    "organization": "Polizeipräsidium Schwaben Süd/West",
+    "published_ts": 1794654780,
+    "source_id": "111456",
+    "source_title": "PP SWS | Pressemeldungen vom 14.11.2026",
+    "title": "Jugendlicher unter Drogeneinfluss mit E-Scooter unterwegs"
+  },
+  {
+    "body": [
+      "Flucht vor Polizeikontrolle endet in Sackgasse",
+      "GÜNZBURG. Am späten Freitagabend versuchte ein 17-jähriger deutsch-ungarischer Pkw-Fahrer, sich in Günzburg einer Verkehrskontrolle zu entziehen. Er fuhr dabei mit deutlich überhöhter Geschwindigkeit. Die Polizei hielt ihn und drei weitere Insassen schließlich in einer Sackgasse im Bereich des Günzburger Waldbades an. Dabei stellte sich heraus, dass der Jugendliche keine Fahrerlaubnis besaß und den Pkw ohne Zulassung im öffentlichen Straßenverkehr fuhr. Die am Fahrzeug angebrachten serbischen Kennzeichen waren zuvor in Ichenhausen von einem anderen Pkw entwendet worden. Ein 15-jähriger syrischer Mitfahrer räumte ein, die Kennzeichen entwendet und an dem kontrollierten Pkw angebracht zu haben. Zudem stellte die Polizei Unstimmigkeiten bei den Fahrzeugpapieren fest. Während der weiteren Sachbearbeitung leistete der 15-Jährige Widerstand und verhielt sich aggressiv gegenüber den Polizeibeamten. Ein Drogentest verlief positiv auf Amphetamin. Da der Jugendliche ankündigte, nach einer möglichen Entlassung erneut ein Fahrzeug zu entwenden, nahm ihn die Polizei zur Verhütung weiterer Straftaten in Gewahrsam. Bei der Überprüfung stellte sich außerdem heraus, dass er von seiner Betreuungseinrichtung als vermisst gemeldet worden war. Die Polizei leitete Ermittlungsverfahren wegen Fahrens ohne Fahrerlaubnis, Kennzeichendiebstahls, Widerstands gegen Vollstreckungsbeamte und Urkundenfälschung ein. (PI Günzburg)"
+    ],
+    "case_key": "3eb491d8004a9a57",
+    "case_ordinal": 32,
+    "categories": [
+      "Drogendelikt"
+    ],
+    "content_hash": "3eb491d8004a9a573e5fc87639e065558736a50a968747254e2f07c74d1c5e80",
+    "guid": "urn:polizei-bayern:111456:3eb491d8004a9a57",
+    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/111456/index.html",
+    "organization": "Polizeipräsidium Schwaben Süd/West",
+    "published_ts": 1794654780,
+    "source_id": "111456",
+    "source_title": "PP SWS | Pressemeldungen vom 14.11.2026",
+    "title": "Flucht vor Polizeikontrolle endet in Sackgasse"
+  },
+  {
+    "body": [
       "1791. Öffentlichkeitsfahndung nach zwei unbekannten Tätern nach Raubüberfall – Pasing\n\n-siehe Medieninformation vom 15.10.2026, Nr. 1633",
       "Wie bereits berichtet, kam es am Donnerstag, 15.10.2026, gegen 11:50 Uhr, zu einem Raubdelikt auf ein Geschäft (Edelmetall An- und Verkauf), bei dem Edelmetalle, Schmuck und Bargeld in einem niedrigen sechsstelligen Gesamtwert entwendet wurden.",
       "Die Auswertung von Videomaterial führte im Lauf der Ermittlungen zu der Erkenntnis, dass es sich um zwei Täter handelte. Beide Männer waren kurz vor der Tat mit Fahrrädern in die Nähe des Tatorts gefahren und flüchteten auch jeweils auf Fahrrädern in unbekannte Richtung.",
@@ -10775,107 +10870,5 @@
     "source_id": "109023",
     "source_title": "Medieninfo Nordschwaben - 24.09.2026",
     "title": "Oberhausen– In der Nacht zum Donnerstag (24.09.2026) kontrollierte die Polizei gegen 01:15 Uhr in der Hofer Straße einen E-Scooter-Fahrer, welcher unter Drogeneinfluss stand."
-  },
-  {
-    "body": [
-      "Streit am Bahnhofsvorplatz eskaliert",
-      "MEMMINGEN. Am Mittwoch, 23.09.2026, gegen 23:00 Uhr, gerieten ein 44-jähriger und ein 40-jähriger deutscher Mann auf dem Bahnhofsvorplatz zunächst verbal in Streit. Die Auseinandersetzung wurde anschließend handgreiflich. Der 44-Jährige setzte schließlich Tierabwehrspray gegen den 40-Jährigen ein. Polizeibeamte schlichteten den Streit. Der 40-Jährige wurde vom Rettungsdienst vor Ort behandelt und anschließend entlassen. Bei der Durchsuchung des 44-Jährigen fanden die Beamten außerdem einen Teleskopschlagstock und stellten ihn sicher. Nach Abschluss der polizeilichen Maßnahmen entließen sie den Mann. Die Polizei ermittelt nun wegen gefährlicher Körperverletzung und eines Verstoßes gegen das Waffengesetz gegen den 44-jährigen Deutschen. (PI Memmingen)"
-    ],
-    "case_key": "64c46d9cbb75777b",
-    "case_ordinal": 25,
-    "categories": [
-      "Gewaltdelikt"
-    ],
-    "content_hash": "64c46d9cbb75777bd74f3a6a1eb8da04fd4e3457c221cb9ddf1a6a07f33318d6",
-    "guid": "urn:polizei-bayern:108994:64c46d9cbb75777b",
-    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108994/index.html",
-    "organization": "Polizeipräsidium Schwaben Süd/West",
-    "published_ts": 1790244300,
-    "source_id": "108994",
-    "source_title": "PP SWS | Pressemeldungen vom 24.09.2026",
-    "title": "Streit am Bahnhofsvorplatz eskaliert"
-  },
-  {
-    "body": [
-      "Körperliche Auseinandersetzung in Senden",
-      "SENDEN. Am Mittwoch, 24.09.2026, am späten Nachmittag, kam es in der Hauptstraße in Senden zu einer körperlichen Auseinandersetzung zwischen einer 33-jährigen Frau mit bulgarischer Staatsangehörigkeit und einem Mann mit irakischer Staatsangehörigkeit. Im Verlauf eines Streits schlug die Frau mit einer Holzlatte auf den Mann ein. Dieser erlitt leichte Verletzungen und wurde zur medizinischen Untersuchung in ein Krankenhaus gebracht. Aufgrund einer Sprachbarriere konnte die Ursache des Streits vor Ort nicht abschließend geklärt werden. Die Polizei ermittelt nun wegen gefährlicher Körperverletzung gegen die 33-jährige Frau. (PSt Senden)"
-    ],
-    "case_key": "c731a552874cd6a5",
-    "case_ordinal": 42,
-    "categories": [
-      "Gewaltdelikt"
-    ],
-    "content_hash": "c731a552874cd6a5fc8518773b4d3b805bf73228d38608f12ffb08c00eb2cb6a",
-    "guid": "urn:polizei-bayern:108994:c731a552874cd6a5",
-    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108994/index.html",
-    "organization": "Polizeipräsidium Schwaben Süd/West",
-    "published_ts": 1790244300,
-    "source_id": "108994",
-    "source_title": "PP SWS | Pressemeldungen vom 24.09.2026",
-    "title": "Körperliche Auseinandersetzung in Senden"
-  },
-  {
-    "body": [
-      "Stadtgebiet – Am Mittwoch (23.09.2026), in der Zeit von 16.00 Uhr bis 22.00 Uhr, führte das Polizeipräsidium Schwaben Nord gemeinsam mit dem Zoll und der Stadt Augsburg behördenübergreifende Kontrollen in Augsburg durch.",
-      "An der behördenübergreifenden Aktion waren rund 50 Beamte und Mitarbeiter beteiligt.\n\nZiel der konzertierten Kontrollaktion war eine ganzheitliche Prüfung von Gewerbebetrieben. Insgesamt überprüften die Behörden vier Betriebe im Stadtgebiet Augsburg, bei denen mehrere Verstöße gegen baurechtliche Vorgaben und Verstöße nach dem Infektionsschutzgesetz, der Lebensmittel- und Lebensmittelhygieneverordnung, der Preisangabenverordnung, dem Gaststättengesetz und dem Jugendschutzgesetz festgestellt wurden. Die Zollbehörde stellte mehrere Auffälligkeiten fest, welche jedoch weitere Überprüfungen im Nachgang erfordern. In einem Betrieb fand die Polizei illegale Drogen. Diesbezüglich wird nun wegen eines Verstoßes nach dem Betäubungsmittelrecht gegen einen 59-jährigen Mann und eine 40-jährige Frau ermittelt.",
-      "Der 59-jährige Mann besitzt die serbische Staatsangehörigkeit. Die 40-jährige Frau besitzt die italienische Staatsangehörigkeit."
-    ],
-    "case_key": "c193f9a8bc8e74b0",
-    "case_ordinal": 0,
-    "categories": [
-      "Drogendelikt"
-    ],
-    "content_hash": "c0560d747d10c041ee7904cca21d99cc25550aabda2ef150316bd222de949ca8",
-    "guid": "urn:polizei-bayern:108976:c193f9a8bc8e74b0",
-    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108976/index.html",
-    "organization": "Polizeipräsidium Schwaben Nord",
-    "published_ts": 1790196840,
-    "source_id": "108976",
-    "source_title": "Medieninfo Nordschwaben - 23.09.2026 - Behördenübergreifende Schwerpunktkontrollen",
-    "title": "An der behördenübergreifenden Aktion waren rund 50 Beamte und Mitarbeiter beteiligt."
-  },
-  {
-    "body": [
-      "WALDKIRCHEN, LKR. FREYUNG-GRAFENAU. THYRNAU, LKR. PASSAU. BÜCHLBERG, LKR. PASSAU. Am Mittwoch, 23.09.2026, wurden insgesamt sieben Durchsuchungsbeschlüsse wegen des Verdachts des banden- und gewerbsmäßigen Diebstahls vollzogen.",
-      "In den Vormittagsstunden vollzog die Kriminalpolizeiinspektion Passau mit Unterstützung der Zentralen Einsatzdienste Passau und Straubing sieben Durchsuchungsbeschlüsse in Waldkirchen, Thyrnau und Büchlberg. Die Tatverdächtigen im Alter zwischen 17 und 25 Jahren mit syrischer Staatsangehörigkeit stehen im Verdacht, seit etwa Frühjahr 2026 gemeinsam hochwertige Parfüms aus verschiedenen Drogeriemärkten im Gesamtwert von rund 20.000 Euro entwendet zu haben.",
-      "Bei den Durchsuchungen wurden mehrere Mobiltelefone, Parfums, verbotene Gegenstände nach dem WaffG und Betäubungsmittel sichergestellt.",
-      "Zeitgleich sind gegen die drei Tatverdächtigen im Alter von 22, 23 und 24 Jahren die von der Staatsanwaltschaft Passau erwirkten Haftbefehle wegen des dringenden Tatverdachts des banden- und gewerbsmäßigen Diebstahls vollzogen worden. Die drei Männer sind heute nach Vorführung beim Ermittlungsrichter des Amtsgerichts Passau in verschiedene bayerische Justizvollzugsanstalten eingeliefert worden und befinden sich nun in Untersuchungshaft.",
-      "Die weiteren Ermittlungen, insbesondere die Auswertung der sichergestellten Mobiltelefone, werden durch das zuständige Fachkommissariat der Kriminalpolizeiinspektion Passau unter Sachleitung der Staatsanwaltschaft Passau geführt.",
-      "Medienkontakt: Polizeipräsidium Niederbayern, PKin Gibis, Tel.: 09421/ 868-1015\n\nVeröffentlicht: 23.09.2026, 15:10 Uhr"
-    ],
-    "case_key": "75ce345379262d9a",
-    "case_ordinal": 0,
-    "categories": [
-      "Drogendelikt"
-    ],
-    "content_hash": "a4a629cb82bcbf38ef622ad30bd754a7ddc91b41d24bd20d39c581e4761236f2",
-    "guid": "urn:polizei-bayern:108958:75ce345379262d9a",
-    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108958/index.html",
-    "organization": "Polizeipräsidium Niederbayern",
-    "published_ts": 1790168940,
-    "source_id": "108958",
-    "source_title": "Niederbayern: Durchsuchungen wegen des Verdachts des banden- und gewerbsmäßigen Diebstahls",
-    "title": "Niederbayern: Durchsuchungen wegen des Verdachts des banden- und gewerbsmäßigen Diebstahls"
-  },
-  {
-    "body": [
-      "NEUMARKT I.D.OPF. Am Dienstagnachmittag kam es in einer Drogeriemarkt-Filiale in Neumarkt zu einem Raubdelikt. Ein bislang unbekannter Täter bedrohte eine Kassiererin mit einem Reizstoffsprühgerät, erbeutete Bargeld und flüchtete. Die Kriminalpolizei Regensburg ermittelt und sucht Zeugen.",
-      "Am 22.09.2026, gegen 14:50 Uhr, betrat ein bislang unbekannter, vermummter Mann die Filiale eines Drogeriemarktes in Neumarkt i.d.OPf., Oberer Marktstraße. Der Täter begab sich zur Kasse und bedrohte die dortige Kassiererin unter Vorhalt eines Reizstoffsprühgerätes. Im Anschluss erbeutete der Mann Bargeld in Höhe von etwa 450 Euro, sprühte einer anderen Kassiererin Reizstoff ins Gesicht und flüchtete zu Fuß.",
-      "Auf seiner Flucht zog der Täter einen Teil seiner Oberbekleidung aus. Im Rahmen der Fahndungsmaßnahmen konnten an drei verschiedenen Stellen entlang des Fluchtweges diverse Kleidungsstücke aufgefunden werden, die dem Täter zugeordnet werden. Die Fahndung im Nahbereich sowie im Stadtgebiet Neumarkt i.d.OPf. verlief bislang ohne Erfolg. Im weiteren Verlauf wurde die Suche unter Einsatz von zwei Personensuchhunden des Polizeipräsidiums Mittelfranken fortgesetzt.",
-      "Am Tatort wurde eine umfangreiche Spurensicherung durchgeführt. Die weiteren Ermittlungen werden durch die Kriminalpolizeiinspektion Regensburg übernommen. Personen, die am 22.09.2026, gegen 14:50 Uhr, im Bereich Oberer Marktstraße verdächtige Wahrnehmungen zu Personen oder Fahrzeugen gemacht haben, werden gebeten, sich bei der Kriminalpolizei Regensburg unter der Telefonnummer 0941/506-2888 zu melden."
-    ],
-    "case_key": "a40aa4327babf02b",
-    "case_ordinal": 0,
-    "categories": [
-      "Gewaltdelikt"
-    ],
-    "content_hash": "4515bad9d9086304c91d6a02ceceb0d89aa64630990f25520e5212c983481084",
-    "guid": "urn:polizei-bayern:108947:a40aa4327babf02b",
-    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/108947/index.html",
-    "organization": "Polizeipräsidium Oberpfalz",
-    "published_ts": 1790160060,
-    "source_id": "108947",
-    "source_title": "Raubdelikt in Drogeriemarkt – Täter flüchtig",
-    "title": "Raubdelikt in Drogeriemarkt – Täter flüchtig"
   }
 ]
