@@ -1,6 +1,104 @@
 [
   {
     "body": [
+      "Körperverletzung in Kempten (Allgäu)",
+      "KEMPTEN In der Nacht vom 15.11.2026 kam es in der Kronenstraße zu einer gewalttätigen Auseinandersetzung.",
+      "Hierbei griff ein 21-jähriger deutscher Mann drei junge Männer körperlich an, woraufhin es zu einer Rangelei zwischen den Beteiligten kam. Dabei wurden drei Personen leicht verletzt; zwei von ihnen wurden zur medizinischen Behandlung in ein Krankenhaus gebracht.",
+      "Die Polizei hat die Ermittlungen wegen Körperverletzung aufgenommen. (PI Kempten)"
+    ],
+    "case_key": "fe02fc6b79e0de5e",
+    "case_ordinal": 1,
+    "categories": [
+      "Gewaltdelikt"
+    ],
+    "content_hash": "9dd8e775a8317dfbf1e664a3a91941a8be46a83c027778c072d6e12bed77a7ae",
+    "guid": "urn:polizei-bayern:111481:fe02fc6b79e0de5e",
+    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/111481/index.html",
+    "organization": "Polizeipräsidium Schwaben Süd/West",
+    "published_ts": 1794734580,
+    "source_id": "111481",
+    "source_title": "PP SWS | Pressemeldungen vom 15.11.2026",
+    "title": "Körperverletzung in Kempten (Allgäu)"
+  },
+  {
+    "body": [
+      "Betrunkener Radfahrer fährt mit gestohlenem Fahrrad",
+      "MARKTOBERDORF. Am Samstagmittag wurde in der Füssener Straße ein 44-jähriger, deutscher, Fahrradfahrer kontrolliert, da er auf der falschen Straßenseite fuhr und während der Fahrt sein Mobiltelefon nutzte. Bei der Kontrolle wurde Alkoholgeruch festgestellt. Ein Test ergab eine Alkoholisierung von über 1,6 Promille. Darüber hinaus gab der Mann an, dass er kurz zuvor Drogen konsumiert hat. Daher wurde eine Blutentnahme angeordnet. Zusätzlich wurde festgestellt, dass das Fahrrad gestohlen wurde. Das Fahrrad wurde sichergestellt und den Mann erwartet nun eine Anzeige wegen Diebstahl und Trunkenheit im Straßenverkehr. (PI Marktoberdorf)"
+    ],
+    "case_key": "327926e11f6e83d3",
+    "case_ordinal": 5,
+    "categories": [
+      "Drogendelikt"
+    ],
+    "content_hash": "327926e11f6e83d3d7ff3e41811766dc48aff41a6b5301ea1b3d58ac4de08e25",
+    "guid": "urn:polizei-bayern:111481:327926e11f6e83d3",
+    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/111481/index.html",
+    "organization": "Polizeipräsidium Schwaben Süd/West",
+    "published_ts": 1794734580,
+    "source_id": "111481",
+    "source_title": "PP SWS | Pressemeldungen vom 15.11.2026",
+    "title": "Betrunkener Radfahrer fährt mit gestohlenem Fahrrad"
+  },
+  {
+    "body": [
+      "Die tagesaktuellen Meldungen der Polizeiinspektionen Lindau und Lindenberg sowie Meldungen der Kriminalpolizei, der Verkehrs- und Fahndungsdienststellen mit Regionalbezug.",
+      "Trotz Fahrverbot gefahren",
+      "LINDAU. Eine Streife der Bundespolizei kontrollierte am Sonntag gegen 00:30 Uhr einen Pkw mit Schweizer Zulassung im Stadtgebiet von Lindau. Bei der Kontrolle wurde festgestellt, dass gegen den 42-jährigen kosovarischen Fahrzeugführer momentan ein Fahrverbot besteht. Zuständigkeitshalber wurde der Sachverhalt an die Polizeiinspektion Lindau übergeben. Während der weiteren Sachbearbeitung konnten drogentypische Auffälligkeiten bei dem Fahrer festgestellt werden. Ein freiwillig durchgeführter Drogenschnelltest verlief positiv auf Kokain. Der Fahrer musste sich daher einer Blutentnahme unterziehen. Es wurde ein Verfahren wegen Fahrens trotz Fahrverbots, sowie dem Verdacht der Fahrt unter Einfluss von Betäubungsmitteln eingeleitet. (PI Lindau)"
+    ],
+    "case_key": "3ba3bd7ff2e0d08c",
+    "case_ordinal": 7,
+    "categories": [
+      "Drogendelikt"
+    ],
+    "content_hash": "5db0abd46f5aca2236512d4024246cb3fd19372078ac00027c92cf391c9648c3",
+    "guid": "urn:polizei-bayern:111481:3ba3bd7ff2e0d08c",
+    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/111481/index.html",
+    "organization": "Polizeipräsidium Schwaben Süd/West",
+    "published_ts": 1794734580,
+    "source_id": "111481",
+    "source_title": "PP SWS | Pressemeldungen vom 15.11.2026",
+    "title": "Die tagesaktuellen Meldungen der Polizeiinspektionen Lindau und Lindenberg sowie Meldungen der Kriminalpolizei, der Verkehrs- und Fahndungsdienststellen mit Regionalbezug."
+  },
+  {
+    "body": [
+      "Drogenfahrt",
+      "GÜNZBURG. Am Samstagmittag wurde ein 21-jähriger deutscher Staatsangehöriger mit seinem Pkw im Kappenzipfel einer allgemeinen Verkehrskontrolle unterzogen. Im Rahmen der Kontrolle ergab sich der Hinweis, dass der Herr unter dem Einfluss von Cannabis stand. Ein durchgeführter Vortest bestätigte den Verdacht der Beamten. Zur Bestimmung des THC-Wertes wurde durch die Beamten eine Blutentnahme angeordnet. Im Falle eines positiven Ergebnisses erwartet den Herrn ein Bußgeld von mindestens 500,00 Euro sowie ein mindestens einmonatiges Fahrverbot. (PI Günzburg)"
+    ],
+    "case_key": "9151b9b22e4a1e32",
+    "case_ordinal": 19,
+    "categories": [
+      "Drogendelikt"
+    ],
+    "content_hash": "9151b9b22e4a1e3234a1a3c30f70a528228a9d3b560e6bca6542e7a57bc13414",
+    "guid": "urn:polizei-bayern:111481:9151b9b22e4a1e32",
+    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/111481/index.html",
+    "organization": "Polizeipräsidium Schwaben Süd/West",
+    "published_ts": 1794734580,
+    "source_id": "111481",
+    "source_title": "PP SWS | Pressemeldungen vom 15.11.2026",
+    "title": "Drogenfahrt"
+  },
+  {
+    "body": [
+      "Fahrer unter Drogeneinfluss führt verbotene Gegenstände mit",
+      "LEIPHEIM. Durch eine Streife der Verkehrspolizeiinspektion Günzburg wurde am Samstagnachmittag gegen 14:30 Uhr auf der Autobahn A8 an der Rastanlage Leipheim ein 53-jähriger Fahrzeugführer kontrolliert. Neben einem technischen Defekt am Fahrzeug wurden die Beamten jedoch vielmehr auf das sonderbare Verhalten des Mannes aufmerksam, weswegen mit diesem ein Drogentest durchgeführt wurde. Dieser verlief positiv auf Kokain. Im Rahmen der Durchsuchung des Fahrzeuges wurden zudem verbotene Feuerwerkskörper und eine Waffe ohne Kennzeichnung aufgefunden, deren rechtliche Einordnung noch abschließend geklärt werden muss. Die Feuerwerkskörper und die Waffe wurde sichergestellt, zudem wurde die Weiterfahrt des Mannes unterbunden. Auf Grund des positiven Drogentests wurde eine Blutentnahme angeordnet. Neben den Verstößen gegen das Waffengesetz bzw. die Sprengstoffverordnung muss der Fahrer mit einem Bußgeld in Höhe von mindestens 500 Euro und einem Monat Fahrverbot rechnen (VPI Günzburg)."
+    ],
+    "case_key": "d9180828f26e432d",
+    "case_ordinal": 21,
+    "categories": [
+      "Drogendelikt"
+    ],
+    "content_hash": "d9180828f26e432d531a8dd946dfef650f0f3aca498ef00bd8176b6e6214dc28",
+    "guid": "urn:polizei-bayern:111481:d9180828f26e432d",
+    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/111481/index.html",
+    "organization": "Polizeipräsidium Schwaben Süd/West",
+    "published_ts": 1794734580,
+    "source_id": "111481",
+    "source_title": "PP SWS | Pressemeldungen vom 15.11.2026",
+    "title": "Fahrer unter Drogeneinfluss führt verbotene Gegenstände mit"
+  },
+  {
+    "body": [
       "Kassiererin in Discountmarkt angegriffen | Zeugen gesucht",
       "FÜSSEN. Am Donnerstag, den 12.11.2026, griff eine bislang unbekannte Kundin in einem Discountmarkt in Füssen eine Kassiererin an. Die Frau war offenbar verärgert, weil der Pfandflaschenautomat defekt war und sie die leeren Flaschen auch an der Kasse nicht abgeben konnte. Anschließend warf sie mehrere Gegenstände auf die Kassiererin. Die Frau wurde dabei leicht verletzt. Weitere Kunden befanden sich im Kassenbereich und könnten den Vorfall beobachtet haben. Die Polizei ermittelt wegen gefährlicher Körperverletzung gegen eine bislang unbekannte Frau. Hinweise nimmt die Polizeiinspektion Füssen unter der Telefonnummer 08362/91230 entgegen. (PI Füssen)"
     ],
@@ -10758,117 +10856,5 @@
     "source_id": "109088",
     "source_title": "Medieninformation der Polizei München vom 25.09.2026",
     "title": "1466. Körperverletzungsdelikt – Ludwigsvorstadt-Isarvorstadt"
-  },
-  {
-    "body": [
-      "1471. Festnahme eines Tatverdächtigen nach Verstoß gegen das Betäubungsmittelgesetz – Festzelt",
-      "Am Donnerstag, 24.09.2026, gegen 22:40 Uhr, bemerkten Polizeibeamte auf der Toilette eines Festzelts einen Mann, der offensichtlich Betäubungsmittel konsumierte. Bei der anschließenden Durchsuchung fanden die Polizeibeamten bei ihm weißes Pulver, wobei es sich nach derzeitigem Stand der Ermittlungen um Kokain handelt. Dieses wurde sichergestellt und der Mann vorläufig festgenommen.",
-      "Bei dem Tatverdächtigen handelt es sich um einen 35-jährigen Deutschen mit Wohnsitz in Baden-Württemberg.",
-      "Der 35-Jährige wurde anschließend zur Wiesnwache gebracht. Während der gesamten polizeilichen Maßnahmen verhielt er sich erheblich unkooperativ und verbal aggressiv gegenüber den eingesetzten Polizeibeamten. Zudem erklärte er, einem angekündigten Platzverweis für das Festgelände nicht Folge leisten zu wollen.",
-      "Da mit weiteren Störungen zu rechnen war, wurde der 35-Jährige wegen des Verstoßes gegen das Betäubungsmittelgesetz angezeigt, nach Abschluss der polizeilichen Maßnahmen in Sicherheitsgewahrsam genommen und der Haftanstalt des Polizeipräsidiums München überstellt. Am Freitag, 25.09.2026, gegen 06:00 Uhr, wurde er wieder entlassen.",
-      "Die weiteren Ermittlungen führt das Kommissariat 83 der Münchner Kriminalpolizei."
-    ],
-    "case_key": "1471",
-    "case_ordinal": 9,
-    "categories": [
-      "Drogendelikt"
-    ],
-    "content_hash": "050bc47e2231d9082f3326deb0a1f90a4c35b9bc9e7f429fe42c70c29b9d26cd",
-    "guid": "urn:polizei-bayern:109088:1471",
-    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/109088/index.html",
-    "organization": "Polizeipräsidium München",
-    "published_ts": 1790330220,
-    "source_id": "109088",
-    "source_title": "Medieninformation der Polizei München vom 25.09.2026",
-    "title": "1471. Festnahme eines Tatverdächtigen nach Verstoß gegen das Betäubungsmittelgesetz – Festzelt"
-  },
-  {
-    "body": [
-      "1473. Festnahme eines Tatverdächtigen nach Körperverletzung – Festzelt",
-      "Am Donnerstag, 24.09.2026, gegen 21:40 Uhr, wurde ein Besucher durch Mitarbeiter des Sicherheitsdienstes aus einem Festzelt begleitet. Währenddessen kam ein weiterer, bis zu diesem Zeitpunkt noch unbeteiligter Mann hinzu und schlug einem 47-jährigen Mitarbeiter des Sicherheitsdienstes unvermittelt mit der Faust ins Gesicht.",
-      "Der 47-Jährige wurde dadurch leicht verletzt. Eine medizinische Behandlung war nicht erforderlich.",
-      "Der Tatverdächtige wurde anschließend von weiteren Sicherheitsdienstmitarbeitern festgehalten. Darüber hinaus wurde die Polizei verständigt. Der Tatverdächtige wurde von den eingesetzten Polizeibeamten festgenommen und zur Wiesnwache gebracht. Bei ihm handelt es sich um einen 20-jährigen Iren ohne festen Wohnsitz in Deutschland.",
-      "Er wurde wegen Körperverletzung angezeigt. Nach Abschluss der polizeilichen Maßnahmen und der Zahlung einer Sicherheitsleistung in Höhe eines niedrigen vierstelligen Betrags wurde er wieder entlassen.",
-      "Die weiteren Ermittlungen führt die Polizeiinspektion 17 (Wiesnwache)."
-    ],
-    "case_key": "1473",
-    "case_ordinal": 11,
-    "categories": [
-      "Gewaltdelikt"
-    ],
-    "content_hash": "d5ea8c5bd5d9f50de95025c1805fb10218ffd2d4dea90a5014de043137746fcf",
-    "guid": "urn:polizei-bayern:109088:1473",
-    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/109088/index.html",
-    "organization": "Polizeipräsidium München",
-    "published_ts": 1790330220,
-    "source_id": "109088",
-    "source_title": "Medieninformation der Polizei München vom 25.09.2026",
-    "title": "1473. Festnahme eines Tatverdächtigen nach Körperverletzung – Festzelt"
-  },
-  {
-    "body": [
-      "ESCHENBACH, LKR. NEUSTADT A.D.WALDNAAB. Am Mittwochabend wurde ein 31-jähriger Mann auf einem Pendlerparkplatz in Eschenbach mit verschiedenen Betäubungsmitteln und Messern festgestellt. Die Kriminalpolizeiinspektion Weiden i.d.OPf. ermittelt wegen eines Verstoßes gegen das Betäubungsmittelgesetz.",
-      "Am Mittwoch, 23. September 2026, gegen 18:30 Uhr, entdeckte ein aufmerksamer Bürger einen Mann bewusstlos auf einer Parkbank auf einem Pendlerparkplatz in Eschenbach und verständigte die Polizei. Bei dem 31-jährigen russischen Staatsangehörigen lag nach ersten Erkenntnissen ein medizinisches Problem infolge eines vorausgegangenen Drogenkonsums vor. Er wurde zur Behandlung in ein Krankenhaus gebracht. Im Rahmen der polizeilichen Maßnahmen fanden die Beamten der Polizeiinspektion Eschenbach bei dem Mann mehrere Betäubungsmittel, darunter Methamphetamin und Kokain in geringer Menge, sowie zwei Messer auf. Die Gegenstände wurden beschlagnahmt. Der 31-Jährige, der in Bayreuth wohnhaft und polizeibekannt ist, wurde vorläufig festgenommen. Die Durchsuchung seiner Wohnung in Bayreuth brachte weitere Beweismittel zu Tage. Insbesondere stellten die Kriminalbeamten verschiedene, größere Mengen an Streckmitteln sicher. In Absprache mit der Staatsanwaltschaft Weiden i.d.OPf. wurde die Haftfrage bei dem Festgenommenen geprüft, jedoch aufgrund eines nicht vorliegenden Haftgrundes verneint. Nachdem der Mann im Krankenhaus behandelt worden war und alle polizeilichen Maßnahmen abgeschlossen waren, wurde er wieder entlassen. Die Kriminalpolizeiinspektion Weiden i.d.OPf. führt die weiteren Ermittlungen wegen Handeltreibens mit verschiedenen Betäubungsmitteln.",
-      "Veröffentlicht am 25.09.2026 um 9.32 Uhr"
-    ],
-    "case_key": "8b52b723e4191b1f",
-    "case_ordinal": 0,
-    "categories": [
-      "Drogendelikt"
-    ],
-    "content_hash": "92c64cd461f783b176cd15d3a1899b4835faf7b97929a205cd8b6a3336fae610",
-    "guid": "urn:polizei-bayern:109055:8b52b723e4191b1f",
-    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/109055/index.html",
-    "organization": "Polizeipräsidium Oberpfalz",
-    "published_ts": 1790321460,
-    "source_id": "109055",
-    "source_title": "31-Jähriger mit Betäubungsmitteln und Messern festgestellt",
-    "title": "31-Jähriger mit Betäubungsmitteln und Messern festgestellt"
-  },
-  {
-    "body": [
-      "MITTERFELS, LKR. STRAUBING-BOGEN. Am Donnerstag Vormittag gegen 10 Uhr ist es in Mitterfels zu einem Verkehrsunfall gekommen, bei dem zwei Personen schwer verletzt wurden.",
-      "Der 40-jährige Fahrer eines Pkw fiel einer Polizeistreife durch seine aggressive Fahrweise auf. Aufgrund dessen sollte der Pkw, der mit drei Personen besetzt war, einer Verkehrskontrolle unterzogen werden. Der Fahrer missachtete alle Anhaltesignale der Polizei und flüchtete. Kurze Zeit später kam der Pkw in der Bahnhofstraße von der Fahrbahn ab und prallte gegen einen Baum.",
-      "Der Fahrer und eine Mitfahrerin waren nicht angegurtet und wurden bei dem Unfall schwer verletzt. Sie wurden zur Behandlung in naheliegende Krankenhäuser verbracht. Der Beifahrer im Pkw war angegurtet und wurde nur leicht verletzt.",
-      "Bei der Unfallaufnahme zeigte sich dann, warum der Fahrer geflüchtet war. Es ist davon auszugehen, dass der Fahrer unter Drogeneinfluss stand. Zudem war er nicht in Besitz einer gültigen Fahrerlaubnis. Bei der anschließenden Durchsuchung des Pkw wurden verschiedene Betäubungsmittel aufgefunden und sichergestellt.",
-      "Die Staatsanwaltschaft ordnete ein unfallanalytisches Gutachten, die Sicherstellung des Pkw, sowie eine Blutentnahme des Fahrers an.",
-      "Den Fahrer erwarten nun mehrere Strafanzeigen, unter anderem wegen Gefährdung des Straßenverkehrs – infolge berauschender Mittel, Verbotenes Kraftfahrzeugrennen und Fahren ohne Fahrerlaubnis. Die Ermittlungen dauern an.",
-      "Die Polizei bittet Zeugen sich bei der Polizei Bogen (Tel. 09422/8509-0) oder der Verkehrspolizeiinspektion Kirchroth (Tel.09428/94990-0) zu melden.",
-      "Veröffentlicht: 25.09.2026, 08.57 Uhr"
-    ],
-    "case_key": "8694027b64ec4060",
-    "case_ordinal": 0,
-    "categories": [
-      "Drogendelikt"
-    ],
-    "content_hash": "eacb9f832fc0b7bdbf760897358208c5ef64c12532a0839de2a46fb84f5805ae",
-    "guid": "urn:polizei-bayern:109054:8694027b64ec4060",
-    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/109054/index.html",
-    "organization": "Polizeipräsidium Niederbayern",
-    "published_ts": 1790320800,
-    "source_id": "109054",
-    "source_title": "Niederbayern: Verkehrsunfall mit Verletzten - Fahrer unter Drogeneinfluss und ohne Führerschein",
-    "title": "Niederbayern: Verkehrsunfall mit Verletzten - Fahrer unter Drogeneinfluss und ohne Führerschein"
-  },
-  {
-    "body": [
-      "Oberhausen– In der Nacht zum Donnerstag (24.09.2026) kontrollierte die Polizei gegen 01:15 Uhr in der Hofer Straße einen E-Scooter-Fahrer, welcher unter Drogeneinfluss stand.",
-      "Bei der allgemeinen Verkehrskontrolle bemerkten die Beamten bei dem 29-jährigen Mann drogentypische Auffälligkeiten. Ein durchgeführter Test erhärtete den Verdacht, dass er unter Einfluss von Betäubungsmittel stand. Seine Weiterfahrt wurde unterbunden und eine Blutentnahme bei ihm durchgeführt.",
-      "Gegen den 29-Jährigen wurde ein Ordnungswidrigkeitenverfahren eingeleitet.",
-      "Der 29-jährige Mann besitzt die spanische Staatsangehörigkeit."
-    ],
-    "case_key": "8054250e4a70aa5c",
-    "case_ordinal": 2,
-    "categories": [
-      "Drogendelikt"
-    ],
-    "content_hash": "960149ff47ffa02de57a5bf71635eb80fff7c71d2679c2a3c054334bf8445d2f",
-    "guid": "urn:polizei-bayern:109023:8054250e4a70aa5c",
-    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/109023/index.html",
-    "organization": "Polizeipräsidium Schwaben Nord",
-    "published_ts": 1790253420,
-    "source_id": "109023",
-    "source_title": "Medieninfo Nordschwaben - 24.09.2026",
-    "title": "Oberhausen– In der Nacht zum Donnerstag (24.09.2026) kontrollierte die Polizei gegen 01:15 Uhr in der Hofer Straße einen E-Scooter-Fahrer, welcher unter Drogeneinfluss stand."
   }
 ]
