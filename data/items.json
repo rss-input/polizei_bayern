@@ -1,6 +1,28 @@
 [
   {
     "body": [
+      "NÜRNBERG. (973) Die Mitteilung über mehrere Kinder und Jugendliche, die nach dem Training in einer Sporthalle im Nürnberger Nordosten über Atemwegsbeschwerden klagten, sorgte am Freitagabend (20.11.2026) für einen Einsatz von Polizei, Feuerwehr und Rettungsdienst. Die Polizei hat den Verdacht, dass Unbekannte Pfefferspray versprüht haben und hat nun entsprechende Ermittlungen eingeleitet.",
+      "Nach dem Sporttraining in der Turnhalle einer Schule in der Löbleinstraße klagten gegen 19:00 Uhr mehrere Kinder und Jugendliche über Atemwegsreizungen, Halskratzen und ähnliche Symptome. Wegen der unklaren Lage rückten neben Beamten der Polizeiinspektion Nürnberg-Ost zahlreiche Einsatzkräfte der Feuerwehr Nürnberg sowie des Rettungsdienstes aus.",
+      "Nach einer ersten medizinischen Überprüfung war bei keiner der betroffenen Personen eine weitere Behandlung erforderlich. Die rund 25 Kinder und Jugendlichen im Alter von fünf bis 14 Jahren wurden schließlich von ihren Eltern nach Hause gebracht.",
+      "Den ersten Ermittlungen zufolge haben unbekannte Personen mutmaßlich Pfefferspray im Bereich der Turnhalle versprüht. Die Polizeiinspektion Nürnberg-Ost hat die Ermittlungen wegen des Verdachts der gefährlichen Körperverletzung aufgenommen.",
+      "Erstellt durch: Christian Seiler"
+    ],
+    "case_key": "48ddbe959a0705bb",
+    "case_ordinal": 0,
+    "categories": [
+      "Gewaltdelikt"
+    ],
+    "content_hash": "4bf0875d84736b555a5841f2d164f833c524bc69f2db2451f366254e5756a9d0",
+    "guid": "urn:polizei-bayern:111842:48ddbe959a0705bb",
+    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/111842/index.html",
+    "organization": "Polizeipräsidium Mittelfranken",
+    "published_ts": 1795208700,
+    "source_id": "111842",
+    "source_title": "Pfefferspray in Turnhalle versprüht – Polizei ermittelt",
+    "title": "Pfefferspray in Turnhalle versprüht – Polizei ermittelt"
+  },
+  {
+    "body": [
       "--------------- In Absprache mit der Staatsanwaltschaft Augsburg ----------------",
       "Oberhausen - Am Dienstag (17.11.2026) kam es im Bereich des Oberhauser Bahnhofs / Ulmer Straße zu einem versuchten Tötungsdelikt zum Nachteil eines 43-Jährigen.",
       "Gegen 15:30 Uhr kam es zu einer Streitigkeit zwischen dem 43-Jährigen und einem 46-Jährigen. In deren Verlauf ging der 46-Jährige mit einer abgebrochenen Glasflasche auf den 43-Jährigen los und verletzte diesen im Bereich des Kopfes. Der 43-Jährige wurde in ein Krankenhaus zur Behandlung gebracht. Die Verletzungen waren nicht lebensgefährlich. Der 46-Jährige entfernte sich nach der Tat, konnte jedoch nur wenige Stunden später durch eine Polizeistreife in der Nähe des Tatortes festgenommen werden.",
@@ -10828,30 +10850,5 @@
     "source_id": "109241",
     "source_title": "Medieninformation der Polizei München vom 29.09.2026",
     "title": "1512. Festnahme von vier Tatverdächtigen nach Raubdelikt – Pullach i. Isartal"
-  },
-  {
-    "body": [
-      "1517. Festnahme eines Tatverdächtigen nach einem Sexualdelikt – Festgelände",
-      "Am Sonntag, 27.09.2026, gegen 22:30 Uhr, befand sich eine 31-Jährige mit Wohnsitz in München gemeinsam mit einem Mann im Bereich eines Hügels auf dem Oktoberfest.",
-      "Nach derzeitigem Stand der Ermittlungen nahm der Mann dort gegen den erkennbaren Willen der 31-Jährigen sexuelle Handlungen an ihr vor.",
-      "Mehrere Mitarbeiter des Sanitätsdienstes sowie ein Mitarbeiter eines Festzelts beobachteten den Vorfall. Zwei von ihnen schritten daraufhin ein, trennten den Mann von der 31-Jährigen und hielten ihn bis zum Eintreffen der Polizei fest.",
-      "Der Tatverdächtige wurde von den Polizeibeamten vorläufig festgenommen und zur Wiesnwache gebracht. Bei ihm handelte es sich um einen 31-jährigen Italiener ohne festen Wohnsitz in Deutschland.",
-      "Die 31-Jährige wurde anschließend kriminalpolizeilich betreut und medizinisch untersucht. Zudem wurden umfangreiche Spurensicherungsmaßnahmen durchgeführt.",
-      "Nach Abschluss der ersten polizeilichen Maßnahmen wurde der Tatverdächtige der Haftanstalt des Polizeipräsidiums München überstellt. Am Montag, 28.09.2026, wurde er einem Ermittlungsrichter vorgeführt, der Untersuchungshaftbefehl erließ.",
-      "Die weiteren Ermittlungen führt das Kommissariat 15."
-    ],
-    "case_key": "1517",
-    "case_ordinal": 8,
-    "categories": [
-      "Sexualdelikt"
-    ],
-    "content_hash": "8d3a9fe6a52776214221d1655852e3018ea5db93b40a3b4e6bf3373c584a947f",
-    "guid": "urn:polizei-bayern:109241:1517",
-    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/109241/index.html",
-    "organization": "Polizeipräsidium München",
-    "published_ts": 1790674440,
-    "source_id": "109241",
-    "source_title": "Medieninformation der Polizei München vom 29.09.2026",
-    "title": "1517. Festnahme eines Tatverdächtigen nach einem Sexualdelikt – Festgelände"
   }
 ]

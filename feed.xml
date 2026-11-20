@@ -6,10 +6,18 @@
     <description>Gewalt-, Sexual- und Drogendelikte sowie organisierte Kriminalität aus den Pressemitteilungen der Bayerischen Polizei.</description>
     <language>de-DE</language>
     <generator>polizei-bayern-rss</generator>
-    <lastBuildDate>Fri, 20 Nov 2026 16:07:40 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Nov 2026 22:39:40 +0000</lastBuildDate>
     <ttl>30</ttl>
     <atom:link href="https://rss-input.github.io/polizei_bayern/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 20 Nov 2026 12:37:00 +0000</pubDate>
+    <pubDate>Fri, 20 Nov 2026 21:05:00 +0000</pubDate>
+    <item>
+      <title>Pfefferspray in Turnhalle versprüht – Polizei ermittelt</title>
+      <link>https://www.polizei.bayern.de/aktuelles/pressemitteilungen/111842/index.html</link>
+      <guid isPermaLink="false">urn:polizei-bayern:111842:48ddbe959a0705bb</guid>
+      <pubDate>Fri, 20 Nov 2026 21:05:00 +0000</pubDate>
+      <category>Gewaltdelikt</category>
+      <description>&lt;p&gt;PM 20.11.2026, PP Mittelfranken / Tatdatum 20.11.26 / Tatort: Nürnberg, Löbleinstraße / Delikt: Körperverletzung / Opfer: Nach einer ersten medizinischen Überprüfung war bei keiner der betroffenen Personen eine weitere Behandlung erforderlich. / Tatverdächtige: nicht näher mitgeteilt / Ergebnis: Die Polizei hat den Verdacht, dass Unbekannte Pfefferspray versprüht haben und hat nun entsprechende Ermittlungen eingeleitet. / Besonderheiten: Die Polizei hat den Verdacht, dass Unbekannte Pfefferspray versprüht haben und hat nun entsprechende Ermittlungen eingeleitet. / &lt;a href="https://www.polizei.bayern.de/aktuelles/pressemitteilungen/111842/index.html"&gt;https://www.polizei.bayern.de/aktuelles/pressemitteilungen/111842/index.html&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>--------------- In Absprache mit der Staatsanwaltschaft Augsburg ----------------</title>
       <link>https://www.polizei.bayern.de/aktuelles/pressemitteilungen/111764/index.html</link>
@@ -4014,14 +4022,6 @@
       <pubDate>Tue, 29 Sep 2026 09:34:00 +0000</pubDate>
       <category>Gewaltdelikt</category>
       <description>&lt;p&gt;PM 29.09.2026, PP München / Tatdatum 09.09.26 / Tatort: nicht näher mitgeteilt / Delikt: Raub / Opfer: nicht näher mitgeteilt / Tatverdächtige: 1 (22 Jahre, syrisch) / Ergebnis: festgenommen / Besonderheiten: Isartal ein 31-Jähriger mit jordanischer Staatsangehörigkeit und Wohnsitz im Landkreis Freising von insgesamt vier Tätern unter Vorhalt einer Schusswaffe zur Herausgabe von Bargeld gezwungen. / &lt;a href="https://www.polizei.bayern.de/aktuelles/pressemitteilungen/109241/index.html"&gt;https://www.polizei.bayern.de/aktuelles/pressemitteilungen/109241/index.html&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>1517. Festnahme eines Tatverdächtigen nach einem Sexualdelikt – Festgelände</title>
-      <link>https://www.polizei.bayern.de/aktuelles/pressemitteilungen/109241/index.html</link>
-      <guid isPermaLink="false">urn:polizei-bayern:109241:1517</guid>
-      <pubDate>Tue, 29 Sep 2026 09:34:00 +0000</pubDate>
-      <category>Sexualdelikt</category>
-      <description>&lt;p&gt;PM 29.09.2026, PP München / Tatdatum 27.09.26 / Tatort: nicht näher mitgeteilt / Delikt: Sexualdelikt / Opfer: nicht näher mitgeteilt / Tatverdächtige: 1 (31 Jahre, deutsch, italienisch) / Ergebnis: festgenommen; Untersuchungshaftbefehl erlassen; in Haftanstalt überstellt / Besonderheiten: Am Sonntag, 27.09.2026, gegen 22:30 Uhr, befand sich eine 31-Jährige mit Wohnsitz in München gemeinsam mit einem Mann im Bereich eines Hügels auf dem Oktoberfest. / &lt;a href="https://www.polizei.bayern.de/aktuelles/pressemitteilungen/109241/index.html"&gt;https://www.polizei.bayern.de/aktuelles/pressemitteilungen/109241/index.html&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
