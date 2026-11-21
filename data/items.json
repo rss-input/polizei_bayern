@@ -1,6 +1,139 @@
 [
   {
     "body": [
+      "Brand – Zeugen gesucht",
+      "SONTHOFEN. Am Samstagmorgen, gegen 4:15 Uhr wurde durch eine Polizeistreife eine brennende Mobiltoilette festgestellt. Dieses befand sich auf der Straße nach Imberg neben der Fahrbahn. Aufgrund der regnerischen Nacht wird von Brandstiftung ausgegangen. Der Schaden wird auf etwa 300 Euro geschätzt. Wer in der Nacht von Freitag auf Samstag im Bereich von Imberg verdächtige Wahrnehmungen gemacht hat, wird gebeten sich unter der Tel.-Nr. 08321/66350 mit der Polizeiinspektion Sonthofen in Verbindung zu setzen. (PI Sonthofen)"
+    ],
+    "case_key": "999c0a7ca3b4df84",
+    "case_ordinal": 1,
+    "categories": [
+      "Gewaltdelikt"
+    ],
+    "content_hash": "999c0a7ca3b4df84f2ef3c52eb1c1054fb320f6fedf13db47f46d6c1121ccb0f",
+    "guid": "urn:polizei-bayern:111857:999c0a7ca3b4df84",
+    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/111857/index.html",
+    "organization": "Polizeipräsidium Schwaben Süd/West",
+    "published_ts": 1795254780,
+    "source_id": "111857",
+    "source_title": "PP SWS | Pressemeldungen vom 21.11.2026",
+    "title": "Brand – Zeugen gesucht"
+  },
+  {
+    "body": [
+      "Körperliche Auseinandersetzung und Widerstand gegen Polizeibeamte",
+      "KEMPTEN. Am Morgen des 21. November 2026 kam es in der Linggstraße zu einer körperlichen Auseinandersetzung. Nach bisherigen Erkenntnissen schlug ein 20-jähriger deutscher Staatsangehöriger einen 26-Jährigen. Dieser erlitt mittelschwere Verletzungen und wurde zur medizinischen Behandlung in ein Krankenhaus gebracht. Kurze Zeit später fiel der 20-Jährige erneut durch aggressives Verhalten auf. Bei den anschließenden polizeilichen Maßnahmen leistete er Widerstand. Ihn erwarten nun mehrere Anzeigen, unter anderem wegen Körperverletzung und Widerstands gegen Vollstreckungsbeamte. (PI Kempten)"
+    ],
+    "case_key": "bb6b94a166b47d59",
+    "case_ordinal": 2,
+    "categories": [
+      "Gewaltdelikt"
+    ],
+    "content_hash": "bb6b94a166b47d590d78b3ad0b84b244b3e23ac2a74d6c8684dc7f2ef0bec92b",
+    "guid": "urn:polizei-bayern:111857:bb6b94a166b47d59",
+    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/111857/index.html",
+    "organization": "Polizeipräsidium Schwaben Süd/West",
+    "published_ts": 1795254780,
+    "source_id": "111857",
+    "source_title": "PP SWS | Pressemeldungen vom 21.11.2026",
+    "title": "Körperliche Auseinandersetzung und Widerstand gegen Polizeibeamte"
+  },
+  {
+    "body": [
+      "Fahrt unter Drogeneinfluß",
+      "LINDAU. Am Samstag gegen 00:05 Uhr kontrollierte eine Streife der Lindauer Polizei einen österreichischen Pkw. Der 25-jährige Fahrer wies drogentypische Anzeichen auf. Ein Test ergab den Verdacht der Einnahme von Marihuana. Der Fahrer musste sich daher einer Blutentnahme unterziehen. Sollte das Ergebnis der Blutauswertung über dem Maximalbereich liegen, muss er mit einer Geldstrafe sowie einem Fahrverbot rechnen. (PI Lindau)"
+    ],
+    "case_key": "9ce7790937fc57ae",
+    "case_ordinal": 13,
+    "categories": [
+      "Drogendelikt"
+    ],
+    "content_hash": "9ce7790937fc57ae61fbd542da339e83dbda1644e95b01325d0768d18d1611fa",
+    "guid": "urn:polizei-bayern:111857:9ce7790937fc57ae",
+    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/111857/index.html",
+    "organization": "Polizeipräsidium Schwaben Süd/West",
+    "published_ts": 1795254780,
+    "source_id": "111857",
+    "source_title": "PP SWS | Pressemeldungen vom 21.11.2026",
+    "title": "Fahrt unter Drogeneinfluß"
+  },
+  {
+    "body": [
+      "Körperverletzung und Sachbeschädigung",
+      "GÜNZBURG. In der Nacht von Freitag auf Samstag kam es in der Maria-Merian-Straße in Günzburg zu einer körperlichen Auseinandersetzung zwischen zwei alkoholisierten Männern. Hierbei versetzte ein 19-jähriger afghanischer Staatsangehöriger einem 20-jährigen afghanischen Staatsangehörigen einen Kopfstoß und traf diesen an der Nase. Der Geschädigte erlitt dadurch Schmerzen und Nasenbluten. Zudem nahm der Tatverdächtige das Smartphone des Geschädigten und warf dieses auf den Boden, wodurch es beschädigt wurde. Der entstandene Sachschaden beläuft sich auf einen niedrigen dreistelligen Betrag. Der Geschädigte begab sich selbstständig in ärztliche Behandlung. Gegen den 19-Jährigen wird nun wegen Körperverletzung und Sachbeschädigung ermittelt. (VPI Günzburg)"
+    ],
+    "case_key": "c8c7acaad71c7568",
+    "case_ordinal": 28,
+    "categories": [
+      "Gewaltdelikt"
+    ],
+    "content_hash": "c8c7acaad71c75686e66a19218a696b8b0e0711a40bfd3c531cd27c057079bba",
+    "guid": "urn:polizei-bayern:111857:c8c7acaad71c7568",
+    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/111857/index.html",
+    "organization": "Polizeipräsidium Schwaben Süd/West",
+    "published_ts": 1795254780,
+    "source_id": "111857",
+    "source_title": "PP SWS | Pressemeldungen vom 21.11.2026",
+    "title": "Körperverletzung und Sachbeschädigung"
+  },
+  {
+    "body": [
+      "E-Scooter-Fahrer unter Cannabis- und Alkoholeinfluss",
+      "GÜNZBURG. Am Freitagabend wurde ein 29-jähriger deutscher Fahrer eines E-Scooters am Bahnhofplatz einer allgemeinen Verkehrskontrolle unterzogen. Hierbei konnte durch die Beamten deutlicher Alkoholgeruch wahrgenommen werden. Ein durchgeführter Atemalkoholtest ergab einen Alkoholwert über 0,5 Promille. Zudem gab der Mann an, im Laufe des Tages Cannabis konsumiert zu haben. Aufgrund der Umstände wurde durch die Beamten eine Blutentnahme angeordnet, welche im Krankenhaus in Günzburg durch einen dortigen Arzt vollzogen wurde. Die Weiterfahrt wurde durch die Beamten unterbunden. Gegen den 29-Jährigen wird nun wegen Verstößen gegen das Straßenverkehrsgesetz ermittelt. (PI Günzburg)"
+    ],
+    "case_key": "49d3a8930a17c611",
+    "case_ordinal": 29,
+    "categories": [
+      "Drogendelikt"
+    ],
+    "content_hash": "49d3a8930a17c611ed0a19f793df1a4cbc3b016beb85624ad1df094b47d01cd9",
+    "guid": "urn:polizei-bayern:111857:49d3a8930a17c611",
+    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/111857/index.html",
+    "organization": "Polizeipräsidium Schwaben Süd/West",
+    "published_ts": 1795254780,
+    "source_id": "111857",
+    "source_title": "PP SWS | Pressemeldungen vom 21.11.2026",
+    "title": "E-Scooter-Fahrer unter Cannabis- und Alkoholeinfluss"
+  },
+  {
+    "body": [
+      "Pkw-Fahrer unter Cannabiseinfluss",
+      "GÜNZBURG. Am Freitagnachmittag wurde ein 26-jähriger deutscher Pkw-Fahrer in der Heidenheimer Straße einer allgemeinen Verkehrskontrolle unterzogen. Hierbei stellten die Beamten drogentypische Auffälligkeiten fest. Der Fahrer gab an, Cannabis aus medizinischen Gründen zu konsumieren und hierfür ein entsprechendes Rezept zu besitzen. Dieses war jedoch nicht mehr gültig. Zudem räumte er ein, sich nicht an die Vorgaben zur Einnahme des Medikaments gehalten zu haben. Ein durchgeführter Drogenschnelltest reagierte positiv auf THC. Daraufhin wurde eine Blutentnahme angeordnet und im in der Notaufnahme Günzburg durch einen hinzugezogenen Arzt durchgeführt. Die Weiterfahrt wurde unterbunden. Gegen den 26-Jährigen wird nun wegen eines Verstoßes gegen das Straßenverkehrsgesetz ermittelt. (PI Günzburg)"
+    ],
+    "case_key": "60b152383777d03b",
+    "case_ordinal": 31,
+    "categories": [
+      "Drogendelikt"
+    ],
+    "content_hash": "60b152383777d03b1dab312bf06a8f4a0c64e8ea4c126f8b2be3eeff8562e22d",
+    "guid": "urn:polizei-bayern:111857:60b152383777d03b",
+    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/111857/index.html",
+    "organization": "Polizeipräsidium Schwaben Süd/West",
+    "published_ts": 1795254780,
+    "source_id": "111857",
+    "source_title": "PP SWS | Pressemeldungen vom 21.11.2026",
+    "title": "Pkw-Fahrer unter Cannabiseinfluss"
+  },
+  {
+    "body": [
+      "Verkehrsdelikte | Fahrzeugführer unter Einfluss von Alkohol und Drogen",
+      "NEU-ULM | SENDEN. In der Nacht von Freitag auf Samstag kam es im Dienst- und Zuständigkeitsbereich der Polizeiinspektion Neu-Ulm und der Polizeistation Senden zu mehreren Verkehrsdelikten. Im ersten Fall kontrollierten Beamte der Polizeiinspektion Neu-Ulm eine eScooter-Fahrerin im Bereich der Marienstraße in Neu-Ulm. Bereits bei der Ansprache gab die 20-jährige kroatische Staatsbürgerin von sich aus an, Alkohol konsumiert zu haben. Ein im Anschluss durchgeführter Atemalkoholtest bestätigte dies und erbrachte eine Atemalkoholkonzentration von über 0,60 Promille. Im zweiten Fall konnte im Bereich der Augsburger Straße in Neu-Ulm eine weitere eScooter-Fahrerin kontrolliert werden. Dabei nahmen die entsprechenden Beamten Alkoholgeruch bei der 36-jährigen deutschen Staatsangehörigen wahr. Die Wahrnehmung bestätigte sich durch einen durchgeführten Atemalkoholtest und erbrachte dabei ebenfalls eine Atemalkoholkonzentration von über 0,60 Promille. Im dritten Fall kam es im Bereich der Kemptener Straße in Senden zu einer weiteren Verkehrskontrolle. Dabei kontrollierten die Beamten einen 22-Jährigen. Im Laufe der Kontrolle konnten die Beamten drogentypische Auffälligkeiten bei dem deutschen PKW-Fahrer feststellen. Ein im Anschluss durchgeführter Drogenschnelltest bestätigte dies und erbrachte ein positives Ergebnis auf mehrere Betäubungsmittel. Alle kontrollierten Verkehrsteilnehmer konnten nach Beendigung aller polizeilichen Maßnahmen entlassen werden, mussten ihren finalen Heimweg jedoch zu Fuß antreten und müssen nun mit einem Bußgeld von mindestens 500 Euro und einem einmonatigen Fahrverbot rechnen. (PI Neu-Ulm)"
+    ],
+    "case_key": "523bcf58cf5ed5ea",
+    "case_ordinal": 38,
+    "categories": [
+      "Drogendelikt"
+    ],
+    "content_hash": "523bcf58cf5ed5ea674fffaabd60bcab698209426a4ab333e19c2494099e000b",
+    "guid": "urn:polizei-bayern:111857:523bcf58cf5ed5ea",
+    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/111857/index.html",
+    "organization": "Polizeipräsidium Schwaben Süd/West",
+    "published_ts": 1795254780,
+    "source_id": "111857",
+    "source_title": "PP SWS | Pressemeldungen vom 21.11.2026",
+    "title": "Verkehrsdelikte | Fahrzeugführer unter Einfluss von Alkohol und Drogen"
+  },
+  {
+    "body": [
       "NÜRNBERG. (973) Die Mitteilung über mehrere Kinder und Jugendliche, die nach dem Training in einer Sporthalle im Nürnberger Nordosten über Atemwegsbeschwerden klagten, sorgte am Freitagabend (20.11.2026) für einen Einsatz von Polizei, Feuerwehr und Rettungsdienst. Die Polizei hat den Verdacht, dass Unbekannte Pfefferspray versprüht haben und hat nun entsprechende Ermittlungen eingeleitet.",
       "Nach dem Sporttraining in der Turnhalle einer Schule in der Löbleinstraße klagten gegen 19:00 Uhr mehrere Kinder und Jugendliche über Atemwegsreizungen, Halskratzen und ähnliche Symptome. Wegen der unklaren Lage rückten neben Beamten der Polizeiinspektion Nürnberg-Ost zahlreiche Einsatzkräfte der Feuerwehr Nürnberg sowie des Rettungsdienstes aus.",
       "Nach einer ersten medizinischen Überprüfung war bei keiner der betroffenen Personen eine weitere Behandlung erforderlich. Die rund 25 Kinder und Jugendlichen im Alter von fünf bis 14 Jahren wurden schließlich von ihren Eltern nach Hause gebracht.",
@@ -10703,152 +10836,5 @@
     "source_id": "109242",
     "source_title": "PP SWS | Pressemeldungen vom 29.09.2026",
     "title": "Zeuge verhindert Gebäudebrand"
-  },
-  {
-    "body": [
-      "Auseinandersetzung zwischen mehreren Jugendlichen | Zeugen gesucht",
-      "KAUFBEUREN. Am Samstagabend kam es am Berliner Platz zu einer Auseinandersetzung zwischen mehreren Jugendlichen. Dabei wurde eine Person verletzt. Die Polizei ermittelt nun wegen Körperverletzung gegen die beteiligten Jugendlichen.\nHinweise nimmt die Polizeiinspektion Kaufbeuren unter der Telefonnummer 08341 933-0 entgegen. (PI Kaufbeuren)"
-    ],
-    "case_key": "d99755502c924602",
-    "case_ordinal": 14,
-    "categories": [
-      "Gewaltdelikt"
-    ],
-    "content_hash": "d99755502c924602460029b5e30cdb231d66796cd365ec076faee5563260fb17",
-    "guid": "urn:polizei-bayern:109242:d99755502c924602",
-    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/109242/index.html",
-    "organization": "Polizeipräsidium Schwaben Süd/West",
-    "published_ts": 1790676300,
-    "source_id": "109242",
-    "source_title": "PP SWS | Pressemeldungen vom 29.09.2026",
-    "title": "Auseinandersetzung zwischen mehreren Jugendlichen | Zeugen gesucht"
-  },
-  {
-    "body": [
-      "Pkw unter Einfluss von Kokain geführt",
-      "LINDAU. Am frühen Montagabend kontrollierte eine Streife der Polizei Lindau einen 35-jährigen deutschen Pkw-Fahrer in der Bregenzer Straße. Der Mann war zuvor wegen seiner auffälligen Fahrweise aufgefallen. Bei der Kontrolle stellten die Beamten drogentypische Auffälligkeiten fest. Auf Nachfrage räumte der 35-Jährige ein, zuvor Kokain konsumiert zu haben. Die Polizei leitete gegen den Fahrer ein Ordnungswidrigkeitenverfahren ein. (PI Lindau)"
-    ],
-    "case_key": "32d5f1a5aca0399d",
-    "case_ordinal": 27,
-    "categories": [
-      "Drogendelikt"
-    ],
-    "content_hash": "32d5f1a5aca0399db53850644b06ccf8d318e6e815df61fba61e34148fff739d",
-    "guid": "urn:polizei-bayern:109242:32d5f1a5aca0399d",
-    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/109242/index.html",
-    "organization": "Polizeipräsidium Schwaben Süd/West",
-    "published_ts": 1790676300,
-    "source_id": "109242",
-    "source_title": "PP SWS | Pressemeldungen vom 29.09.2026",
-    "title": "Pkw unter Einfluss von Kokain geführt"
-  },
-  {
-    "body": [
-      "Fünf Verletzte bei Verkehrsunfall",
-      "WEISSENSBERG. Am Montagnachmittag kollidierten auf der B12 zwei Pkw, als eine 40-jährige Deutsche nach links auf die Auffahrt zur A96 in Richtung Lindau abbog und dabei den entgegenkommenden Pkw einer 46-jährigen Deutschen übersah. Bei dem Zusammenstoß wurden insgesamt fünf Personen leicht verletzt. Die Verletzten kamen zur weiteren medizinischen Abklärung in umliegende Krankenhäuser. Beide Fahrzeuge waren nicht mehr fahrbereit und mussten abgeschleppt werden. Es entstand ein Sachschaden von etwa 20.000 Euro. Neben Feuerwehr, Rettungsdienst und Polizei war auch ein Rettungshubschrauber aus der Schweiz im Einsatz. Während der Unfallaufnahme kam es zu Verkehrsbehinderungen. Gegen die 40-Jährige leitete die Polizei ein Strafverfahren wegen fahrlässiger Körperverletzung ein. (PI Lindau)"
-    ],
-    "case_key": "b7e072146205cfee",
-    "case_ordinal": 28,
-    "categories": [
-      "Gewaltdelikt"
-    ],
-    "content_hash": "b7e072146205cfeea701d4e8540c8f646d60eb2b4eff093e2ffb5aee056f97f2",
-    "guid": "urn:polizei-bayern:109242:b7e072146205cfee",
-    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/109242/index.html",
-    "organization": "Polizeipräsidium Schwaben Süd/West",
-    "published_ts": 1790676300,
-    "source_id": "109242",
-    "source_title": "PP SWS | Pressemeldungen vom 29.09.2026",
-    "title": "Fünf Verletzte bei Verkehrsunfall"
-  },
-  {
-    "body": [
-      "Nachbarschaftsstreit",
-      "MEMMINGEN. Am Spätnachmittag des 28.09.2026, wurden die Polizei und ein Rettungswagen in den Memminger Nordweg gerufen. Eine Seniorin mit einer blutenden Kopfplatzwunde wurde in ihrem Garten sitzend aufgefunden. Wie sich herausstellte, wurde ihr durch ihren 31-jährigen Nachbarn, ein Stein gegen den Kopf geworfen. Gründe für den Steinwurf konnten vor Ort nicht eruiert werden. Der vermeintliche Steinewerfer war bei Eintreffen der Einsatzkräfte nicht mehr vor Ort. Gegen ihn wird wegen des Verdachts der gefährlichen Körperverletzung ermittelt. Die 70-Jährige wurde in ein Krankenhaus verbracht. (PI Memmingen)"
-    ],
-    "case_key": "5e9ae91139aa1088",
-    "case_ordinal": 31,
-    "categories": [
-      "Gewaltdelikt"
-    ],
-    "content_hash": "5e9ae91139aa10880e8fe38b09beedc68349a70cfe2e2eab9b36304e7e83a582",
-    "guid": "urn:polizei-bayern:109242:5e9ae91139aa1088",
-    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/109242/index.html",
-    "organization": "Polizeipräsidium Schwaben Süd/West",
-    "published_ts": 1790676300,
-    "source_id": "109242",
-    "source_title": "PP SWS | Pressemeldungen vom 29.09.2026",
-    "title": "Nachbarschaftsstreit"
-  },
-  {
-    "body": [
-      "Kontrolle am Bahnhof Memmingen | Betäubungsmittel aufgefunden",
-      "MEMMINGEN. Am Montag, 28.09.2026, kontrollierten Polizeibeamte am späten Nachmittag einen 18-jährigen Deutschen am Bahnhof Memmingen. Dabei fanden sie in seiner Tasche mehrere Tabletten, die unter das Betäubungsmittelgesetz fallen. Da der Mann keine erforderliche Erlaubnis für den Besitz der Medikamente hatte, stellten die Beamten die Tabletten sicher. Die Polizei ermittelt nun wegen eines Verstoßes gegen das Betäubungsmittelgesetz gegen den 18-Jährigen. (PI Memmingen)"
-    ],
-    "case_key": "02578c9bba2b744f",
-    "case_ordinal": 32,
-    "categories": [
-      "Drogendelikt"
-    ],
-    "content_hash": "02578c9bba2b744f429f5439913b0f099352d853c2f7b48a5438dcc12754ee14",
-    "guid": "urn:polizei-bayern:109242:02578c9bba2b744f",
-    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/109242/index.html",
-    "organization": "Polizeipräsidium Schwaben Süd/West",
-    "published_ts": 1790676300,
-    "source_id": "109242",
-    "source_title": "PP SWS | Pressemeldungen vom 29.09.2026",
-    "title": "Kontrolle am Bahnhof Memmingen | Betäubungsmittel aufgefunden"
-  },
-  {
-    "body": [
-      "1511. Zeugenaufruf nach gefährlicher Körperverletzung – Ludwigsvorstadt-Isarvorstadt",
-      "Am Montag, 28.09.2026, gegen 23:45 Uhr, befanden sich mehrere Personen gemeinsam auf dem Oktoberfest. Außerhalb des Festgeländes, im Bereich des Bavariarings Ecke Pettenkoferstraße, geriet ihre Gruppe mit mehreren unbekannten Personen in Streit. Die bekannte Personengruppe stieg in eine Rikscha und wollte wegfahren.",
-      "Ein 52-jähriger Deutscher mit Wohnsitz im Landkreis Freising stieg jedoch wieder aus der Rikscha aus und ging zu den unbekannten Personen. Der bislang unbekannte Täter schlug ihm derart kräftig mit der Faust ins Gesicht, so dass der 52-Jährige zusammenbrach und mit dem Kopf ungebremst auf dem Asphalt aufschlug. Hierbei erlitt er eine schwere Kopfverletzung.",
-      "Einer seiner Begleiter, ein 21-jähriger Deutscher, ebenfalls mit Wohnsitz im Landkreis Freising, begab sich auch zu der unbekannten Personengruppe, wobei eine körperliche Auseinandersetzung begann. Hierbei erlitt der 21-Jährige einen Faustschlag ins Gesicht und wurde dadurch leicht verletzt. Die unbekannten Täter flüchteten daraufhin.",
-      "Der 52-Jährige kam in ein Krankenhaus und musste noch in der Nacht notoperiert werden. Aktuell befindet er sich im Koma. Die schwere der erlittenen Verletzungen lässt sich noch nicht abschätzen.",
-      "Die weiteren Ermittlungen werden vom Kommissariat 24 übernommen.",
-      "Der unbekannte Täter, welcher den 52-Jährigen schwer verletzte wurde wie folgt beschrieben:\n\nMännlich, ca. 180 cm groß, dünn, dunkle Haare, sprach vermutlich französisch; graues bzw. hellblaues Hemd",
-      "Zeugenaufruf:\n\nWer hat im angegebenen Zeitraum im Bereich des Oktoberfestgeländes, Eingang Pettenkoferstraße, Bavariaring und Pettenkoferstraße (Ludwigsvorstadt-Isarvorstadt) Wahrnehmungen gemacht, die im Zusammenhang mit diesem Vorfall stehen könnten? Der schwere Faustschlag ereignete sich in der Pettenkoferstraße 37.",
-      "Insbesondere wird der bislang unbekannte Rikschafahrer als Zeuge gesucht.",
-      "Personen, die sachdienliche Hinweise geben können, werden gebeten, sich mit dem Polizeipräsidium München, Kommissariat 24, Tel. 089 2910-0, oder jeder anderen Polizeidienststelle in Verbindung zu setzen."
-    ],
-    "case_key": "1511",
-    "case_ordinal": 2,
-    "categories": [
-      "Gewaltdelikt"
-    ],
-    "content_hash": "c1eb384c450469f7a974a82bc9457db1dc02c27d347942d68527bbd2c1c80b77",
-    "guid": "urn:polizei-bayern:109241:1511",
-    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/109241/index.html",
-    "organization": "Polizeipräsidium München",
-    "published_ts": 1790674440,
-    "source_id": "109241",
-    "source_title": "Medieninformation der Polizei München vom 29.09.2026",
-    "title": "1511. Zeugenaufruf nach gefährlicher Körperverletzung – Ludwigsvorstadt-Isarvorstadt"
-  },
-  {
-    "body": [
-      "1512. Festnahme von vier Tatverdächtigen nach Raubdelikt – Pullach i. Isartal",
-      "Am Mittwoch, 09.09.2026 wurde in Pullach i. Isartal ein 31-Jähriger mit jordanischer Staatsangehörigkeit und Wohnsitz im Landkreis Freising von insgesamt vier Tätern unter Vorhalt einer Schusswaffe zur Herausgabe von Bargeld gezwungen. Dabei nahmen sie ihm sein Mobiltelefon ab.",
-      "Unter einem Vorwand konnte sich der 31-Jährige von den Tätern entfernen und über einen Festnetzanschluss den Polizeinotruf 110 verständigen. Die Täter, welche in zwei Fahrzeugen warteten, flüchteten daraufhin in unbekannte Richtung.",
-      "Im Rahmen der sofort eingeleiteten Fahndungsmaßnahmen konnte einer der Tatverdächtigen, ein 22-Jähriger mit syrischer Staatsangehörigkeit und Wohnsitz in München, angetroffen und vorläufig festgenommen werden. Im Anschluss wurde er auf eine nahegelegene Polizeiinspektion verbracht. Zudem wurde einer der Pkw aufgefunden und sichergestellt. In ihm befand sich eine Schreckschusspistole, die ebenfalls sichergestellt wurde.",
-      "Am Donnerstag, 10.09.2026, gegen 04:00 Uhr, kam es bei einem weiteren Tatverdächtigen, einem 20-Jährigen mit syrischer Staatsangehörigkeit und Wohnsitz in München, zu einer Wohnungsdurchsuchung. Bei dieser wurde auch ein Spezialeinsatzkommando hinzugezogen. Die Durchsuchung verlief erfolglos.",
-      "Der 20-Jährige Tatverdächtige sowie zwei weitere Tatverdächtige, ein 22-Jähriger und ein 21-Jähriger, beide mit der syrischen Staatsangehörigkeit und Wohnsitz in München, wurden bei der Polizeiinspektion 32 (Grünwald) vorstellig, um sich nach dem sichergestellten Pkw zu erkundigen. Hierbei wurden sie als mögliche Tatbeteiligte erkannt und vorläufig festgenommen. Mit dem zweiten Pkw, der bei der oben genannten Tat verwendet wurde, fuhren sie zur PI 32. Dieses Fahrzeug wurde ebenfalls sichergestellt.",
-      "Gegen alle vier Tatverdächtigen erließ ein Ermittlungsrichter Haftbefehl.Gegen die Tatverdächtigen wird wegen des Verdachts der schweren räuberischen Erpressung ermittelt.",
-      "Die weiteren Ermittlungen hat das Kommissariat 21 übernommen."
-    ],
-    "case_key": "1512",
-    "case_ordinal": 3,
-    "categories": [
-      "Gewaltdelikt"
-    ],
-    "content_hash": "5846e75215ee34a59ea47c9a72b3ab9936cd513f320670ece45027f96bc731d6",
-    "guid": "urn:polizei-bayern:109241:1512",
-    "link": "https://www.polizei.bayern.de/aktuelles/pressemitteilungen/109241/index.html",
-    "organization": "Polizeipräsidium München",
-    "published_ts": 1790674440,
-    "source_id": "109241",
-    "source_title": "Medieninformation der Polizei München vom 29.09.2026",
-    "title": "1512. Festnahme von vier Tatverdächtigen nach Raubdelikt – Pullach i. Isartal"
   }
 ]
